@@ -1,0 +1,1 @@
+execute summon minecraft:zombie run function lyh:herobrine/scream/data

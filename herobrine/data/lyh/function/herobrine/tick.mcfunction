@@ -1,0 +1,1 @@
+execute if entity @s[tag=herobrine.scream] run return run function lyh:herobrine/scream/tick

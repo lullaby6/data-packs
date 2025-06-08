@@ -1,0 +1,25 @@
+{
+    "values": [
+        "#utils:undeads",
+        "#utils:piglins",
+        "#utils:illagers",
+        "#utils:slimes",
+        "#utils:spiders",
+        "minecraft:blaze",
+        "minecraft:breeze",
+        "minecraft:creaking",
+        "minecraft:elder_guardian",
+        "minecraft:ender_dragon",
+        "minecraft:enderman",
+        "minecraft:endermite",
+        "minecraft:ghast",
+        "minecraft:guardian",
+        "minecraft:hoglin",
+        "minecraft:shulker",
+        "minecraft:silverfish",
+        "minecraft:creeper",
+        "minecraft:vex",
+        "minecraft:warden",
+        "minecraft:witch"
+    ]
+}

@@ -1,0 +1,1 @@
+tellraw @a [{color:"gray",text:"[My Zombie Pet] "},{color:"red",text:"Error: "},{"click_event":{"action":"open_url","url":"https://modrinth.com/datapack/lullaby-utils"},color:"gray","hover_event":{"action":"show_text","value":[{text:"Click to download!"}]},text:"Utils Data-Pack >= V3",underlined:true},{color:"red",text:" is required.",underlined:false}]

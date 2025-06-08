@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:paper",
+        "#minecraft:villager_plantable_seeds"
+    ],
+    "result": {
+        "id": "command_block",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:consumable": {
+                "consume_seconds": 0,
+                "animation": "none",
+                "sound": "minecraft:item.book.page_turn",
+                "has_consume_particles": false
+            },
+            "minecraft:custom_data": {
+                "knowledge_book": true
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:item_model": "minecraft:knowledge_book",
+            "minecraft:custom_name": {
+                text: "Knowledge Book",
+                italic: false
+            },
+            "minecraft:lore": [
+                {
+                    text: "Unlock all recipes",
+                    italic: false,
+                    color: "gray"
+                }
+            ]
+        }
+    }
+}

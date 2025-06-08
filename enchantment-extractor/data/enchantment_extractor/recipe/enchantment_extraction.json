@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:book",
+  "base": "#minecraft:enchantable/durability",
+  "addition": "minecraft:command_block",
+  "result": {
+    "id": "minecraft:enchanted_book"
+  }
+}

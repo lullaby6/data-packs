@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:emerald_block",
+    "X": "minecraft:experience_bottle"
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "experience_bottle.empty": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 0.05,
+        "animation": "none",
+        "sound": "minecraft:block.trial_spawner.spawn_mob",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 2,
+        "cooldown_group": "experience_bottle:cooldown"
+      },
+      "minecraft:item_model": "minecraft:glass_bottle",
+      "minecraft:custom_name": {
+        "text": "Experience Bottle",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Store 30 experience levels",
+          "italic": false,
+          "color": "gray"
+        }
+      ]
+    }
+  }
+}

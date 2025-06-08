@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "enchantment_extraction_book": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+      "function": "enchantment_extraction_book:use"
+  }
+}

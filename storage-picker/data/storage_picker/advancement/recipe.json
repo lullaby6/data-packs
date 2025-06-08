@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest",
+              "minecraft:barrel",
+              "minecraft:lead",
+              "minecraft:bundle",
+              "minecraft:tripwire_hook"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "storage_picker:storage_picker"
+    ]
+  }
+}

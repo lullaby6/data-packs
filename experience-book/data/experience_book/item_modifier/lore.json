@@ -1,0 +1,23 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    [
+      {
+        "text": "Points: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "score": {
+          "objective": "experience_book.player.points",
+          "name": "@s"
+        },
+        "color": "green",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "replace_all",
+  "conditions": []
+}

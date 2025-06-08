@@ -1,0 +1,6 @@
+{
+    "function": "minecraft:toggle_tooltips",
+    "toggles": {
+        "minecraft:can_place_on": true
+    }
+}
