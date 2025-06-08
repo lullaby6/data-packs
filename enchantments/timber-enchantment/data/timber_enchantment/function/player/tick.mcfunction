@@ -1,0 +1,3 @@
+execute unless predicate timber_enchantment:is_sneaking if predicate timber_enchantment:timber run function timber_enchantment:timber/holding
+
+function timber_enchantment:player/reset

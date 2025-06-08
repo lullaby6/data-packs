@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=true_shot_enchantment.arrrow] at @s positioned ~ 330 ~ if entity @s[distance=..10] run kill @s

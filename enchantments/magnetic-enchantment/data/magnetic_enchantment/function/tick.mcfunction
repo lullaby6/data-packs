@@ -1,0 +1,1 @@
+execute as @e at @s run function magnetic_enchantment:player/tick
