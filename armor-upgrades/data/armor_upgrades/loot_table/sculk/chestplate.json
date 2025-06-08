@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:dyed_color": 405047,
+                "minecraft:trim": {
+                  "material": "minecraft:quartz",
+                  "pattern": "minecraft:ward"
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 598,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "b35bba76-c513-4673-8598-8faf4f3c5bb6",
+                    "type": "armor",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "7b4f1880-8e5e-4c37-a838-a2c4dd0e72b8",
+                    "type": "armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "2bb47fd0-62e1-493c-8af5-681fe2ec8987",
+                    "type": "attack_damage",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "ed9af9d4-2762-4238-a399-2310c1b13e1a",
+                    "type": "sneaking_speed",
+                    "amount": 0.25,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "minecraft:leather",
+                  "equip_sound": "item.armor.equip_diamond",
+                  "dispensable": true,
+                  "swappable": true,
+                  "damage_on_hurt": true
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "minecraft:dyed_color",
+                      "minecraft:trim"
+                    ]
+                },
+                "minecraft:custom_data": {
+                  "armor_upgrades.sculk": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Sculk Chestplate",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

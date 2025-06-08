@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:dyed_color": 8394262,
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:rib"
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 363,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "c4800d88-a0b6-452f-9a2d-5e02741258a1",
+                    "type": "armor",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "70e320d7-4d70-4da6-a3c6-fe8604b64609",
+                    "type": "armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "78f9180c-5424-424c-b5e6-33f61fdbe865",
+                    "type": "burning_time",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "ed1af8d3-2102-4238-a399-2611c1b24e1a",
+                    "type": "attack_speed",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "minecraft:leather",
+                  "equip_sound": "item.armor.equip_diamond",
+                  "dispensable": true,
+                  "swappable": true,
+                  "damage_on_hurt": true
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "minecraft:dyed_color",
+                      "minecraft:trim"
+                    ]
+                },
+								"minecraft:custom_data": {
+                  "armor_upgrades.fire": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Fire Helmet",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
