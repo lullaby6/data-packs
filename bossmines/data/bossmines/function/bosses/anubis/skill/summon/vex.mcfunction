@@ -1,0 +1,4 @@
+summon vex ^2.5 ^2 ^ {Team:"bossmines.anubis",Tags:["bossmines.anubis.vex"],CustomName:'{"text":"Anubis\'s Vex"}',HandItems:[{},{id:"minecraft:golden_axe",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5s}]}}],HandDropChances:[0.085F,0.000F],active_effects:[{id:14,amplifier:0b,duration:19999980,show_particles:0b}],Attributes:[{Name:follow_range,Base:50}]}
+summon vex ^-2.5 ^2 ^ {Team:"bossmines.anubis",Tags:["bossmines.anubis.vex"],CustomName:'{"text":"Anubis\'s Vex"}',HandItems:[{},{id:"minecraft:golden_axe",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5s}]}}],HandDropChances:[0.085F,0.000F],active_effects:[{id:14,amplifier:0b,duration:19999980,show_particles:0b}],Attributes:[{Name:follow_range,Base:50}]}
+
+playsound minecraft:entity.evoker.prepare_summon master @a ~ ~ ~ 10 2

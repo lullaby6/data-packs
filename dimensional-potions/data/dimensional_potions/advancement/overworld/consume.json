@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "dimensional_potions.overworld": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dimensional_potions:consume/overworld"
+  }
+}

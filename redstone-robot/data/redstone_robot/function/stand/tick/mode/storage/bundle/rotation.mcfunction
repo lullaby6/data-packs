@@ -1,0 +1,2 @@
+execute if entity @e[type=item,distance=..3] run return run rotate @s facing entity @n[type=item] feet
+execute if entity @p[tag=utils.team_player,distance=..10] run return run rotate @s facing entity @p[tag=utils.team_player] feet

@@ -1,0 +1,1 @@
+$execute in minecraft:$(dimension) positioned $(x) $(y) $(z) positioned ~ ~1 ~ run function ender_compass:ender_compass/use/effects

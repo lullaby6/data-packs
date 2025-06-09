@@ -1,0 +1,1 @@
+kill @e[tag=bossmines.lich.summon,distance=..50]

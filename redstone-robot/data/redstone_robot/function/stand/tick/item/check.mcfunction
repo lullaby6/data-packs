@@ -1,0 +1,2 @@
+execute unless entity @s[tag=redstone_robot.robot.name] if items entity @s weapon.mainhand minecraft:oak_sign run return run function redstone_robot:stand/item/name/add
+execute if entity @s[tag=redstone_robot.robot.name] if items entity @s weapon.mainhand minecraft:oak_sign run return run function redstone_robot:stand/item/name/remove
