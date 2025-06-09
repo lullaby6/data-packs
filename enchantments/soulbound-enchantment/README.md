@@ -1,8 +1,8 @@
 # Soulbound Enchantment
 
 [![Discord](https://img.shields.io/discord/1327308441324097681?label=discord&color=blue&logo=discord)](https://discord.gg/5UdcDa5xNC)
-[![Modrinth](https://img.shields.io/modrinth/dt/soulbound-enchantment-data-pack?label=modrinth&logo=modrinth)](https://modrinth.com/datapack/soulbound-enchantment)
-[![License](https://img.shields.io/github/license/lullaby6/enchantments-data-pack)](https://github.com/lullaby6/enchantments-data-pack/blob/main/LICENSE)
+[![Modrinth](https://img.shields.io/modrinth/dt/ly-soulbound-enchantment?label=modrinth&logo=modrinth)](https://modrinth.com/datapack/ly-soulbound-enchantment)
+[![License](https://img.shields.io/github/license/lullaby6/data-packs)](https://github.com/lullaby6/data-packs/blob/main/LICENSE)
 
 The `Soulbound` enchantment returns your item upon death.
 
@@ -26,4 +26,4 @@ Enchant:
 
 ## 🪪 License
 
-[AGPL-3.0-or-later](https://github.com/lullaby6/enchantments-data-pack/blob/main/LICENSE)
+[AGPL-3.0-or-later](https://github.com/lullaby6/data-packs/blob/main/LICENSE)
