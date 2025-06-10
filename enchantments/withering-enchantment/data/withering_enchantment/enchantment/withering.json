@@ -1,5 +1,7 @@
 {
-    "description": "Withering",
+    "description": {
+        "translate": "Withering"
+    },
     "supported_items": "#minecraft:swords",
     "primary_items": "#minecraft:swords",
     "weight": 1,
