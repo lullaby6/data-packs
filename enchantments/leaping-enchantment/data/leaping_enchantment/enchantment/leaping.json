@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Leaping",
+  "description": {
+      "translate": "Leaping"
+    },
   "supported_items": "#minecraft:enchantable/foot_armor",
   "primary_items": "#minecraft:enchantable/foot_armor",
   "effects": {
