@@ -19,12 +19,12 @@
         "minecraft:enchantment_glint_override": true,
         "minecraft:item_model": "minecraft:paper",
         "minecraft:custom_name": {
-          "text": "Enchantment Extractor",
+          "translate": "Enchantment Extractor",
           "italic": false
         },
         "minecraft:lore": [
           {
-            "text": "Extracts enchantments from items in the smithing table",
+            "translate": "Extracts enchantments from items in the smithing table",
             "italic": false,
             "color":"gray"
           }
