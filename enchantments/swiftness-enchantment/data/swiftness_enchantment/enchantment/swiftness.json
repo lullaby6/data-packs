@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Swiftness",
+      "description": {
+      "translate": "Swiftness"
+    },
   "effects": {
     "minecraft:attributes": [
       {
