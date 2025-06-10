@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Soulbound",
+  "description": {
+      "translate": "Soulbound"
+    },
   "max_cost": {
     "base": 75,
     "per_level_above_first": 25
