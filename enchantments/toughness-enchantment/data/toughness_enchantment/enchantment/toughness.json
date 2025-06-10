@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Toughness",
+    "description": {
+      "translate": "Toughness"
+    },
   "effects": {
     "minecraft:attributes": [
       {
