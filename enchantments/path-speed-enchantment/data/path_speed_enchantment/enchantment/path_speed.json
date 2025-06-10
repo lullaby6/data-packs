@@ -1,5 +1,7 @@
 {
-  "description": "Path Speed",
+  "description": {
+      "translate": "Path Speed"
+    },
   "supported_items": "#minecraft:enchantable/foot_armor",
   "primary_items": "#minecraft:enchantable/foot_armor",
   "weight": 2,
