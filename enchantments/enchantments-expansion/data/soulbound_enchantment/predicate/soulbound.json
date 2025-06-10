@@ -1,8 +1,0 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "type": "minecraft:item",
-        "nbt": "{Item:{components:{\"minecraft:enchantments\":{\"soulbound_enchantment:soulbound\":1}}}}"
-    }
-}

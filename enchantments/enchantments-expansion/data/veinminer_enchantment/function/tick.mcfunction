@@ -1,1 +1,0 @@
-execute as @e at @s run function veinminer_enchantment:player/tick

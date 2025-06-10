@@ -1,2 +1,0 @@
-execute if predicate undying_enchantment:mainhand run return run item modify entity @s weapon.mainhand undying_enchantment:death_protection
-execute if predicate undying_enchantment:offhand run return run item modify entity @s weapon.offhand undying_enchantment:death_protection

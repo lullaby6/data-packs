@@ -1,1 +1,0 @@
-$execute if predicate veinminer_enchantment:smelting run return run function veinminer_enchantment:veinminer/custom_mine {"block":"$(block)","type":"$(type)"}

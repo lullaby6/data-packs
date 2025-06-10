@@ -1,7 +1,6 @@
 {
   "anvil_cost": 4,
   "description": "Anti Knockback",
-  "exclusive_set": "#minecraft:exclusive_set/armor",
   "supported_items": "#minecraft:enchantable/armor",
   "effects": {
     "minecraft:attributes": [
