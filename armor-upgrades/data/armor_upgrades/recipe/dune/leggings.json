@@ -68,7 +68,7 @@
         "armor_upgrades.dune": true
       },
       "minecraft:custom_name": {
-        "text": "Dune Leggings",
+        "translate": "Dune Leggings",
         "italic": false
       }
     }
