@@ -5,12 +5,8 @@ $tellraw @p[tag=warpstones.player.all] \
             "text": "- "\
         },\
         {\
-            "color": "dark_gray",\
-            "text":"#"\
-        },\
-        {\
             "color": "light_purple",\
-            "text": "$(id)",\
+            "text": "$(custom_name)",\
             "hover_event": {\
                 "action":"show_text",\
                 "value":\
@@ -24,7 +20,7 @@ $tellraw @p[tag=warpstones.player.all] \
                             "color":"dark_gray"\
                         },\
                         {\
-                            "text": "$(id)",\
+                            "text": "$(custom_name)",\
                             "color":"light_purple"\
                         }\
                     ]\
@@ -34,5 +30,9 @@ $tellraw @p[tag=warpstones.player.all] \
                     "action": "run_command",\
                     "command": "/trigger warpstones set $(id)"\
                 }\
-        }\
+        },\
+        {\
+            "color": "gray",\
+            "text": " at $(x) $(y) $(z) in $(dimension)."\
+        },\
     ]
