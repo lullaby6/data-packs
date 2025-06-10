@@ -44,7 +44,7 @@
             "dimensional_potions.end": true
           },
           "minecraft:custom_name": {
-            "text": "End Potion",
+            "translate": "End Potion",
             "italic": false
           },
           "minecraft:lore": [
