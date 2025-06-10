@@ -49,7 +49,7 @@
           },
           "minecraft:lore": [
             {
-              "text": "Drink to teleport to the End",
+              "translate": "Drink to teleport to the End",
               "italic": false,
               "color": "gray"
             }
