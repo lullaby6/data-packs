@@ -32,12 +32,12 @@
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_model": "minecraft:enchanted_book",
                 "minecraft:custom_name": {
-                  "text": "Enchantment Extraction Book",
+                  "translate": "Enchantment Extraction Book",
                   "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Extracts enchantments from your offhand item",
+                    "translate": "Extracts enchantments from your offhand item",
                     "italic": false,
                     "color":"gray"
                   }
