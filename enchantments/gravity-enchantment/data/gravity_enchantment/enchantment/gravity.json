@@ -1,5 +1,7 @@
 {
-  "description": "Gravity",
+  "description": {
+      "translate": "Gravity"
+    },
   "supported_items": "#minecraft:swords",
   "primary_items": "#minecraft:swords",
   "weight": 2,
