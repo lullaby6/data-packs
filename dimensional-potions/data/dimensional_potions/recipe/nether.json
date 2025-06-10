@@ -44,12 +44,12 @@
             "dimensional_potions.nether": true
           },
           "minecraft:custom_name": {
-            "text": "Nether Potion",
+            "translate": "Nether Potion",
             "italic": false
           },
           "minecraft:lore": [
             {
-              "text": "Drink to teleport to the Nether",
+              "translate": "Drink to teleport to the Nether",
               "italic": false,
               "color": "gray"
             }
