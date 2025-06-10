@@ -80,11 +80,11 @@
                       "minecraft:trim"
                     ]
                 },
-								"minecraft:custom_data": {
+		"minecraft:custom_data": {
                   "armor_upgrades.prismarine": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Prismarine Helmet",
+                  "translate": "Prismarine Helmet",
                   "italic": false
                 }
               }
