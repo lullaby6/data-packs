@@ -12,7 +12,7 @@ attribute @s minecraft:scale base set 2
 effect give @s fire_resistance infinite 1 true
 effect give @s invisibility infinite 1 true
 
-data modify entity @s CustomName set value {"text":"Stalker Block"}
+data modify entity @s CustomName set value {"translate":"Stalker Block"}
 data merge entity @s {Silent:1b,Health:20f}
 
 function lullaby_mobs:mob/stalker_block/block/summon
