@@ -4,18 +4,15 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/warpstones?label=modrinth&logo=modrinth)](https://modrinth.com/datapack/warpstones)
 [![License](https://img.shields.io/github/license/lullaby6/data-packs)](https://github.com/lullaby6/data-packs/blob/main/LICENSE)
 
-Craft and place Warpstones on your points of interest.
-A survival-friendly and multiplayer-friendly way to quickly travel in your world!
+## 📖 Description
+
+Place Warpstones at key locations to create fast-travel points in your world. Designed for both survival and multiplayer gameplay, this mod offers a simple and balanced way to move around quickly!
 
 ### Feactures
 
-- Custom Name
-- Glowing
+- Custom Name (with name tags)
+- Glowing (with glowstone dust)
 - Compass Linking
-
-## 📖 Description
-
-Craft a new item called `Ender Compass` and use it with a lodestone to link it and then teleport!
 
 ## 🛠️ Recipe
 

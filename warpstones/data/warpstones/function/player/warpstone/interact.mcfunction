@@ -12,3 +12,5 @@ execute if predicate warpstones:mainhand_glowstone_dust if entity @n[tag=warpsto
 
 function warpstones:utils/player/clear_chat
 function warpstones:warpstone/all
+
+execute as @n[tag=warpstones.warpstone,nbt={interaction:{}},distance=..6] run function warpstones:warpstone/interaction
