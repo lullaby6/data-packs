@@ -1,7 +1,15 @@
-tag @s add warpstones.player.all
+execute unless entity @e[tag=warpstones.warpstone,nbt=!{interaction:{}}] run return run tellraw @s {"text":"No Warpstones found.","color":"red"}
+
+playsound minecraft:item.lodestone_compass.lock master @s ~ ~ ~ 0.5 2
+
+scoreboard players enable @s warpstones
+
+function warpstones:utils/player/clear_chat
 
 tellraw @s {"text":"List of Warpstones:","color":"gray"}
 
-execute as @e[tag=warpstones.warpstone,nbt=!{interaction:{}}] at @s run function warpstones:warpstone/all/prepare
+function warpstones:warpstone/all/warpstones
 
-tag @s remove warpstones.player.all
+execute if score @s warpstones.all.length <= pagination_limit warpstones.config run return run function warpstones:warpstone/all/prepare_tellraw
+
+function warpstones:warpstone/all/pagination

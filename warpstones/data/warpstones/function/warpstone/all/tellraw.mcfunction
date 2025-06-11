@@ -1,4 +1,4 @@
-$tellraw @p[tag=warpstones.player.all] \
+$tellraw @s \
     [\
         {\
             "color": "gray",\
