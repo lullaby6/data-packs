@@ -4,7 +4,7 @@
   "lore": [
     [
       {
-        "text": "Points: ",
+        "translate": "Points: ",
         "color": "gray",
         "italic": false
       },
