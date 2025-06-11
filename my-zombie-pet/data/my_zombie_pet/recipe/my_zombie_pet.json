@@ -31,7 +31,7 @@
             },
             "minecraft:item_model": "minecraft:zombie_spawn_egg",
             "minecraft:custom_name": {
-                "text": "Zombie Pet Egg",
+                "translate": "Zombie Pet Egg",
                 "italic": false
             }
         }
