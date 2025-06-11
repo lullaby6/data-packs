@@ -33,12 +33,12 @@
                 },
                 "minecraft:item_model": "minecraft:glass_bottle",
                 "minecraft:custom_name": {
-                  "text": "Experience Bottle",
+                  "translate": "Experience Bottle",
                   "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Store 30 experience levels",
+                    "translate": "Store 30 experience levels",
                     "italic": false,
                     "color": "gray"
                   }
