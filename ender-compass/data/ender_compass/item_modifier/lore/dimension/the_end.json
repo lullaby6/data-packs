@@ -3,7 +3,7 @@
     "entity": "this",
     "lore": [
         {
-            "text": "Dimension: minecraft:the_end",
+            "translate": "Dimension: minecraft:the_end",
             "color": "gray",
             "italic": false
         }
