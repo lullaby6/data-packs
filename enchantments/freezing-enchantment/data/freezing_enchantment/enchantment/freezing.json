@@ -1,5 +1,7 @@
 {
-    "description": "Freezing",
+    "description": {
+       "translate": "Freezing"
+    },
     "supported_items": "#minecraft:swords",
     "primary_items": "#minecraft:swords",
     "weight": 2,
