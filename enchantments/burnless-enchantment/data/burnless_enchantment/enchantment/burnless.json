@@ -1,5 +1,7 @@
 {
-  "description": "Burnless",
+  "description": {
+       "translate": "Burnless"
+    },
   "supported_items": "#minecraft:enchantable/armor",
   "primary_items": "#minecraft:enchantable/armor",
   "weight": 2,
