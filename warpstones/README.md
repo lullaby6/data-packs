@@ -20,6 +20,12 @@ Place Warpstones at key locations to create fast-travel points in your world. De
 
 ## ⌨️ Commands
 
+Destroy all Warpstones:
+
+```mcfunction
+/function warpstones:destroy_all
+```
+
 Give:
 
 ```mcfunction
