@@ -19,7 +19,7 @@
                 "storage_picker": true
             },
             "minecraft:custom_name": {
-                "translate:" "Storage Picker",
+                "translate@\":" "Storage Picker",
                 "italic": false
             },
             "minecraft:lore": [
