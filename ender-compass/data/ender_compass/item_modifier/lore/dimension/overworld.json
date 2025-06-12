@@ -3,7 +3,7 @@
     "entity": "this",
     "lore": [
         {
-            "text": "Dimension: minecraft:overworld",
+            "translate": "Dimension: minecraft:overworld",
             "color": "gray",
             "italic": false
         }

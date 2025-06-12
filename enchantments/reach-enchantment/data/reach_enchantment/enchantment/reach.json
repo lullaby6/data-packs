@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Reach",
+  "description": {
+      "translate": "Reach"
+    },
   "supported_items": "#minecraft:enchantable/mining",
   "effects": {
     "minecraft:attributes": [

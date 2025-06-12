@@ -44,12 +44,12 @@
             "dimensional_potions.overworld": true
           },
           "minecraft:custom_name": {
-            "text": "Overworld Potion",
+            "translate": "Overworld Potion",
             "italic": false
           },
           "minecraft:lore": [
             {
-              "text": "Drink to teleport to the Overworld",
+              "translate": "Drink to teleport to the Overworld",
               "italic": false,
               "color": "gray"
             }

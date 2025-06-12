@@ -115,12 +115,12 @@
                   ]
                 },
                 "minecraft:custom_name": {
-                  "text": "Backpack",
+                  "translate": "Backpack",
                   "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Closed",
+                    "translate": "Closed",
                     "color": "gray",
                     "italic": false
                   }

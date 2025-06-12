@@ -72,7 +72,7 @@
             "armor_upgrades.sculk": true
           },
           "minecraft:custom_name": {
-            "text": "Sculk Leggings",
+            "translate": "Sculk Leggings",
             "italic": false
           }
         }

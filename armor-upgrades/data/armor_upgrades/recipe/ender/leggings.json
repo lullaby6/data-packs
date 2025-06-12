@@ -65,7 +65,7 @@
             "armor_upgrades.ender": true
           },
           "minecraft:custom_name": {
-            "text": "Ender Leggings",
+            "translate": "Ender Leggings",
             "italic": false
           }
         }

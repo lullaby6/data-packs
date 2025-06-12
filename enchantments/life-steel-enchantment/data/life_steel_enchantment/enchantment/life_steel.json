@@ -1,5 +1,7 @@
 {
-  "description": "Life Steel",
+  "description": {
+      "translate": "Life Steel"
+    },
   "supported_items": "#minecraft:swords",
   "primary_items": "#minecraft:swords",
   "weight": 2,

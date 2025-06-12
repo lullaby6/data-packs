@@ -3,7 +3,7 @@
   "entity": "this",
   "lore": [
     {
-      "text": "Open",
+      "translate": "Open",
       "color": "gray",
       "italic": false
     }

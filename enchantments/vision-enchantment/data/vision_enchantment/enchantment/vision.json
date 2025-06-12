@@ -1,5 +1,7 @@
 {
-  "description": "Vision",
+  "description": {
+      "translate": "Vision"
+    },
   "supported_items": "#minecraft:enchantable/head_armor",
   "primary_items": "#minecraft:enchantable/head_armor",
   "weight": 2,

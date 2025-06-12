@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Arrow Force",
+  "description": {
+       "translate": "Arrow Force"
+    },
   "effects": {
     "minecraft:tick": [
       {

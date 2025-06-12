@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Undying",
+  "description": {
+      "translate": "Undying"
+    },
   "effects": {
     "minecraft:tick": [
       {

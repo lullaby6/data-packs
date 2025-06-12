@@ -84,7 +84,7 @@
                   "armor_upgrades.prismarine": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Prismarine Leggings",
+                  "translate": "Prismarine Leggings",
                   "italic": false
                 }
               }

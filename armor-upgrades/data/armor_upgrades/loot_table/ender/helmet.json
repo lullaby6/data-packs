@@ -59,11 +59,11 @@
                       "minecraft:trim"
                     ]
                 },
-								"minecraft:custom_data": {
+		"minecraft:custom_data": {
                   "armor_upgrades.ender": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Ender Helmet",
+                  "translate": "Ender Helmet",
                   "italic": false
                 }
               }

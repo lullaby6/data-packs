@@ -15,22 +15,22 @@
             {
               "function": "set_components",
               "components": {
-								"minecraft:enchantment_glint_override": true,
+		"minecraft:enchantment_glint_override": true,
                 "minecraft:rarity": "rare",
-								"minecraft:max_stack_size": 1,
+		"minecraft:max_stack_size": 1,
                 "minecraft:item_model": "minecraft:yellow_bundle",
-								"minecraft:custom_data": {
+		"minecraft:custom_data": {
                   "storage_picker": true
                 },
-								"minecraft:custom_name": {
-                  text: "Storage Picker",
-                  italic: false
+		"minecraft:custom_name": {
+                  "translate": "Storage Picker",
+                  "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    text: "Use while sneaking to pick a storage block",
-                    italic: false,
-                    color: "gray"
+                    "translate": "Use while sneaking to pick a storage block",
+                    "italic": false,
+                    "color": "gray"
                   }
                 ]
               }

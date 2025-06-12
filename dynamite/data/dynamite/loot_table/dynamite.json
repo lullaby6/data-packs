@@ -21,7 +21,7 @@
                     "dynamite": true
                   },
                   "minecraft:custom_name": {
-                    "text": "Dynamite",
+                    "translate": "Dynamite",
                     "italic": false
                   },
                   "minecraft:profile": {

@@ -1,5 +1,7 @@
 {
-  "description": "Agility",
+  "description": {
+       "translate": "Agility"
+    },
   "supported_items": "#minecraft:enchantable/leg_armor",
   "primary_items": "#minecraft:enchantable/leg_armor",
   "weight": 2,

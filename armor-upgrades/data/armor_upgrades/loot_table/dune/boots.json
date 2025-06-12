@@ -70,7 +70,7 @@
                   "armor_upgrades.dune": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Dune Boots",
+                  "translate": "Dune Boots",
                   "italic": false
                 }
               }

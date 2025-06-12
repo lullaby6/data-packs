@@ -68,7 +68,7 @@
         "armor_upgrades.dune": true
       },
       "minecraft:custom_name": {
-        "text": "Dune Chestplate",
+        "translate": "Dune Chestplate",
         "italic": false
       }
     }

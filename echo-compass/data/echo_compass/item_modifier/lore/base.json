@@ -3,7 +3,7 @@
   "entity": "this",
   "lore": [
     {
-      "text": "Use to teleport to the linked lodestone",
+      "translate": "Use to teleport to the linked lodestone",
       "color": "gray",
       "italic": false
     },

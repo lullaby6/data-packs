@@ -66,11 +66,11 @@
                       "minecraft:trim"
                     ]
                 },
-								"minecraft:custom_data": {
+		"minecraft:custom_data": {
                   "armor_upgrades.dune": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Dune Helmet",
+                  "translate": "Dune Helmet",
                   "italic": false
                 }
               }

@@ -19,12 +19,12 @@
             "echo_compass": true
           },
           "minecraft:custom_name": {
-            "text": "Echo Compass",
+            "translate": "Echo Compass",
             "italic": false
           },
           "minecraft:lore": [
             {
-              "text": "Link to a lodestone and use it to teleport",
+              "translate": "Link to a lodestone and use it to teleport",
               "italic": false,
               "color": "gray"
             }

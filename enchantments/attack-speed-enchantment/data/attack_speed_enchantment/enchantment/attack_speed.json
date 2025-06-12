@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Attack Speed",
+  "description": {
+       "translate": "Attack Speed"
+    },
   "effects": {
     "minecraft:attributes": [
       {

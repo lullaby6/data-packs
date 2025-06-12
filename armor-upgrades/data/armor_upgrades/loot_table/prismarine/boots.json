@@ -84,7 +84,7 @@
                   "armor_upgrades.prismarine": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Prismarine Boots",
+                  "translate": "Prismarine Boots",
                   "italic": false
                 }
               }

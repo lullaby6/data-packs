@@ -1,6 +1,8 @@
 {
   "anvil_cost": 4,
-  "description": "Health",
+  "description": {
+      "translate": "Health"
+    },
   "effects": {
     "minecraft:attributes": [
       {

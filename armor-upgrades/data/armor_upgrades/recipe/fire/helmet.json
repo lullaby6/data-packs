@@ -72,7 +72,7 @@
             "armor_upgrades.fire": true
           },
           "minecraft:custom_name": {
-            "text": "Fire Helmet",
+            "translate": "Fire Helmet",
             "italic": false
           }
         }

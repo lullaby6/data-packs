@@ -23,7 +23,7 @@
                   "eternal_pearl": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Eternal Pearl",
+                  "translate": "Eternal Pearl",
                   "italic": false
                 },
                 "minecraft:use_remainder": {
@@ -38,7 +38,7 @@
                       "eternal_pearl.replace": true
                     },
                     "minecraft:custom_name": {
-                      "text": "Eternal Pearl",
+                      "translate": "Eternal Pearl",
                       "italic": false
                     }
                   }

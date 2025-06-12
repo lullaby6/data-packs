@@ -72,7 +72,7 @@
             "armor_upgrades.fire": true
           },
           "minecraft:custom_name": {
-            "text": "Fire Leggings",
+            "translate": "Fire Leggings",
             "italic": false
           }
         }

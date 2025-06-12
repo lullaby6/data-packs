@@ -1,5 +1,7 @@
 {
-    "description": "Smelting",
+    "description": {
+      "translate": "Smelting"
+    },
     "supported_items": "#minecraft:pickaxes",
     "primary_items": "#minecraft:pickaxes",
     "weight": 1,
