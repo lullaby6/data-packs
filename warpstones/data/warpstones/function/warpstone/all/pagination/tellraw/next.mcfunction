@@ -1,4 +1,8 @@
-execute unless entity @e[tag=warpstones.warpstone,nbt=!{interaction:{}}] run return run tellraw @s {"text":"No Warpstones found.","color":"red"}
+execute unless entity @e[tag=warpstones.warpstone,nbt=!{interaction:{}}] run return run function warpstones:warpstone/all/cancel/not_found
+
+scoreboard players add @s warpstones.all.pagination.index 1
+
+execute if score @s warpstones.all.pagination.index > @s warpstones.all.pagination.stored_max_page run return run function warpstones:warpstone/all/cancel/invalid_page_next
 
 playsound minecraft:item.lodestone_compass.lock master @s ~ ~ ~ 0.5 2
 
@@ -9,7 +13,6 @@ function warpstones:utils/player/clear_chat
 
 tellraw @s {"text":"List of Warpstones:","color":"gray"}
 
-scoreboard players add @s warpstones.all.pagination.index 1
 scoreboard players operation @s warpstones.all.pagination.stored_index = @s warpstones.all.pagination.index
 
 function warpstones:warpstone/all/warpstones

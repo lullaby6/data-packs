@@ -1,4 +1,4 @@
-execute unless entity @e[tag=warpstones.warpstone,nbt=!{interaction:{}}] run return run tellraw @s {"text":"No Warpstones found.","color":"red"}
+execute unless entity @e[tag=warpstones.warpstone,nbt=!{interaction:{}}] run return run function warpstones:warpstone/all/cancel/not_found
 
 playsound minecraft:item.lodestone_compass.lock master @s ~ ~ ~ 0.5 2
 

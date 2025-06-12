@@ -1,3 +1,5 @@
+execute unless function warpstones:warpstone/check/place run return run function warpstones:warpstone/place/cancel
+
 playsound minecraft:block.lodestone.place master @a ~ ~ ~ 1 1
 
 particle minecraft:portal ~ ~ ~ 0.5 2 0.5 0 10 force @a

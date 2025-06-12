@@ -29,6 +29,9 @@
             "text": "Warpstone",
             "italic": false
           },
+          "minecraft:custom_data": {
+            "warpstones.warpstone": true
+          },
           "minecraft:entity_data": {
             "id": "minecraft:armor_stand",
             "NoGravity": true,

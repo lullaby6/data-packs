@@ -30,5 +30,5 @@ $tellraw @s \
         {\
             "color": "gray",\
             "text": " at $(x) $(y) $(z) in $(dimension)."\
-        },\
+        }\
     ]

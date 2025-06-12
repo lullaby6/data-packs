@@ -26,4 +26,4 @@ scoreboard players set 1 warpstones.const 1
 scoreboard objectives add warpstones.config dummy
 scoreboard players set pagination_limit warpstones.config 5
 
-# gamerule sendCommandFeedback false
+gamerule sendCommandFeedback false
