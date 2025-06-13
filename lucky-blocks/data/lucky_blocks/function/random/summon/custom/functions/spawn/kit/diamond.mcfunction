@@ -1,0 +1,9 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_sword",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_axe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_pickaxe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_shovel",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_hoe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_helmet",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_chestplate",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_leggings",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:diamond_boots",count:1}}

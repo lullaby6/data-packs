@@ -1,0 +1,9 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_sword",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_axe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_pickaxe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_shovel",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_hoe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_helmet",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_chestplate",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_leggings",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_boots",count:1}}
