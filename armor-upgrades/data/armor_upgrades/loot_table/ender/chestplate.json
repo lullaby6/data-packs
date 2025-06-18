@@ -63,7 +63,7 @@
                   "armor_upgrades.ender": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Ender Chestplate",
+                  "translate": "Ender Chestplate",
                   "italic": false
                 }
               }

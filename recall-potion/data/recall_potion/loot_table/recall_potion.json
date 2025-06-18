@@ -35,12 +35,12 @@
                   "recall_potion": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Recall Potion",
+                  "translate": "Recall Potion",
                   "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Drink to teleport to your respawn point",
+                    "translate": "Drink to teleport to your respawn point",
                     "italic": false,
                     "color": "gray"
                   }

@@ -43,12 +43,12 @@
                   "dimensional_potions.end": true
                 },
                 "minecraft:custom_name": {
-                  "text": "End Potion",
+                  "translate": "End Potion",
                   "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Drink to teleport to the End",
+                    "translate": "Drink to teleport to the End",
                     "italic": false,
                     "color": "gray"
                   }

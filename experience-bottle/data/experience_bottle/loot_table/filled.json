@@ -40,12 +40,12 @@
                   "cooldown_group": "experience_bottle:cooldown"
                 },
                 "minecraft:custom_name": {
-                  "text": "Experience Bottle",
+                  "translate": "Experience Bottle",
                   "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Restore 30 experience levels",
+                    "translate": "Restore 30 experience levels",
                     "italic": false,
                     "color": "gray"
                   }

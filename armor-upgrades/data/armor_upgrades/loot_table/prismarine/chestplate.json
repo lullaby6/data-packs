@@ -84,7 +84,7 @@
                   "armor_upgrades.prismarine": true
                 },
                 "minecraft:custom_name": {
-                  "text": "Prismarine Chestplate",
+                  "translate": "Prismarine Chestplate",
                   "italic": false
                 }
               }

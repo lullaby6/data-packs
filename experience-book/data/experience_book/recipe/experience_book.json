@@ -29,12 +29,12 @@
             "minecraft:max_stack_size": 1,
             "minecraft:item_model": "minecraft:enchanted_book",
             "minecraft:custom_name": {
-              "text": "Experience Book",
+              "translate": "Experience Book",
               "italic": false
             },
             "minecraft:lore": [
               {
-                "text": "Store and restore your experience points",
+                "translate": "Store and restore your experience points",
                 "italic": false,
                 "color": "gray"
               }

@@ -19,14 +19,14 @@
                 "storage_picker": true
             },
             "minecraft:custom_name": {
-                text: "Storage Picker",
-                italic: false
+                "translate@\":" "Storage Picker",
+                "italic": false
             },
             "minecraft:lore": [
                 {
-                    text: "Use while sneaking to pick a storage block",
-                    italic: false,
-                    color:"gray"
+                    "translate": "Use while sneaking to pick a storage block",
+                    "italic": false,
+                    "color":"gray"
                 }
             ]
         }

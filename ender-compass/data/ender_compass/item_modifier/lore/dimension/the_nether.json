@@ -3,7 +3,7 @@
     "entity": "this",
     "lore": [
         {
-            "text": "Dimension: minecraft:the_nether",
+            "translate": "Dimension: minecraft:the_nether",
             "color": "gray",
             "italic": false
         }
