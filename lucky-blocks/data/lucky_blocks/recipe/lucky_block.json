@@ -24,14 +24,30 @@
         "HasVisualFire": false,
         "Small": true,
         "Invisible": true,
-        "PersistenceRequired": true,
         "Tags": [
           "lucky_blocks.armor_stand"
         ],
         "DisabledSlots": 4144959
       },
-      "minecraft:item_model": "minecraft:gold_block",
-      "minecraft:custom_name": {text:"Lucky Block",italic: false}
+      "minecraft:custom_name": {
+        "text": "Lucky Block",
+        "italic": false
+      },
+      "minecraft:item_model": "minecraft:player_head",
+      "minecraft:profile": {
+        "id": [
+            439187765,
+            410799360,
+            -1609413638,
+            -119462810
+        ],
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0="
+          }
+        ]
+      }
     }
   }
 }
