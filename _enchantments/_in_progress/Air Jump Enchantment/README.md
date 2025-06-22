@@ -4,6 +4,8 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/air-jump-enchantment-data-pack?label=modrinth&logo=modrinth)](https://modrinth.com/datapack/air-jump-enchantment)
 [![License](https://img.shields.io/github/license/lullaby6/enchantments-data-pack)](https://github.com/lullaby6/enchantments-data-pack/blob/main/LICENSE)
 
+A new enchantment for boots to sneak in the air to get a air boost! like a double jump!
+
 The enchantment can be obtained from the enchantment table, loot chests or trading with villagers.
 
 ## ⌨️ Commands
