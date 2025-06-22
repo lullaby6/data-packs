@@ -1,9 +1,0 @@
-{
-  "function": "minecraft:set_components",
-  "components": {
-    "minecraft:use_cooldown": {
-      "seconds": 5,
-      "cooldown_group": "utils:cooldown_5"
-    }
-  }
-}

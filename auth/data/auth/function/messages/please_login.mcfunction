@@ -1,3 +1,0 @@
-$execute if score kick auth.config matches 1 if score kick_delay auth.config matches 1 run return run title @s actionbar [{"text":"$(please_login_text)","color":"$(please_login_color)"}," (",{"score":{"name":"@s","objective":"auth.kick_delay"}},"/",{"score":{"name":"kick_delay_time","objective":"auth.config"}},")"]
-
-$title @s actionbar {"text":"$(please_login_text)","color":"$(please_login_color)"}

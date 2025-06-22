@@ -1,1 +1,0 @@
-function claims:message/claim/leave/invited with storage claims:main

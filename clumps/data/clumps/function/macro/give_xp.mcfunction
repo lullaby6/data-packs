@@ -1,1 +1,0 @@
-$xp add @p $(value) points

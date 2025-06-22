@@ -1,1 +1,0 @@
-$playsound $(sound_claim_leave) master @s ~ ~ ~ .5 $(sound_claim_leave_pitch)

@@ -1,1 +1,0 @@
-$give $(selector) $(item) $(count)
