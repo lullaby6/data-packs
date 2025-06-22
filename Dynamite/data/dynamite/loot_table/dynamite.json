@@ -1,0 +1,48 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:snowball",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:item_model": "minecraft:player_head",
+                  "minecraft:custom_data": {
+                    "dynamite": true
+                  },
+                  "minecraft:custom_name": {
+                    "text": "Dynamite",
+                    "italic": false
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                        439187765,
+                        410799360,
+                        -1609413638,
+                        -119462810
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzlhOWUzY2EzN2U4NzdlMGQzYjE2MzBiZTcwYjA4YjYwNzZmZjQzNjZhODQyYzkwNzRjYTljNGRiZTkzMmNiYiJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

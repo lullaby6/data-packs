@@ -1,0 +1,1 @@
+execute if score @s graves.grave.pos.y matches ..-64 run tp ~ -59 ~

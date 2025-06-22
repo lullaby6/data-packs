@@ -1,0 +1,8 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:container_loot": {
+        "loot_table": ""
+      }
+    }
+  }

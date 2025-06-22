@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:toggle_tooltips",
+    "toggles": {
+      "minecraft:attribute_modifiers": false,
+      "minecraft:can_break": false,
+      "minecraft:can_place_on": false,
+      "minecraft:dyed_color": false,
+      "minecraft:enchantments": false,
+      "minecraft:jukebox_playable": false,
+      "minecraft:stored_enchantments": false,
+      "minecraft:trim": false,
+      "minecraft:unbreakable": false
+    }
+  }

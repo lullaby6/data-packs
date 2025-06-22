@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "backpacks.backpack": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "backpacks:backpack/use"
+    }
+}

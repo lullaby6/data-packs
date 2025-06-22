@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "location": {
+            "biome": "minecraft:old_growth_spruce_taiga"
+        }
+    }
+}
