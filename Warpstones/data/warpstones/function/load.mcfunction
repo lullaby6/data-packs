@@ -11,19 +11,10 @@ scoreboard objectives add warpstones.dimension dummy
 scoreboard objectives add warpstones.timer.particle.end_rod dummy
 scoreboard objectives add warpstones.timer.particle.portal dummy
 
-scoreboard objectives add warpstones.all dummy
-scoreboard objectives add warpstones.all.length dummy
-scoreboard objectives add warpstones.all.pagination.iteration dummy
-scoreboard objectives add warpstones.all.pagination.stored_index dummy
-scoreboard objectives add warpstones.all.pagination.index dummy
-scoreboard objectives add warpstones.all.pagination.page dummy
-scoreboard objectives add warpstones.all.pagination.stored_max_page dummy
-scoreboard objectives add warpstones.all.pagination.max_page dummy
-
 scoreboard objectives add warpstones.const dummy
 scoreboard players set 1 warpstones.const 1
 
 scoreboard objectives add warpstones.config dummy
-scoreboard players set pagination_limit warpstones.config 5
+scoreboard players set list_columns warpstones.config 1
 
 gamerule sendCommandFeedback false

@@ -11,5 +11,3 @@ effect give @s minecraft:glowing 3 0 true
 effect give @s minecraft:slow_falling 1 0 true
 effect give @s minecraft:slowness 1 9 true
 effect give @s minecraft:nausea 6 0 true
-
-function warpstones:player/warpstone/join

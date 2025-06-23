@@ -19,6 +19,4 @@ data remove storage warpstones:place id
 
 execute store result score @n[tag=warpstones.warpstone] warpstones.id run scoreboard players get # warpstones.id
 
-execute as @a[tag=warpstones.player.warpstone] run function warpstones:player/warpstone/join
-
 forceload add ~ ~ ~ ~

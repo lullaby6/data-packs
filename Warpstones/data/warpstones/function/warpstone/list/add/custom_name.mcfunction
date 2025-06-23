@@ -1,0 +1,1 @@
+$data modify storage warpstones:add data.custom_name set value "#$(id)"

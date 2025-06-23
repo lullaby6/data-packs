@@ -14,6 +14,4 @@ kill @n[type=item,nbt={Age:0s,Item:{id:"minecraft:lodestone",count:1}},distance=
 
 loot spawn ~ ~1 ~ loot warpstones:warpstone
 
-execute as @a[tag=warpstones.player.warpstone] run function warpstones:player/warpstone/join
-
 forceload add ~ ~ ~ ~
