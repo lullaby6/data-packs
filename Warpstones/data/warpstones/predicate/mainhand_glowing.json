@@ -4,7 +4,7 @@
   "predicate": {
     "slots": {
       "weapon.mainhand": {
-        "items": "minecraft:glowstone_dust"
+        "items": "#warpstones:glowing"
       }
     }
   }

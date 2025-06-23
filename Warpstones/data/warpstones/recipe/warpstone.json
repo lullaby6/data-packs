@@ -1,14 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "misc",
     "pattern": [
-        "#E#",
-        "ELE",
-        "#E#"
+        "#L#",
+        " E ",
+        " _ "
     ],
     "key": {
         "#": "minecraft:amethyst_shard",
+        "L": "minecraft:lodestone",
         "E": "minecraft:ender_pearl",
-        "L": "minecraft:lodestone"
+        "_": "minecraft:polished_andesite_slab"
     },
     "result": {
         "id": "minecraft:armor_stand",
