@@ -42,6 +42,14 @@
       }
     },
     {
+      "label": "Max Power",
+      "tooltip": "Click to edit max power",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s leveled_mobs:config/max_power"
+      }
+    },
+    {
       "label": "Reset Config",
       "tooltip": "Click to reset config",
       "action": {

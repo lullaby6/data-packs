@@ -38,3 +38,5 @@ execute store result storage leveled_mobs:level data.attack_damage int 1 run sco
 function leveled_mobs:level/macro with storage leveled_mobs:level data
 
 data remove storage leveled_mobs:level data
+
+execute if entity @s[type=#leveled_mobs:bow] run function leveled_mobs:level/bow
