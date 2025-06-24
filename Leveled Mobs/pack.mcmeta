@@ -1,0 +1,19 @@
+{
+   "pack": {
+      "pack_format": 80,
+      "description": [
+            {
+                "text": "Leveled Mobs",
+                "color": "#6e0d09"
+            },
+            {
+                "text": " - \nBy ",
+                "color": "gray"
+            },
+            {
+                "text": "github.com/lullaby6",
+                "color": "#683edd"
+            }
+        ]
+   }
+}
