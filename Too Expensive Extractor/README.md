@@ -8,7 +8,7 @@ Extract Too Expensive from armor, tools and weapons!
 
 ## 🛠️ Recipe
 
-[!Rrecipe](https://raw.githubusercontent.com/lullaby6/data-packs/refs/heads/main/Too%20Expensive%20Extractor/images/recipe.png)
+![Recipe](https://raw.githubusercontent.com/lullaby6/data-packs/refs/heads/main/Too%20Expensive%20Extractor/images/recipe.png)
 
 ## ⌨️ Commands
 
