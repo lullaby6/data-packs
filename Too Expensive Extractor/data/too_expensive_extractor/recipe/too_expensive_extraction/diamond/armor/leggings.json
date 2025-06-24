@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_leggings",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

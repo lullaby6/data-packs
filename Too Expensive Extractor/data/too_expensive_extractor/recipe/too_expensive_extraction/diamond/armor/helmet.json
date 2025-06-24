@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_helmet",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}
