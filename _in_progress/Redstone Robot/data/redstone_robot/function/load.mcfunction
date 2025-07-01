@@ -1,3 +1,5 @@
+function redstone_robot:utils/load
+
 scoreboard objectives add redstone_robot.id dummy
 scoreboard objectives add redstone_robot.i1 dummy
 scoreboard objectives add redstone_robot.i2 dummy

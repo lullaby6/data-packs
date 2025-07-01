@@ -1,1 +1,1 @@
-$data modify entity @s CustomName set value '{"color":"red","text":"$(power)"}'
+$data modify entity @s CustomName set value {"color":"red","text":"$(power)"}

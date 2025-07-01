@@ -14,5 +14,3 @@ scoreboard players add .id redstone_robot.id 1
 execute store result score @s redstone_robot.id run scoreboard players get .id redstone_robot.id
 
 function redstone_robot:wandering/summon
-
-say data

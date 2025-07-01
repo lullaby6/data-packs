@@ -1,4 +1,4 @@
-function utils:motion/storage {"value":"-0.0025"}
+function redstone_robot:utils/motion/storage {"value":"-0.0025"}
 
 summon minecraft:arrow ^ ^1.5 ^.5 {damage:2.0d,crit:1b,Tags:["redstone_robot.arrow"]}
 

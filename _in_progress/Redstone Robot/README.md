@@ -1,25 +1,17 @@
 # Redstone Robot
 
-Version: `1.21.4`
+[![Discord](https://img.shields.io/discord/1327308441324097681?label=discord&color=blue&logo=discord)](https://discord.gg/5UdcDa5xNC)
+[![Modrinth](https://img.shields.io/modrinth/dt/redstone-robot?label=modrinth&logo=modrinth)](https://modrinth.com/datapack/redstone-robot)
+[![License](https://img.shields.io/github/license/lullaby6/data-packs)](https://github.com/lullaby6/data-packs/blob/main/LICENSE)
 
-## Requeriments
+## 📖 Description
 
-- [`Utils Data-Pack`](https://modrinth.com/datapack/lullaby-utils)
+Redstone robots that recharge with redstone, can follow you, attack hostiles mobs with bows and a iron swords!
 
-## Commands
+## ⌨️ Commands
 
-Disable:
-
-```mcfunction
-/datapack disable "file/redstone-robot.zip"
-```
-
-Enable:
+Summon:
 
 ```mcfunction
-/datapack enable "file/redstone-redstone_robot.zip"
+/function redstone_robot:summon
 ```
-
-## License
-
-AGPLv3

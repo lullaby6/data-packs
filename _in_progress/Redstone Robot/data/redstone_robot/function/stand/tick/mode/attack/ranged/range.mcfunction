@@ -1,4 +1,4 @@
-rotate @s facing entity @n[type=#utils:hostiles] feet
+rotate @s facing entity @n[type=#redstone_robot:utils/hostiles] feet
 
 execute unless entity @s[tag=redstone_robot.pose.bow] run function redstone_robot:stand/pose/bow
 

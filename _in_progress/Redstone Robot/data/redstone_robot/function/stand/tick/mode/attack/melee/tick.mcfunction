@@ -4,6 +4,6 @@ execute as @e[tag=redstone_robot.wandering] if score @s redstone_robot.id = @n[t
 
 function redstone_robot:stand/tick/mode/attack/melee/rotation
 
-execute if entity @e[type=#utils:hostiles,distance=..3] run return run function redstone_robot:stand/tick/mode/attack/melee/range
+execute if entity @e[type=#redstone_robot:utils/hostiles,distance=..3] run return run function redstone_robot:stand/tick/mode/attack/melee/range
 
 execute unless entity @s[tag=redstone_robot.pose.0] run function redstone_robot:stand/pose/0
