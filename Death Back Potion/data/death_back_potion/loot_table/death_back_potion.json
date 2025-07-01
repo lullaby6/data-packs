@@ -31,28 +31,32 @@
                     }
                   ]
                 },
+                "minecraft:custom_data": {
+                  "death_back_potion": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Death Back Potion",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Drink to teleport to your last death",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
                 "minecraft:potion_contents": {
-                  "custom_color": 14013323
+                  "custom_color": 3474751
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 16,
+                  "cooldown_group": "death_back_potion:cooldown"
                 },
                 "minecraft:tooltip_display": {
                   "hidden_components": [
                     "minecraft:potion_contents"
                   ]
-                },
-                "minecraft:custom_data": {
-                  "dimensional_potions.end": true
-                },
-                "minecraft:custom_name": {
-                  "text": "End Potion",
-                  "italic": false
-                },
-                "minecraft:lore": [
-                  {
-                    "text": "Drink to teleport to the End",
-                    "italic": false,
-                    "color": "gray"
-                  }
-                ]
+                }
               }
             }
           ]

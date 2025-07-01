@@ -1,3 +1,3 @@
-execute if score @s graves.grave.despawn_delay >= despawn_delay graves.config run return run function graves:grave/loot/force
+execute if score despawn graves.config matches 1 if score despawn_delay graves.config matches 1.. run function graves:grave/tick/despawn
 
-scoreboard players add @s graves.grave.despawn_delay 1
+execute if data entity @s interaction run data remove entity @s interaction

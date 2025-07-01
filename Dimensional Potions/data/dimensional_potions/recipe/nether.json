@@ -18,7 +18,7 @@
         "components": {
           "minecraft:item_model": "minecraft:potion",
           "minecraft:rarity": "epic",
-          "minecraft:max_stack_size": 1,
+          "minecraft:max_stack_size": 16,
           "minecraft:enchantment_glint_override": true,
           "minecraft:consumable": {
             "consume_seconds": 2.5,
