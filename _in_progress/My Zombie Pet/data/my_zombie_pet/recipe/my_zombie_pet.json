@@ -10,11 +10,12 @@
         "S": "minecraft:zombie_head"
     },
     "result": {
-        "id": "minecraft:command_block",
+        "id": "minecraft:armor_stand",
         "count": 1,
         "components": {
-            "minecraft:rarity": "common",
+            "minecraft:rarity": "epic",
             "minecraft:max_stack_size": 64,
+            "minecraft:enchantment_glint_override": true,
             "minecraft:entity_data": {
                 "id": "minecraft:armor_stand",
                 "NoGravity": true,
@@ -23,7 +24,6 @@
                 "HasVisualFire": false,
                 "Small": true,
                 "Invisible": true,
-                "PersistenceRequired": true,
                 "Tags": [
                     "my_zombie_pet.armor_stand"
                 ],

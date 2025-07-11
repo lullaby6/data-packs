@@ -1,7 +1,11 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{Item:{id:\"minecraft:totem_of_undying\"}}"
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.0": {
+        "items": "minecraft:totem_of_undying"
+      }
     }
   }
+}

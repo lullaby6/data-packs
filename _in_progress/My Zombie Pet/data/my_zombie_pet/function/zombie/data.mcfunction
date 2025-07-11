@@ -10,6 +10,7 @@ team join player @s
 
 attribute @s minecraft:max_health base set 40
 attribute @s minecraft:burning_time base set 0
+attribute @s minecraft:spawn_reinforcements base set 0
 
 data modify entity @s Health set value 40f
 data modify entity @s PersistenceRequired set value 1b
@@ -17,5 +18,7 @@ data modify entity @s drop_chances set value {feet:1.000,legs:1.000,head:1.000,b
 data modify entity @s home_radius set value 10
 data modify entity @s CanPickUpLoot set value 1b
 data modify entity @s Motion set value [0.0,0.25,0.0]
+data modify entity @s IsBaby set value 0b
+data modify entity @s CanBreakDoors set value 0b
 
 effect give @s minecraft:fire_resistance infinite 0 true

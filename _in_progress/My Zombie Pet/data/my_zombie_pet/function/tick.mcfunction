@@ -1,5 +1,4 @@
-team join player @e[tag=utils.team_player,tag=!villager_guards.target]
-team join player @e[type=villager]
+function my_zombie_pet:utils/tick
 
 execute as @e[tag=my_zombie_pet.zombie] at @s run function my_zombie_pet:zombie/tick
 
