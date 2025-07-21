@@ -15,8 +15,11 @@ def main():
         os.makedirs(BUILDS_PATH)
 
     dirs = [d for d in os.listdir(CURRENT_DIR) if os.path.isdir(os.path.join(CURRENT_DIR, d))]
-    dirs = [d for d in dirs if not d.startswith('.')]
-    dirs = [d for d in dirs if not d.startswith('_')]
+    dirs = [d for d in dirs if not d.startswith('.') and not d.startswith('_')]
+
+    if not dirs:
+        print("No data-packs found in the current directory.")
+        return
 
     for index, dir in enumerate(dirs):
         dir_name = dir

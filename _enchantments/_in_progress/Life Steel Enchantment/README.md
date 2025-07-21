@@ -23,7 +23,3 @@ Enchant:
 ```mcfunction
 /enchant @s life_steel_enchantment:life_steel <level>
 ```
-
-## 🪪 License
-
-[AGPL-3.0-or-later](https://github.com/lullaby6/enchantments-data-pack/blob/main/LICENSE)
