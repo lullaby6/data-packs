@@ -1,10 +1,10 @@
 {
     "pack": {
-        "pack_format": 80,
+        "pack_format": 81,
         "description": [
             {
-                "text": "Life Steel Enchantment",
-                "color": "#FF5555"
+                "text": "Gravity Enchantment",
+                "color": "#FF55FF"
             },
             {
                 "text": " - \nBy ",
