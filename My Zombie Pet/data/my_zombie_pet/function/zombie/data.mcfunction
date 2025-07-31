@@ -20,5 +20,7 @@ data modify entity @s CanPickUpLoot set value 1b
 data modify entity @s Motion set value [0.0,0.25,0.0]
 data modify entity @s IsBaby set value 0b
 data modify entity @s CanBreakDoors set value 0b
+data modify entity @s CustomNameVisible set value 1b
+data modify entity @s CustomName set value {"text":"Zombie Pet"}
 
 effect give @s minecraft:fire_resistance infinite 0 true
