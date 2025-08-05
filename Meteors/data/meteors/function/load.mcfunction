@@ -1,4 +1,5 @@
-scoreboard objectives add meteors.random dummy
+scoreboard objectives add meteors.config dummy
+execute unless score load meteors.config matches 1 run function meteors:config/load
 
 scoreboard objectives add meteors.rotation dummy
 scoreboard objectives add meteors.rotation.x dummy

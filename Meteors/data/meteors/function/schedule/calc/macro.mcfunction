@@ -1,0 +1,1 @@
+$execute store result storage schedule meteors:main int 1 run random value $(min_time)..$(max_time)

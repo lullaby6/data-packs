@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Meteors Config",
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Exit",
+    "tooltip": "Click to exit"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Chance",
+      "tooltip": "Click to edit chance",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s meteors:config/chance"
+      }
+    },
+    {
+      "label": "Min Time",
+      "tooltip": "Click to edit min time",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s meteors:config/min"
+      }
+    },
+    {
+      "label": "Max Time",
+      "tooltip": "Click to edit max time",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s meteors:config/max"
+      }
+    },
+    {
+      "label": "Reset Config",
+      "tooltip": "Click to reset config",
+      "action": {
+        "type": "run_command",
+        "command": "/function meteors:config/load"
+      }
+    }
+  ]
+}

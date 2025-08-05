@@ -4,4 +4,4 @@ scoreboard players reset @s villager_guards.timer
 
 tag @s add villager_guards.guard.ready
 
-data remove entity @s home_pos
+# data remove entity @s home_pos

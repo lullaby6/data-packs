@@ -18,11 +18,11 @@ attribute @s minecraft:burning_time base set 0
 
 data modify entity @s Health set value 40f
 data modify entity @s CustomName set value "Villager Guard"
-data modify entity @s DeathLootTable set value "minecraft:empty"
+data modify entity @s DeathLootTable set value ""
 data modify entity @s PersistenceRequired set value 1b
 data modify entity @s Silent set value 1b
 data modify entity @s IsImmuneToZombification set value 1b
 data modify entity @s drop_chances set value {feet:1.000,legs:1.000,head:1.000,body:1.000,mainhand:1.000,offhand:1.000}
-data modify entity @s home_radius set value 10
+# data modify entity @s home_radius set value 10
 
 execute if score pick_up villager_guards.config matches 1 run data modify entity @s CanPickUpLoot set value 1b
