@@ -7,4 +7,4 @@ setblock ~ ~ ~ air
 
 function veinminer_enchantment:veinminer/smelting/custom_mine
 function veinminer_enchantment:veinminer/magnetic
-execute if predicate veinminer_enchantment:fortune summon minecraft:experience_orb run data modify entity @s Value set from entity @n[type=minecraft:experience_orb] Value
+execute if entity @e[type=minecraft:experience_orb,distance=..3] unless predicate veinminer_enchantment:silk_touch summon minecraft:experience_orb run data modify entity @s Value set from entity @n[type=minecraft:experience_orb] Value

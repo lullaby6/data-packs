@@ -1,3 +1,8 @@
+scoreboard objectives add magnetic_enchantment.delay dummy
+scoreboard objectives add magnetic_enchantment.x dummy
+scoreboard objectives add magnetic_enchantment.y dummy
+scoreboard objectives add magnetic_enchantment.z dummy
+
 scoreboard objectives add magnetic_enchantment.player.use.wooden_pickaxe minecraft.used:minecraft.wooden_pickaxe
 scoreboard objectives add magnetic_enchantment.player.use.stone_pickaxe minecraft.used:minecraft.stone_pickaxe
 scoreboard objectives add magnetic_enchantment.player.use.iron_pickaxe minecraft.used:minecraft.iron_pickaxe

@@ -19,7 +19,3 @@ Enchant:
 ```mcfunction
 /enchant @s magnetic_enchantment:magnetic
 ```
-
-## 🪪 License
-
-[AGPL-3.0-or-later](https://github.com/lullaby6/enchantments-data-pack/blob/main/LICENSE)
