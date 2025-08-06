@@ -20,7 +20,3 @@ Config:
 ```
 
 Instant pickup experience orbs option is not compatible with Mending enchantment!
-
-## 🪪 License
-
-[AGPL-3.0-or-later](https://github.com/lullaby6/clumps-data-pack/blob/main/LICENSE)
