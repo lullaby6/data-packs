@@ -1,4 +1,4 @@
-playsound minecraft:entity.enderman.teleport master @a ~ ~ ~ 0.125 2
+playsound minecraft:entity.enderman.teleport master @a ~ ~ ~ 0.05 2
 
 execute at @s run particle minecraft:portal ~ ~-.5 ~ .25 0 .25 .1 10 force @a
 

@@ -5,3 +5,5 @@ $data modify entity @s CustomName set value {"text":"LvL $(level)","color":"red"
 
 $attribute @s minecraft:max_health base set $(max_health)
 $attribute @s minecraft:attack_damage base set $(attack_damage)
+
+$data modify entity @s Health set value $(max_health)f
