@@ -7,6 +7,10 @@
     {
       "structure": "moai_statues:end/purpur",
       "weight": 1
+    },
+    {
+      "structure": "moai_statues:end/obsidian",
+      "weight": 1
     }
   ],
   "placement": {

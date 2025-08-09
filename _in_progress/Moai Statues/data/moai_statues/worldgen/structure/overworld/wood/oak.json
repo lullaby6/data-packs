@@ -4,7 +4,7 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",
-  "start_pool": "moai_statues:overworld/oak",
+  "start_pool": "moai_statues:overworld/wood/oak",
   "size": 1,
   "start_height": {
     "absolute": 0

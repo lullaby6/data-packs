@@ -1,5 +1,5 @@
 {
-  "name": "moai_statues:oak",
+  "name": "moai_statues:overworld/wood/oak",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "moai_statues:moai/overworld/oak",
+        "location": "moai_statues:moai/overworld/wood/oak",
         "processors": "minecraft:empty"
       }
     }
