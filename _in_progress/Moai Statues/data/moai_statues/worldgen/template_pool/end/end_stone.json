@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moai_statues:moai/end/end_stone_bricks",
+        "processors": "moai_statues:end_stone"
+      }
+    }
+  ]
+}

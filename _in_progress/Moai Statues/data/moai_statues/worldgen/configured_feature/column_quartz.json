@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "blocks": "#moai_statues:nether_block_placement"
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": 128,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:quartz_block"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

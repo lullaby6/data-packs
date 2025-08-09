@@ -1,15 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "minecraft:frozen_peaks",
-    "minecraft:snowy_slopes",
-    "minecraft:snowy_taiga",
-    "minecraft:snowy_beach"
-  ],
+  "biomes": "#moai_statues:has_moai/stone",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",
-  "start_pool": "moai_statues:snow",
+  "start_pool": "moai_statues:overworld/stone_bricks",
   "size": 1,
   "start_height": {
     "absolute": 0

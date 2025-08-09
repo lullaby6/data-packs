@@ -1,14 +1,13 @@
 {
-  "name": "moai_statues:stone",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 150,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "moai_statues:moai/stone",
-        "processors": "moai_statues:stone"
+        "location": "moai_statues:moai/nether/nether_bricks",
+        "processors": "minecraft:empty"
       }
     }
   ]

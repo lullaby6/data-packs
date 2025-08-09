@@ -1,0 +1,32 @@
+{
+    "values": [
+        "minecraft:air",
+        "minecraft:bone_block",
+        "minecraft:brown_mushroom",
+        "minecraft:crimson_fungus",
+        "minecraft:crimson_hyphae",
+        "minecraft:crimson_roots",
+        "minecraft:crimson_stem",
+        "minecraft:lava",
+        "minecraft:mushroom_stem",
+        "minecraft:nether_sprouts",
+        "minecraft:nether_wart",
+        "minecraft:nether_wart_block",
+        "minecraft:pale_hanging_moss",
+        "minecraft:pale_moss_carpet",
+        "minecraft:red_mushroom",
+        "minecraft:shroomlight",
+        "minecraft:skeleton_skull",
+        "minecraft:soul_fire",
+        "minecraft:stripped_crimson_hyphae",
+        "minecraft:stripped_pale_oak_log",
+        "minecraft:stripped_warped_hyphae",
+        "minecraft:twisting_vines",
+        "minecraft:warped_fungus",
+        "minecraft:warped_hyphae",
+        "minecraft:warped_roots",
+        "minecraft:warped_stem",
+        "minecraft:warped_wart_block",
+        "minecraft:weeping_vines"
+    ]
+}

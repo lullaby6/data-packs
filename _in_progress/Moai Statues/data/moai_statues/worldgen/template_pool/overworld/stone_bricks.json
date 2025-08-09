@@ -1,5 +1,5 @@
 {
-  "name": "moai_statues:sandstone",
+  "name": "moai_statues:stone_bricks",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,8 +7,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "moai_statues:moai/sandstone",
-        "processors": "minecraft:empty"
+        "location": "moai_statues:moai/overworld/stone_bricks",
+        "processors": "moai_statues:stone_bricks"
       }
     }
   ]

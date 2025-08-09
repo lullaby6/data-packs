@@ -1,14 +1,13 @@
 {
-  "name": "moai_statues:snow",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 150,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "moai_statues:moai/snow",
-        "processors": "moai_statues:snow"
+        "location": "moai_statues:moai/nether/red_nether_bricks",
+        "processors": "minecraft:empty"
       }
     }
   ]

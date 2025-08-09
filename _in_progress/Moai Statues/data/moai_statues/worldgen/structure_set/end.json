@@ -1,13 +1,17 @@
 {
   "structures": [
     {
-      "structure": "moai_statues:snow",
+      "structure": "moai_statues:end/end_stone",
+      "weight": 1
+    },
+    {
+      "structure": "moai_statues:end/purpur",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 1256890,
+    "salt": 1274836,
     "spacing": 45,
     "separation": 35,
     "frequency": 0.45,

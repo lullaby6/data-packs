@@ -1,0 +1,15 @@
+{
+  "name": "moai_statues:sandstone",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moai_statues:moai/overworld/sandstone",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
