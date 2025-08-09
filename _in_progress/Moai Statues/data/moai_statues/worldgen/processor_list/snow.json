@@ -1,0 +1,87 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:andesite"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:tuff"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:cobblestone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.05
+					},
+					"output_state": {
+						"Name": "minecraft:snow_block"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.05
+					},
+					"output_state": {
+						"Name": "minecraft:packed_ice"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.05
+					},
+					"output_state": {
+						"Name": "minecraft:blue_ice"
+					}
+				}
+			]
+		}
+	]
+}

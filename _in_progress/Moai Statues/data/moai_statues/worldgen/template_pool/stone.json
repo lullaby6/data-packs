@@ -1,5 +1,5 @@
 {
-  "name": "moai_statues:moai",
+  "name": "moai_statues:stone",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,8 +7,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "moai_statues:moai",
-        "processors": "minecraft:empty"
+        "location": "moai_statues:moai/stone",
+        "processors": "moai_statues:stone"
       }
     }
   ]
