@@ -21,6 +21,10 @@
       "weight": 50
     },
     {
+      "structure": "moai_statues:overworld/oak",
+      "weight": 50
+    },
+    {
       "structure": "moai_statues:overworld/totem_of_undying",
       "weight": 1
     }
