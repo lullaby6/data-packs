@@ -1,0 +1,1 @@
+execute if entity @s[tag=zombie_herobrine.scream] run return run function zombie_herobrine:herobrine/scream/tick
