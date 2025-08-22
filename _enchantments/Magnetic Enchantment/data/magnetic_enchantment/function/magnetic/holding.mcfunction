@@ -25,3 +25,5 @@ execute if score @s magnetic_enchantment.player.use.golden_hoe matches 1.. as @e
 execute if score @s magnetic_enchantment.player.use.iron_hoe matches 1.. as @e[type=item,nbt={Age:0s},distance=..10] run return run function magnetic_enchantment:magnetic/found
 execute if score @s magnetic_enchantment.player.use.diamond_hoe matches 1.. as @e[type=item,nbt={Age:0s},distance=..10] run return run function magnetic_enchantment:magnetic/found
 execute if score @s magnetic_enchantment.player.use.netherite_hoe matches 1.. as @e[type=item,nbt={Age:0s},distance=..10] run return run function magnetic_enchantment:magnetic/found
+
+execute if score @s magnetic_enchantment.player.use.shears matches 1.. as @e[type=item,nbt={Age:0s},distance=..10] run return run function magnetic_enchantment:magnetic/found

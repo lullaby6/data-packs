@@ -1,6 +1,6 @@
 {
   "anvil_cost": 4,
-  "description": "Magnetic",
+  "description": "Timber",
   "max_cost": {
     "base": 75,
     "per_level_above_first": 25
@@ -13,6 +13,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#magnetic_enchantment:enchantable/magnetic",
+  "supported_items": "#minecraft:axes",
   "weight": 2
 }

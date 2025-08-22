@@ -1,0 +1,1 @@
+execute at @s if predicate timber_enchantment:enchantment/magnetic as @e[type=item,predicate=timber_enchantment:item/logs,nbt={Age:0s},distance=..50] run function magnetic_enchantment:magnetic/found

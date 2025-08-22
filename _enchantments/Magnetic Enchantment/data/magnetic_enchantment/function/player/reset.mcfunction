@@ -25,3 +25,5 @@ scoreboard players reset @s magnetic_enchantment.player.use.iron_hoe
 scoreboard players reset @s magnetic_enchantment.player.use.golden_hoe
 scoreboard players reset @s magnetic_enchantment.player.use.diamond_hoe
 scoreboard players reset @s magnetic_enchantment.player.use.netherite_hoe
+
+scoreboard players reset @s magnetic_enchantment.player.use.shears
