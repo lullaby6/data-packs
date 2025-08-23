@@ -2,7 +2,7 @@ scoreboard players set load economy.config 1
 
 scoreboard players set sounds economy.config 1
 scoreboard players set shop economy.config 0
-scoreboard players set player_shop economy.config 0
+scoreboard players set player_shops economy.config 0
 scoreboard players set player_bounties economy.config 0
 scoreboard players set aunctions economy.config 0
 scoreboard players set employments economy.config 0

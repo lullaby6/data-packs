@@ -10,7 +10,7 @@ scoreboard objectives add economy.player.balance dummy
 scoreboard objectives add economy.help trigger
 scoreboard objectives add economy.balance trigger
 scoreboard objectives add economy.pay trigger
-scoreboard objectives add economy.amount trigger
+scoreboard objectives add economy.pay.amount trigger
 scoreboard objectives add economy.top trigger
 scoreboard objectives add economy.shop trigger
 scoreboard objectives add economy.auction trigger
