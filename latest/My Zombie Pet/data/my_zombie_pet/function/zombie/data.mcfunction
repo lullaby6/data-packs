@@ -9,6 +9,7 @@ tag @s add my_zombie_pet.zombie
 team join player @s
 
 attribute @s minecraft:max_health base set 40
+attribute @s minecraft:attack_damage base set 4
 attribute @s minecraft:burning_time base set 0
 attribute @s minecraft:spawn_reinforcements base set 0
 
