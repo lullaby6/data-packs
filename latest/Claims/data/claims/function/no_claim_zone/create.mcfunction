@@ -1,4 +1,4 @@
-$execute summon minecraft:marker run function claims:no_claim_zone/create/data {"radius":$(radius)}
+$execute summon minecraft:marker run function claims:no_claim_zone/data {"radius":$(radius)}
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 1
 

@@ -1,1 +1,1 @@
-function claims:message/claim/leave/other with storage claims:main
+function claims:messages/claim/leave/other with storage claims:main

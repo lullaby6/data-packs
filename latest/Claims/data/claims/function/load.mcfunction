@@ -1,8 +1,12 @@
+function claims:utils/load
+scoreboard objectives setdisplay sidebar utils.player.id
+
+scoreboard objectives add claims.player.id dummy
+
 scoreboard objectives add claims.config dummy
 execute unless score load claims.config matches 1 run function claims:config/load
 
 scoreboard objectives add claims.player.leave minecraft.custom:minecraft.leave_game
-scoreboard objectives add claims.player.id dummy
 scoreboard objectives add claims.player.claim.inside dummy
 scoreboard objectives add claims.player.claim.check dummy
 scoreboard objectives add claims.player.claim.invite dummy
@@ -25,5 +29,5 @@ scoreboard players set 2 claims.const 2
 scoreboard players set 3 claims.const 3
 scoreboard players set 4 claims.const 4
 
-# scoreboard objectives add claims.player.no_claim_zone dummy
-# scoreboard objectives add claims.claim.no_claim_zone dummy
+scoreboard objectives add claims.player.no_claim_zone dummy
+scoreboard objectives add claims.claim.no_claim_zone dummy

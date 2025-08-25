@@ -1,4 +1,4 @@
 function claims:config/load/config
-function claims:config/load/message
-function claims:config/load/particle
-function claims:config/load/sound
+function claims:config/options/load/message
+function claims:config/options/load/particle
+function claims:config/options/load/sound
