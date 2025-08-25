@@ -1,0 +1,1 @@
+$data modify storage factions:main players."$(0) $(1) $(2) $(3)" set value "$(name)"
