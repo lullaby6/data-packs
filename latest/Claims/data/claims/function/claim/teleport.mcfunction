@@ -1,1 +1,0 @@
-$tp @s @n[tag=claims.claim.$(id)]
