@@ -4,7 +4,7 @@ $data modify entity @n[type=minecraft:item,nbt={Age:0s},tag=graves.grave.item] I
 
 execute if score glowing_items graves.config matches 1 run data modify entity @n[type=minecraft:item,nbt={Age:0s},tag=graves.grave.item] Glowing set value 1b
 
-$execute if score auto_equip graves.config matches 1 unless data entity @p[scores={graves.player.id=$(player_id)}] $(check) as @n[type=minecraft:item,nbt={Age:0s},tag=graves.grave.item] run function graves:grave/entity/item/auto_equip {"player_id":$(player_id),"slot":"$(slot)"}
+$execute if score auto_equip graves.config matches 1 unless data entity @p[scores={utils.player.id=$(player_id)}] $(check) as @n[type=minecraft:item,nbt={Age:0s},tag=graves.grave.item] run function graves:grave/entity/item/auto_equip {"player_id":$(player_id),"slot":"$(slot)"}
 
 tag @n[type=minecraft:item,nbt={Age:0s},tag=graves.grave.item,distance=..1] remove graves.grave.item
 

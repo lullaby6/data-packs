@@ -1,0 +1,1 @@
+$xp add @p[scores={graves.player.id=$(player_id)}] $(xp) points

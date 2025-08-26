@@ -52,7 +52,7 @@ execute if score suffocable graves.config matches 0 run tellraw @s [{"color":"gr
 
 tellraw @s ""
 
-tellraw @s [{"text":"- ","color":"gray"},{"text":"See Commands","color":"aqua","hover_event":{"action":"show_text","value":[{"text":"Click to see options"}]},"click_event":{"action":"run_command","command":"/function graves:config/commands"}}]
+tellraw @s [{"text":"- ","color":"gray"},{"text":"See Commands","color":"aqua","hover_event":{"action":"show_text","value":[{"text":"Click to see the commands"}]},"click_event":{"action":"run_command","command":"/function graves:config/commands"}}]
 
 tellraw @s ""
 

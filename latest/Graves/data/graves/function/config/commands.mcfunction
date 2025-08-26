@@ -21,7 +21,7 @@ tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset Options","color":"red","
 
 tellraw @s ""
 
-tellraw @s [{"text":"- ","color":"gray"},{"text":"See Options","color":"aqua","hover_event":{"action":"show_text","value":[{"text":"Click to see options"}]},"click_event":{"action":"run_command","command":"/function graves:config/options"}}]
+tellraw @s [{"text":"- ","color":"gray"},{"text":"See Options","color":"aqua","hover_event":{"action":"show_text","value":[{"text":"Click to see the options"}]},"click_event":{"action":"run_command","command":"/function graves:config/options"}}]
 
 tellraw @s ""
 
