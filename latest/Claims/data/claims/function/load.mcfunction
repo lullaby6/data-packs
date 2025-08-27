@@ -4,6 +4,7 @@ scoreboard objectives setdisplay sidebar utils.player.id
 scoreboard objectives add claims.player.id dummy
 
 scoreboard objectives add auth.config dummy
+
 scoreboard objectives add claims.config dummy
 execute unless score load claims.config matches 1 run function claims:config/load
 

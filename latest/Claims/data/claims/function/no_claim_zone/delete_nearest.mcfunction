@@ -4,6 +4,6 @@ execute at @n[tag=claims.no_claim_zone,distance=..100] run forceload remove ~ ~
 
 kill @n[tag=claims.no_claim_zone,distance=..100]
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 1
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .25 2
 
 tellraw @s [{"color":"gray","text":"Nearest No Claim Zone removed successfully."}]

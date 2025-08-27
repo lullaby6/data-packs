@@ -1,3 +1,3 @@
 $tellraw @s {"text":"$(message_claim_invite_text)","color":"$(message_claim_invite_color)"}
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 1
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .25 2

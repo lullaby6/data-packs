@@ -4,4 +4,4 @@ scoreboard players enable @s claims.show_id
 
 tellraw @s [{"color":"gray","text":"Your Player ID: "},{"color":"green","score":{"name":"@s","objective":"utils.player.id"}}]
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 1
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .25 2

@@ -8,7 +8,9 @@
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores": {
-                            "claims.kick": 1
+                            "claims.kick": {
+                                "min": 1
+                            }
                         }
                     }
                 ]

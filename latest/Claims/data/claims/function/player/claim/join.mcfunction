@@ -1,4 +1,4 @@
-execute if score sounds claims.config matches 1 run playsound minecraft:block.wooden_door.open master @s ~ ~ ~ .5 0.5
+execute if score sounds claims.config matches 1 run playsound minecraft:block.wooden_door.open master @s ~ ~ ~ .25 1.5
 
 execute store result storage claims:join id int 1 run scoreboard players get @n[tag=claims.claim] claims.claim.id
 function claims:claim/player/join with storage claims:join

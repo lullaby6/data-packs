@@ -5,5 +5,3 @@ execute if score @s claims.player.claim.check matches 0 run return run function 
 
 execute store result storage claims:teleport id int 1 run scoreboard players get @s utils.player.id
 function claims:claim/teleport with storage claims:teleport
-
-execute at @s run playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ .5 1

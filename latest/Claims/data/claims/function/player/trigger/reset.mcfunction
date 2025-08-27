@@ -1,3 +1,11 @@
+advancement revoke @s only claims:score/trigger/help
+advancement revoke @s only claims:score/trigger/show_id
+advancement revoke @s only claims:score/trigger/create
+advancement revoke @s only claims:score/trigger/delete
+advancement revoke @s only claims:score/trigger/invite
+advancement revoke @s only claims:score/trigger/kick
+advancement revoke @s only claims:score/trigger/teleport
+
 scoreboard players reset @s claims.help
 scoreboard players reset @s claims.show_id
 scoreboard players reset @s claims.create
