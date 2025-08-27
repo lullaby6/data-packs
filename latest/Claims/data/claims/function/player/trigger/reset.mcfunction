@@ -1,19 +1,20 @@
-scoreboard players reset @s claims.player.claim.check
-scoreboard players reset @s claims.player.claim.invite
-scoreboard players reset @s claims.player.claim.kick
-
+scoreboard players reset @s claims.help
 scoreboard players reset @s claims.show_id
 scoreboard players reset @s claims.create
 scoreboard players reset @s claims.delete
 scoreboard players reset @s claims.invite
 scoreboard players reset @s claims.kick
+scoreboard players reset @s claims.join
 scoreboard players reset @s claims.teleport
 
-scoreboard players enable @s claims.show_id
+trigger claims.help add 0
+trigger claims.show_id add 0
+trigger claims.create add 0
+trigger claims.delete add 0
+trigger claims.invite add 0
+trigger claims.kick add 0
+trigger claims.join add 0
+trigger claims.teleport add 0
 
-data remove storage claims:check id
-data remove storage claims:create id
-data remove storage claims:delete id
-data remove storage claims:invite data
-data remove storage claims:kick data
-data remove storage claims:teleport id
+scoreboard players enable @s claims.help
+scoreboard players enable @s claims.show_id

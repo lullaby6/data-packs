@@ -1,14 +1,3 @@
-data modify storage claims:main message_auth_not_logged_text set value "You must be logged in to execute a claims command."
-data modify storage claims:main message_auth_not_logged_color set value "red"
-
-
-
-data modify storage claims:main message_show_id_text set value "Your Player ID: "
-data modify storage claims:main message_show_id_color set value "gray"
-data modify storage claims:main message_show_id_id_color set value "green"
-
-
-
 data modify storage claims:main message_claim_create_text set value "Claim created successfully."
 data modify storage claims:main message_claim_create_color set value "green"
 

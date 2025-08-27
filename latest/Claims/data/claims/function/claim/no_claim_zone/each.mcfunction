@@ -1,7 +1,6 @@
-execute store result storage claims:no_claim_zone_check id int 1 run data get storage claims:no_claim_zone id
-execute store result storage claims:no_claim_zone_check radius int 1 run scoreboard players get @s claims.marker.no_claim_zone
+execute store result storage claims:no_claim_zone_check data.id int 1 run data get storage claims:no_claim_zone id
+execute store result storage claims:no_claim_zone_check data.radius int 1 run scoreboard players get @s claims.no_claim_zone.radius
 
-function claims:claim/create/no_claim_zone/check with storage claims:no_claim_zone_check
+function claims:claim/no_claim_zone/check with storage claims:no_claim_zone_check data
 
-data remove storage claims:no_claim_zone_check id
-data remove storage claims:no_claim_zone_check radius
+data remove storage claims:no_claim_zone_check data

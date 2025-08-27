@@ -1,5 +1,5 @@
-tag @s add claims.marker.no_claim_zone
+tag @s add claims.no_claim_zone
 
-$scoreboard players set @s claims.marker.no_claim_zone $(radius)
+$scoreboard players set @s claims.no_claim_zone.radius $(radius)
 
 execute at @s run forceload add ~ ~

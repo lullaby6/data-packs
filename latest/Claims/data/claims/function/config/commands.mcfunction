@@ -1,5 +1,7 @@
 function claims:utils/player/clear_chat
 
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 1
+
 tellraw @s [{"text":"==========[ ","color":"gray"},{"text":"Claims","color":"white","bold":true},{"text":" ]==========","color":"gray"}]
 tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v3.0.0"}]
 
@@ -12,8 +14,6 @@ tellraw @s ""
 tellraw @s [{"text":"- ","color":"gray"},{"text":"Delete All Claims","color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to delete all claims"}]},"click_event":{"action":"run_command","command":"/function claims:config/commands/delete_all_claims"}}]
 tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset All Players","color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to reset all connected players"}]},"click_event":{"action":"run_command","command":"/function claims:config/commands/reset_all_players"}}]
 tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset Messages","color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to reset messages"}]},"click_event":{"action":"run_command","command":"/function claims:config/commands/reset/message"}}]
-tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset Particles","color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to reset particles"}]},"click_event":{"action":"run_command","command":"/function claims:config/commands/reset/particle"}}]
-tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset Sounds","color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to reset sounds"}]},"click_event":{"action":"run_command","command":"/function claims:config/commands/reset/sound"}}]
 tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset Config","color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to reset config"}]},"click_event":{"action":"run_command","command":"/function claims:config/commands/reset/config"}}]
 
 tellraw @s ""
@@ -23,5 +23,3 @@ tellraw @s [{"text":"- ","color":"gray"},{"text":"See Options","color":"aqua","h
 tellraw @s ""
 
 tellraw @s [{"text":"===========","color":"gray"},{"text":"======","color":"gray"},{"text":"===========","color":"gray"}]
-
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 1

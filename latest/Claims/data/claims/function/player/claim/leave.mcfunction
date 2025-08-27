@@ -1,4 +1,4 @@
-execute if score sounds claims.config matches 1 run function claims:sounds/claim/leave with storage claims:main
+execute if score sounds claims.config matches 1 run playsound minecraft:block.wooden_door.close master @s ~ ~ ~ .5 0.5
 
 execute store result storage claims:leave id int 1 run scoreboard players get @n[tag=claims.claim] claims.claim.id
 function claims:claim/player/leave with storage claims:leave

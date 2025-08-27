@@ -1,5 +1,7 @@
 function claims:utils/player/clear_chat
 
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 2
+
 tellraw @s [{"text":"==========[ ","color":"gray"},{"text":"Claims","color":"white","bold":true},{"text":" ]==========","color":"gray"}]
 tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v3.0.0"}]
 
@@ -12,5 +14,3 @@ tellraw @s [{"text":"- ","color":"gray"},{"text":"See Commands","color":"aqua","
 tellraw @s ""
 
 tellraw @s [{"text":"===========","color":"gray"},{"text":"======","color":"gray"},{"text":"===========","color":"gray"}]
-
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 2

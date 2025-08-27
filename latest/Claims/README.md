@@ -4,7 +4,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/claims?label=modrinth&logo=modrinth)](https://modrinth.com/datapack/claims)
 [![License](https://img.shields.io/github/license/lullaby6/data-packs)](https://github.com/lullaby6/data-packs/blob/main/LICENSE)
 
-![Background](https://raw.githubusercontent.com/lullaby6/data-packs/refs/heads/main/claims/images/bg.png)
+![Background](https://raw.githubusercontent.com/lullaby6/data-packs/refs/heads/main/latest/claims/images/bg.png)
 
 ## 📖 Description
 
@@ -13,6 +13,12 @@ Protection for player's home!
 ## ⌨️ Commands
 
 ### Player
+
+See trigger commands:
+
+```mcfunction
+/trigger claims.help
+```
 
 Show Player ID:
 
@@ -61,113 +67,6 @@ Config:
 ```mcfunction
 /function claims:config
 ```
-
-Change claim's radius:
-
-```mcfunction
-/scoreboard players set radius claims.config <value>
-```
-
-Change claim's particles radius difference:
-
-```mcfunction
-/scoreboard players set radius_particles_diff claims.config <value>
-```
-
-Change claim's radius particles speed:
-
-```mcfunction
-/scoreboard players set radius_particles_speed claims.config <value>
-```
-
-Change particles:
-
-```mcfunction
-/data modify storage claims:main <particle_name> set value "<particle_id>"
-```
-
-Particles names:
-- beacon_particles
-- radius_particles
-
-Change sounds:
-
-```mcfunction
-/data modify storage claims:main <sound_name> set value "<value>"
-```
-
-Sounds names:
-- sound_claim_join
-- sound_claim_join_pitch
-- sound_claim_leave
-- sound_claim_leave_pitch
-
-Change messages:
-
-```mcfunction
-/data modify storage claims:main <message_name> set value "<value>"
-```
-
-Messages names:
-- message_auth_not_logged_text
-- message_auth_not_logged_color
-
-- message_show_id_text
-- message_show_id_color
-- message_show_id_id_color
-
-- message_claim_create_text
-- message_claim_create_color
-- message_claim_create_cancel_radius_text
-- message_claim_create_cancel_radius_color
-- message_claim_create_cancel_nether_text
-- message_claim_create_cancel_nether_color
-- message_claim_create_cancel_end_text
-- message_claim_create_cancel_end_color
-- message_claim_create_cancel_already_claim_text
-- message_claim_create_cancel_already_claim_color
-
-- message_claim_delete_text
-- message_claim_delete_color
-
-- message_claim_join_own_text
-- message_claim_join_own_color
-- message_claim_join_invited_text
-- message_claim_join_invited_color
-- message_claim_join_other_text
-- message_claim_join_other_color
-
-- message_claim_leave_own_text
-- message_claim_leave_own_color
-- message_claim_leave_invited_text
-- message_claim_leave_invited_color
-- message_claim_leave_other_text
-- message_claim_leave_other_color
-
-- message_claim_invite_text
-- message_claim_invite_color
-- message_claim_invite_invited_text
-- message_claim_invite_invited_color
-- message_claim_invite_cancel_not_yourself_text
-- message_claim_invite_cancel_not_yourself_color
-- message_claim_invite_cancel_not_exist_text
-- message_claim_invite_cancel_not_exist_color
-- message_claim_invite_cancel_already_invited_text
-- message_claim_invite_cancel_already_invited_color
-
-- message_claim_kick_text
-- message_claim_kick_color
-- message_claim_kick_kicked_text
-- message_claim_kick_kicked_color
-- message_claim_kick_cancel_not_yourself_text
-- message_claim_kick_cancel_not_yourself_color
-- message_claim_kick_cancel_not_exist_text
-- message_claim_kick_cancel_not_exist_color
-- message_claim_kick_cancel_not_invited_text
-- message_claim_kick_cancel_not_invited_color
-
-- message_claim_cancel_not_claim_text
-- message_claim_cancel_not_claim_color
 
 Delete player claim:
 
