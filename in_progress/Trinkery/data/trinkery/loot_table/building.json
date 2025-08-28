@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "trinkery": "building"
+                },
+                "minecraft:item_model": "minecraft:brick",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Building",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 1,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:block_interaction_range",
+                    "id": "trinkery.building.block_interaction_range",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "hand"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

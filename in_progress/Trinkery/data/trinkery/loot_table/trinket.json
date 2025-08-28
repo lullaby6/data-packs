@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:attack"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:building"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:damage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:defence"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:health"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:healty"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:hero"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:leaping"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:mining"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:movement"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:regeneration"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:sea"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:speed"
+        }
+      ]
+    }
+  ]
+}
