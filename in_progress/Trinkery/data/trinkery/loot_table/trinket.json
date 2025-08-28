@@ -13,6 +13,10 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "trinkery:berserk"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "trinkery:building"
         },
         {
@@ -46,6 +50,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "trinkery:movement"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:reach"
         },
         {
           "type": "minecraft:loot_table",

@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "trinkery": "berserk"
+                },
+                "minecraft:item_model": "minecraft:netherite_scrap",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Berserk",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 1,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "trinkery.berserk.attack_damage",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "hand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "trinkery.berserk.attack_speed",
+                    "amount": 0.125,
+                    "operation": "add_value",
+                    "slot": "hand"
+                  },
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "trinkery.berserk.max_speed",
+                    "amount": 0.0125,
+                    "operation": "add_value",
+                    "slot": "hand"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
