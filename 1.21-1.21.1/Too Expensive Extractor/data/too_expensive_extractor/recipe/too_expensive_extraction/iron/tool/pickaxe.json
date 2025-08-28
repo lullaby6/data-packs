@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:enchanted_book"
+  },
+  "template": {
+    "item": "minecraft:paper"
+  },
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

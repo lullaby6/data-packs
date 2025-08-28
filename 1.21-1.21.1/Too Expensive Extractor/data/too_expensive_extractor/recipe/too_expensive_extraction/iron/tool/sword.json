@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "addition": {
+    "item": "minecraft:enchanted_book"
+  },
+  "template": {
+    "item": "minecraft:paper"
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

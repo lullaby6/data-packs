@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:shield"
+  },
+  "addition": {
+    "item": "minecraft:enchanted_book"
+  },
+  "template": {
+    "item": "minecraft:paper"
+  },
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

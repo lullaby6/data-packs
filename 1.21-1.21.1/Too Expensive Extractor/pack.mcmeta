@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "pack_format": 61,
+        "description": [
+            {
+                "text": "Too Expensive Extractor",
+                "color": "#c42ec4"
+            },
+            {
+                "text": " - \nBy ",
+                "color": "gray"
+            },
+            {
+                "text": "github.com/lullaby6",
+                "color": "#683edd"
+            }
+        ]
+    }
+}

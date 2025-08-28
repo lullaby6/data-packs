@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:wooden_axe"
+  },
+  "addition": {
+    "item": "minecraft:enchanted_book"
+  },
+  "template": {
+    "item": "minecraft:paper"
+  },
+  "result": {
+    "id": "minecraft:wooden_axe",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

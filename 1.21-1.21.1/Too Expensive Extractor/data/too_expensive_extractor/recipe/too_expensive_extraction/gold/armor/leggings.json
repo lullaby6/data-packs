@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:golden_leggings"
+  },
+  "addition": {
+    "item": "minecraft:enchanted_book"
+  },
+  "template": {
+    "item": "minecraft:paper"
+  },
+  "result": {
+    "id": "minecraft:golden_leggings",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

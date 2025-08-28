@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:amethyst_shard",
+        "minecraft:paper",
+        "minecraft:iron_ingot"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:rarity": "epic",
+        "minecraft:max_stack_size": 64,
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "minecraft:paper",
+        "minecraft:custom_name": "{\"text\": \"Too Expensive Extractor\",\"italic\": false}",
+        "minecraft:lore": ["{\"text\": \"Remove Too Expensive from items in the smithing table\",\"italic\": false,\"color\":\"gray\"}"]
+      }
+    }
+  }
