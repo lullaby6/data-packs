@@ -1,0 +1,20 @@
+scoreboard players enable @s factions.delete
+scoreboard players enable @s factions.invite
+scoreboard players enable @s factions.kick
+
+scoreboard players enable @s factions.color.white
+scoreboard players enable @s factions.color.black
+scoreboard players enable @s factions.color.dark_blue
+scoreboard players enable @s factions.color.dark_green
+scoreboard players enable @s factions.color.dark_aqua
+scoreboard players enable @s factions.color.dark_red
+scoreboard players enable @s factions.color.dark_purple
+scoreboard players enable @s factions.color.gold
+scoreboard players enable @s factions.color.gray
+scoreboard players enable @s factions.color.dark_gray
+scoreboard players enable @s factions.color.blue
+scoreboard players enable @s factions.color.green
+scoreboard players enable @s factions.color.aqua
+scoreboard players enable @s factions.color.red
+scoreboard players enable @s factions.color.light_purple
+scoreboard players enable @s factions.color.yellow

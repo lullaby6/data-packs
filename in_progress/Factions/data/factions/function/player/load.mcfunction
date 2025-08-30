@@ -1,3 +1,3 @@
-scoreboard players enable @s factions.create
-
 function factions:utils/player/load
+
+function factions:player/trigger/load

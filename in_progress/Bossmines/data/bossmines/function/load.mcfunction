@@ -27,8 +27,8 @@ scoreboard objectives add bossmines.timer.6 dummy
 scoreboard objectives add bossmines.timer.heal dummy
 scoreboard objectives add bossmines.timer.hit_delay dummy
 
-function bossmines:bosses/anubis/load
-function bossmines:bosses/lich/load
-function bossmines:bosses/valley_souls/load
-function bossmines:bosses/torghast/load
-function bossmines:bosses/ondine/load
+# function bossmines:boss/anubis/load
+# function bossmines:boss/lich/load
+function bossmines:boss/valley_souls/load
+function bossmines:boss/torghast/load
+# function bossmines:boss/ondine/load

@@ -2,6 +2,7 @@ $execute if score $(name) factions.list matches 1 run return run tellraw @s {"co
 
 $scoreboard players set $(name) factions.list 1
 
+tag @s add factions.player.faction_owner
 tag @s add factions.player.in_faction
 
 $team add $(name)
@@ -24,6 +25,3 @@ function factions:faction/create/player with storage factions:create data
 data remove storage factions:create data
 
 $tellraw @s {"color":"green","text":"Faction $(name) created succesfully!"}
-
-trigger factions.create add 0
-scoreboard players enable @s factions.delete

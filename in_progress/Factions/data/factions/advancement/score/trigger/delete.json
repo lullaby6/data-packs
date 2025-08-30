@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "factions:player/trigger/delete"
+        "function": "factions:player/trigger/use/delete"
     }
 }

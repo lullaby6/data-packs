@@ -1,1 +1,0 @@
-execute summon vex run function bossmines:bosses/valley_souls/summon/data

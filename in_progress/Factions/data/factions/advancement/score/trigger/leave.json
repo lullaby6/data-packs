@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "factions:player/trigger/leave"
+        "function": "factions:player/trigger/use/leave"
     }
 }

@@ -1,3 +1,4 @@
+tag @s remove factions.player.faction_owner
 tag @s remove factions.player.in_faction
 
 team leave @s
@@ -13,6 +14,3 @@ function factions:faction/get_name with storage factions:delete data
 function factions:faction/delete/faction with storage factions:delete data
 
 data remove storage factions:delete data
-
-trigger factions.delete add 0
-scoreboard players enable @s factions.create
