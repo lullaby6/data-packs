@@ -1,3 +1,29 @@
+advancement revoke @s only factions:score/trigger/help
+advancement revoke @s only factions:score/trigger/id
+advancement revoke @s only factions:score/trigger/create
+advancement revoke @s only factions:score/trigger/delete
+advancement revoke @s only factions:score/trigger/invite
+advancement revoke @s only factions:score/trigger/kick
+advancement revoke @s only factions:score/trigger/leave
+advancement revoke @s only factions:score/trigger/join
+
+advancement revoke @s only factions:score/trigger/color/white
+advancement revoke @s only factions:score/trigger/color/black
+advancement revoke @s only factions:score/trigger/color/dark_blue
+advancement revoke @s only factions:score/trigger/color/dark_green
+advancement revoke @s only factions:score/trigger/color/dark_aqua
+advancement revoke @s only factions:score/trigger/color/dark_red
+advancement revoke @s only factions:score/trigger/color/dark_purple
+advancement revoke @s only factions:score/trigger/color/gold
+advancement revoke @s only factions:score/trigger/color/gray
+advancement revoke @s only factions:score/trigger/color/dark_gray
+advancement revoke @s only factions:score/trigger/color/blue
+advancement revoke @s only factions:score/trigger/color/green
+advancement revoke @s only factions:score/trigger/color/aqua
+advancement revoke @s only factions:score/trigger/color/red
+advancement revoke @s only factions:score/trigger/color/light_purple
+advancement revoke @s only factions:score/trigger/color/yellow
+
 scoreboard players reset @s factions.help
 scoreboard players reset @s factions.id
 scoreboard players reset @s factions.create
