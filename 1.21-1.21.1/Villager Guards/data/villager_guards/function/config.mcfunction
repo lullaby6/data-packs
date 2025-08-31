@@ -1,4 +1,4 @@
-function villager_guards:player/clear_chat
+function villager_guards:utils/player/clear_chat
 
 tellraw @s [{"text":"==========[ ","color":"gray"},{"text":"Villager Guards","color":"white","bold":true},{"text":" ]==========","color":"gray"}]
 tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v1.1.1"}]
