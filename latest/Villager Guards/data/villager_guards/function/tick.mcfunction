@@ -1,14 +1,6 @@
-# Target
-tag @e[type=#villager_guards:team_player] add utils.team_player
-tag @a[gamemode=creative] remove utils.team_player
-tag @a[gamemode=spectator] remove utils.team_player
+function villager_guards:utils/tick
 
-team join player @e[tag=utils.team_player,tag=!villager_guards.target]
-team join player @e[type=#villager_guards:team_villager]
-team join player @e[tag=villager_guards.team_villager]
-team leave @a[team=player,tag=villager_guards.target]
-
-tag @e[type=#villager_guards:target,tag=!villager_guards.target.bypass,tag=!villager_guards.guard] add villager_guards.target
+tag @e[type=#villager_guards:target,tag=!villager_guards.target.bypass,tag=!villager_guards.guard,team=!player,tag=!utils.team_player] add villager_guards.target
 
 # Villager Guard Tick
 execute as @e[tag=villager_guards.guard] at @s run function villager_guards:guard/tick
