@@ -1,4 +1,5 @@
 tag @s add graves.grave
+tag @s add graves.grave.entity
 $tag @s add graves.grave.$(grave_id)
 $tag @s add graves.grave.player.$(player_id)
 $tag @e[tag=graves.grave.player.$(player_id).last_grave] remove graves.grave.player.$(player_id).last_grave

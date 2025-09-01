@@ -6,11 +6,11 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.005,
+          "base": 0.0075,
           "per_level_above_first": 0.005
         },
         "attribute": "minecraft:movement_speed",
-        "id": "swiftness_enchantment:enchantment.swiftness",
+        "id": "swiftness_enchantment.enchantment.swiftness",
         "operation": "add_value"
       }
     ]

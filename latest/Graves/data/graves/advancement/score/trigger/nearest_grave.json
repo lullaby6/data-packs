@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "graves:player/trigger/nearest_grave"
+        "function": "graves:player/trigger/use/nearest_grave"
     }
 }

@@ -25,4 +25,4 @@ data remove storage graves:death data
 
 function graves:player/clear
 
-execute if score death_message graves.config matches 1 run function graves:player/trigger/last_grave
+execute if score death_message graves.config matches 1 run function graves:player/trigger/use/last_grave

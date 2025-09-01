@@ -1,5 +1,9 @@
+tag @s add graves.grave.entity
+$tag @s add graves.grave.entity.$(grave_id)
 tag @s add graves.grave.text_display
 $tag @s add graves.grave.text_display.$(grave_id)
+
+$scoreboard players set @s graves.grave.entity.grave.id $(grave_id)
 
 $ride @s mount @n[scores={graves.grave.id=$(grave_id)}]
 

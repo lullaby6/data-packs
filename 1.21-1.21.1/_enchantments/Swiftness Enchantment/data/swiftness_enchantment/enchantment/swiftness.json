@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 4,
+  "description": "Swiftness",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.0075,
+          "per_level_above_first": 0.005
+        },
+        "attribute": "minecraft:generic.movement_speed",
+        "id": "swiftness_enchantment.enchantment.swiftness",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 5
+}

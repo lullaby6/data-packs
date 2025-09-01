@@ -11,6 +11,8 @@ scoreboard objectives add graves.grave.player.id dummy
 scoreboard objectives add graves.grave.despawn_delay dummy
 scoreboard objectives add graves.grave.xp dummy
 
+scoreboard objectives add graves.grave.entity.grave.id dummy
+
 scoreboard objectives add graves.marker.grave.id dummy
 scoreboard objectives add graves.marker.player.id dummy
 scoreboard objectives add graves.marker.xp dummy

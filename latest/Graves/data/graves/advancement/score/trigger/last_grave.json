@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "graves:player/trigger/last_grave"
+        "function": "graves:player/trigger/use/last_grave"
     }
 }

@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "graves:player/trigger/all_graves"
+        "function": "graves:player/trigger/use/all_graves"
     }
 }
