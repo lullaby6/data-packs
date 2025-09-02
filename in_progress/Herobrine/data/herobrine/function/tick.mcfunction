@@ -1,0 +1,1 @@
+execute if entity @e[tag=herobrine.mannequin.entity] run function herobrine:mannequin/tick

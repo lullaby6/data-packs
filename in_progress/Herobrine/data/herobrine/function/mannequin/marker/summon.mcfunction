@@ -1,0 +1,1 @@
+$execute summon minecraft:marker run function herobrine:mannequin/marker/data {"id":$(id)}

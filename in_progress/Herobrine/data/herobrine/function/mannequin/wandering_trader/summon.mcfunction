@@ -1,0 +1,1 @@
+$execute summon minecraft:wandering_trader run function herobrine:mannequin/wandering_trader/data {"id":$(id)}
