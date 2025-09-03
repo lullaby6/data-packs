@@ -1,0 +1,1 @@
+function player_loot_block:give {"block_loot":"coal_block","block_container":"gray_stained_glass","loot_table":"minecraft:blocks/coal_block","reset_time":20}

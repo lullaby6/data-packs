@@ -1,0 +1,1 @@
+function player_loot_block:give {"block_loot":"emerald_block","block_container":"green_stained_glass","loot_table":"minecraft:blocks/emerald_block","reset_time":100}
