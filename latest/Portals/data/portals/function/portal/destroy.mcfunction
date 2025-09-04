@@ -5,6 +5,10 @@ particle smoke ~ ~ ~ 0.5 1 0.5 0.1 50 force @a
 
 forceload remove ~ ~ ~ ~
 
+execute store result storage portals:desotry data.id int 1 run scoreboard players get @s portals.portal.id
+function portals:portal/storage/remove with storage portals:desotry data
+data remove storage portals:desotry data
+
 kill @e[tag=portals.block_display.portal.nether_portal,sort=nearest,limit=2,distance=..2]
 
 kill @s

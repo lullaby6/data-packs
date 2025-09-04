@@ -24,8 +24,7 @@
 									"Small": true,
 									"Invisible": true,
 									"NoBasePlate": true,
-									"Tags": ["portals.portal"],
-									"DisabledSlots": 4144959
+									"Tags": ["portals.portal"]
 								},
 								"minecraft:item_model": "minecraft:ender_eye",
 								"minecraft:rarity": "epic",
