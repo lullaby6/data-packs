@@ -42,12 +42,12 @@ def main():
     print(f"Selected data-pack: {selected_dir}")
 
     files = os.listdir(selected_dir)
-    files = [f for f in files if not f.startswith('.') and f != 'README.md' and f != 'images']
+    files = [f for f in files if not f.startswith('.') and f != 'README.md' and f != 'images' and f != 'scripts']
 
     if not files:
         print("No files found in the selected data-pack directory.")
         return
-    
+
     selected_dir_zip_build_name = f"{dirs[selected_number]}"
 
     version = input("Enter version for the data-pack (default is '1.0.0'): ") or "1.0.0"
