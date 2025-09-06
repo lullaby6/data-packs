@@ -1,3 +1,3 @@
 function factions:faction/leave/leave
 
-function factions:player/trigger/load
+function factions:player/trigger/check

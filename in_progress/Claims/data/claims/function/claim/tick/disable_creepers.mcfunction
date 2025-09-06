@@ -1,0 +1,3 @@
+$execute if score shape claims.config matches 0 as @e[type=creeper,distance=..$(radius)] run return run data merge entity @s {ExplosionRadius:0b,ignited:0b}
+
+$execute if score shape claims.config matches 1 positioned ~-$(radius) ~-$(radius) ~-$(radius) as @e[type=creeper,dx=$(radius_double_minus_one),dy=$(radius_double_minus_one),dz=$(radius_double_minus_one)] run data merge entity @s {ExplosionRadius:0b,ignited:0b}

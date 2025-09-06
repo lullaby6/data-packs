@@ -1,21 +1,23 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "tick",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "economy.job.leave": 1
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "rewards": {
-        "function": "economy:player/trigger/job/leave"
-    }
+	"criteria": {
+		"requirement": {
+			"trigger": "tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"economy.job.leave": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "economy:player/trigger/job/leave"
+	}
 }

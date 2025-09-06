@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "effects": {
+            "minecraft:nausea": {},
+            "minecraft:mining_fatigue": {}
+          },
+          "movement": {
+            "speed": {
+              "min": 0.1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "claims:claim/cancel/teleport/move"
+  }
+}

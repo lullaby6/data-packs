@@ -1,13 +1,14 @@
 scoreboard objectives add economy.config dummy
 execute unless score load economy.config matches 1 run function economy:config/load
 
-scoreboard objectives add player.id dummy
-scoreboard objectives setdisplay list player.id
+scoreboard objectives add utils.player.id dummy
+scoreboard objectives setdisplay list utils.player.id
 
 scoreboard objectives add economy.player.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add economy.player.balance dummy
 
 scoreboard objectives add economy.help trigger
+scoreboard objectives add economy.show_id trigger
 scoreboard objectives add economy.balance trigger
 scoreboard objectives add economy.pay trigger
 scoreboard objectives add economy.pay.amount trigger
