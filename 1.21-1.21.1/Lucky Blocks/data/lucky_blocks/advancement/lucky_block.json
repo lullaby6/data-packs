@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "lucky_blocks:lucky_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lucky_blocks:give"
+  }
+}

@@ -1,0 +1,1 @@
+execute as @e[distance=..10] at @s run summon minecraft:lightning_bolt ~ ~ ~

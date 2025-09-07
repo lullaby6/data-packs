@@ -1,41 +1,53 @@
 {
-  "structures": [
-    {
-      "structure": "moai_statues:overworld/stone",
-      "weight": 50
-    },
-    {
-      "structure": "moai_statues:overworld/snow",
-      "weight": 50
-    },
-    {
-      "structure": "moai_statues:overworld/sandstone",
-      "weight": 50
-    },
-    {
-      "structure": "moai_statues:overworld/mud",
-      "weight": 50
-    },
-    {
-      "structure": "moai_statues:overworld/stone_bricks",
-      "weight": 50
-    },
-    {
-      "structure": "moai_statues:overworld/wood/oak",
-      "weight": 50
-    },
-    {
-      "structure": "moai_statues:overworld/totem_of_undying",
-      "weight": 1
-    }
-  ],
-  "placement": {
-    "type": "minecraft:random_spread",
-    "salt": 1256890,
-    "spacing": 45,
-    "separation": 35,
-    "frequency": 0.45,
-    "spread_type": "triangular",
-    "frequency_reduction_method": "default"
-  }
+	"structures": [
+		{
+			"structure": "moai_statues:overworld/stone",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/snow",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/sandstone",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/red_sandstone",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/mud",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/stone_bricks",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/tuff",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/deepslate",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/wood/oak",
+			"weight": 50
+		},
+		{
+			"structure": "moai_statues:overworld/totem_of_undying",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1256890,
+		"spacing": 45,
+		"separation": 35,
+		"frequency": 0.45,
+		"spread_type": "triangular",
+		"frequency_reduction_method": "default"
+	}
 }

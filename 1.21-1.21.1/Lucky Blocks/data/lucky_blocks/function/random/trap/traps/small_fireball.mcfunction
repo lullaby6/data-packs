@@ -1,0 +1,1 @@
+execute as @e[distance=..10] at @s run summon small_fireball ~ ~10 ~ {Motion:[0.0,-1.0,0.0]}

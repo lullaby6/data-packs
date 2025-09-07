@@ -10,7 +10,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:stone_bricks",
-            "probability": 0.01
+            "probability": 0.05
           },
           "output_state": {
             "Name": "minecraft:mossy_stone_bricks"

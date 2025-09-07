@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_axe",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:sharpness":5,"minecraft:efficiency":5,"minecraft:silk_touch":1,"minecraft:mending":1,"minecraft:unbreaking":3}}}}}

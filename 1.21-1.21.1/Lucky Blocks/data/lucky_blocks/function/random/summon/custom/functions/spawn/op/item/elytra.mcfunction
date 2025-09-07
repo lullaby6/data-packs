@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:elytra",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:protection":4,"minecraft:mending":1,"minecraft:unbreaking":3}}}}}

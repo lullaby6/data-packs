@@ -3,7 +3,7 @@
   "biomes": "#minecraft:is_nether",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "start_pool": "moai_statues:nether/nether_bricks",
+  "start_pool": "moai_statues:nether/red_nether_bricks",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",
