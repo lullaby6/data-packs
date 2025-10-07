@@ -19,7 +19,7 @@
 									"id": "minecraft:armor_stand",
 									"Invulnerable": true,
 									"ShowArms": true,
-									"NoBasePlate": true,
+									"NoBasePlate": false,
 									"Tags": [
 										"target_dummy.entity",
 										"target_dummy.dummy"

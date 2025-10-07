@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:armor_stand",
+							"minecraft:leather_chestplate",
+							"minecraft:hay_block"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["target_dummy:dummy"]
+	}
+}

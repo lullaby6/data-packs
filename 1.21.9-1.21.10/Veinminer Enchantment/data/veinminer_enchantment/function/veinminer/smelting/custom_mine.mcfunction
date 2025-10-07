@@ -1,0 +1,1 @@
+execute if predicate veinminer_enchantment:smelting run function veinminer_enchantment:veinminer/smelting/smelting

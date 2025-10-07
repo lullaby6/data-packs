@@ -1,0 +1,1 @@
+$data remove storage portals:blocks portals.$(id)

@@ -1,9 +1,11 @@
 {
    "pack": {
-      "pack_format": 81,
-      "description": [
+		"pack_format": 88,
+		"min_format": 88,
+		"max_format": 88,
+		"description": [
             {
-                "text": "Lucky Blocks World",
+                "text": "Lucky Blocks World Add-on",
                 "color": "#FFAA00"
             },
             {
