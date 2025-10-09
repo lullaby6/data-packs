@@ -1,0 +1,1 @@
+execute as @e[type=#leveled_mobs:mobs,tag=!leveled_mobs.mob.ignore,tag=!leveled_mobs.mob.procced] unless data entity @s CustomName run function leveled_mobs:level

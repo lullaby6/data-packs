@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "sleeping_messages:sleep"
+  }
+}

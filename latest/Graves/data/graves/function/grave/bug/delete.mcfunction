@@ -1,1 +1,0 @@
-$kill @e[tag=graves.grave.entity,scores={graves.grave.entity.grave.id=$(id)}]

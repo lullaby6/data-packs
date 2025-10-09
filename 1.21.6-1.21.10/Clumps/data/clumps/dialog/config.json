@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Clumps Config",
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Exit",
+    "tooltip": "Click to exit"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Merge",
+      "tooltip": "Click to edit merge",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s clumps:config/merge"
+      }
+    },
+    {
+      "label": "Merge Radius",
+      "tooltip": "Click to edit merge radius",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s clumps:config/merge_radius"
+      }
+    },
+        {
+      "label": "Instant Pickup",
+      "tooltip": "Click to edit instant pickup",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s clumps:config/instant_pickup"
+      }
+    },
+    {
+      "label": "Instant Pickup Radius",
+      "tooltip": "Click to edit instant pickup radius",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s clumps:config/instant_pickup_radius"
+      }
+    },
+    {
+      "label": "Reset Config",
+      "tooltip": "Click to reset config",
+      "action": {
+        "type": "run_command",
+        "command": "/function clumps:config/load"
+      }
+    }
+  ]
+}

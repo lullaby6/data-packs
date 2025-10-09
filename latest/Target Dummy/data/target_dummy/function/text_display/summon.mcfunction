@@ -1,1 +1,0 @@
-$summon text_display ^-0.375 ^1.75 ^0.5 {Tags:["target_dummy.entity","target_dummy.text_display"],billboard:"center",default_background:0b,shadow:0b,see_through:0b,alignment:"center",text:{"color":"red","text":"$(hurt)"},background:16777215}

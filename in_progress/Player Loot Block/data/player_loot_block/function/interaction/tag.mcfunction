@@ -1,0 +1,1 @@
+$tag @p add player_loot_block.player.$(id)

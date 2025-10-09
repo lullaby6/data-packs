@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:snowball] at @s on origin if entity @s[type=minecraft:snow_golem] as @n[type=minecraft:snowball] at @s if entity @e[type=#useful_snow_golems:hostile,distance=..2.25] run function useful_snow_golems:impact/snowball

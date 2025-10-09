@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["#D#", "SPS", "#E#"],
+  "key": {
+    "#": "minecraft:gold_block",
+    "D": "minecraft:dune_armor_trim_smithing_template",
+    "S": "minecraft:skeleton_skull",
+    "P": "minecraft:diamond_helmet",
+    "E": "minecraft:enchanted_golden_apple"
+  },
+  "result": {
+    "id": "minecraft:leather_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:dyed_color": 14271576,
+      "minecraft:trim": {
+        "material": "minecraft:gold",
+        "pattern": "minecraft:dune"
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:max_damage": 363,
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "c4800d88-a0b6-452f-9a2d-5e02741258a1",
+          "type": "armor",
+          "amount": 2.5,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "70e320d7-4d70-4da6-a3c6-fe8604b64609",
+          "type": "armor_toughness",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "78f9180c-5424-424c-b5e6-33f61fdbe865",
+          "type": "entity_interaction_range",
+          "amount": 0.125,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "ed9af9d4-2762-1348-a399-2310c1b64e1a",
+          "type": "block_interaction_range",
+          "amount": 0.25,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "head",
+        "asset_id": "minecraft:leather",
+        "equip_sound": "item.armor.equip_diamond",
+        "dispensable": true,
+        "swappable": true,
+        "damage_on_hurt": true
+      },
+      "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:dyed_color",
+            "minecraft:trim"
+          ]
+      },
+      "minecraft:custom_data": {
+        "armor_upgrades.dune": true
+      },
+      "minecraft:custom_name": {
+        "text": "Dune Helmet",
+        "italic": false
+      }
+    }
+  }
+}

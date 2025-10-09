@@ -1,1 +1,0 @@
-$tellraw @s {"text":"$(register_success_text)","color":"$(register_success_color)"}

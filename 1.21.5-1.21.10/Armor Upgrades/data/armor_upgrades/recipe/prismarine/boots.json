@@ -1,0 +1,94 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#TP",
+        "CDC",
+        "PE#"
+    ],
+    "key": {
+        "#": "minecraft:prismarine_shard",
+        "T": "minecraft:tide_armor_trim_smithing_template",
+        "P": "minecraft:prismarine_crystals",
+        "C": "minecraft:conduit",
+        "D": "minecraft:diamond_boots",
+        "E": "minecraft:enchanted_golden_apple"
+    },
+    "result": {
+        "id": "minecraft:leather_boots",
+        "count": 1,
+        "components": {
+          "minecraft:dyed_color": 4292970,
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:tide"
+          },
+          "minecraft:rarity": "epic",
+          "minecraft:max_damage": 429,
+          "minecraft:attribute_modifiers": [
+            {
+              "id": "44aa3b07-5db1-40b5-8923-2ba7317ea6df",
+              "type": "armor",
+              "amount": 2.5,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "id": "d37067cf-1dd7-40f5-8712-e28b151b81a0",
+              "type": "armor_toughness",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "id": "ed9af9d4-2762-4238-a399-2610c1b64e1a",
+              "type": "max_health",
+              "amount": 1.5,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "id": "49c2b813-ed7f-4b76-b4bf-096806254d6b",
+              "type": "water_movement_efficiency",
+              "amount": 0.25,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "id": "e466615a-2918-4544-84fc-980b86f7743f",
+              "type": "oxygen_bonus",
+              "amount": 10,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "id": "0a0c8445-1cce-4e09-901a-f8c180a94713",
+              "type": "submerged_mining_speed",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "feet"
+            }
+          ],
+          "minecraft:equippable": {
+            "slot": "feet",
+            "asset_id": "minecraft:leather",
+            "equip_sound": "item.armor.equip_diamond",
+            "dispensable": true,
+            "swappable": true,
+            "damage_on_hurt": true
+          },
+          "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:dyed_color",
+                "minecraft:trim"
+              ]
+          },
+          "minecraft:custom_data": {
+            "armor_upgrades.prismarine": true
+          },
+          "minecraft:custom_name": {
+            "text": "Prismarine Boots",
+            "italic": false
+          }
+        }
+    }
+}

@@ -1,2 +1,0 @@
-execute as @e[tag=player_loot_block.armor_stand] at @s run function player_loot_block:armor_stand/tick
-execute as @e[tag=player_loot_block.interaction] at @s run function player_loot_block:interaction/tick

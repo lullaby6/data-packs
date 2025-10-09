@@ -1,0 +1,62 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "Use to teleport to the linked lodestone",
+      "color": "gray",
+      "italic": false
+    },
+    "",
+    {
+      "text": "X: ",
+      "extra": [
+        {
+          "score": {
+            "objective": "ender_compass.x",
+            "name": "@s"
+          },
+          "extra": [
+            {
+              "text": " Y: ",
+              "extra": [
+                {
+                  "score": {
+                    "objective": "ender_compass.y",
+                    "name": "@s"
+                  },
+                  "extra": [
+                    {
+                      "text": " Z: ",
+                      "extra": [
+                        {
+                          "score": {
+                            "objective": "ender_compass.z",
+                            "name": "@s"
+                          },
+                          "color": "gray",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "color": "gray",
+              "italic": false
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "color": "gray",
+      "italic": false
+    }
+  ],
+  "mode": "replace_all"
+}

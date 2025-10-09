@@ -1,1 +1,0 @@
-$title @s actionbar [{color:"$(message_combat_time_color)",text:"$(message_combat_time_text)"},{color:"$(message_combat_time_time_color)","score":{"name":"@s","objective":"combat_log.player.time"}}]

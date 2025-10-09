@@ -1,0 +1,1 @@
+execute as @a if score @s storage_picker.player.use.carrot_on_a_stick matches 1.. run function storage_picker:player/use/carrot_on_a_stick

@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Leveled Mobs Config",
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Exit",
+    "tooltip": "Click to exit"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Max Level",
+      "tooltip": "Click to edit max level",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s leveled_mobs:config/max_level"
+      }
+    },
+    {
+      "label": "Distance",
+      "tooltip": "Click to edit distance",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s leveled_mobs:config/distance"
+      }
+    },
+    {
+      "label": "Max Health Factor",
+      "tooltip": "Click to edit max health factor",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s leveled_mobs:config/add_max_health"
+      }
+    },
+    {
+      "label": "Attack Damage Factor",
+      "tooltip": "Click to edit attack damage factor",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s leveled_mobs:config/add_attack_damage"
+      }
+    },
+    {
+      "label": "Max Power",
+      "tooltip": "Click to edit max power",
+      "action": {
+        "type": "run_command",
+        "command": "/dialog show @s leveled_mobs:config/max_power"
+      }
+    },
+    {
+      "label": "Reset Config",
+      "tooltip": "Click to reset config",
+      "action": {
+        "type": "run_command",
+        "command": "/function leveled_mobs:config/load"
+      }
+    }
+  ]
+}

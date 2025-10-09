@@ -1,1 +1,0 @@
-execute summon skeleton run function lullaby_mobs:mob/skeleton_hunter/data

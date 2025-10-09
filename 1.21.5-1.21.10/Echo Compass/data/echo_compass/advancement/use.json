@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "echo_compass": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "echo_compass:echo_compass/use"
+  }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=#minecraft:arrows,tag=!arrow_force_enchantment.arrow,nbt={OnGround:0b},distance=..4] at @s on origin unless entity @s[predicate=arrow_force_enchantment:arrow_force] as @n[type=#minecraft:arrows] run function arrow_force_enchantment:use

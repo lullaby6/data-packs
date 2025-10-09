@@ -1,1 +1,0 @@
-execute if entity @e[tag=target_dummy.entity] run function target_dummy:tick/tick

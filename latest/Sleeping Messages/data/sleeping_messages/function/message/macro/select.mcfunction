@@ -1,1 +1,0 @@
-$data modify storage sleeping_messages:config message set from storage sleeping_messages:config messages[$(index)]

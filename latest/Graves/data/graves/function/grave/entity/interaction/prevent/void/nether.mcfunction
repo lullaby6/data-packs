@@ -1,1 +1,0 @@
-execute if score @s graves.grave.pos.y matches ..0 run tp ~ 5 ~

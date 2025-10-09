@@ -1,1 +1,0 @@
-execute as @e[distance=..10] at @s run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:anvil"},Time:200}

@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "pack_format": 81,
+        "description": [
+            {
+                "text": "Death Back Potion",
+                "color": "#35053f"
+            },
+            {
+                "text": " - \nBy ",
+                "color": "gray"
+            },
+            {
+                "text": "github.com/lullaby6",
+                "color": "#683edd"
+            }
+        ]
+    }
+}

@@ -1,1 +1,0 @@
-execute as @a if items entity @s player.cursor *[minecraft:repair_cost] at @s run function disable_too_expensive:check

@@ -1,1 +1,0 @@
-$xp add @p[scores={utils.player.id=$(player_id)}] $(xp) points

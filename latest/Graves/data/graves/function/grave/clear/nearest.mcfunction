@@ -1,1 +1,0 @@
-execute as @n[tag=graves.grave] run function graves:grave/clear

@@ -1,1 +1,0 @@
-$tellraw @s [{"color":"gray","text":"Your nearest grave is at "},{"color":"green","text":"$(x) $(y) $(z)"},{"color":"gray","text":" in $(dimension)."}]

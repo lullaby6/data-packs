@@ -1,1 +1,0 @@
-execute if data entity @s interaction run function player_loot_block:interaction/interaction

@@ -1,0 +1,8 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      }
+    }
+  }

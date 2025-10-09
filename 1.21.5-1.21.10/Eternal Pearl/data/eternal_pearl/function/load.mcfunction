@@ -1,0 +1,1 @@
+scoreboard objectives add eternal_pearl.player.use.ender_pearl minecraft.used:minecraft.ender_pearl

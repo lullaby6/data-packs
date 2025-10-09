@@ -1,0 +1,1 @@
+summon sheep ~ ~-1 ~ {Color:6b}

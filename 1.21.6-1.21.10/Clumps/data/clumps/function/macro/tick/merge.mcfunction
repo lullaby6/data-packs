@@ -1,0 +1,1 @@
+$execute if entity @e[type=minecraft:experience_orb] as @e[type=minecraft:experience_orb,limit=1] at @s if entity @e[type=minecraft:experience_orb,distance=0.1..$(merge_radius)] as @e[type=experience_orb,distance=0.1..$(merge_radius)] run function clumps:merge

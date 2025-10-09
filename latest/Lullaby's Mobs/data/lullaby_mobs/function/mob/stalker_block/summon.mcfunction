@@ -1,1 +1,0 @@
-execute summon silverfish run function lullaby_mobs:mob/stalker_block/data

@@ -1,0 +1,9 @@
+{
+    "values": [
+        "magnetic_enchantment:load",
+        "smelting_enchantment:load",
+        "soulbound_enchantment:load",
+        "timber_enchantment:load",
+        "veinminer_enchantment:load"
+    ]
+}

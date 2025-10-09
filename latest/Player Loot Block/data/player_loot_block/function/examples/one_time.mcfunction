@@ -1,1 +1,0 @@
-function player_loot_block:give {"block_loot":"diamond_block","block_container":"light_blue_stained_glass","loot_table":"minecraft:blocks/diamond_block","reset_time":0}

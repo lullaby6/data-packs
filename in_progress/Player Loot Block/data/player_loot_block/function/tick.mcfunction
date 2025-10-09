@@ -1,0 +1,1 @@
+execute if entity @e[tag=player_loot_block.armor_stand] run function player_loot_block:real_tick

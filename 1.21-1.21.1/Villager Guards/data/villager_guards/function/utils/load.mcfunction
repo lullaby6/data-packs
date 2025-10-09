@@ -1,2 +1,2 @@
 team add player
-team modify player friendlyFire false
+team modify player friendlyFire true

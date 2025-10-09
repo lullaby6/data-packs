@@ -1,4 +1,0 @@
-scoreboard objectives add player_loot_block.armor_stand.id dummy
-scoreboard objectives add player_loot_block.armor_stand.reset_time dummy
-scoreboard objectives add player_loot_block.armor_stand.reset_time.original dummy
-scoreboard objectives add player_loot_block.interaction.check dummy

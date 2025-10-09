@@ -1,1 +1,0 @@
-$execute as @a[gamemode=!spectator] at @s if entity @e[type=minecraft:experience_orb,distance=..$(instant_pickup_radius)] as @e[type=minecraft:experience_orb,distance=..$(instant_pickup_radius)] run function clumps:instant_pickup

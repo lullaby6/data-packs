@@ -1,0 +1,9 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:wooden_sword",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:wooden_axe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:wooden_pickaxe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:wooden_shovel",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:wooden_hoe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:leather_helmet",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:leather_chestplate",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:leather_leggings",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:leather_boots",count:1}}

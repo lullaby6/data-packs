@@ -1,1 +1,0 @@
-execute summon iron_golem run function target_dummy:dummy/hitbox/data

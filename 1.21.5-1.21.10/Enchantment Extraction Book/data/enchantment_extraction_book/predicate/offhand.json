@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:custom_data": {
+            "enchantment_extraction_book": true
+          }
+        }
+      }
+    }
+  }
+}

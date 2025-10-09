@@ -1,0 +1,5 @@
+{
+  "function": "minecraft:set_count",
+  "count":  -40,
+  "add": true
+}

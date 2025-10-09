@@ -1,0 +1,1 @@
+$title @s actionbar {"text":"$(please_register_text)","color":"$(please_register_color)"}

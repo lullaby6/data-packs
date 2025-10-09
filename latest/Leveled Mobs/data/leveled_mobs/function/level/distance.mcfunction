@@ -1,2 +1,0 @@
-execute if score @s leveled_mobs.mob.x > @s leveled_mobs.mob.z store result score @s leveled_mobs.mob.level run return run scoreboard players get @s leveled_mobs.mob.x
-execute store result score @s leveled_mobs.mob.level run scoreboard players get @s leveled_mobs.mob.z

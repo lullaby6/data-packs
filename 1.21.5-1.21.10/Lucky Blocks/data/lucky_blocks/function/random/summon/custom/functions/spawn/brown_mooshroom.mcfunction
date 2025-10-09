@@ -1,0 +1,1 @@
+summon mooshroom ~ ~-1 ~ {Type:"brown"}

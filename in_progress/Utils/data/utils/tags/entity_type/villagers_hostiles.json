@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:raiders",
+        "minecraft:vex",
+        "minecraft:warden",
+        "minecraft:wither",
+        "minecraft:ender_dragon",
+        "minecraft:zoglin",
+        "minecraft:drowned",
+        "minecraft:zombie_villager",
+        "minecraft:zombie",
+        "minecraft:husk"
+    ]
+}
