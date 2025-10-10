@@ -1,0 +1,26 @@
+{
+	"description": "",
+	"max_level": 1,
+	"slots": ["hand"],
+	"supported_items": ["minecraft:music_disc_5"],
+	"weight": 1,
+	"anvil_cost": 0,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"effects": {
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "run_function",
+					"function": "magicraft:player/grimorie/left_click"
+				}
+			}
+		]
+	}
+}

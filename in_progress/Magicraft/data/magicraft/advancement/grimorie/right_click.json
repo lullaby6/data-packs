@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"magicraft.item.grimorie": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "magicraft:player/grimorie/right_click"
+	}
+}
