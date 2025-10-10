@@ -1,0 +1,10 @@
+scoreboard players reset @a chat_coords
+
+execute store result score @s chat_coords.player.x run data get entity @s Pos[0]
+execute store result score @s chat_coords.player.y run data get entity @s Pos[1]
+execute store result score @s chat_coords.player.z run data get entity @s Pos[2]
+
+execute if dimension minecraft:overworld run return run tellraw @a [{"color":"aqua","selector":"@s"},{"color":"gray","text":" is at "},{"color":"green","score":{"name":"@s","objective":"chat_coords.player.x"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.y"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.z"}},{"color":"gray","text":" in the "},{"color":"dark_green","text":"Overworld"},{"color":"gray","text":"."}]
+execute if dimension minecraft:the_nether run return run tellraw @a [{"color":"aqua","selector":"@s"},{"color":"gray","text":" is at "},{"color":"green","score":{"name":"@s","objective":"chat_coords.player.x"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.y"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.z"}},{"color":"gray","text":" in the "},{"color":"dark_red","text":"Nether"},{"color":"gray","text":"."}]
+execute if dimension minecraft:the_end run return run tellraw @a [{"color":"aqua","selector":"@s"},{"color":"gray","text":" is at "},{"color":"green","score":{"name":"@s","objective":"chat_coords.player.x"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.y"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.z"}},{"color":"gray","text":" in the "},{"color":"yellow","text":"End"},{"color":"gray","text":"."}]
+tellraw @a [{"color":"aqua","selector":"@s"},{"color":"gray","text":" is at "},{"color":"green","score":{"name":"@s","objective":"chat_coords.player.x"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.y"}}," ",{"color":"green","score":{"name":"@s","objective":"chat_coords.player.z"}},{"color":"gray","text":" in a unknow dimension."}]

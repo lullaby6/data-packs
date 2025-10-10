@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"text": "Chat Coords"
+	},
+	"can_close_with_escape": true,
+	"pause": false,
+	"exit_action": {
+		"label": "Exit",
+		"tooltip": {
+			"text": "Click to exit"
+		}
+	},
+	"actions": [
+		{
+			"label": {
+				"text": "Share Coords"
+			},
+			"tooltip": {
+				"text": "Click to share your coords in the chat"
+			},
+			"action": {
+				"type": "run_command",
+				"command": "/trigger chat_coords"
+			}
+		}
+	]
+}
