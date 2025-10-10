@@ -1,4 +1,4 @@
-execute unless entity @s[tag=magicraft.player.learn.spell] run return fail
+execute unless entity @s[tag=magicraft.player.spell.learn] run return fail
 execute if score @s magicraft.player.mana.value matches 0 run return fail
 execute if entity @s[nbt={active_effects:[{id:"minecraft:mining_fatigue",amplifier:12b}]}] run return fail
 

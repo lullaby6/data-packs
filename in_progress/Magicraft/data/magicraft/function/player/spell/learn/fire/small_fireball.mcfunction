@@ -1,7 +1,7 @@
-execute if entity @s[tag=magicraft.player.learn.spell.fire.small_fireball] run return fail
+execute if entity @s[tag=magicraft.player.spell.learn.fire.small_fireball] run return fail
 
-tag @s add magicraft.player.learn.spell
-tag @s add magicraft.player.learn.spell.fire.small_fireball
+tag @s add magicraft.player.spell.learn
+tag @s add magicraft.player.spell.learn.fire.small_fireball
 
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 0.5 2
 

@@ -1,7 +1,7 @@
-execute if entity @s[tag=magicraft.player.learn.spell.life.healing] run return fail
+execute if entity @s[tag=magicraft.player.spell.learn.life.healing] run return fail
 
-tag @s add magicraft.player.learn.spell
-tag @s add magicraft.player.learn.spell.life.healing
+tag @s add magicraft.player.spell.learn
+tag @s add magicraft.player.spell.learn.life.healing
 
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 0.5 2
 
