@@ -1,7 +1,0 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{Item:{components:{\"minecraft:custom_data\":{\"villager_guards.guard.head\":1b}}}}"
-    }
-  }

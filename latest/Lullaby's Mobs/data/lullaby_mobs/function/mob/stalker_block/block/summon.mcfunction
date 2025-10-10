@@ -1,1 +1,0 @@
-execute summon block_display run function lullaby_mobs:mob/stalker_block/block/data

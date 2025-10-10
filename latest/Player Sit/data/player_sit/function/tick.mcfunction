@@ -1,1 +1,0 @@
-execute as @e[tag=player_sit.temp] at @s run function player_sit:temp/tick

@@ -1,1 +1,0 @@
-summon chicken ~ ~-1 ~ {Passengers:[{id:"minecraft:zombie",IsBaby:1b}]}

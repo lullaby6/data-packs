@@ -1,1 +1,0 @@
-function portals:load/schedules/check

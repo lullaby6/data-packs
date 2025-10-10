@@ -1,1 +1,0 @@
-summon blaze ~ ~ ~ {Passengers:[{id:"minecraft:blaze",Passengers:[{id:"minecraft:blaze",Passengers:[{id:"minecraft:blaze",Passengers:[{id:"minecraft:blaze",Passengers:[{id:"minecraft:blaze"}]}]}]}]}]}

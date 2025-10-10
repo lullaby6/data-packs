@@ -1,1 +1,0 @@
-$summon experience_orb ~ ~ ~ {Tags:["graves.grave.loot.xp"],Value:$(xp)}

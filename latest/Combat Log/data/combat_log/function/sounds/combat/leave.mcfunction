@@ -1,1 +1,0 @@
-$playsound $(sound_combat_leave) master @s ~ ~ ~ .5 $(sound_combat_leave_pitch)

@@ -1,1 +1,0 @@
-execute summon husk run function lullaby_mobs:mob/mummy/data
