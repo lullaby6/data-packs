@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "components": {
+          "minecraft:custom_data": {
+            "armor_upgrades.ender": true
+          }
+        }
+      },
+      "chestplate": {
+        "components": {
+          "minecraft:custom_data": {
+            "armor_upgrades.ender": true
+          }
+        }
+      },
+      "leggings": {
+        "components": {
+          "minecraft:custom_data": {
+            "armor_upgrades.ender": true
+          }
+        }
+      },
+      "feet": {
+        "components": {
+          "minecraft:custom_data": {
+            "armor_upgrades.ender": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Max Health Factor - Leveled Mobs Config",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "value",
+      "width": 200,
+      "label": "Max Health Factor",
+      "start": 1,
+      "end": 100,
+      "step": 1,
+      "initial": 4
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "Click to go back",
+    "action": {
+      "type": "run_command",
+      "command": "/dialog show @s leveled_mobs:config"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Save",
+      "tooltip": "Click to edit max health factor",
+      "width": 200,
+      "action": {
+        "type": "dynamic/run_command",
+        "template": "/scoreboard players set add_max_health leveled_mobs.config $(value)"
+      }
+    }
+  ]
+}

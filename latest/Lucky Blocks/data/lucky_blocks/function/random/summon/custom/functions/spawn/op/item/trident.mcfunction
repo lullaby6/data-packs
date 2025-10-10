@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:trident",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:impaling":5,"minecraft:loyalty":3,"minecraft:riptide":3,"minecraft:mending":1,"minecraft:unbreaking":3}}}}}

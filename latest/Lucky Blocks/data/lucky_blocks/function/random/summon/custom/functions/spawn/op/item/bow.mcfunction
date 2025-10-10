@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:flame":1,"minecraft:power":5,"minecraft:punch":2,"minecraft:mending":1,"minecraft:unbreaking":3}}}}}

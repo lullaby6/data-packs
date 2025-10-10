@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Max Level - Leveled Mobs Config",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "value",
+      "width": 200,
+      "label": "Max Level",
+      "start": 1,
+      "end": 1000,
+      "step": 1,
+      "initial": 100
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "Click to go back",
+    "action": {
+      "type": "run_command",
+      "command": "/dialog show @s leveled_mobs:config"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Save",
+      "tooltip": "Click to edit max level",
+      "width": 200,
+      "action": {
+        "type": "dynamic/run_command",
+        "template": "/scoreboard players set max_level leveled_mobs.config $(value)"
+      }
+    }
+  ]
+}

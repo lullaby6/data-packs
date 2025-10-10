@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "recall_potion": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "recall_potion:consume"
+  }
+}

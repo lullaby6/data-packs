@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_chestplate",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

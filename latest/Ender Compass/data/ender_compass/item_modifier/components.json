@@ -1,0 +1,16 @@
+{
+    "function": "minecraft:set_components",
+    "entity": "this",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 0.05,
+        "animation": "none",
+        "sound": "minecraft:entity.player.teleport",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 4,
+        "cooldown_group": "ender_compass:cooldown"
+      }
+    }
+}

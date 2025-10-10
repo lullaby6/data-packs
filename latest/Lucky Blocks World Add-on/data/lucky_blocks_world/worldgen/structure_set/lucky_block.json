@@ -1,0 +1,17 @@
+{
+	"structures": [
+		{
+			"structure": "lucky_blocks_world:lucky_block",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1256891,
+		"spacing": 20,
+		"separation": 15,
+		"frequency": 0.8,
+		"spread_type": "triangular",
+		"frequency_reduction_method": "default"
+	}
+}

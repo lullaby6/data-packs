@@ -1,0 +1,4 @@
+execute if entity @s[tag=redstone_robot.robot.mode.quiet] if items entity @s weapon.mainhand #redstone_robot:mode run return run function redstone_robot:stand/change
+execute if entity @s[tag=redstone_robot.robot.mode.follow] unless items entity @s weapon.mainhand minecraft:stick run return run function redstone_robot:stand/change
+execute if entity @s[tag=redstone_robot.robot.mode.attack.melee] unless items entity @s weapon.mainhand minecraft:iron_sword run return run function redstone_robot:stand/change
+execute if entity @s[tag=redstone_robot.robot.mode.attack.ranged] unless items entity @s weapon.mainhand #redstone_robot:range run return run function redstone_robot:stand/change

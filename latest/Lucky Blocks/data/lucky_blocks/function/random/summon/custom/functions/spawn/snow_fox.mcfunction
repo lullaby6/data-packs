@@ -1,0 +1,1 @@
+summon fox ~ ~-1 ~ {Type:"snow"}

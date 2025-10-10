@@ -1,0 +1,9 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_sword",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_axe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_pickaxe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_shovel",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_hoe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_helmet",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_chestplate",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_leggings",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:iron_boots",count:1}}

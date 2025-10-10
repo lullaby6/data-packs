@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "experience_bottle.empty": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+      "function": "experience_bottle:empty/consume"
+  }
+}

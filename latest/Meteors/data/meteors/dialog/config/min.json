@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Min Time - Meteors Config",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "value",
+      "width": 200,
+      "label": "Min Time",
+      "start": 100,
+      "end": 1999,
+      "step": 1,
+      "initial": 600
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "Click to go back",
+    "action": {
+      "type": "run_command",
+      "command": "/dialog show @s meteors:config"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Save",
+      "tooltip": "Click to edit min time",
+      "width": 200,
+      "action": {
+        "type": "dynamic/run_command",
+        "template": "/scoreboard players set min_time meteors.config $(value)"
+      }
+    }
+  ]
+}

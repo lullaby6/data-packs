@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:stone_pickaxe",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:stone_pickaxe",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

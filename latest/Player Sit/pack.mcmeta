@@ -1,0 +1,19 @@
+{
+   "pack": {
+      "pack_format": 80,
+      "description": [
+            {
+                "text": "Player Sit",
+                "color": "#0094FF"
+            },
+            {
+                "text": " - \nBy ",
+                "color": "gray"
+            },
+            {
+                "text": "github.com/lullaby6",
+                "color": "#683edd"
+            }
+        ]
+   }
+}

@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 0.05,
+        "animation": "none",
+        "sound": "minecraft:block.enchantment_table.use",
+        "has_consume_particles": false
+      }
+    }
+}

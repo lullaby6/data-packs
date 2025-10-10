@@ -1,0 +1,7 @@
+{
+    "function": "minecraft:set_custom_data",
+    "entity": "this",
+    "tag": {
+        "ender_compass.dimension": "the_end"
+    }
+}
