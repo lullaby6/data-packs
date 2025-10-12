@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:copper_pickaxe",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:copper_pickaxe",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

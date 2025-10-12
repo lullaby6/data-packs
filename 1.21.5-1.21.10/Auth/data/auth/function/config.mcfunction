@@ -1,7 +1,7 @@
 function auth:utils/player/clear_chat
 
 tellraw @s [{"text":"==========[ ","color":"gray"},{"text":"Auth","color":"white","bold":true},{"text":" ]==========","color":"gray"}]
-tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v1.6.0"}]
+tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v1.6.1"}]
 
 tellraw @s ""
 

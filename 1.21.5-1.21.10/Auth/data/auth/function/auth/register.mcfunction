@@ -14,4 +14,4 @@ tag @s add auth.logged
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 1
 
-tellraw @s {"text":"Registered successfully","color":"green"}
+tellraw @s {"text":"Registered successfully.","color":"green"}

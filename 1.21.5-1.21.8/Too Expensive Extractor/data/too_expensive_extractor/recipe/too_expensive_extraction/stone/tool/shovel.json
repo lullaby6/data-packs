@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:stone_shovel",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:stone_shovel",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}
