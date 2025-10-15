@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "name": "updraft",
+    "text": "Updraft",
+    "tag": "air.updraft",
+    "category": "air",
+    "function": "air/updraft",
+    "color": "white",
+    "item": "wind_charge"
+  },
+  {
+    "id": 2,
+    "name": "wind_charge",
+    "text": "Wind Charge",
+    "tag": "air.wind_charge",
+    "category": "air",
+    "function": "air/wind_charge",
+    "color": "white",
+    "item": "wind_charge"
+  },
+  {
+    "id": 3,
+    "name": "wind_shoots",
+    "text": "Wind Shoots",
+    "tag": "air.wind_shoots",
+    "category": "air",
+    "function": "air/wind_shoots",
+    "color": "white",
+    "item": "wind_charge"
+  },
+  {
+    "id": 4,
+    "name": "fangs_area",
+    "text": "Fangs Area",
+    "tag": "fangs.fangs_area",
+    "category": "fangs",
+    "function": "fangs/fangs_area",
+    "color": "gray",
+    "item": "totem_of_undying"
+  },
+  {
+    "id": 5,
+    "name": "fangs_circle",
+    "text": "Fangs Circle",
+    "tag": "fangs.fangs_circle",
+    "category": "fangs",
+    "function": "fangs/fangs_circle",
+    "color": "gray",
+    "item": "totem_of_undying"
+  },
+  {
+    "id": 6,
+    "name": "fangs_tail",
+    "text": "Fangs Tail",
+    "tag": "fangs.fangs_tail",
+    "category": "fangs",
+    "function": "fangs/fangs_tail",
+    "color": "gray",
+    "item": "totem_of_undying"
+  },
+  {
+    "id": 7,
+    "name": "fangs_wall",
+    "text": "Fangs Wall",
+    "tag": "fangs.fangs_wall",
+    "category": "fangs",
+    "function": "fangs/fangs_wall",
+    "color": "gray",
+    "item": "totem_of_undying"
+  },
+  {
+    "id": 8,
+    "name": "fireball",
+    "text": "Fireball",
+    "tag": "fire.fireball",
+    "category": "fire",
+    "function": "fire/fireball",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 9,
+    "name": "fireball_rain",
+    "text": "Fireball Rain",
+    "tag": "fire.fireball_rain",
+    "category": "fire",
+    "function": "fire/fireball_rain",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 10,
+    "name": "fire_area",
+    "text": "Fire Area",
+    "tag": "fire.fire_area",
+    "category": "fire",
+    "function": "fire/fire_area",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 11,
+    "name": "fire_circle",
+    "text": "Fire Circle",
+    "tag": "fire.fire_circle",
+    "category": "fire",
+    "function": "fire/fire_circle",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 12,
+    "name": "fire_tail",
+    "text": "Fire Tail",
+    "tag": "fire.fire_tail",
+    "category": "fire",
+    "function": "fire/fire_tail",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 13,
+    "name": "fire_wall",
+    "text": "Fire Wall",
+    "tag": "fire.fire_wall",
+    "category": "fire",
+    "function": "fire/fire_wall",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 14,
+    "name": "small_fireball",
+    "text": "Small Fireball",
+    "tag": "fire.small_fireball",
+    "category": "fire",
+    "function": "fire/small_fireball",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 15,
+    "name": "small_fireball_rain",
+    "text": "Small Fireball Rain",
+    "tag": "fire.small_fireball_rain",
+    "category": "fire",
+    "function": "fire/small_fireball_rain",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 16,
+    "name": "strong_fireball",
+    "text": "Strong Fireball",
+    "tag": "fire.strong_fireball",
+    "category": "fire",
+    "function": "fire/strong_fireball",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 17,
+    "name": "strong_fireball_rain",
+    "text": "Strong Fireball Rain",
+    "tag": "fire.strong_fireball_rain",
+    "category": "fire",
+    "function": "fire/strong_fireball_rain",
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  {
+    "id": 18,
+    "name": "iceball",
+    "text": "Iceball",
+    "tag": "ice.iceball",
+    "category": "ice",
+    "function": "ice/iceball",
+    "color": "aqua",
+    "item": "snowball"
+  },
+  {
+    "id": 19,
+    "name": "ice_area",
+    "text": "Ice Area",
+    "tag": "ice.ice_area",
+    "category": "ice",
+    "function": "ice/ice_area",
+    "color": "aqua",
+    "item": "snowball"
+  },
+  {
+    "id": 20,
+    "name": "small_iceball",
+    "text": "Small Iceball",
+    "tag": "ice.small_iceball",
+    "category": "ice",
+    "function": "ice/small_iceball",
+    "color": "aqua",
+    "item": "snowball"
+  },
+  {
+    "id": 21,
+    "name": "strog_iceball",
+    "text": "Strog Iceball",
+    "tag": "ice.strog_iceball",
+    "category": "ice",
+    "function": "ice/strog_iceball",
+    "color": "aqua",
+    "item": "snowball"
+  },
+  {
+    "id": 22,
+    "name": "ice_floor",
+    "text": "Ice Floor",
+    "tag": "ice.ice_floor",
+    "category": "ice",
+    "function": "ice/ice_floor/ice_floor",
+    "color": "aqua",
+    "item": "snowball"
+  },
+  {
+    "id": 23,
+    "name": "ice_spike",
+    "text": "Ice Spike",
+    "tag": "ice.ice_spike",
+    "category": "ice",
+    "function": "ice/ice_spike/ice_spike",
+    "color": "aqua",
+    "item": "snowball"
+  },
+  {
+    "id": 24,
+    "name": "ice_wall",
+    "text": "Ice Wall",
+    "tag": "ice.ice_wall",
+    "category": "ice",
+    "function": "ice/ice_wall/ice_wall",
+    "color": "aqua",
+    "item": "snowball"
+  },
+  {
+    "id": 25,
+    "name": "cure",
+    "text": "Cure",
+    "tag": "life.cure",
+    "category": "life",
+    "function": "life/cure",
+    "color": "red",
+    "item": "apple"
+  },
+  {
+    "id": 26,
+    "name": "double_life",
+    "text": "Double Life",
+    "tag": "life.double_life",
+    "category": "life",
+    "function": "life/double_life",
+    "color": "red",
+    "item": "apple"
+  },
+  {
+    "id": 27,
+    "name": "glowing_area",
+    "text": "Glowing Area",
+    "tag": "life.glowing_area",
+    "category": "life",
+    "function": "life/glowing_area",
+    "color": "red",
+    "item": "apple"
+  },
+  {
+    "id": 28,
+    "name": "healing",
+    "text": "Healing",
+    "tag": "life.healing",
+    "category": "life",
+    "function": "life/healing",
+    "color": "red",
+    "item": "apple"
+  },
+  {
+    "id": 29,
+    "name": "healing_area",
+    "text": "Healing Area",
+    "tag": "life.healing_area",
+    "category": "life",
+    "function": "life/healing_area",
+    "color": "red",
+    "item": "apple"
+  },
+  {
+    "id": 30,
+    "name": "darkness_area",
+    "text": "Darkness Area",
+    "tag": "sculk.darkness_area",
+    "category": "sculk",
+    "function": "sculk/darkness_area",
+    "color": "dark_blue",
+    "item": "echo_shard"
+  },
+  {
+    "id": 31,
+    "name": "sonic_boom",
+    "text": "Sonic Boom",
+    "tag": "sculk.sonic_boom",
+    "category": "sculk",
+    "function": "sculk/sonic_boom/sonic_boom",
+    "color": "dark_blue",
+    "item": "echo_shard"
+  },
+  {
+    "id": 32,
+    "name": "wither_area",
+    "text": "Wither Area",
+    "tag": "wither.wither_area",
+    "category": "wither",
+    "function": "wither/wither_area",
+    "color": "dark_gray",
+    "item": "wither_skeleton_spawn_egg"
+  },
+  {
+    "id": 33,
+    "name": "wither_skull",
+    "text": "Wither Skull",
+    "tag": "wither.wither_skull",
+    "category": "wither",
+    "function": "wither/wither_skull",
+    "color": "dark_gray",
+    "item": "wither_skeleton_spawn_egg"
+  }
+]

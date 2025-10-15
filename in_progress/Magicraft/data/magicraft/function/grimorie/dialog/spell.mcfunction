@@ -7,7 +7,7 @@ $execute if entity @s[tag=magicraft.player.spell.learn.$(tag)] run data modify s
         },\
         " ",\
         {\
-            "color":"red",\
+            "color":"$(color)",\
             "text":"$(text)"\
         }\
     ],\

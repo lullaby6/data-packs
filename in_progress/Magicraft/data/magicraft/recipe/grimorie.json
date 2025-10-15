@@ -1,0 +1,52 @@
+{
+	"category": "misc",
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["#AP", "EGL", "NQH"],
+	"key": {
+		"#": "minecraft:blaze_powder",
+		"A": "minecraft:amethyst_shard",
+		"P": "minecraft:prismarine_shard",
+		"E": "minecraft:echo_shard",
+		"G": "minecraft:enchanted_book",
+		"L": "minecraft:lapis_lazuli",
+		"N": "minecraft:netherite_scrap",
+		"Q": "minecraft:quartz",
+		"H": "minecraft:ender_pearl"
+	},
+	"result": {
+		"id": "minecraft:music_disc_5",
+		"count": 1,
+		"components": {
+			"!jukebox_playable": {},
+			"minecraft:item_model": "minecraft:written_book",
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:rarity": "epic",
+			"minecraft:custom_data": {
+				"magicraft.item.grimorie": true
+			},
+			"minecraft:custom_name": {
+				"translate": "magicraft.translate.grimorie",
+				"fallback": "Grimorie",
+				"italic": false
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:consumable": {
+				"consume_seconds": 999999,
+				"animation": "trident",
+				"sound": "minecraft:item.book.page_turn",
+				"has_consume_particles": false
+			},
+			"piercing_weapon": {
+				"min_reach": 0.0,
+				"max_reach": 0.0,
+				"hitbox_margin": 0.0
+			},
+			"enchantments": {
+				"magicraft:grimorie": 1
+			},
+			"tooltip_display": {
+				"hidden_components": ["minecraft:enchantments"]
+			}
+		}
+	}
+}

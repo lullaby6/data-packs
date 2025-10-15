@@ -1,5 +1,6 @@
 advancement revoke @s only magicraft:grimorie/right_click
 
+execute if entity @s[nbt={active_effects:[{id:"minecraft:mining_fatigue",amplifier:12b}]}] run return fail
 execute unless entity @s[tag=magicraft.player.spell.learn] run return fail
 
 data modify storage magicraft:dialog data.dialog set value {\
@@ -32,3 +33,5 @@ function magicraft:grimorie/dialog/spells
 function magicraft:grimorie/dialog/show with storage magicraft:dialog data
 
 data remove storage magicraft:dialog data
+
+effect give @s minecraft:mining_fatigue 1 12 true

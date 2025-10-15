@@ -1,4 +1,4 @@
-function magicraft:player/spell/learn/count
+function magicraft:player/spell/learn/count/count
 
 execute if score @s magicraft.player.learn.count = spells_total_count magicraft.global run return run loot give @s loot magicraft:scroll
 

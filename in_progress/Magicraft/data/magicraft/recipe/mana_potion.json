@@ -1,0 +1,40 @@
+{
+	"category": "misc",
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "#P#", "###"],
+	"key": {
+		"#": "minecraft:amethyst_shard",
+		"P": "minecraft:potion"
+	},
+	"result": {
+		"id": "minecraft:music_disc_5",
+		"count": 1,
+		"components": {
+			"!jukebox_playable": {},
+			"minecraft:item_model": "minecraft:potion",
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:rarity": "epic",
+			"minecraft:custom_data": {
+				"magicraft.item.mana_potion": true
+			},
+			"minecraft:custom_name": {
+				"translate": "magicraft.translate.mana_potion",
+				"fallback": "Mana Potion",
+				"italic": false
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:consumable": {
+				"consume_seconds": 1.5,
+				"animation": "drink",
+				"sound": "minecraft:entity.generic.drink",
+				"has_consume_particles": false
+			},
+			"minecraft:potion_contents": {
+				"custom_color": 6432106
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": ["minecraft:potion_contents"]
+			}
+		}
+	}
+}

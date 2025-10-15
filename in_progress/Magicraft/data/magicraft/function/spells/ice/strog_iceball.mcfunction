@@ -1,5 +1,5 @@
-execute unless score @s magicraft.player.mana.value matches 1.. run return fail
-scoreboard players remove @s magicraft.player.mana.value 1
+execute unless score @s magicraft.player.mana.value matches 3.. run return fail
+scoreboard players remove @s magicraft.player.mana.value 3
 
 function magicraft:utils/motion/storage {"value":"-0.001"}
 
