@@ -1,0 +1,1 @@
+$execute store result score @s magicraft.player.learn.random run random value 1..$(spells_total_count)
