@@ -1,0 +1,4 @@
+execute if entity @s[tag=redstone_robot.robot.armor_stand.mode.idle] if items entity @s weapon.mainhand #redstone_robot:mode run return run function redstone_robot:redstone_robot/armor_stand/change
+execute if entity @s[tag=redstone_robot.robot.armor_stand.mode.follow] unless items entity @s weapon.mainhand minecraft:stick run return run function redstone_robot:redstone_robot/armor_stand/change
+execute if entity @s[tag=redstone_robot.robot.armor_stand.mode.attack.melee] unless items entity @s weapon.mainhand minecraft:iron_sword run return run function redstone_robot:redstone_robot/armor_stand/change
+execute if entity @s[tag=redstone_robot.robot.armor_stand.mode.attack.ranged] unless items entity @s weapon.mainhand #redstone_robot:range run return run function redstone_robot:redstone_robot/armor_stand/change

@@ -6,6 +6,6 @@ scoreboard players set @s magicraft.player.learn.learned 1
 
 function magicraft:player/spell/learn/random with storage magicraft:global data
 
-data modify storage magicraft:spells data.learn set from storage magicraft:spells data.spells
+function magicraft:player/spell/learn/prepare with storage magicraft:learn data
 
-function magicraft:player/spell/learn/for
+data remove storage magicraft:learn data

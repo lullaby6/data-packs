@@ -1,22 +1,23 @@
 # Utils
 
-DP Version: `7`
+DP Version: `8`
 
 MC Version: `1.21.X`
 
 ## Features
 
-- Global, Entity and Player Functions
-- Motion Entity in Facing Direction
-- Data Storage by Entity
-- Bossbars per Entity
-- Consts Scores
-- Player Score ID
-- Predicates
-- Item Modifiers
-- Entity Tags
-- Macro Functions
-- Custom Use Remainder
+-   Global, Entity and Player Functions
+-   Motion Entity in Facing Direction
+-   Data Storage by Entity
+-   Bossbars per Entity
+-   Consts Scores
+-   Player Score ID
+-   Predicates
+-   Item Modifiers
+-   Entity Tags
+-   Macro Functions
+-   Custom Use Remainder
+-   For Loop
 
 ## Commands
 
@@ -80,6 +81,12 @@ Random TP for voids worlds:
 
 ```mcfunction
 /function utils:player/random_tp
+```
+
+Get player ID:
+
+```mcfunction
+/scoreboard players get @s utils.player.id
 ```
 
 ## Motion
@@ -168,6 +175,14 @@ Example:
 /execute as @e[type=warden,tag=!utils.bossbar.entity] run function utils:entity/bossbar/entity/load {"name":"Warden","max":500,"color":"blue","name_color":"dark_blue","style":"notched_6","distance":50}
 ```
 
+## For Loop
+
+Do a for loop in a array from a storage
+
+```mcfunction
+/function utils:macro/for {"function":"namespace:my_function_each","storage":"namespace:my_storage","path":"my_storage_path"}
+```
+
 ## Consts
 
 There are constants from 0 to 1000.
@@ -194,25 +209,25 @@ Get the player score ID:
 
 ## Predicates
 
-- can/see_sky
-- has/effect/`<effect_name>` (speed, regeneration, ...)
-- has/passenger
-- in/biome/`<biome_name>`
-- in/structure/`<structure_name>` (village, desert_pyramid, trial_chambers, ...)
-- in/dimension/`<dimension_name>` (overworld, the_nether, the_end)
-- in/light/`<level>` (0, 5, 10, 15, 0-5, 5-10, ...)
-- is/raining
-- is/thundering
-- is/baby
-- is/falling
-- is/flying
-- is/ground
-- is/on_fire
-- is/riding
-- is/sneaking
-- is/sprinting
-- is/swimming
-- random/`<chance>` <0.1 (10%), 0.5 (50%), ...>
+-   can/see_sky
+-   has/effect/`<effect_name>` (speed, regeneration, ...)
+-   has/passenger
+-   in/biome/`<biome_name>`
+-   in/structure/`<structure_name>` (village, desert_pyramid, trial_chambers, ...)
+-   in/dimension/`<dimension_name>` (overworld, the_nether, the_end)
+-   in/light/`<level>` (0, 5, 10, 15, 0-5, 5-10, ...)
+-   is/raining
+-   is/thundering
+-   is/baby
+-   is/falling
+-   is/flying
+-   is/ground
+-   is/on_fire
+-   is/riding
+-   is/sneaking
+-   is/sprinting
+-   is/swimming
+-   random/`<chance>` <0.1 (10%), 0.5 (50%), ...>
 
 Example:
 
@@ -222,32 +237,32 @@ Example:
 
 ## Item Modifiers
 
-- count
-    - count/add/`<number>`
-    - count/remove/`<number>`
-    - count/set/`<number>`
-- enchantment_glint_override/`<boolean>`
-- max_stack_size/`<number>`
-- rarity/`<rarity_name>`
-- remove_component/`<item_component_name>` (use_cooldown, enchantments, max_stack_size, ...)
-- repair_cost/`<number>`
-- tooltip/`<tooltip_name>`/`<show | hide>`
-- use_cooldown/`<time>` (1s, 2s, 1m, 1h, ...)
-- damage
-    - damage/add/0.`<number>`
-    - damage/set/0.`<number>`
-- clear_bundle
-- clear_container
-- death_protection
-- enchant_randomly_compatible
-- enchant_randomly
-- furnace_smelt
-- glider
-- non_consumable
-- one_use
-- remove_container_loot
-- repair
-- unbrekeable
+-   count
+    -   count/add/`<number>`
+    -   count/remove/`<number>`
+    -   count/set/`<number>`
+-   enchantment_glint_override/`<boolean>`
+-   max_stack_size/`<number>`
+-   rarity/`<rarity_name>`
+-   remove_component/`<item_component_name>` (use_cooldown, enchantments, max_stack_size, ...)
+-   repair_cost/`<number>`
+-   tooltip/`<tooltip_name>`/`<show | hide>`
+-   use_cooldown/`<time>` (1s, 2s, 1m, 1h, ...)
+-   damage
+    -   damage/add/0.`<number>`
+    -   damage/set/0.`<number>`
+-   clear_bundle
+-   clear_container
+-   death_protection
+-   enchant_randomly_compatible
+-   enchant_randomly
+-   furnace_smelt
+-   glider
+-   non_consumable
+-   one_use
+-   remove_container_loot
+-   repair
+-   unbrekeable
 
 Example:
 
@@ -257,48 +272,44 @@ Example:
 
 ## Entity Tags
 
-- all_boats
-- animals
-- aquatics_animals
-- aquatics_real_animals
-- aquatics
-- arthropods
-- boats_with_chest
-- boats
-- bosses
-- cows
-- end
-- fishs
-- flyers_hostiles
-- flyers
-- horses
-- hostiles
-- humanoids
-- illagers
-- monsters
-- nether
-- neutrals
-- passives
-- piglins
-- proyectiles
-- real_animals
-- rideables_animals
-- rideables
-- slimes
-- spiders
-- tameables
-- undead
-- villagers_hostiles
-- villagers
-- zombiess
-- team_player
+-   all_boats
+-   animals
+-   aquatics_animals
+-   aquatics_real_animals
+-   aquatics
+-   arthropods
+-   boats_with_chest
+-   boats
+-   bosses
+-   cows
+-   end
+-   fishs
+-   flyers_hostiles
+-   flyers
+-   horses
+-   hostiles
+-   humanoids
+-   illagers
+-   monsters
+-   nether
+-   neutrals
+-   passives
+-   piglins
+-   proyectiles
+-   real_animals
+-   rideables_animals
+-   rideables
+-   slimes
+-   spiders
+-   tameables
+-   undead
+-   villagers_hostiles
+-   villagers
+-   zombiess
+-   team_player
 
 Example:
 
 ```mcfunction
 /effect give @e[type=#utils:team_player] glowing 1 0
 ```
-
-## License
-
-MIT

@@ -1,1 +1,0 @@
-$data merge entity @s {wander_target:[I;$(x),$(y),$(z)]}

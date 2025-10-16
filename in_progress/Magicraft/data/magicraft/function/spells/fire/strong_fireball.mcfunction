@@ -1,5 +1,6 @@
-execute unless score @s magicraft.player.mana.value matches 2.. run return fail
-scoreboard players remove @s magicraft.player.mana.value 2
+execute unless score @s magicraft.player.mana.value matches 10.. run return fail
+scoreboard players remove @s magicraft.player.mana.value 10
+effect give @s minecraft:mining_fatigue 6 12 true
 
 function magicraft:utils/motion/storage {"value":"-0.0001"}
 

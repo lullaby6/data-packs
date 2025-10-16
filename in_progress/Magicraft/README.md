@@ -1,5 +1,10 @@
 # Magicraft
 
+## ToDo
+
+-   Wandering Trader sell Scrolls
+-   Scrolls in Treasures
+
 ## Spells
 
 ### Fire `READY`
@@ -22,7 +27,7 @@
 -   Wind Shoots
 -   Updraft
 
-### Ice
+### Ice `READY`
 
 -   Small Iceball
 -   Iceball
@@ -32,29 +37,12 @@
 -   Ice Spike
 -   Ice Wall
 
-### Leaves
+### Fangs `READY`
 
--   Leaves Wall
--   Leaves Pilar
--   Leaves Floor
--   Leaves Lair
--   Leaves Limbs
--   Leaves Spirit
-
-### Ender
-
--   Ender Perarl
--   End Crystal
--   Dragon Fireball
--   Shulker Bullet
--   Levitate
--   Levitation Area
--   Teleport
--   Spread
--   Skip (Dash)
--   End Laser
--   Attract
--   Replace
+-   Fangs Tail
+-   Fangs Area
+-   Fangs Circle
+-   Fangs Wall
 
 ### Sculk `READY`
 
@@ -65,6 +53,31 @@
 
 -   Wither Skull
 -   Wither Area
+
+### Ender
+
+-   Ender Perarl
+-   Dragon Fireball
+-   Levitate
+-   Levitation Area
+
+-   End Crystal
+-   Shulker Bullet
+-   Teleport
+-   Spread
+-   Skip (Dash)
+-   End Laser
+-   Attract
+-   Replace
+
+### Leaves
+
+-   Leaves Wall
+-   Leaves Pilar
+-   Leaves Floor
+-   Leaves Lair
+-   Leaves Limbs
+-   Leaves Spirit
 
 ### Poison
 
@@ -77,13 +90,15 @@
 -   Heal Area
 -   Double Life
 -   Cure
+-   Glowing Area
+
 -   Love Area
 -   Clone
--   Glowing Area
 
 ### Electric
 
 -   Lightning Bolt
+-   Lightning Rain
 -   Thunder Area
 -   Spark Strike
 
@@ -94,13 +109,6 @@
 -   Cobweb Tail
 -   Cobweb Circle
 -   Cobweb Wall
-
-### Fangs `READY`
-
--   Fangs Tail
--   Fangs Area
--   Fangs Circle
--   Fangs Wall
 
 ### Summon
 
@@ -154,6 +162,7 @@
 -   Mana Steal
 -   Mahoraga
 -   TNT
+-   Yunque Rain
 
 Maybe?
 

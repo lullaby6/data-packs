@@ -11,7 +11,6 @@ scoreboard objectives add magicraft.player.spells dummy
 
 scoreboard objectives add magicraft.player.learn dummy
 scoreboard objectives add magicraft.player.learn.count dummy
-scoreboard objectives add magicraft.player.learn.random dummy
 scoreboard objectives add magicraft.player.learn.learned dummy
 
 scoreboard objectives add magicraft.player.death deathCount

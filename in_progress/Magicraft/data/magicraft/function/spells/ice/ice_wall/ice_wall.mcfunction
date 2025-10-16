@@ -1,32 +1,11 @@
-particle snowflake ~ ~ ~ 1.5 2 1.5 .1 100 force @a
+execute unless score @s magicraft.player.mana.value matches 2.. run return fail
+scoreboard players remove @s magicraft.player.mana.value 2
 
-playsound minecraft:entity.snow_golem.hurt master @a ~ ~ ~ 1 0
-playsound minecraft:block.glass.place master @a ~ ~ ~ 1 0
+execute anchored eyes positioned ^ ^ ^2.5 run function magicraft:spells/ice/ice_wall/raycast
 
-execute if block ^-2 ^ ^ minecraft:air run setblock ^-2 ^ ^ minecraft:ice
-execute if block ^-2 ^1 ^ minecraft:air run setblock ^-2 ^1 ^ minecraft:ice
-execute if block ^-2 ^2 ^ minecraft:air run setblock ^-2 ^2 ^ minecraft:ice
-execute if block ^-2 ^3 ^ minecraft:air run setblock ^-1 ^3 ^ minecraft:ice
+playsound minecraft:entity.snow_golem.death master @a ~ ~ ~ 1 1
+playsound minecraft:block.glass.break master @a ~ ~ ~ 1 2
 
-execute if block ^-1 ^ ^ minecraft:air run setblock ^-1 ^ ^ minecraft:ice
-execute if block ^-1 ^1 ^ minecraft:air run setblock ^-1 ^1 ^ minecraft:ice
-execute if block ^-1 ^2 ^ minecraft:air run setblock ^-1 ^2 ^ minecraft:ice
-execute if block ^-1 ^3 ^ minecraft:air run setblock ^-1 ^3 ^ minecraft:ice
+execute anchored eyes positioned ^ ^ ^2.5 run particle minecraft:snowflake ~ ~ ~ 0 0 0 0.1 10 force @a
 
-execute if block ^ ^ ^ minecraft:air run setblock ^ ^ ^ minecraft:ice
-execute if block ^ ^1 ^ minecraft:air run setblock ^ ^1 ^ minecraft:ice
-execute if block ^ ^2 ^ minecraft:air run setblock ^ ^2 ^ minecraft:ice
-execute if block ^ ^3 ^ minecraft:air run setblock ^ ^3 ^ minecraft:ice
-execute if block ^ ^4 ^1 minecraft:air run setblock ^ ^4 ^1 minecraft:ice
-
-execute if block ^1 ^ ^ minecraft:air run setblock ^1 ^ ^ minecraft:ice
-execute if block ^1 ^1 ^ minecraft:air run setblock ^1 ^1 ^ minecraft:ice
-execute if block ^1 ^2 ^ minecraft:air run setblock ^1 ^2 ^ minecraft:ice
-execute if block ^1 ^3 ^ minecraft:air run setblock ^1 ^3 ^ minecraft:ice
-execute if block ^1 ^4 ^1 minecraft:air run setblock ^1 ^4 ^1 minecraft:ice
-
-execute if block ^2 ^ ^ minecraft:air run setblock ^2 ^ ^ minecraft:ice
-execute if block ^2 ^1 ^ minecraft:air run setblock ^2 ^1 ^ minecraft:ice
-execute if block ^2 ^2 ^ minecraft:air run setblock ^2 ^2 ^ minecraft:ice
-execute if block ^2 ^3 ^ minecraft:air run setblock ^2 ^3 ^ minecraft:ice
-execute if block ^2 ^4 ^1 minecraft:air run setblock ^2 ^4 ^1 minecraft:ice
+return 1

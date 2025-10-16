@@ -31,6 +31,46 @@
   },
   {
     "id": 4,
+    "name": "dragon_fireball",
+    "text": "Dragon Fireball",
+    "tag": "ender.dragon_fireball",
+    "category": "ender",
+    "function": "ender/dragon_fireball",
+    "color": "light_purple",
+    "item": "ender_pearl"
+  },
+  {
+    "id": 5,
+    "name": "ender_pearl",
+    "text": "Ender Pearl",
+    "tag": "ender.ender_pearl",
+    "category": "ender",
+    "function": "ender/ender_pearl",
+    "color": "light_purple",
+    "item": "ender_pearl"
+  },
+  {
+    "id": 6,
+    "name": "levitate",
+    "text": "Levitate",
+    "tag": "ender.levitate",
+    "category": "ender",
+    "function": "ender/levitate",
+    "color": "light_purple",
+    "item": "ender_pearl"
+  },
+  {
+    "id": 7,
+    "name": "levitation_area",
+    "text": "Levitation Area",
+    "tag": "ender.levitation_area",
+    "category": "ender",
+    "function": "ender/levitation_area",
+    "color": "light_purple",
+    "item": "ender_pearl"
+  },
+  {
+    "id": 8,
     "name": "fangs_area",
     "text": "Fangs Area",
     "tag": "fangs.fangs_area",
@@ -40,7 +80,7 @@
     "item": "totem_of_undying"
   },
   {
-    "id": 5,
+    "id": 9,
     "name": "fangs_circle",
     "text": "Fangs Circle",
     "tag": "fangs.fangs_circle",
@@ -50,7 +90,7 @@
     "item": "totem_of_undying"
   },
   {
-    "id": 6,
+    "id": 10,
     "name": "fangs_tail",
     "text": "Fangs Tail",
     "tag": "fangs.fangs_tail",
@@ -60,7 +100,7 @@
     "item": "totem_of_undying"
   },
   {
-    "id": 7,
+    "id": 11,
     "name": "fangs_wall",
     "text": "Fangs Wall",
     "tag": "fangs.fangs_wall",
@@ -70,7 +110,7 @@
     "item": "totem_of_undying"
   },
   {
-    "id": 8,
+    "id": 12,
     "name": "fireball",
     "text": "Fireball",
     "tag": "fire.fireball",
@@ -80,7 +120,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 9,
+    "id": 13,
     "name": "fireball_rain",
     "text": "Fireball Rain",
     "tag": "fire.fireball_rain",
@@ -90,7 +130,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 10,
+    "id": 14,
     "name": "fire_area",
     "text": "Fire Area",
     "tag": "fire.fire_area",
@@ -100,7 +140,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 11,
+    "id": 15,
     "name": "fire_circle",
     "text": "Fire Circle",
     "tag": "fire.fire_circle",
@@ -110,7 +150,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 12,
+    "id": 16,
     "name": "fire_tail",
     "text": "Fire Tail",
     "tag": "fire.fire_tail",
@@ -120,7 +160,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 13,
+    "id": 17,
     "name": "fire_wall",
     "text": "Fire Wall",
     "tag": "fire.fire_wall",
@@ -130,7 +170,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 14,
+    "id": 18,
     "name": "small_fireball",
     "text": "Small Fireball",
     "tag": "fire.small_fireball",
@@ -140,7 +180,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 15,
+    "id": 19,
     "name": "small_fireball_rain",
     "text": "Small Fireball Rain",
     "tag": "fire.small_fireball_rain",
@@ -150,7 +190,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 16,
+    "id": 20,
     "name": "strong_fireball",
     "text": "Strong Fireball",
     "tag": "fire.strong_fireball",
@@ -160,7 +200,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 17,
+    "id": 21,
     "name": "strong_fireball_rain",
     "text": "Strong Fireball Rain",
     "tag": "fire.strong_fireball_rain",
@@ -170,7 +210,7 @@
     "item": "blaze_powder"
   },
   {
-    "id": 18,
+    "id": 22,
     "name": "iceball",
     "text": "Iceball",
     "tag": "ice.iceball",
@@ -180,7 +220,7 @@
     "item": "snowball"
   },
   {
-    "id": 19,
+    "id": 23,
     "name": "ice_area",
     "text": "Ice Area",
     "tag": "ice.ice_area",
@@ -190,7 +230,7 @@
     "item": "snowball"
   },
   {
-    "id": 20,
+    "id": 24,
     "name": "small_iceball",
     "text": "Small Iceball",
     "tag": "ice.small_iceball",
@@ -200,7 +240,7 @@
     "item": "snowball"
   },
   {
-    "id": 21,
+    "id": 25,
     "name": "strog_iceball",
     "text": "Strog Iceball",
     "tag": "ice.strog_iceball",
@@ -210,7 +250,7 @@
     "item": "snowball"
   },
   {
-    "id": 22,
+    "id": 26,
     "name": "ice_floor",
     "text": "Ice Floor",
     "tag": "ice.ice_floor",
@@ -220,7 +260,7 @@
     "item": "snowball"
   },
   {
-    "id": 23,
+    "id": 27,
     "name": "ice_spike",
     "text": "Ice Spike",
     "tag": "ice.ice_spike",
@@ -230,7 +270,7 @@
     "item": "snowball"
   },
   {
-    "id": 24,
+    "id": 28,
     "name": "ice_wall",
     "text": "Ice Wall",
     "tag": "ice.ice_wall",
@@ -240,7 +280,7 @@
     "item": "snowball"
   },
   {
-    "id": 25,
+    "id": 29,
     "name": "cure",
     "text": "Cure",
     "tag": "life.cure",
@@ -250,7 +290,7 @@
     "item": "apple"
   },
   {
-    "id": 26,
+    "id": 30,
     "name": "double_life",
     "text": "Double Life",
     "tag": "life.double_life",
@@ -260,7 +300,7 @@
     "item": "apple"
   },
   {
-    "id": 27,
+    "id": 31,
     "name": "glowing_area",
     "text": "Glowing Area",
     "tag": "life.glowing_area",
@@ -270,7 +310,7 @@
     "item": "apple"
   },
   {
-    "id": 28,
+    "id": 32,
     "name": "healing",
     "text": "Healing",
     "tag": "life.healing",
@@ -280,7 +320,7 @@
     "item": "apple"
   },
   {
-    "id": 29,
+    "id": 33,
     "name": "healing_area",
     "text": "Healing Area",
     "tag": "life.healing_area",
@@ -290,7 +330,7 @@
     "item": "apple"
   },
   {
-    "id": 30,
+    "id": 34,
     "name": "darkness_area",
     "text": "Darkness Area",
     "tag": "sculk.darkness_area",
@@ -300,7 +340,7 @@
     "item": "echo_shard"
   },
   {
-    "id": 31,
+    "id": 35,
     "name": "sonic_boom",
     "text": "Sonic Boom",
     "tag": "sculk.sonic_boom",
@@ -310,7 +350,7 @@
     "item": "echo_shard"
   },
   {
-    "id": 32,
+    "id": 36,
     "name": "wither_area",
     "text": "Wither Area",
     "tag": "wither.wither_area",
@@ -320,7 +360,7 @@
     "item": "wither_skeleton_spawn_egg"
   },
   {
-    "id": 33,
+    "id": 37,
     "name": "wither_skull",
     "text": "Wither Skull",
     "tag": "wither.wither_skull",

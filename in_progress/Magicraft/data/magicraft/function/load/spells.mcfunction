@@ -32,6 +32,46 @@ data modify storage magicraft:spells data.spells set value \
     },\
     {\
         "id": 4,\
+        "color": "light_purple",\
+        "tag": "ender.dragon_fireball",\
+        "item": "ender_pearl",\
+        "text": "Dragon Fireball",\
+        "name": "dragon_fireball",\
+        "category": "ender",\
+        "function": "ender/dragon_fireball"\
+    },\
+    {\
+        "id": 5,\
+        "color": "light_purple",\
+        "tag": "ender.ender_pearl",\
+        "item": "ender_pearl",\
+        "text": "Ender Pearl",\
+        "name": "ender_pearl",\
+        "category": "ender",\
+        "function": "ender/ender_pearl"\
+    },\
+    {\
+        "id": 6,\
+        "color": "light_purple",\
+        "tag": "ender.levitate",\
+        "item": "ender_pearl",\
+        "text": "Levitate",\
+        "name": "levitate",\
+        "category": "ender",\
+        "function": "ender/levitate"\
+    },\
+    {\
+        "id": 7,\
+        "color": "light_purple",\
+        "tag": "ender.levitation_area",\
+        "item": "ender_pearl",\
+        "text": "Levitation Area",\
+        "name": "levitation_area",\
+        "category": "ender",\
+        "function": "ender/levitation_area"\
+    },\
+    {\
+        "id": 8,\
         "color": "gray",\
         "tag": "fangs.fangs_area",\
         "item": "totem_of_undying",\
@@ -41,7 +81,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fangs/fangs_area"\
     },\
     {\
-        "id": 5,\
+        "id": 9,\
         "color": "gray",\
         "tag": "fangs.fangs_circle",\
         "item": "totem_of_undying",\
@@ -51,7 +91,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fangs/fangs_circle"\
     },\
     {\
-        "id": 6,\
+        "id": 10,\
         "color": "gray",\
         "tag": "fangs.fangs_tail",\
         "item": "totem_of_undying",\
@@ -61,7 +101,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fangs/fangs_tail"\
     },\
     {\
-        "id": 7,\
+        "id": 11,\
         "color": "gray",\
         "tag": "fangs.fangs_wall",\
         "item": "totem_of_undying",\
@@ -71,7 +111,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fangs/fangs_wall"\
     },\
     {\
-        "id": 8,\
+        "id": 12,\
         "color": "red",\
         "tag": "fire.fireball",\
         "item": "blaze_powder",\
@@ -81,7 +121,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/fireball"\
     },\
     {\
-        "id": 9,\
+        "id": 13,\
         "color": "red",\
         "tag": "fire.fireball_rain",\
         "item": "blaze_powder",\
@@ -91,7 +131,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/fireball_rain"\
     },\
     {\
-        "id": 10,\
+        "id": 14,\
         "color": "red",\
         "tag": "fire.fire_area",\
         "item": "blaze_powder",\
@@ -101,7 +141,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/fire_area"\
     },\
     {\
-        "id": 11,\
+        "id": 15,\
         "color": "red",\
         "tag": "fire.fire_circle",\
         "item": "blaze_powder",\
@@ -111,7 +151,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/fire_circle"\
     },\
     {\
-        "id": 12,\
+        "id": 16,\
         "color": "red",\
         "tag": "fire.fire_tail",\
         "item": "blaze_powder",\
@@ -121,7 +161,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/fire_tail"\
     },\
     {\
-        "id": 13,\
+        "id": 17,\
         "color": "red",\
         "tag": "fire.fire_wall",\
         "item": "blaze_powder",\
@@ -131,7 +171,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/fire_wall"\
     },\
     {\
-        "id": 14,\
+        "id": 18,\
         "color": "red",\
         "tag": "fire.small_fireball",\
         "item": "blaze_powder",\
@@ -141,7 +181,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/small_fireball"\
     },\
     {\
-        "id": 15,\
+        "id": 19,\
         "color": "red",\
         "tag": "fire.small_fireball_rain",\
         "item": "blaze_powder",\
@@ -151,7 +191,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/small_fireball_rain"\
     },\
     {\
-        "id": 16,\
+        "id": 20,\
         "color": "red",\
         "tag": "fire.strong_fireball",\
         "item": "blaze_powder",\
@@ -161,7 +201,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/strong_fireball"\
     },\
     {\
-        "id": 17,\
+        "id": 21,\
         "color": "red",\
         "tag": "fire.strong_fireball_rain",\
         "item": "blaze_powder",\
@@ -171,7 +211,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "fire/strong_fireball_rain"\
     },\
     {\
-        "id": 18,\
+        "id": 22,\
         "color": "aqua",\
         "tag": "ice.iceball",\
         "item": "snowball",\
@@ -181,7 +221,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "ice/iceball"\
     },\
     {\
-        "id": 19,\
+        "id": 23,\
         "color": "aqua",\
         "tag": "ice.ice_area",\
         "item": "snowball",\
@@ -191,7 +231,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "ice/ice_area"\
     },\
     {\
-        "id": 20,\
+        "id": 24,\
         "color": "aqua",\
         "tag": "ice.small_iceball",\
         "item": "snowball",\
@@ -201,7 +241,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "ice/small_iceball"\
     },\
     {\
-        "id": 21,\
+        "id": 25,\
         "color": "aqua",\
         "tag": "ice.strog_iceball",\
         "item": "snowball",\
@@ -211,7 +251,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "ice/strog_iceball"\
     },\
     {\
-        "id": 22,\
+        "id": 26,\
         "color": "aqua",\
         "tag": "ice.ice_floor",\
         "item": "snowball",\
@@ -221,7 +261,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "ice/ice_floor/ice_floor"\
     },\
     {\
-        "id": 23,\
+        "id": 27,\
         "color": "aqua",\
         "tag": "ice.ice_spike",\
         "item": "snowball",\
@@ -231,7 +271,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "ice/ice_spike/ice_spike"\
     },\
     {\
-        "id": 24,\
+        "id": 28,\
         "color": "aqua",\
         "tag": "ice.ice_wall",\
         "item": "snowball",\
@@ -241,7 +281,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "ice/ice_wall/ice_wall"\
     },\
     {\
-        "id": 25,\
+        "id": 29,\
         "color": "red",\
         "tag": "life.cure",\
         "item": "apple",\
@@ -251,7 +291,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "life/cure"\
     },\
     {\
-        "id": 26,\
+        "id": 30,\
         "color": "red",\
         "tag": "life.double_life",\
         "item": "apple",\
@@ -261,7 +301,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "life/double_life"\
     },\
     {\
-        "id": 27,\
+        "id": 31,\
         "color": "red",\
         "tag": "life.glowing_area",\
         "item": "apple",\
@@ -271,7 +311,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "life/glowing_area"\
     },\
     {\
-        "id": 28,\
+        "id": 32,\
         "color": "red",\
         "tag": "life.healing",\
         "item": "apple",\
@@ -281,7 +321,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "life/healing"\
     },\
     {\
-        "id": 29,\
+        "id": 33,\
         "color": "red",\
         "tag": "life.healing_area",\
         "item": "apple",\
@@ -291,7 +331,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "life/healing_area"\
     },\
     {\
-        "id": 30,\
+        "id": 34,\
         "color": "dark_blue",\
         "tag": "sculk.darkness_area",\
         "item": "echo_shard",\
@@ -301,7 +341,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "sculk/darkness_area"\
     },\
     {\
-        "id": 31,\
+        "id": 35,\
         "color": "dark_blue",\
         "tag": "sculk.sonic_boom",\
         "item": "echo_shard",\
@@ -311,7 +351,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "sculk/sonic_boom/sonic_boom"\
     },\
     {\
-        "id": 32,\
+        "id": 36,\
         "color": "dark_gray",\
         "tag": "wither.wither_area",\
         "item": "wither_skeleton_spawn_egg",\
@@ -321,7 +361,7 @@ data modify storage magicraft:spells data.spells set value \
         "function": "wither/wither_area"\
     },\
     {\
-        "id": 33,\
+        "id": 37,\
         "color": "dark_gray",\
         "tag": "wither.wither_skull",\
         "item": "wither_skeleton_spawn_egg",\

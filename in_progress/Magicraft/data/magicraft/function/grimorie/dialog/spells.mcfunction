@@ -1,3 +1,1 @@
-data modify storage magicraft:spells data.dialog set from storage magicraft:spells data.spells
-
-function magicraft:grimorie/dialog/for
+function magicraft:utils/macro/for {"function":"magicraft:grimorie/dialog/spell","storage":"magicraft:spells","path":"data.spells"}

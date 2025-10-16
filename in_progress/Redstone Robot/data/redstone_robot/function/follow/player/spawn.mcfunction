@@ -1,1 +1,0 @@
-execute positioned ~ ~1000 ~ summon wandering_trader run function redstone_robot:follow/player/data

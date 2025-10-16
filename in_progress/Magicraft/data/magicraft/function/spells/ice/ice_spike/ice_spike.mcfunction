@@ -1,11 +1,11 @@
-particle snowflake ~ ~ ~ 1 2 1 .1 50 force @a
+execute unless score @s magicraft.player.mana.value matches 1.. run return fail
+scoreboard players remove @s magicraft.player.mana.value 1
 
-playsound minecraft:entity.snow_golem.hurt master @a ~ ~ ~ 1 0
-playsound minecraft:block.glass.place master @a ~ ~ ~ 1 0
+execute anchored eyes positioned ^ ^ ^2.5 run function magicraft:spells/ice/ice_spike/raycast
 
-execute if block ~ ~ ~ air run setblock ~ ~ ~ minecraft:ice
-execute if block ~ ~1 ~ air run setblock ~ ~1 ~ minecraft:ice
-execute if block ~ ~2 ~ air run setblock ~ ~2 ~ minecraft:ice
+playsound minecraft:entity.snow_golem.death master @a ~ ~ ~ 1 1
+playsound minecraft:block.glass.break master @a ~ ~ ~ 1 2
 
-effect give @e[distance=..1.5] slowness 5 3 false
-execute as @e[distance=..1.5] run damage @s 4 magic by @n[tag=magicraft.spell.ice_spikes.player]
+execute anchored eyes positioned ^ ^ ^2.5 run particle minecraft:snowflake ~ ~ ~ 0 0 0 0.1 10 force @a
+
+return 1

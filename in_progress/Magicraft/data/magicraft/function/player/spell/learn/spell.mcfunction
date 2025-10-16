@@ -1,6 +1,4 @@
-$execute unless score @s magicraft.player.learn.random matches $(id) run return fail
-
-$execute if entity @s[tag=magicraft.player.spell.learn.$(tag)] run return run scoreboard players set @s magicraft.player.learn.learned 0
+$execute if entity @s[tag=magicraft.player.spell.learn.$(tag)] run return run function magicraft:player/spell/learn/learn
 
 tag @s add magicraft.player.spell.learn
 $tag @s add magicraft.player.spell.learn.$(tag)

@@ -1,2 +1,2 @@
 $scoreboard players reset @s $(score)
-$trigger $(score) add 0
+$scoreboard players enable @s $(score)
