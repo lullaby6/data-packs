@@ -5,7 +5,7 @@ playsound minecraft:item.bundle.drop_contents master @a ~ ~ ~ 1
 $item modify entity @s weapon.$(hand) backpacks:open/data
 $item modify entity @s weapon.$(hand) backpacks:open/lore
 
-summon armor_stand ~ ~ ~ {Tags:["backpacks.armor_stand"],ShowArms:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,HasVisualFire:0b,Small:1b,Invisible:1b,PersistenceRequired:1b,DisabledSlots:4144959}
+summon armor_stand ~ ~ ~ {Tags:["backpacks.armor_stand"],ShowArms:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,HasVisualFire:0b,Small:1b,Invisible:1b,DisabledSlots:4144959}
 
 $item replace entity @n[tag=backpacks.armor_stand] weapon.$(hand) from entity @s weapon.$(hand)
 

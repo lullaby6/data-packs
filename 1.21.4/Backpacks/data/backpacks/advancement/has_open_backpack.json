@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"inventory": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"slots": {
+						"container.*": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"backpacks.backpack.open": true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "backpacks:backpack/tick/open"
+	}
+}
