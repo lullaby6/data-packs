@@ -1,1 +1,0 @@
-$execute if entity @a[tag=utils.player.$(id),distance=..$(radius)] run scoreboard players set @a[tag=utils.player.$(id)] claims.player.no_claim_zone $(radius)
