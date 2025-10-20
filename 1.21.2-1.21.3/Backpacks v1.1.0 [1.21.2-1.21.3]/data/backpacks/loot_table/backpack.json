@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "backpacks.backpack": true,
+                  "backpacks.backpack.open": false,
+                  "backpacks.backpack.storage": [
+                    {
+                      "Slot": 9,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 10,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 11,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 12,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 13,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 14,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 15,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 16,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 17,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    }
+                  ],
+                  "backpacks.backpack.inventory": [
+                    {
+                      "Slot": 9,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 10,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 11,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 12,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 13,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 14,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 15,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 16,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    },
+                    {
+                      "Slot": 17,
+                      "count": 0,
+                      "id": "minecraft:air"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Backpack\",\"italic\": false}",
+                "minecraft:lore": ["{\"text\": \"Closed\",\"color\": \"gray\",\"italic\": false}"],
+                "minecraft:item_model": "minecraft:bundle",
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "has_consume_particles": false
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

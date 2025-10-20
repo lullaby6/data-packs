@@ -20,3 +20,7 @@ scoreboard objectives add lullaby_mobs.entity.skill.6 dummy
 scoreboard objectives add lullaby_mobs.entity.skill.heal dummy
 
 scoreboard objectives add lullaby_mobs.random dummy
+
+team add lullaby_mobs.triple_skeleton
+team modify lullaby_mobs.triple_skeleton collisionRule never
+team modify lullaby_mobs.triple_skeleton friendlyFire false

@@ -1,3 +1,5 @@
+execute if predicate backpacks:backpack/open/has run return run function backpacks:backpack/use/cancel/open
+
 playsound minecraft:item.bundle.drop_contents master @a ~ ~ ~ 1
 
 $item modify entity @s weapon.$(hand) backpacks:open/data

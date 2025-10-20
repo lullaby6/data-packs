@@ -1,7 +1,5 @@
 execute if score clear_chat auth.config matches 1 run function auth:utils/player/clear_chat
 
-say @s
-
 gamemode survival @s
 effect clear @s blindness
 title @s actionbar ""

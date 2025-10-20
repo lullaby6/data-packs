@@ -1,0 +1,1 @@
+$execute at @n[tag=claims.claim.$(id)] run function claims:claim/teleport/effects

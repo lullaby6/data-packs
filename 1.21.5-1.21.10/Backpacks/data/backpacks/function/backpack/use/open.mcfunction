@@ -1,6 +1,8 @@
-execute if predicate backpacks:backpack/can_not_close run return run function backpacks:backpack/use/cancel
+execute if predicate backpacks:backpack/can_not_close run return run function backpacks:backpack/use/cancel/storage
 
 playsound minecraft:item.bundle.insert master @a ~ ~ ~ 1 1
+
+title @s actionbar ""
 
 $item modify entity @s weapon.$(hand) backpacks:closed/data
 $item modify entity @s weapon.$(hand) backpacks:closed/lore

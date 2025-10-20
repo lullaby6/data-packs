@@ -3,7 +3,7 @@ function claims:utils/player/clear_chat
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .25 2
 
 tellraw @s [{"text":"==========[ ","color":"gray"},{"text":"Claims","color":"white","bold":true},{"text":" ]==========","color":"gray"}]
-tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v2.0.0"}]
+tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v2.1.0"}]
 
 tellraw @s ""
 

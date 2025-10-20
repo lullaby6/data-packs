@@ -1,1 +1,1 @@
-execute summon skeleton run function lullaby_mobs:mob/skeleton_hunter/data
+execute summon minecraft:skeleton run function lullaby_mobs:mob/skeleton_hunter/data

@@ -46,5 +46,17 @@ execute as @e[tag=lullaby_mobs.skeleton_hunter] at @s run function lullaby_mobs:
 # Skeleton Hunter
 execute as @e[tag=lullaby_mobs.spectral_assassin] at @s run function lullaby_mobs:mob/spectral_assassin/tick
 
+# Triple Skeleton
+execute as @e[tag=lullaby_mobs.triple_skeleton] at @s run function lullaby_mobs:mob/triple_skeleton/tick
+
 # Blaze Knight
 execute as @e[tag=lullaby_mobs.blaze_knight] at @s run function lullaby_mobs:mob/blaze_knight/tick
+
+# Ender Hunter
+execute as @e[tag=lullaby_mobs.ender_hunter] at @s run function lullaby_mobs:mob/ender_hunter/tick
+
+# Shulker Knight
+execute as @e[tag=lullaby_mobs.shulker_knight] at @s run function lullaby_mobs:mob/shulker_knight/tick
+
+# Enye
+execute as @e[tag=lullaby_mobs.enye] at @s run function lullaby_mobs:mob/enye/tick

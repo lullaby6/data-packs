@@ -1,21 +1,19 @@
 {
-	"pack": {
-		"pack_format": 88,
-		"min_format": 88,
-		"max_format": 88,
-		"description": [
-			{
-				"text": "Veinimer Enchantment",
-				"color": "#55FFFF"
-			},
-			{
-				"text": " - \nBy ",
-				"color": "gray"
-			},
-			{
-				"text": "github.com/lullaby6",
-				"color": "#683edd"
-			}
-		]
-	}
+    "pack": {
+        "pack_format": 81,
+        "description": [
+            {
+                "text": "Veinimer Enchantment",
+                "color": "#55FFFF"
+            },
+            {
+                "text": " - \nBy ",
+                "color": "gray"
+            },
+            {
+                "text": "github.com/lullaby6",
+                "color": "#683edd"
+            }
+        ]
+    }
 }

@@ -1,3 +1,1 @@
 particle angry_villager ~ ~ ~ 0 0 0 1 2000000000 force @s
-
-say kick

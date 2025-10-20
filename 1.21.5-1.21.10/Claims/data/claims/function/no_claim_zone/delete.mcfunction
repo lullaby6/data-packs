@@ -1,0 +1,3 @@
+forceload remove ~ ~
+
+kill @s

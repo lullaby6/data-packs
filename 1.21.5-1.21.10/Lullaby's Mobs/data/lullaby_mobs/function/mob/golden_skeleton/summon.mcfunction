@@ -1,1 +1,1 @@
-execute summon skeleton run function lullaby_mobs:mob/golden_skeleton/data
+execute summon minecraft:skeleton run function lullaby_mobs:mob/golden_skeleton/data

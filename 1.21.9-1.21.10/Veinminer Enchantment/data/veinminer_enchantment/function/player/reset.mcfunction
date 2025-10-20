@@ -1,5 +1,4 @@
 scoreboard players reset @s veinminer_enchantment.player.use.wooden_pickaxe
-scoreboard players reset @s veinminer_enchantment.player.use.copper_pickaxe
 scoreboard players reset @s veinminer_enchantment.player.use.stone_pickaxe
 scoreboard players reset @s veinminer_enchantment.player.use.iron_pickaxe
 scoreboard players reset @s veinminer_enchantment.player.use.golden_pickaxe

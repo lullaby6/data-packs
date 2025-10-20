@@ -4,6 +4,6 @@ $execute as @n[tag=redstone_robot.robot.wandering_trader,tag=!redstone_robot.rob
 
 function redstone_robot:redstone_robot/armor_stand/tick/mode/attack/melee/rotation
 
-execute if entity @e[type=#redstone_robot:utils/hostiles,distance=..3] run return run function redstone_robot:redstone_robot/armor_stand/tick/mode/attack/melee/range
+execute if entity @e[type=#redstone_robot:utils/hostiles,tag=!utils.team_player,distance=..3] run return run function redstone_robot:redstone_robot/armor_stand/tick/mode/attack/melee/range
 
 execute unless entity @s[tag=redstone_robot.robot.armor_stand.pose.0] run function redstone_robot:redstone_robot/armor_stand/pose/0

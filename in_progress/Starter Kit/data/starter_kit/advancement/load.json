@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "starter_kit:player/load"
+	}
+}
