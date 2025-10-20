@@ -1,1 +1,0 @@
-scoreboard objectives add glow_players dummy
