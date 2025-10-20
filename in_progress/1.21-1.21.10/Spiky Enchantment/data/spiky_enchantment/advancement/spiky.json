@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"slots": {
+						"weapon.*": {
+							"predicates": {
+								"minecraft:enchantments": [
+									{
+										"enchantments": "spiky_enchantment:spiky"
+									}
+								]
+							}
+						}
+					}
+				},
+				"damage": {
+					"blocked": true,
+					"type": {
+						"is_direct": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "spiky_enchantment:spiky/use"
+	}
+}
