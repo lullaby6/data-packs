@@ -1,1 +1,0 @@
-execute summon skeleton run function bossmines:boss/anubis/summon/data

@@ -22,23 +22,30 @@ execute if entity @s[type=minecraft:spider] if predicate lullaby_mobs:utils/rand
 
 execute if entity @s[type=minecraft:wolf] if predicate lullaby_mobs:utils/random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"black_wolf"}
 
+execute if entity @s[type=minecraft:spider] if predicate lullaby_mobs:utils/random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"spider_rider"}
+execute if entity @s[type=minecraft:cave_spider] if predicate lullaby_mobs:utils/random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"spider_rider"}
+
 # Nether
 
 execute if entity @s[type=minecraft:blaze] at @s if dimension minecraft:the_nether if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"blaze_tower"}
-execute if entity @s[type=minecraft:blaze] at @s if dimension minecraft:the_nether if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"blaze_knight"}
+execute if entity @s[type=minecraft:blaze] at @s if dimension minecraft:the_nether if predicate lullaby_mobs:utils/random/0.05 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"blaze_knight"}
 
-execute if entity @s[type=minecraft:piglin_brute] at @s if dimension minecraft:the_nether if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"minotaur"}
+execute if entity @s[type=minecraft:piglin_brute] at @s if dimension minecraft:the_nether if predicate lullaby_mobs:utils/random/0.05 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"minotaur"}
 
-execute if entity @s[type=minecraft:wither_skeleton] at @s if dimension minecraft:the_nether if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"dark_wither_skeleton"}
+execute if entity @s[type=minecraft:wither_skeleton] at @s if dimension minecraft:the_nether if predicate lullaby_mobs:utils/random/0.05 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"dark_wither_skeleton"}
 
 # End
 
-execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.05 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"iso"}
+execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"angel"}
 
-execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.05 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"ender_hunter"}
+execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"iso"}
 
-execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.05 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"enye"}
+execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"ender_hunter"}
 
-execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.01 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"shulker_knight"}
+execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.005 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"enye"}
 
-execute if entity @s[type=minecraft:shulker] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.1 run return run function lullaby_mobs:natural_spawn/add {"mob":"shulker_knight"}
+execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.005 run return run function lullaby_mobs:natural_spawn/spawn {"mob":"shulker_knight"}
+
+execute if entity @s[type=minecraft:shulker] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.25 run return run function lullaby_mobs:natural_spawn/add {"mob":"shulker_knight"}
+
+execute if entity @s[type=minecraft:enderman] at @s if dimension minecraft:the_end if predicate lullaby_mobs:utils/random/0.01 positioned ~ ~10 ~ run return run function lullaby_mobs:natural_spawn/spawn {"mob":"phantom_rider"}

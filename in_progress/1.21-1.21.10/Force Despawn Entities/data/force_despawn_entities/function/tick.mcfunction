@@ -1,0 +1,1 @@
+execute as @e[predicate=force_despawn_entities:despawn] at @s run function force_despawn_entities:entity

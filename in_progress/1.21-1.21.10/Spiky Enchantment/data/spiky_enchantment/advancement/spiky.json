@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "spiky_enchantment:spiky/use"
+		"function": "spiky_enchantment:use"
 	}
 }

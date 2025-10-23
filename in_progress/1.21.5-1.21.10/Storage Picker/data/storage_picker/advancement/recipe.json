@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:lead", "minecraft:tripwire_hook"]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["storage_picker:storage_picker"]
+	}
+}

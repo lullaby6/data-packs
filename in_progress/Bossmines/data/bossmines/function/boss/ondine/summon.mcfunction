@@ -1,1 +1,0 @@
-execute summon slime run function bossmines:boss/ondine/data

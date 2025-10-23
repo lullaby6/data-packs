@@ -9,7 +9,7 @@ The enchantment can be obtained from the enchantment table, loot chests or tradi
 Give:
 
 ```mcfunction
-/loot give @s loot spiky_enchantment:spiky/<level>
+/loot give @s loot spiky_enchantment:<level>
 ```
 
 Enchant:

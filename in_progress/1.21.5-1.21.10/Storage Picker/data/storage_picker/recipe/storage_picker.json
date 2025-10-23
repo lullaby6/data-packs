@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": ["minecraft:lead", "minecraft:tripwire_hook"],
+	"result": {
+		"id": "minecraft:carrot_on_a_stick",
+		"count": 1,
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:max_damage": 20,
+			"minecraft:repairable": {
+				"items": "minecraft:iron_ingot"
+			},
+			"minecraft:item_model": "minecraft:tripwire_hook",
+			"minecraft:custom_data": {
+				"storage_picker": true
+			},
+			"minecraft:custom_name": {
+				"text": "Storage Picker",
+				"italic": false
+			},
+			"minecraft:lore": [
+				{
+					"text": "Use while sneaking to pick a storage block",
+					"italic": false,
+					"color": "gray"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,1 @@
+execute if score @s force_despawn_entities.entity.time matches 1.. run return run scoreboard players reset @s force_despawn_entities.entity.time

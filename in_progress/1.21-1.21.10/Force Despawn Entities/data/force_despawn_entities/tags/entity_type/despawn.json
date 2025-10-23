@@ -1,0 +1,23 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:raiders",
+		"#minecraft:skeletons",
+		"#force_despawn_entities:zombies",
+		"#force_despawn_entities:slimes",
+		"#force_despawn_entities:spiders",
+		"minecraft:vex",
+		"minecraft:blaze",
+		"minecraft:breeze",
+		"minecraft:creaking",
+		"minecraft:creeper",
+		"minecraft:endermite",
+		"minecraft:ghast",
+		"minecraft:guardian",
+		"minecraft:hoglin",
+		"minecraft:phantom",
+		"minecraft:piglin_brute",
+		"minecraft:silverfish",
+		"minecraft:witch"
+	]
+}

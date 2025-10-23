@@ -1,1 +1,0 @@
-execute summon stray run function bossmines:boss/lich/data

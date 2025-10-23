@@ -8,7 +8,8 @@ item replace entity @s armor.feet with iron_boots[trim={material:"minecraft:amet
 item replace entity @s weapon.mainhand with iron_sword 1
 
 attribute @s minecraft:max_health base set 60
-attribute @s minecraft:knockback_resistance base set 0.5
+attribute @s minecraft:knockback_resistance base set 1.0
+attribute @s minecraft:attack_damage base set 10
 attribute @s minecraft:movement_speed base set 0.3
 attribute @s minecraft:scale base set 1.01
 
@@ -20,5 +21,5 @@ data merge entity @s {IsImmuneToZombification:1b,Silent:1b,Health:60f}
 
 function lullaby_mobs:mob/iso/shield/activate
 
-execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
-execute if score mobs_loot lullaby_mobs.config matches 1 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value ""
+execute if score mobs_loot lullaby_mobs.config matches 1 run data modify entity @s DeathLootTable set value ""

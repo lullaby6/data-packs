@@ -19,5 +19,5 @@ data modify entity @s drop_chances set value {feet:0.000,legs:0.000,head:0.000,b
 data modify entity @s CustomName set value {"text":"Golden Skeleton"}
 data merge entity @s {Health:40f}
 
-execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value ""
 execute if score mobs_loot lullaby_mobs.config matches 1 run data modify entity @s DeathLootTable set value "minecraft:blocks/raw_gold_block"

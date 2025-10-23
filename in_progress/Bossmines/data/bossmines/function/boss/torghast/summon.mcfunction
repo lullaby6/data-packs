@@ -1,1 +1,0 @@
-execute summon ghast run function bossmines:boss/torghast/data

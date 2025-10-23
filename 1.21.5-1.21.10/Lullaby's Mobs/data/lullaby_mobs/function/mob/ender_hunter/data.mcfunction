@@ -20,5 +20,5 @@ data modify entity @s Health set value 60f
 data modify entity @s IsImmuneToZombification set value 1b
 data modify entity @s Silent set value 1b
 
-execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value ""
 execute if score mobs_loot lullaby_mobs.config matches 1 run data modify entity @s DeathLootTable set value "minecraft:entities/enderman"

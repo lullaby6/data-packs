@@ -19,7 +19,7 @@ effect give @s invisibility infinite 0 true
 data modify entity @s drop_chances set value {feet:0.000,legs:0.000,head:0.000,body:0.000,mainhand:0.000,offhand:0.000}
 data modify entity @s CustomName set value {"text":"Ent"}
 data modify entity @s IsBaby set value 0b
-data merge entity @s {DeathLootTable:"minecraft:empty",Silent:1b,IsImmuneToZombification:1b,Health:60f}
+data merge entity @s {DeathLootTable:"",Silent:1b,IsImmuneToZombification:1b,Health:60f}
 
-execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value ""
 execute if score mobs_loot lullaby_mobs.config matches 1 run item replace entity @s weapon.offhand with oak_log 6
