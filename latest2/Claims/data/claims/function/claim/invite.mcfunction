@@ -1,1 +1,0 @@
-$execute as @a[scores={utils.player.id=$(player_id)}] run function claims:claim/player/invite {"id":"$(claim_id)"}
