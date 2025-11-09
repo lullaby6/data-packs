@@ -1,0 +1,19 @@
+{
+	"pack": {
+        "pack_format": 48,
+        "description": [
+            {
+                "text": "Magnetic Enchantment",
+                "color": "#FF55FF"
+            },
+            {
+                "text": " - \nBy ",
+                "color": "gray"
+            },
+            {
+                "text": "github.com/lullaby6",
+                "color": "#683edd"
+            }
+        ]
+    }
+}

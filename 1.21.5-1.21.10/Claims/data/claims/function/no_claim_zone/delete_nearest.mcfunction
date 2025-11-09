@@ -1,6 +1,6 @@
 execute unless entity @e[tag=claims.no_claim_zone,distance=..100] run return run function claims:no_claim_zone/cancel/delete/no_exist_around
 
-execute at @n[tag=claims.no_claim_zone,distance=..100] run function claims:no_claim_zone/delete
+execute as @n[tag=claims.no_claim_zone,distance=..100] at @s run function claims:no_claim_zone/delete
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .25 2
 

@@ -1,0 +1,1 @@
+$scoreboard objectives add player_teleport.teleport.$(id) dummy

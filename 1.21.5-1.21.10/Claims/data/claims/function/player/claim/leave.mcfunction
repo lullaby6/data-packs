@@ -7,3 +7,4 @@ data remove storage claims:leave id
 scoreboard players reset @s claims.player.claim.inside
 
 attribute @s minecraft:block_interaction_range base reset
+gamemode survival @s

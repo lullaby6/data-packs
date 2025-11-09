@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "magnetic_enchantment:magnetic"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ],
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magnetic_enchantment:magnetic/killed_entity/advancement"
+  }
+}

@@ -22,6 +22,8 @@ data modify entity @s Motion set value [0.0,0.25,0.0]
 data modify entity @s IsBaby set value 0b
 data modify entity @s CanBreakDoors set value 0b
 data modify entity @s CustomNameVisible set value 1b
-data modify entity @s CustomName set value {"text":"Zombie Pet"}
+data modify entity @s CustomName set value "Zombie Pet"
+data modify entity @s DeathLootTable set value "my_zombie_pet:entities/zombie_pet"
 
 effect give @s minecraft:fire_resistance infinite 0 true
+effect give @s minecraft:water_breathing infinite 0 true

@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "player_teleport:player/load"
+	}
+}
