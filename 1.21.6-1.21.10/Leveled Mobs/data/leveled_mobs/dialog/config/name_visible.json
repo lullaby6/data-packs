@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:multi_action",
+	"title": "Name Visible - Leveled Mobs Config",
+	"can_close_with_escape": true,
+	"pause": true,
+	"exit_action": {
+		"label": "Back",
+		"tooltip": "Click to go back",
+		"action": {
+			"type": "run_command",
+			"command": "/dialog show @s leveled_mobs:config"
+		}
+	},
+	"columns": 1,
+	"actions": [
+		{
+			"label": "Enable",
+			"tooltip": "Click to edit name visible",
+			"width": 200,
+			"action": {
+				"type": "run_command",
+				"command": "/function leveled_mobs:config/name_visible/enable"
+			}
+		},
+		{
+			"label": "Disable",
+			"tooltip": "Click to edit name visible",
+			"width": 200,
+			"action": {
+				"type": "run_command",
+				"command": "/function leveled_mobs:config/name_visible/disable"
+			}
+		}
+	]
+}

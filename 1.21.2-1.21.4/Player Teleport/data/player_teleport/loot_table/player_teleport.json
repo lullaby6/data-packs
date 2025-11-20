@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:writable_book",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:rarity": "epic",
+								"minecraft:item_model": "minecraft:ender_eye",
+								"minecraft:max_damage": 32,
+								"minecraft:damage": 0,
+								"minecraft:max_stack_size": 1,
+								"minecraft:repairable": {
+									"items": "minecraft:ender_pearl"
+								},
+								"minecraft:custom_data": {
+									"player_teleport": true
+								},
+								"minecraft:custom_name": "{\"translate\":\"Player Teleport\",\"italic\":false}",
+								"minecraft:lore": [
+									"{\"translate\":\"Write a player name to request a teleport to him\",\"color\":\"gray\",\"italic\":false}"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

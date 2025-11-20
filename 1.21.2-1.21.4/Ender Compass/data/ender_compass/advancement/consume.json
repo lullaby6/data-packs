@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "ender_compass": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ender_compass:ender_compass/consume"
+  }
+}

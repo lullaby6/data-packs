@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ender_eye",
+							"minecraft:amethyst_shard"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["player_teleport:player_teleport"]
+	}
+}

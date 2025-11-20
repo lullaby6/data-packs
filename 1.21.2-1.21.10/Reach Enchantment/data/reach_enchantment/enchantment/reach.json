@@ -6,13 +6,13 @@
 	"effects": {
 		"minecraft:attributes": [
 			{
-				"attribute": "minecraft:entity_interaction_range",
-				"id": "reach_enchantment.enchantment.attribute.entity_interaction_range",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 0.25,
 					"per_level_above_first": 0.25
 				},
+				"attribute": "minecraft:entity_interaction_range",
+				"id": "reach_enchantment.enchantment.attribute.entity_interaction_range",
 				"operation": "add_value"
 			},
 			{
@@ -37,5 +37,5 @@
 		"per_level_above_first": 11
 	},
 	"slots": ["mainhand"],
-	"weight": 5
+	"weight": 4
 }

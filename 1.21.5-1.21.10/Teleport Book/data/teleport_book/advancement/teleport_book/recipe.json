@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:book",
+							"minecraft:writable_book",
+							"minecraft:amethyst_shard",
+							"minecraft:ender_pearl"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["teleport_book:teleport_book"]
+	}
+}

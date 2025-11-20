@@ -1,32 +1,32 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
-        "minecraft:ender_eye",
-        "minecraft:compass",
-        "minecraft:amethyst_shard"
-    ],
-    "result": {
-        "id": "minecraft:compass",
-        "count": 1,
-        "components": {
-          "minecraft:rarity": "epic",
-          "minecraft:custom_data": {
-            "ender_compass": true
-          },
-          "minecraft:max_stack_size": 1,
-          "minecraft:enchantment_glint_override": true,
-          "minecraft:custom_name": {
-            "text": "Ender Compass",
-            "italic": false
-          },
-          "minecraft:lore": [
-            {
-              "text": "Link to a lodestone and use it to teleport",
-              "italic": false,
-              "color": "gray"
-            }
-          ]
-        }
-    }
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:ender_pearl",
+		"minecraft:compass",
+		"minecraft:amethyst_shard"
+	],
+	"result": {
+		"id": "minecraft:compass",
+		"count": 1,
+		"components": {
+			"minecraft:rarity": "epic",
+			"minecraft:custom_data": {
+				"ender_compass": true
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:custom_name": {
+				"text": "Ender Compass",
+				"italic": false
+			},
+			"minecraft:lore": [
+				{
+					"text": "Link to a lodestone and use it to teleport",
+					"italic": false,
+					"color": "gray"
+				}
+			]
+		}
+	}
 }
