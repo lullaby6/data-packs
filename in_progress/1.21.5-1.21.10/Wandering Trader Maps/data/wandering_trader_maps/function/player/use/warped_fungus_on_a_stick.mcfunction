@@ -1,0 +1,4 @@
+advancement revoke @s only wandering_trader_maps:score/warped_fungus_on_a_stick
+scoreboard players reset @s wandering_trader_maps.player.use.warped_fungus_on_a_stick
+
+execute if predicate wandering_trader_maps:player/offhand/map if predicate wandering_trader_maps:player/mainhand/compass_map_tracker run function wandering_trader_maps:compass_map_tracker/use

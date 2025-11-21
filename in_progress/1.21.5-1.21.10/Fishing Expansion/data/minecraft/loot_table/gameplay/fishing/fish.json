@@ -1,0 +1,208 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 13
+        },
+        {
+          "weight": 30,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:drowned": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:guardian": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 60,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:salmon": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 60,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:cod": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:tropical_fish": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:pufferfish": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 30,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:squid": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:turtle": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:glow_squid": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:axolotl": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:dolphin": true
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

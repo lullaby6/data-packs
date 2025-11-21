@@ -1,0 +1,5 @@
+tag @s add fishing_expansion.enchantment.hooked_trike
+
+execute if entity @p[distance=..16,predicate=fishing_expansion:holding/enchantment/hooked_strike/1] run return run damage @n[predicate=!fishing_expansion:holding/enchantment/hooked_strike/1,distance=..1.5,type=!minecraft:fishing_bobber] 2 minecraft:mob_projectile by @p[distance=..16,predicate=fishing_expansion:holding/enchantment/hooked_strike/1]
+execute if entity @p[distance=..16,predicate=fishing_expansion:holding/enchantment/hooked_strike/2] run return run damage @n[predicate=!fishing_expansion:holding/enchantment/hooked_strike/1,distance=..1.5,type=!minecraft:fishing_bobber] 4 minecraft:mob_projectile by @p[distance=..16,predicate=fishing_expansion:holding/enchantment/hooked_strike/2]
+execute if entity @p[distance=..16,predicate=fishing_expansion:holding/enchantment/hooked_strike/3] run return run damage @n[predicate=!fishing_expansion:holding/enchantment/hooked_strike/1,distance=..1.5,type=!minecraft:fishing_bobber] 6 minecraft:mob_projectile by @p[distance=..16,predicate=fishing_expansion:holding/enchantment/hooked_strike/3]

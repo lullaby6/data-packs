@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "wandering_trader_maps:jungle_pyramid",
+							"decoration": "minecraft:banner_green",
+							"zoom": 1,
+							"search_radius": 100,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:rarity": "rare",
+								"minecraft:item_name": {
+									"translate": "wandering_trader_maps.map.jungle_pyramid",
+									"fallback": "Jungle Pyramid Map"
+								},
+								"minecraft:custom_data": {
+									"wandering_trader_maps:map": true,
+									"wandering_trader_maps:map:type": "jungle_pyramid",
+									"wandering_trader_maps:map:dimension": "overworld",
+									"wandering_trader_maps:map:description": "Jungle Pyramid"
+								},
+								"minecraft:map_color": 1405469
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

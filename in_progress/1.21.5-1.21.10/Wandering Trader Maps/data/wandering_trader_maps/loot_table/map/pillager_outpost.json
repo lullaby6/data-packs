@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "wandering_trader_maps:pillager_outpost",
+							"decoration": "minecraft:banner_brown",
+							"zoom": 1,
+							"search_radius": 100,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:rarity": "rare",
+								"minecraft:item_name": {
+									"translate": "wandering_trader_maps.map.pillager_outpost",
+									"fallback": "Pillager Outpost Map"
+								},
+								"minecraft:custom_data": {
+									"wandering_trader_maps:map": true,
+									"wandering_trader_maps:map:type": "pillager_outpost",
+									"wandering_trader_maps:map:dimension": "overworld",
+									"wandering_trader_maps:map:description": "Pillager Outpost"
+								},
+								"minecraft:map_color": 4270093
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

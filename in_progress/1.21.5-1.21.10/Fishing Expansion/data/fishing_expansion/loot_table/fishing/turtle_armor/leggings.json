@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:dyed_color": 4898382,
+                "minecraft:trim": {
+                  "material": "minecraft:emerald",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 495,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "5ab8a4d9-2374-43f4-8dbd-7f798924f965",
+                    "type": "minecraft:armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "4d43abbc-e52c-43ec-a1f5-c39c05888193",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "ed1af8d4-2722-4238-a399-2611c1b26e0a",
+                    "type": "minecraft:water_movement_efficiency",
+                    "amount": 0.25,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "4260950d-85c6-470c-80ff-0c49c5ef1a85",
+                    "type": "minecraft:oxygen_bonus",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "1a9dfc30-4bd0-459d-a44a-43f73f4e2fc5",
+                    "type": "minecraft:submerged_mining_speed",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "minecraft:leather",
+                  "equip_sound": "item.armor.equip_diamond",
+                  "dispensable": true,
+                  "swappable": true,
+                  "damage_on_hurt": true
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "minecraft:dyed_color",
+                      "minecraft:trim"
+                    ]
+                },
+                "minecraft:custom_data": {
+                  "fishing_expansion:turtle_armor": true,
+                  "fishing_expansion:turtle_armor:leggings": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Turtle Leggings",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "wandering_trader_maps:ancient_city",
+							"decoration": "minecraft:banner_blue",
+							"zoom": 1,
+							"search_radius": 100,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:rarity": "rare",
+								"minecraft:item_name": {
+									"translate": "wandering_trader_maps.map.ancient_city",
+									"fallback": "Ancient City Map"
+								},
+								"minecraft:custom_data": {
+									"wandering_trader_maps:map": true,
+									"wandering_trader_maps:map:type": "ancient_city",
+									"wandering_trader_maps:map:dimension": "overworld",
+									"wandering_trader_maps:map:description": "Ancient City"
+								},
+								"minecraft:map_color": 3219806
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

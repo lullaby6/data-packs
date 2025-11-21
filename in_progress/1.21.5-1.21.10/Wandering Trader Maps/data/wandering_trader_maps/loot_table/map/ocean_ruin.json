@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "wandering_trader_maps:ocean_ruin",
+							"decoration": "minecraft:banner_cyan",
+							"zoom": 1,
+							"search_radius": 100,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:rarity": "uncommon",
+								"minecraft:item_name": {
+									"translate": "wandering_trader_maps.map.ocean_ruin",
+									"fallback": "Ocean Ruin Map"
+								},
+								"minecraft:custom_data": {
+									"wandering_trader_maps:map": true,
+									"wandering_trader_maps:map:type": "ocean_ruin",
+									"wandering_trader_maps:map:dimension": "overworld",
+									"wandering_trader_maps:map:description": "Ocean Ruin"
+								},
+								"minecraft:map_color": 3325391
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
