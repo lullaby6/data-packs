@@ -1,0 +1,205 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/loot/turtle"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/loot/fish"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/shipwreck/map"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/shipwreck/supply"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/shipwreck/treasure"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/map/buried_treasure"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/map/boat"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/map/monument"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/map/ocean_ruin"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/map/ruined_portal"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/map/shipwreck"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fishing_expansion:fishing_expansion"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fishing_expansion:fishing_rod"
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fishing_expansion:bow"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "weight": 30,
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "weight": 30,
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_egg"
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_scute"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}

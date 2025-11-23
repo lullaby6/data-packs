@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "fishing_expansion:ocean_ruin",
+              "decoration": "minecraft:banner_cyan",
+              "zoom": 1,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_name": "{\"translate\":\"fishing_expansion.map.ocean_ruin\",\"fallback\":\"Ocean Ruin Map\"}",
+                "minecraft:map_color": 3325391
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

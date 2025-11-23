@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_swimming": true
+          },
+          "equipment": {
+            "head": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:turtle_armor:helmet": true
+                }
+              }
+            },
+            "chest": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:turtle_armor:chestplate": true
+                }
+              }
+            },
+            "legs": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:turtle_armor:leggings": true
+                }
+              }
+            },
+            "feet": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:turtle_armor:boots": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "fishing_expansion:player/use/turtle_armor"
+  }
+}

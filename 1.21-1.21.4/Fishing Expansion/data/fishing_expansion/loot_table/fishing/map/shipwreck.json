@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "fishing_expansion:shipwreck",
+              "decoration": "minecraft:banner_blue",
+              "zoom": 1,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_name": "{\"translate\":\"fishing_expansion.map.shipwreck\",\"fallback\":\"Shipwreck Map\"}",
+                "minecraft:map_color": 3300559
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

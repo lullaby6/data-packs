@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.fishing_expansion.sea_lure",
+    "fallback": "Sea Lure"
+  },
+  "effects": {
+    "minecraft:fishing_time_reduction": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 5,
+            "per_level_above_first": 5
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/fishing",
+  "exclusive_set": "#fishing_expansion:exclusive_set/sea_lure",
+  "weight": 3
+}
