@@ -7,22 +7,12 @@
         {
           "weight": 1,
           "type": "minecraft:loot_table",
-          "value": "fishing_expansion:fishing/turtle_armor/helmet"
+          "value": "fishing_expansion:fishing/loot/turtle"
         },
         {
-          "weight": 1,
+          "weight": 5,
           "type": "minecraft:loot_table",
-          "value": "fishing_expansion:fishing/turtle_armor/chestplate"
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:loot_table",
-          "value": "fishing_expansion:fishing/turtle_armor/leggings"
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:loot_table",
-          "value": "fishing_expansion:fishing/turtle_armor/boots"
+          "value": "fishing_expansion:fishing/loot/fish"
         },
         {
           "weight": 20,

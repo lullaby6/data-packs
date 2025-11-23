@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_model": "minecraft:player_head",
+                "minecraft:max_stack_size": 16,
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1MmUxNjAwN2ZkN2Y4ZWE1YWQ0ZDY3NGMxYWU1YTNmZTFkMjFjN2EyZTc0ZjhhMmJiNWUxN2NjYTUxYTM5In19fQ=="
+                    }
+                  ]
+                },
+                "minecraft:item_name": "{\"translate\":\"fishing_expansion.item.fish.bass.name\",\"fallback\":\"Bass\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"fishing_expansion.item.fish.bass.lore\",\"fallback\":\"Hero of the Village (00:08)\",\"color\":\"blue\",\"italic\":false}"
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "animation": "eat",
+                  "sound": "minecraft:entity.generic.eat",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "minecraft:entity.generic.eat"
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:hero_of_the_village",
+                          "amplifier": 0,
+                          "duration": 160,
+                          "ambient": false,
+                          "show_particles": false,
+                          "show_icon": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

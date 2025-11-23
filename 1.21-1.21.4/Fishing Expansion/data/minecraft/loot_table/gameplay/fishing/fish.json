@@ -7,12 +7,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cod",
-          "weight": 60
+          "weight": 30
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:salmon",
-          "weight": 25
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -22,10 +22,26 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pufferfish",
-          "weight": 13
+          "weight": 12
         },
         {
-          "weight": 30,
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:trident": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 6,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -41,7 +57,7 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -51,6 +67,22 @@
                 "minecraft:custom_data": {
                   "fishing_expansion:mob": true,
                   "fishing_expansion:mob:guardian": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishing_expansion:mob": true,
+                  "fishing_expansion:mob:drowned_guardian": true
                 }
               }
             }
@@ -89,7 +121,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 2,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -105,7 +137,7 @@
           ]
         },
         {
-          "weight": 50,
+          "weight": 12,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -121,7 +153,7 @@
           ]
         },
         {
-          "weight": 30,
+          "weight": 6,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -137,7 +169,7 @@
           ]
         },
         {
-          "weight": 20,
+          "weight": 6,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -153,7 +185,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 2,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -169,7 +201,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 2,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
@@ -185,7 +217,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 2,
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "functions": [
