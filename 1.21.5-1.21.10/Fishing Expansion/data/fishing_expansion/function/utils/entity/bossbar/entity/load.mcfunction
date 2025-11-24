@@ -15,6 +15,6 @@ $data modify storage utils:bossbar bossbar.color set value "$(color)"
 $data modify storage utils:bossbar bossbar.style set value "$(style)"
 $data modify storage utils:bossbar bossbar.bold set value "$(bold)"
 
-function utils:entity/bossbar/add with storage utils:bossbar bossbar
+function fishing_expansion:utils/entity/bossbar/add with storage utils:bossbar bossbar
 
 data remove storage utils:bossbar bossbar

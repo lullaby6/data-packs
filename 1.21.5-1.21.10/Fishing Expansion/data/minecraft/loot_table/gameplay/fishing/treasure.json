@@ -10,6 +10,11 @@
           "value": "fishing_expansion:fishing/loot/turtle"
         },
         {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:heart_of_the_elder_drowned"
+        },
+        {
           "weight": 5,
           "type": "minecraft:loot_table",
           "value": "fishing_expansion:fishing/loot/fish"
