@@ -1,0 +1,98 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:stored_enchantments": {
+                    "levels": {
+                      "minecraft:efficiency": 3
+                    },
+                    "show_in_tooltip": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:stored_enchantments": {
+                    "levels": {
+                      "minecraft:unbreaking": 2
+                    },
+                    "show_in_tooltip": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:stored_enchantments": {
+                    "levels": {
+                      "minecraft:protection": 2
+                    },
+                    "show_in_tooltip": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:stored_enchantments": {
+                    "levels": {
+                      "minecraft:sharpness": 2
+                    },
+                    "show_in_tooltip": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

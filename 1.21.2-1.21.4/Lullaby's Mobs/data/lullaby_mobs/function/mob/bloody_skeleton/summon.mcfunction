@@ -1,0 +1,1 @@
+execute summon skeleton run function lullaby_mobs:mob/bloody_skeleton/data

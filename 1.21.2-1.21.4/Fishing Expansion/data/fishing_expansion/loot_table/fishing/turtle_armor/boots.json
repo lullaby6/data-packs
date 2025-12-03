@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 4898382,
+                  "show_in_tooltip": false
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:emerald",
+                  "pattern": "minecraft:tide",
+                  "show_in_tooltip": false
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 429,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "44aa3b07-5db1-40b5-8923-2ba7317ea6df",
+                    "type": "minecraft:armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "d37067cf-1dd7-40f5-8712-e28b151b81a0",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "49c2b813-ed7f-4b76-b4bf-096806254d6b",
+                    "type": "minecraft:water_movement_efficiency",
+                    "amount": 0.25,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "e466615a-2918-4544-84fc-980b86f7743f",
+                    "type": "minecraft:oxygen_bonus",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "0a0c8445-1cce-4e09-901a-f8c180a94713",
+                    "type": "minecraft:submerged_mining_speed",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "fishing_expansion:turtle_armor": true,
+                  "fishing_expansion:turtle_armor:boots": true
+                },
+                "minecraft:custom_name": "{\"text\":\"Turtle Boots\",\"italic\":false}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

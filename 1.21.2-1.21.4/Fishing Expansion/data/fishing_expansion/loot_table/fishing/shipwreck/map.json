@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"fishing_expansion.item.shipwreck_loot\",\"fallback\":\"Shipwreck Barrel\"}",
+                "minecraft:container_loot": {
+                  "loot_table": "minecraft:chests/shipwreck_map"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

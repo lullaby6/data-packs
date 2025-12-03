@@ -1,0 +1,3 @@
+$execute as @n[tag=fishing_expansion.mob.boss.elder_drowned.elder_guardian.1,scores={fishibng_expansion.mob.boss.elder_drowned.elder_guardian.id=$(id)}] run tp @s ^-1.5 ^2 ^-0.5
+$execute as @n[tag=fishing_expansion.mob.boss.elder_drowned.elder_guardian.2,scores={fishibng_expansion.mob.boss.elder_drowned.elder_guardian.id=$(id)}] run tp @s ^ ^3 ^-0.5
+$execute as @n[tag=fishing_expansion.mob.boss.elder_drowned.elder_guardian.3,scores={fishibng_expansion.mob.boss.elder_drowned.elder_guardian.id=$(id)}] run tp @s ^1.5 ^2 ^-0.5

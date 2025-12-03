@@ -43,7 +43,7 @@ function fishing_expansion:mob/boss/elder_drowned/elder_guardian/summon with sto
 
 data remove storage fishing_expansion:elder_drowned/load data.id
 
-function fishing_expansion:utils/entity/bossbar/entity/load {"name":"Elder Guardian","max":400,"color":"purple","name_color":"white","style":"progress","distance":100,"bold":false}
+function fishing_expansion:utils/entity/bossbar/entity/load {"name":"Elder Drowned","max":400,"color":"purple","name_color":"white","style":"progress","distance":100,"bold":false}
 
 playsound minecraft:entity.wither.spawn master @a ~ ~ ~ 10 2
 

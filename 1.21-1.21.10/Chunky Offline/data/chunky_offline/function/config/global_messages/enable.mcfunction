@@ -1,0 +1,1 @@
+data modify storage chunky_offline:config selector set value "@a"
