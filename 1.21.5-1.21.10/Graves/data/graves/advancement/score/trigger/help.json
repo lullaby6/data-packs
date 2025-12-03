@@ -8,7 +8,9 @@
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores": {
-                            "graves.help": 1
+                            "graves.help": {
+                                "min": 1
+                            }
                         }
                     }
                 ]

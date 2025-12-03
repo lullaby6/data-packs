@@ -8,7 +8,9 @@
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores": {
-                            "graves.player.leave": 1
+                            "graves.player.leave": {
+                                "min": 1
+                            }
                         }
                     }
                 ]
