@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wandering_trader_maps:village/plains",
+              "decoration": "minecraft:banner_brown",
+              "zoom": 1,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_name": "{\"translate\":\"wandering_trader_maps.map.village_plains\",\"fallback\":\"Plains Village Map\"}",
+                "minecraft:custom_data": {
+                  "wandering_trader_maps:map": true,
+                  "wandering_trader_maps:map:type": "village_plains",
+                  "wandering_trader_maps:map:dimension": "overworld",
+                  "wandering_trader_maps:map:description": "Plains Village"
+                },
+                "minecraft:map_color": 8431445
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

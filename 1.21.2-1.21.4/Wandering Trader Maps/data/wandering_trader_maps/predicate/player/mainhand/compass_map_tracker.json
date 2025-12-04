@@ -1,0 +1,15 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"weapon.mainhand": {
+				"predicates": {
+					"minecraft:custom_data": {
+						"wandering_trader_maps:compass_map_tracker": true
+					}
+				}
+			}
+		}
+	}
+}

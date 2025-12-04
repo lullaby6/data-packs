@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:compass",
+							"minecraft:map",
+							"minecraft:diamond"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["wandering_trader_maps:compass_map_tracker"]
+	}
+}

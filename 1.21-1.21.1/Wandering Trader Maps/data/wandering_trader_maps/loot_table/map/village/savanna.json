@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wandering_trader_maps:village/savanna",
+              "decoration": "minecraft:banner_orange",
+              "zoom": 1,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_name": "{\"translate\":\"wandering_trader_maps.map.village_savanna\",\"fallback\":\"Savanna Village Map\"}",
+                "minecraft:custom_data": {
+                  "wandering_trader_maps:map": true,
+                  "wandering_trader_maps:map:type": "village_savanna",
+                  "wandering_trader_maps:map:dimension": "overworld",
+                  "wandering_trader_maps:map:description": "Savanna Village"
+                },
+                "minecraft:map_color": 13004373
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

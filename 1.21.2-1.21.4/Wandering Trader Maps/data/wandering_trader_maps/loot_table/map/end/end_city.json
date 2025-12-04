@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wandering_trader_maps:end/end_city",
+              "decoration": "minecraft:banner_purple",
+              "zoom": 1,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:item_name": "{\"translate\":\"wandering_trader_maps.map.end_city\",\"fallback\":\"End City Map\"}",
+                "minecraft:custom_data": {
+                  "wandering_trader_maps:map": true,
+                  "wandering_trader_maps:map:type": "end_city",
+                  "wandering_trader_maps:map:dimension": "the_end",
+                  "wandering_trader_maps:map:description": "End City"
+                },
+                "minecraft:map_color": 8279039
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
