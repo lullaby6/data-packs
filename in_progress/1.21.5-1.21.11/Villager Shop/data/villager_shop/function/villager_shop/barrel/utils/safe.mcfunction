@@ -1,0 +1,1 @@
+$execute if items block ~ ~ ~ container.$(slot) *[!minecraft:custom_data~{villager_shop.item.barrel:1b}] summon minecraft:item run function villager_shop:villager_shop/barrel/utils/loot_replace_safe/item {"slot":$(slot)}

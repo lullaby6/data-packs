@@ -1,3 +1,5 @@
+$function villager_shop:villager_shop/barrel/utils/safe {"slot":$(slot)}
+
 $data modify storage villager_shop:sell data.sell set from entity @s Offers.Recipes[$(slot)].sell
 $data modify storage villager_shop:sell data.sell.Slot set value $(slot)b
 data modify storage villager_shop:sell data.sell.count set value 1

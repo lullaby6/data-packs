@@ -1,7 +1,4 @@
-# playsound minecraft:entity.villager.death master @a ~ ~ ~ 1 1
-playsound minecraft:block.barrel.close master @a ~ ~ ~ 1 1
-
-execute if block ~ ~ ~ minecraft:barrel run setblock ~ ~ ~ minecraft:air
+execute if block ~ ~ ~ minecraft:barrel run setblock ~ ~ ~ minecraft:air destroy
 
 execute store result storage villager_shop:remove data.id int 1 run scoreboard players get @s villager_shop.id
 function villager_shop:villager_shop/barrel/action/menu/remove/macro with storage villager_shop:remove data

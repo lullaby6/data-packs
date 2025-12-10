@@ -1,4 +1,4 @@
-execute as @e[tag=villager_shop.armor_stand] at @s run function villager_shop:villager_shop/summon
+execute as @e[tag=villager_shop.summon] at @s run function villager_shop:villager_shop/summon
 
 execute unless entity @e[tag=villager_shop.entity] run return fail
 

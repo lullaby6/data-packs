@@ -6,8 +6,9 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:soul_sand",
-							"minecraft:zombie_head"
+							"minecraft:barrel",
+							"minecraft:emerald",
+							"minecraft:copper_ingot"
 						]
 					}
 				]
@@ -15,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"recipes": ["my_zombie_pet:my_zombie_pet"]
+		"recipes": ["villager_shop:villager_shop"]
 	}
 }

@@ -25,4 +25,4 @@ function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":23}
 function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":24}
 function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":25}
 
-loot replace block ~ ~ ~ container.26 loot villager_shop:barrel/generic/menu
+function villager_shop:villager_shop/barrel/utils/loot_replace_safe {"slot":26,"loot":"villager_shop:barrel/generic/menu"}
