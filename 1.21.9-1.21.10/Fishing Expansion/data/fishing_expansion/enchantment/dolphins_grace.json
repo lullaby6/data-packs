@@ -1,0 +1,44 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.fishing_expansion.dolphins_grace",
+    "fallback": "Dolphin's Grace"
+  },
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_swimming": true
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:dolphins_grace",
+          "min_duration": 1,
+          "max_duration": 1,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "legs"
+  ],
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "weight": 1
+}

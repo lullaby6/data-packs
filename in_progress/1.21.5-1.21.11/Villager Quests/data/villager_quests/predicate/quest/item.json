@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{}",
+    "slots": {
+      "contents": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "villager_quests.item.id": "quest"
+          }
+        }
+      }
+    }
+  }
+}

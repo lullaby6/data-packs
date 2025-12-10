@@ -1,0 +1,1 @@
+execute as @a if score @s villager_quests.player.use.carrot_on_a_stick matches 1.. run function villager_quests:player/use/carrot_on_a_stick

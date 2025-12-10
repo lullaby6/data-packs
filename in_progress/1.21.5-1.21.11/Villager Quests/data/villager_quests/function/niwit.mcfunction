@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {VillagerData:{profession:"minecraft:nitwit"}}

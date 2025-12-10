@@ -1,0 +1,1 @@
+$execute store result score @s villager_quests.player.count run clear @s $(id) 0

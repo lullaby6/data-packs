@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald",
+              "minecraft:paper",
+              "minecraft:ink_sac"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["villager_quests:request_quest"]
+  }
+}

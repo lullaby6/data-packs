@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:heart_of_the_sea",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

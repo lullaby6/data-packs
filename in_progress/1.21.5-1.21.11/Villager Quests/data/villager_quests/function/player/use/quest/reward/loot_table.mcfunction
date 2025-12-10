@@ -1,0 +1,1 @@
+$loot give @s loot $(reward_loot_table)

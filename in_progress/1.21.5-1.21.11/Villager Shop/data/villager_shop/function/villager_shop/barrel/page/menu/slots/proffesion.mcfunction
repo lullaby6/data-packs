@@ -1,0 +1,14 @@
+execute if predicate villager_shop:barrel/proffesion/unemployed run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/unemployed
+execute if predicate villager_shop:barrel/proffesion/armorer run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/armorer
+execute if predicate villager_shop:barrel/proffesion/butcher run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/butcher
+execute if predicate villager_shop:barrel/proffesion/cartographer run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/cartographer
+execute if predicate villager_shop:barrel/proffesion/cleric run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/cleric
+execute if predicate villager_shop:barrel/proffesion/farmer run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/farmer
+execute if predicate villager_shop:barrel/proffesion/fisherman run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/fisherman
+execute if predicate villager_shop:barrel/proffesion/fletcher run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/fletcher
+execute if predicate villager_shop:barrel/proffesion/leatherworker run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/leatherworker
+execute if predicate villager_shop:barrel/proffesion/librarian run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/librarian
+execute if predicate villager_shop:barrel/proffesion/mason run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/mason
+execute if predicate villager_shop:barrel/proffesion/shepherd run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/shepherd
+execute if predicate villager_shop:barrel/proffesion/toolsmith run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/toolsmith
+execute if predicate villager_shop:barrel/proffesion/weaponsmith run return run loot replace block ~ ~ ~ container.11 loot villager_shop:barrel/menu/proffesion/weaponsmith

@@ -1,0 +1,28 @@
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":0}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":1}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":2}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":3}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":4}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":5}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":6}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":7}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":8}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":9}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":10}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":11}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":12}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":13}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":14}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":15}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":16}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":17}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":18}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":19}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":20}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":21}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":22}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":23}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":24}
+function villager_shop:villager_shop/barrel/page/trades/slot/check {"slot":25}
+
+loot replace block ~ ~ ~ container.26 loot villager_shop:barrel/generic/menu

@@ -1,0 +1,2 @@
+execute if predicate villager_shop:barrel/name/disabled run loot replace block ~ ~ ~ container.14 loot villager_shop:barrel/menu/name/disabled
+execute if predicate villager_shop:barrel/name/enabled run loot replace block ~ ~ ~ container.14 loot villager_shop:barrel/menu/name/enabled

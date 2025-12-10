@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:emerald",
+        "minecraft:paper",
+        "minecraft:ink_sac"
+    ],
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:max_stack_size": 1,
+            "minecraft:custom_data": {
+                "villager_quests.item.id": "request_quest"
+            },
+            "minecraft:item_model": "minecraft:paper",
+            "minecraft:custom_name": "{\"text\":\"Request Quest\",\"italic\": false}",
+            "minecraft:lore": ["{\"text\":\"Find a niwit villager to get a quest and claim a reward\",\"italic\": false,\"color\":\"gray\"}"]
+        }
+    }
+}

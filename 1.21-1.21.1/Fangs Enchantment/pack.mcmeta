@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": [
+			{
+				"text": "Fangs Enchantment",
+				"color": "#3481da"
+			},
+			{
+				"text": " - \nBy ",
+				"color": "gray"
+			},
+			{
+				"text": "github.com/lullaby6",
+				"color": "#683edd"
+			}
+		]
+	}
+}

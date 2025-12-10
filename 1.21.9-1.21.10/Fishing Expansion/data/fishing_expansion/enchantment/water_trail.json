@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.fishing_expansion.water_trail",
+    "fallback": "Water Trail"
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "fishing_expansion:enchantment/water_trail/load"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "exclusive_set": "#fishing_expansion:exclusive_set/water_trail",
+  "weight": 1
+}

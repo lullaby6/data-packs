@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:rarity": "epic",
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_model": "minecraft:heart_of_the_sea",
+                "minecraft:item_name": {
+                  "translate": "fishing_expansion.item.heart_of_the_elder_drowned.name",
+                  "fallback": "Heart of the Elder Drowned"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "fishing_expansion.item.heart_of_the_elder_drowned.lore.1",
+                    "fallback": "Drop in a prismarine bricks ring with",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "fishing_expansion.item.heart_of_the_elder_drowned.lore.2",
+                    "fallback": "water in the center to summon the Elder Drowned",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "fishing_expansion:heart_of_the_elder_drowned": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

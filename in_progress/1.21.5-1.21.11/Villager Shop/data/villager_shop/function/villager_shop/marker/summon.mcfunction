@@ -1,0 +1,1 @@
+execute summon minecraft:marker run function villager_shop:villager_shop/marker/data
