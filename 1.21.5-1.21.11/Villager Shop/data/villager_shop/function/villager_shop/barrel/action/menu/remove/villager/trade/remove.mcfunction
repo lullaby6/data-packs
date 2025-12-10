@@ -1,0 +1,1 @@
+function villager_shop:villager_shop/barrel/action/trades/collect/buy {"slot":0,"buy":"sell"}

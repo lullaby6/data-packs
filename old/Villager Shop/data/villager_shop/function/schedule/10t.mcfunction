@@ -1,0 +1,1 @@
+schedule function villager_shop:schedule/10t 10t replace

@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:barrel",
+							"minecraft:emerald",
+							"minecraft:copper_ingot"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["villager_shop:villager_shop"]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_11",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:glowstone_dust",
+								"minecraft:custom_data": {
+									"villager_shop.item.barrel": true,
+									"villager_shop.item.barrel.glowing": true
+								},
+								"minecraft:max_stack_size": 1,
+								"!minecraft:jukebox_playable": {},
+								"minecraft:item_name": "Glowing",
+								"minecraft:rarity": "uncommon",
+								"minecraft:enchantment_glint_override": false,
+								"minecraft:lore": [
+									{
+										"translate": "villager_shop.item.barrel.glowing.disabled",
+										"fallback": "Disabled",
+										"color": "gray",
+										"italic": false
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
