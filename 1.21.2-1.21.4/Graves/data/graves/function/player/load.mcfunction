@@ -1,5 +1,5 @@
-execute if score @s graves.player.id matches 1.. run return fail
+execute if score triggers graves.config matches 1 run function graves:player/trigger/load
 
-scoreboard players add . graves.player.id 1
+execute if score @s graves.player.id matches 1.. run return run scoreboard players operation @s utils.player.id = @s graves.player.id
 
-execute store result score @s graves.player.id run scoreboard players get . graves.player.id
+function graves:utils/player/load

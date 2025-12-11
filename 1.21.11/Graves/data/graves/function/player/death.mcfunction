@@ -1,6 +1,8 @@
 advancement revoke @s only graves:score/death
 scoreboard players reset @s graves.player.death
 
+execute if entity @s[tag=graves.player.no_grave] run return fail
+
 execute unless score @s utils.player.id matches 1.. run function graves:player/load
 
 execute unless score @s utils.player.id matches 1.. run return fail
@@ -19,7 +21,7 @@ execute store result storage graves:death data.player_id int 1 run scoreboard pl
 scoreboard players add . graves.grave.id 1
 execute store result storage graves:death data.grave_id int 1 run scoreboard players get . graves.grave.id
 
-function graves:grave/spawn with storage graves:death data
+execute align xyz positioned ~0.5 ~ ~0.5 run function graves:grave/spawn with storage graves:death data
 
 data remove storage graves:death data
 

@@ -1,7 +1,7 @@
 function graves:utils/player/clear_chat
 
 tellraw @s [{"text":"==========[ ","color":"gray"},{"text":"Graves","color":"white","bold":true},{"text":" ]==========","color":"gray"}]
-tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v2.4.5"}]
+tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":"v3.0.0"}]
 
 tellraw @s ""
 
@@ -50,6 +50,18 @@ execute if score effects graves.config matches 0 run tellraw @s [{"color":"gray"
 execute if score suffocable graves.config matches 1 run tellraw @s [{"color":"gray","text":"- Suffocable: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/suffocable/disable"},"color":"green","hover_event":{"action":"show_text","value":[{"text":"Click to disable suffocable"}]},"text":"ENABLED"}]
 execute if score suffocable graves.config matches 0 run tellraw @s [{"color":"gray","text":"- Suffocable: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/suffocable/enable"},"color":"gray","hover_event":{"action":"show_text","value":[{"text":"Click to enable suffocable"}]},"text":"DISABLED"}]
 
+execute if score lava_protect graves.config matches 1 run tellraw @s [{"color":"gray","text":"- Lava Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/lava/disable"},"color":"green","hover_event":{"action":"show_text","value":[{"text":"Click to disable lava protect"}]},"text":"ENABLED"}]
+execute if score lava_protect graves.config matches 0 run tellraw @s [{"color":"gray","text":"- Lava Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/lava/enable"},"color":"gray","hover_event":{"action":"show_text","value":[{"text":"Click to enable lava protect"}]},"text":"DISABLED"}]
+
+execute if score water_protect graves.config matches 1 run tellraw @s [{"color":"gray","text":"- Water Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/water/disable"},"color":"green","hover_event":{"action":"show_text","value":[{"text":"Click to disable water protect"}]},"text":"ENABLED"}]
+execute if score water_protect graves.config matches 0 run tellraw @s [{"color":"gray","text":"- Water Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/water/enable"},"color":"gray","hover_event":{"action":"show_text","value":[{"text":"Click to enable water protect"}]},"text":"DISABLED"}]
+
+execute if score void_protect graves.config matches 1 run tellraw @s [{"color":"gray","text":"- Void Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/void/disable"},"color":"green","hover_event":{"action":"show_text","value":[{"text":"Click to disable void protect"}]},"text":"ENABLED"}]
+execute if score void_protect graves.config matches 0 run tellraw @s [{"color":"gray","text":"- Void Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/void/enable"},"color":"gray","hover_event":{"action":"show_text","value":[{"text":"Click to enable void protect"}]},"text":"DISABLED"}]
+
+execute if score end_protect graves.config matches 1 run tellraw @s [{"color":"gray","text":"- End Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/end/disable"},"color":"green","hover_event":{"action":"show_text","value":[{"text":"Click to disable end protect"}]},"text":"ENABLED"}]
+execute if score end_protect graves.config matches 0 run tellraw @s [{"color":"gray","text":"- End Protect: "},{"bold":true,"click_event":{"action":"run_command","command":"/function graves:config/options/protect/end/enable"},"color":"gray","hover_event":{"action":"show_text","value":[{"text":"Click to enable end protect"}]},"text":"DISABLED"}]
+
 tellraw @s ""
 
 tellraw @s [{"text":"- ","color":"gray"},{"text":"See Commands","color":"aqua","hover_event":{"action":"show_text","value":[{"text":"Click to see the commands"}]},"click_event":{"action":"run_command","command":"/function graves:config/commands"}}]
@@ -58,4 +70,4 @@ tellraw @s ""
 
 tellraw @s [{"text":"===========","color":"gray"},{"text":"======","color":"gray"},{"text":"===========","color":"gray"}]
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .5 2
+playsound minecraft:ui.button.click master @s ~ ~ ~ 0.5 2

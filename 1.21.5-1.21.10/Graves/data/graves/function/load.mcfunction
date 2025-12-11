@@ -1,7 +1,7 @@
 function graves:utils/load
 
 scoreboard objectives add graves.config dummy
-execute unless score load graves.config matches 4 run function graves:config/load
+execute unless score load graves.config matches 5 run function graves:config/load
 
 scoreboard objectives add graves.grave.id dummy
 scoreboard objectives add graves.grave.pos.x dummy
