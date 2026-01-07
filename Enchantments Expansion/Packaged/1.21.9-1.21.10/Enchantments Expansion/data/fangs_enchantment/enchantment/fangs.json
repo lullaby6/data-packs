@@ -1,0 +1,120 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.fangs_enchantment.fangs",
+		"fallback": "Fangs"
+	},
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"slots": ["legs"],
+	"supported_items": "#minecraft:enchantable/leg_armor",
+	"weight": 4,
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:change_item_damage",
+					"amount": 2
+				},
+				"enchanted": "victim",
+				"requirements": {
+					"chance": {
+						"type": "minecraft:enchantment_level",
+						"amount": {
+							"type": "minecraft:linear",
+							"base": 0.15,
+							"per_level_above_first": 0.15
+						}
+					},
+					"condition": "minecraft:random_chance"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"armor.legs": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "fangs_enchantment:fangs",
+											"levels": 1
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "fangs_enchantment:1"
+				},
+				"enchanted": "victim"
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"armor.legs": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "fangs_enchantment:fangs",
+											"levels": 2
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "fangs_enchantment:2"
+				},
+				"enchanted": "victim"
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"armor.legs": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "fangs_enchantment:fangs",
+											"levels": 3
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "fangs_enchantment:3"
+				},
+				"enchanted": "victim"
+			}
+		]
+	}
+}

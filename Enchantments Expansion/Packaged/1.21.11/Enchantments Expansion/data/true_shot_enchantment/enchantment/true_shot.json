@@ -1,0 +1,29 @@
+{
+	"description": {
+		"translate": "enchantment.true_shot_enchantment.true_shot",
+		"fallback": "True Shot"
+	},
+	"anvil_cost": 4,
+	"effects": {
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "true_shot_enchantment:true_shot"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 20,
+		"per_level_above_first": 0
+	},
+	"slots": ["mainhand"],
+	"supported_items": "#minecraft:enchantable/bow",
+	"weight": 2
+}

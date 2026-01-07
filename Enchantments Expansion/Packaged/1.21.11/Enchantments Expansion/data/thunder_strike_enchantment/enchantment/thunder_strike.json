@@ -1,0 +1,135 @@
+{
+	"description": {
+		"translate": "enchantment.thunder_strike_enchantment.thunder_strike",
+		"fallback": "Thunder Strike"
+	},
+	"anvil_cost": 4,
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"slots": ["mainhand"],
+	"supported_items": "#minecraft:enchantable/mace",
+	"weight": 2,
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:change_item_damage",
+					"amount": 2
+				},
+				"enchanted": "attacker",
+				"requirements": {
+					"chance": {
+						"type": "minecraft:enchantment_level",
+						"amount": {
+							"type": "minecraft:linear",
+							"base": 0.15,
+							"per_level_above_first": 0.15
+						}
+					},
+					"condition": "minecraft:random_chance"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"slots": {
+							"weapon.mainhand": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "thunder_strike_enchantment:thunder_strike",
+											"levels": 1
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 1.0
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "thunder_strike_enchantment:1"
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"slots": {
+							"weapon.mainhand": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "thunder_strike_enchantment:thunder_strike",
+											"levels": 2
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 1.0
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "thunder_strike_enchantment:2"
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"slots": {
+							"weapon.mainhand": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "thunder_strike_enchantment:thunder_strike",
+											"levels": 3
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 1.0
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "thunder_strike_enchantment:3"
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			}
+		]
+	}
+}

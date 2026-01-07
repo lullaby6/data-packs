@@ -1,0 +1,33 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.reverse_knockback_enchantment.reverse_knockback",
+		"fallback": "Reverse Knockback"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"effect": {
+					"type": "minecraft:apply_impulse",
+					"direction": [0, 0, 1],
+					"coordinate_scale": [1, 0.5, 1],
+					"magnitude": 1
+				},
+				"enchanted": "attacker",
+				"affected": "damaging_entity"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 55,
+		"per_level_above_first": 20
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 5,
+		"per_level_above_first": 20
+	},
+	"slots": ["mainhand"],
+	"supported_items": "#minecraft:enchantable/melee_weapon",
+	"weight": 5
+}

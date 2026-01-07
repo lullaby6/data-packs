@@ -1,0 +1,223 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.flight_enchantment.flight",
+		"fallback": "Flight"
+	},
+	"effects": {
+		"minecraft:location_changed": [
+			{
+				"effect": {
+					"type": "apply_impulse",
+					"direction": [0, 0, 1],
+					"magnitude": 0.5,
+					"coordinate_scale": [0.1, 0.1, 0.1]
+				},
+				"requirements": {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_fall_flying": true
+						},
+						"type_specific": {
+							"type": "player",
+							"input": {
+								"sneak": false
+							}
+						},
+						"equipment": {
+							"chest": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "flight_enchantment:flight",
+											"levels": 1
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"speed": {
+								"max": 10
+							}
+						}
+					}
+				}
+			},
+			{
+				"effect": {
+					"type": "apply_impulse",
+					"direction": [0, 0, 1],
+					"magnitude": 0.55,
+					"coordinate_scale": [0.1, 0.1, 0.1]
+				},
+				"requirements": {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_fall_flying": true
+						},
+						"type_specific": {
+							"type": "player",
+							"input": {
+								"sneak": false
+							}
+						},
+						"equipment": {
+							"chest": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "flight_enchantment:flight",
+											"levels": 2
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"speed": {
+								"max": 15
+							}
+						}
+					}
+				}
+			},
+			{
+				"effect": {
+					"type": "apply_impulse",
+					"direction": [0, 0, 1],
+					"magnitude": 0.6,
+					"coordinate_scale": [0.1, 0.1, 0.1]
+				},
+				"requirements": {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_fall_flying": true
+						},
+						"type_specific": {
+							"type": "player",
+							"input": {
+								"sneak": false
+							}
+						},
+						"equipment": {
+							"chest": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "flight_enchantment:flight",
+											"levels": 3
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"speed": {
+								"max": 20
+							}
+						}
+					}
+				}
+			},
+			{
+				"effect": {
+					"type": "apply_impulse",
+					"direction": [0, 0, 1],
+					"magnitude": 0.65,
+					"coordinate_scale": [0.1, 0.1, 0.1]
+				},
+				"requirements": {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_fall_flying": true
+						},
+						"type_specific": {
+							"type": "player",
+							"input": {
+								"sneak": false
+							}
+						},
+						"equipment": {
+							"chest": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "flight_enchantment:flight",
+											"levels": 4
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"speed": {
+								"max": 25
+							}
+						}
+					}
+				}
+			},
+			{
+				"effect": {
+					"type": "apply_impulse",
+					"direction": [0, 0, 1],
+					"magnitude": 0.7,
+					"coordinate_scale": [0.1, 0.1, 0.1]
+				},
+				"requirements": {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_fall_flying": true
+						},
+						"type_specific": {
+							"type": "player",
+							"input": {
+								"sneak": false
+							}
+						},
+						"equipment": {
+							"chest": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "flight_enchantment:flight",
+											"levels": 5
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"speed": {
+								"max": 30
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 9
+	},
+	"max_level": 5,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 9
+	},
+	"slots": ["chest"],
+	"supported_items": "minecraft:elytra",
+	"weight": 2
+}

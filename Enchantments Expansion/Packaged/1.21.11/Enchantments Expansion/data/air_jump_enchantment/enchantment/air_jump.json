@@ -1,0 +1,79 @@
+{
+	"description": {
+		"translate": "enchantment.air_jump_enchantment.air_jump",
+		"fallback": "Air Jump"
+	},
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"weight": 2,
+	"max_level": 1,
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	},
+	"min_cost": {
+		"base": 20,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": ["feet"],
+	"effects": {
+		"minecraft:location_changed": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "air_jump_enchantment:can_jump"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"input": {
+								"jump": true
+							}
+						},
+						"nbt": "{Tags:[\"air_jump.player.can_jump\"]}",
+						"flags": {
+							"is_sneaking": false,
+							"is_on_ground": false,
+							"is_in_water": false
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 0.000001
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:play_sound",
+							"sound": "minecraft:entity.phantom.flap",
+							"volume": 1,
+							"pitch": 2
+						},
+						{
+							"type": "minecraft:change_item_damage",
+							"amount": 1
+						},
+						{
+							"type": "minecraft:apply_impulse",
+							"direction": [0, 1, 0.25],
+							"coordinate_scale": [1, 2, 1],
+							"magnitude": 0.5
+						},
+						{
+							"type": "minecraft:run_function",
+							"function": "air_jump_enchantment:air_jump"
+						}
+					]
+				}
+			}
+		]
+	}
+}

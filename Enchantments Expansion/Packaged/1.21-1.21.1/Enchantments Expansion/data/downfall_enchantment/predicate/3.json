@@ -1,0 +1,18 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"armor.feet": {
+				"predicates": {
+					"minecraft:enchantments": [
+						{
+							"enchantments": "downfall_enchantment:downfall",
+							"levels": 3
+						}
+					]
+				}
+			}
+		}
+	}
+}

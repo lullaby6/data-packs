@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "smelting_enchantment:smelting": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

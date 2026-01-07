@@ -1,0 +1,13 @@
+{
+	"values": [
+		"soulbound_enchantment:tick",
+		"magnetic_enchantment:tick",
+		"veinminer_enchantment:tick",
+		"timber_enchantment:tick",
+		"eternal_enchantment:tick",
+		"true_shot_enchantment:tick",
+		"smelting_enchantment:tick",
+		"longevity_enchantment:tick",
+		"double_hit_enchantment:tick"
+	]
+}

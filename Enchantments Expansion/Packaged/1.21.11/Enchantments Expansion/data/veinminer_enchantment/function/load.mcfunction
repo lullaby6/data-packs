@@ -1,0 +1,35 @@
+scoreboard objectives add veinminer_enchantment.player.use.wooden_pickaxe minecraft.used:minecraft.wooden_pickaxe
+scoreboard objectives add veinminer_enchantment.player.use.stone_pickaxe minecraft.used:minecraft.stone_pickaxe
+scoreboard objectives add veinminer_enchantment.player.use.iron_pickaxe minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add veinminer_enchantment.player.use.golden_pickaxe minecraft.used:minecraft.golden_pickaxe
+scoreboard objectives add veinminer_enchantment.player.use.diamond_pickaxe minecraft.used:minecraft.diamond_pickaxe
+scoreboard objectives add veinminer_enchantment.player.use.netherite_pickaxe minecraft.used:minecraft.netherite_pickaxe
+
+scoreboard objectives add veinminer_enchantment.player.mine.coal_ore minecraft.mined:minecraft.coal_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_coal_ore minecraft.mined:minecraft.deepslate_coal_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.copper_ore minecraft.mined:minecraft.copper_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_copper_ore minecraft.mined:minecraft.deepslate_copper_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.iron_ore minecraft.mined:minecraft.iron_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_iron_ore minecraft.mined:minecraft.deepslate_iron_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.gold_ore minecraft.mined:minecraft.gold_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_gold_ore minecraft.mined:minecraft.deepslate_gold_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.redstone_ore minecraft.mined:minecraft.redstone_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_redstone_ore minecraft.mined:minecraft.deepslate_redstone_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.emerald_ore minecraft.mined:minecraft.emerald_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_emerald_ore minecraft.mined:minecraft.deepslate_emerald_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.lapis_ore minecraft.mined:minecraft.lapis_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_lapis_ore minecraft.mined:minecraft.deepslate_lapis_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.diamond_ore minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add veinminer_enchantment.player.mine.deepslate_diamond_ore minecraft.mined:minecraft.deepslate_diamond_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.nether_gold_ore minecraft.mined:minecraft.nether_gold_ore
+scoreboard objectives add veinminer_enchantment.player.mine.nether_quartz_ore minecraft.mined:minecraft.nether_quartz_ore
+
+scoreboard objectives add veinminer_enchantment.player.mine.ancient_debris minecraft.mined:minecraft.ancient_debris

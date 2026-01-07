@@ -1,0 +1,33 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.attack_speed_enchantment.attack_speed",
+		"fallback": "Attack Speed"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.1,
+					"per_level_above_first": 0.1
+				},
+				"attribute": "minecraft:generic.attack_speed",
+				"id": "attack_speed_enchantment:enchantment.attack_speed",
+				"operation": "add_value"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 40,
+		"per_level_above_first": 11
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 11
+	},
+	"slots": ["mainhand"],
+	"supported_items": "#minecraft:enchantable/melee_weapon",
+	"weight": 5
+}

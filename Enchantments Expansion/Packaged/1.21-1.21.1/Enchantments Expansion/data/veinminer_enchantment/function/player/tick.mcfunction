@@ -1,0 +1,3 @@
+execute unless predicate veinminer_enchantment:is_sneaking if predicate veinminer_enchantment:veinminer run function veinminer_enchantment:veinminer/holding
+
+function veinminer_enchantment:player/reset

@@ -1,0 +1,33 @@
+{
+  "description": {
+    "translate": "enchantment.double_hit_enchantment.double_hit",
+    "fallback": "Double Hit"
+  },
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 40
+  },
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 40
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "double_hit_enchantment:double_hit/victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

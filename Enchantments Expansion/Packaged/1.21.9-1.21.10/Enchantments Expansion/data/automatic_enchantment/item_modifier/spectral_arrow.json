@@ -1,0 +1,10 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:charged_projectiles": [
+			{
+				"id": "minecraft:spectral_arrow"
+			}
+		]
+	}
+}

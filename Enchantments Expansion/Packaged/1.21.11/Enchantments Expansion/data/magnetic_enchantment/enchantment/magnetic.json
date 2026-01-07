@@ -1,0 +1,19 @@
+{
+	"description": {
+		"translate": "enchantment.magnetic_enchantment.magnetic",
+		"fallback": "Magnetic"
+	},
+	"anvil_cost": 4,
+	"max_cost": {
+		"base": 75,
+		"per_level_above_first": 25
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 25,
+		"per_level_above_first": 25
+	},
+	"slots": ["mainhand"],
+	"supported_items": "#magnetic_enchantment:enchantable/magnetic",
+	"weight": 2
+}

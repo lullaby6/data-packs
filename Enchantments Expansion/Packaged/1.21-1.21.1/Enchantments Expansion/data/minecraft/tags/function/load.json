@@ -1,0 +1,12 @@
+{
+	"values": [
+		"soulbound_enchantment:load",
+		"life_steal_enchantment:load",
+		"magnetic_enchantment:load",
+		"veinminer_enchantment:load",
+		"timber_enchantment:load",
+		"true_shot_enchantment:load",
+		"smelting_enchantment:load",
+		"double_hit_enchantment:load"
+	]
+}

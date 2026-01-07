@@ -1,0 +1,1 @@
+summon falling_block ^ ^0.375 ^ {BlockState:{Name:"minecraft:cobweb"},Time:1,DropItem:0b,CancelDrop:0b,HurtEntities:0b}

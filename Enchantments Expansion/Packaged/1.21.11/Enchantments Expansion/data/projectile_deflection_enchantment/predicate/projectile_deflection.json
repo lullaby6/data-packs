@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"chest": {
+				"predicates": {
+					"minecraft:enchantments": [
+						{
+							"enchantments": "projectile_deflection_enchantment:projectile_deflection"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "player",
+		"flags": {
+			"is_on_ground": true
+		}
+	}
+}

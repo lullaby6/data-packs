@@ -1,0 +1,85 @@
+{
+	"anvil_cost": 8,
+	"description": {
+		"translate": "enchantment.cobweb_enchantment.cobweb",
+		"fallback": "Cobweb"
+	},
+	"effects": {
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "cobweb_enchantment:cobweb"
+						},
+						{
+							"type": "minecraft:play_sound",
+							"pitch": 1,
+							"sound": "minecraft:block.cobweb.place",
+							"volume": 2
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#minecraft:arrows"
+							}
+						}
+					]
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "cobweb_enchantment:cobweb"
+						},
+						{
+							"type": "minecraft:play_sound",
+							"pitch": 1,
+							"sound": "minecraft:block.cobweb.place",
+							"volume": 2
+						}
+					]
+				},
+				"enchanted": "attacker",
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "direct_attacker",
+							"predicate": {
+								"type": "#minecraft:arrows"
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 25,
+		"per_level_above_first": 0
+	},
+	"slots": ["mainhand", "offhand"],
+	"supported_items": "#minecraft:enchantable/crossbow",
+	"weight": 1
+}

@@ -1,0 +1,1 @@
+execute as @e[scores={double_hit_enchantment.entity.double_hit.cooldown=1..}] run function double_hit_enchantment:double_hit/tick

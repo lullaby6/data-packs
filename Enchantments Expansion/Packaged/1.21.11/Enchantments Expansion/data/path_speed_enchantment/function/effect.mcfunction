@@ -1,0 +1,1 @@
+function path_speed_enchantment:path_speed

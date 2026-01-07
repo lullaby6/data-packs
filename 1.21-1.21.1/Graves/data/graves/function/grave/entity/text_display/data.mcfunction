@@ -14,7 +14,7 @@ data modify entity @s transformation.right_rotation set value [0f,0f,0f,1f]
 data modify entity @s transformation.translation set value [0f,0.85f,0f]
 data modify entity @s transformation.scale set value [0.75f,0.75f,0.75f]
 
-$data modify entity @s text set value '[{"selector":"@p[scores={utils.player.id=$(player_id)}]"},{"text":"\'s \nGrave"}]'
+$data modify entity @s text set value '[{"selector":"@p[scores={utils.player.id=$(player_id)}]"},{"text":"\'s \\nGrave"}]'
 
 execute if score name_visible graves.config matches 1 run return run data modify entity @s view_range set value 1
 execute if score name_visible graves.config matches 0 run return run data modify entity @s view_range set value 0.025

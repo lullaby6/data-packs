@@ -1,0 +1,11 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"container.*": {
+				"items": "minecraft:spectral_arrow"
+			}
+		}
+	}
+}

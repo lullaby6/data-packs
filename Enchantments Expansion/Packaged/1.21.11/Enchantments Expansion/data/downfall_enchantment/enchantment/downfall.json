@@ -1,0 +1,151 @@
+{
+	"description": {
+		"translate": "enchantment.downfall_enchantment.downfall",
+		"fallback": "Downfall"
+	},
+	"anvil_cost": 4,
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 4,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"slots": ["feet"],
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"weight": 2,
+	"effects": {
+		"minecraft:location_changed": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_sneaking": false
+						},
+						"slots": {
+							"armor.feet": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "downfall_enchantment:downfall",
+											"levels": 1
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 3
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "downfall_enchantment:location_changed/1"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_sneaking": false
+						},
+						"slots": {
+							"armor.feet": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "downfall_enchantment:downfall",
+											"levels": 2
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 4.5
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "downfall_enchantment:location_changed/2"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_sneaking": false
+						},
+						"slots": {
+							"armor.feet": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "downfall_enchantment:downfall",
+											"levels": 3
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 5
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "downfall_enchantment:location_changed/3"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_sneaking": false
+						},
+						"slots": {
+							"armor.feet": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "downfall_enchantment:downfall",
+											"levels": 4
+										}
+									]
+								}
+							}
+						},
+						"movement": {
+							"fall_distance": {
+								"min": 6
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "downfall_enchantment:location_changed/4"
+				}
+			}
+		]
+	}
+}

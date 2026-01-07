@@ -1,0 +1,22 @@
+{
+  "pack": {
+    "pack_format": 94,
+    "min_format": 94,
+    "max_format": 94,
+    "description": [
+      {
+        "text": "Enchantments Expansion RP",
+        "color": "#FF55FF"
+      },
+      {
+        "text": " - \nBy ",
+        "color": "gray"
+      },
+      {
+        "text": "github.com/lullaby6",
+        "color": "#683edd"
+      }
+    ]
+  },
+  "id": "missing_30"
+}
