@@ -1,0 +1,70 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.rpg_enchantments.bulwark",
+    "fallback": "Bulwark"
+  },
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.5,
+            "per_level_above_first": 1.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:knockback_resistance",
+        "id": "attribute.rpg_enchantments.bulwark.knockback_resistance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.025,
+          "per_level_above_first": 0.025
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "attribute.rpg_enchantments.bulwark.movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.00125,
+          "per_level_above_first": -0.00125
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#rpg_enchantments:exclusive_set/armor",
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "primary_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 10
+}

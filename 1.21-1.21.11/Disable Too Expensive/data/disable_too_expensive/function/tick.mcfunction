@@ -1,0 +1,1 @@
+execute as @a if items entity @s player.cursor *[minecraft:repair_cost] run item modify entity @s player.cursor disable_too_expensive:remove_repair_cost

@@ -1,0 +1,80 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "#R#",
+        "#S#",
+        "#N#"
+    ],
+    "key": {
+        "#": "minecraft:wither_skeleton_skull",
+        "R": "minecraft:rib_armor_trim_smithing_template",
+        "S": "minecraft:shield",
+        "N": "minecraft:nether_star"
+
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 672,
+                "minecraft:custom_data": {
+                  "shield_upgrades.wither": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Wither Shield",
+                  "italic": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:base_color",
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:base_color": "gray",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "straight_cross",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "piglin",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "half_horizontal",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "creeper",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "skull",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "gradient",
+                    "color": "black"
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "attribute.shield_upgrades.wither.attack_damage",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "attribute.shield_upgrades.wither.attack_speed",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+    }
+}

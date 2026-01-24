@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 672,
+                "minecraft:custom_data": {
+                  "shield_upgrades.dune": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Dune Shield",
+                  "italic": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:base_color",
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:base_color": "white",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "triangle_bottom",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "skull",
+                    "color": "orange"
+                  },
+                  {
+                    "pattern": "curly_border",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "cross",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "flower",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "triangle_top",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "gradient_up",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "triangles_bottom",
+                    "color": "orange"
+                  },
+                  {
+                    "pattern": "triangles_top",
+                    "color": "orange"
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "id": "attribute.shield_upgrades.dune.entity_interaction_range",
+                    "amount": 0.25,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:block_interaction_range",
+                    "id": "attribute.shield_upgrades.dune.block_interaction_range",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"slots": {
+						"weapon.offhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"shield_upgrades.wither": true
+								}
+							}
+						}
+					}
+				},
+				"damage": {
+					"blocked": true,
+					"type": {
+						"is_direct": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shield_upgrades:shield/wither"
+	}
+}

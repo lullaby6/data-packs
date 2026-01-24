@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "#S#",
+        "ETE",
+        "#D#"
+    ],
+    "key": {
+        "#": "minecraft:shulker_shell",
+        "S": "minecraft:spire_armor_trim_smithing_template",
+        "E": "minecraft:end_crystal",
+        "T": "minecraft:shield",
+        "D": "minecraft:dragon_head"
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 672,
+                "minecraft:custom_data": {
+                  "shield_upgrades.enter": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Ender Shield",
+                  "italic": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:base_color",
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:base_color": "purple",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "skull",
+                    "color": "magenta"
+                  },
+                  {
+                    "pattern": "stripe_bottom",
+                    "color": "purple"
+                  },
+                  {
+                    "pattern": "triangle_bottom",
+                    "color": "magenta"
+                  },
+                  {
+                    "pattern": "curly_border",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "creeper",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "rhombus",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "stripe_top",
+                    "color": "black"
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "attribute.shield_upgrades.ender.movement_speed",
+                    "amount": 0.02,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+    }
+}

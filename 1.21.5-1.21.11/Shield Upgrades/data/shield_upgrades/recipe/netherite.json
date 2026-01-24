@@ -1,0 +1,103 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "nSn",
+        "NQN",
+        "nMn"
+    ],
+    "key": {
+        "n": "minecraft:netherite_ingot",
+        "S": "minecraft:snout_armor_trim_smithing_template",
+        "N": "minecraft:netherite_block",
+        "Q": "minecraft:shield",
+        "M": "minecraft:music_disc_11"
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 672,
+                "minecraft:custom_data": {
+                  "shield_upgrades.netherite": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Netherite Shield",
+                  "italic": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:base_color",
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:base_color": "orange",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "stripe_center",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "bricks",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "bricks",
+                    "color": "brown"
+                  },
+                  {
+                    "pattern": "curly_border",
+                    "color": "brown"
+                  },
+                  {
+                    "pattern": "curly_border",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "small_stripes",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "gradient",
+                    "color": "purple"
+                  },
+                  {
+                    "pattern": "gradient",
+                    "color": "brown"
+                  },
+                  {
+                    "pattern": "gradient_up",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "gradient",
+                    "color": "black"
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "attribute.shield_upgrades.netherite.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "attribute.shield_upgrades.netherite.armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "attribute.shield_upgrades.netherite.knockback_resistance",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+    }
+}

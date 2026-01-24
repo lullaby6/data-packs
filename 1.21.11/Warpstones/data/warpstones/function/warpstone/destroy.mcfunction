@@ -3,9 +3,9 @@ playsound minecraft:block.lodestone.break master @a ~ ~ ~ 1 1
 particle minecraft:portal ~ ~ ~ 0.5 2 0 0.1 10 force @a
 particle minecraft:end_rod ~ ~ ~ 0.5 2 0.5 0.1 10 force @a
 
-execute if block ~ ~ ~ minecraft:stone_brick_wall run fill ~ ~ ~ ~ ~ ~ minecraf:air replace minecraft:stone_brick_wall
-execute if block ~ ~1 ~ minecraft:lodestone run fill ~ ~1 ~ ~ ~1 ~ minecraf:air replace minecraft:lodestone
-execute if block ~ ~2 ~ minecraft:light run fill ~ ~2 ~ ~ ~2 ~ minecraf:air replace minecraft:light
+execute if block ~ ~ ~ minecraft:stone_brick_wall run fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:stone_brick_wall
+execute if block ~ ~1 ~ minecraft:lodestone run fill ~ ~1 ~ ~ ~1 ~ minecraft:air replace minecraft:lodestone
+execute if block ~ ~2 ~ minecraft:light run fill ~ ~2 ~ ~ ~2 ~ minecraft:air replace minecraft:light
 
 execute on passengers run kill @s
 kill @s
