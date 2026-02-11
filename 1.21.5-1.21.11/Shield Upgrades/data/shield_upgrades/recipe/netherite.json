@@ -8,8 +8,8 @@
     ],
     "key": {
         "n": "minecraft:netherite_ingot",
-        "S": "minecraft:snout_armor_trim_smithing_template",
-        "N": "minecraft:netherite_block",
+        "S": "minecraft:rib_armor_trim_smithing_template",
+        "N": "minecraft:netherite_scrap",
         "Q": "minecraft:shield",
         "M": "minecraft:music_disc_11"
     },

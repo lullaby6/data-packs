@@ -10,14 +10,14 @@
           }
         }
       },
-      "chestplate": {
+      "chest": {
         "components": {
           "minecraft:custom_data": {
             "armor_upgrades.prismarine": true
           }
         }
       },
-      "leggings": {
+      "legs": {
         "components": {
           "minecraft:custom_data": {
             "armor_upgrades.prismarine": true

@@ -6,7 +6,7 @@
 			"container.0": {
 				"predicates": {
 					"minecraft:custom_data": {
-						"shield_upgrades.ender": true
+						"utils:item": "player_head"
 					}
 				}
 			}

@@ -24,6 +24,6 @@
 		}
 	},
 	"rewards": {
-		"function": "shield_upgrades:shield/wither"
+		"function": "shield_upgrades:shield/advancement/wither"
 	}
 }

@@ -10,14 +10,14 @@
           }
         }
       },
-      "chestplate": {
+      "chest": {
         "components": {
           "minecraft:custom_data": {
             "armor_upgrades.dune": true
           }
         }
       },
-      "leggings": {
+      "legs": {
         "components": {
           "minecraft:custom_data": {
             "armor_upgrades.dune": true
