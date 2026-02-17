@@ -1,7 +1,0 @@
-execute if entity @s[tag=mobs_equipment.player.equipment.netherite] as @n[tag=mobs_equipment.entity.proccesing] run return run function mobs_equipment:mob/equipment/equip/material/netherite
-execute if entity @s[tag=mobs_equipment.player.equipment.diamond] as @n[tag=mobs_equipment.entity.proccesing] run return run function mobs_equipment:mob/equipment/equip/material/diamond
-execute if entity @s[tag=mobs_equipment.player.equipment.iron] as @n[tag=mobs_equipment.entity.proccesing] run return run function mobs_equipment:mob/equipment/equip/material/iron
-execute if entity @s[tag=mobs_equipment.player.equipment.copper] as @n[tag=mobs_equipment.entity.proccesing] run return run function mobs_equipment:mob/equipment/equip/material/copper
-execute if entity @s[tag=mobs_equipment.player.equipment.chainmail] as @n[tag=mobs_equipment.entity.proccesing] run return run function mobs_equipment:mob/equipment/equip/material/chainmail
-execute if entity @s[tag=mobs_equipment.player.equipment.gold] as @n[tag=mobs_equipment.entity.proccesing] run return run function mobs_equipment:mob/equipment/equip/material/gold
-execute if entity @s[tag=mobs_equipment.player.equipment.leather] as @n[tag=mobs_equipment.entity.proccesing] run return run function mobs_equipment:mob/equipment/equip/material/leather

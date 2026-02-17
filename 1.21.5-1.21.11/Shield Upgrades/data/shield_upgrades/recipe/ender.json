@@ -20,7 +20,7 @@
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 672,
                 "minecraft:custom_data": {
-                  "shield_upgrades.enter": true
+                  "shield_upgrades.ender": true
                 },
                 "minecraft:custom_name": {
                   "text": "Ender Shield",
