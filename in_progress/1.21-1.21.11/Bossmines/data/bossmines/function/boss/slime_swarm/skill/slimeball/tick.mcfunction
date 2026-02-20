@@ -1,0 +1,1 @@
+execute if entity @e[tag=utils.team_player,distance=..2] run function bossmines:boss/slime_swarm/skill/slimeball/impact

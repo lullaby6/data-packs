@@ -1,0 +1,1 @@
+$execute as @e[tag=bossmines.entity.boss.slime_swarm.slime,scores={bossmines.entity.boss.minion.id=$(id)}] at @s run function bossmines:boss/slime_swarm/slime/tick/slime_swarm {"id":$(id)}

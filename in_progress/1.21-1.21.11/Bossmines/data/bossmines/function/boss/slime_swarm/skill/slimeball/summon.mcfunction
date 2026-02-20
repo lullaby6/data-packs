@@ -1,0 +1,1 @@
+$summon snowball $(pos) {Motion:$(motion),Tags:["bossmines.entity.boss.slime_swarm.slimeball"],Item:{id:"minecraft:slime_ball",count:1}}
