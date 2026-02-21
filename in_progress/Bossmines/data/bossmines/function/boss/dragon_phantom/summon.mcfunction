@@ -1,0 +1,1 @@
+execute summon minecraft:phantom run function bossmines:boss/dragon_phantom/data

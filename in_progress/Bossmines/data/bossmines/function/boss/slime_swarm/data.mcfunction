@@ -1,3 +1,4 @@
+tag @s add lullaby_mobs.natural_spawn.bypass
 tag @s add bossmines.entity.boss
 tag @s add bossmines.entity.boss.slime_swarm
 

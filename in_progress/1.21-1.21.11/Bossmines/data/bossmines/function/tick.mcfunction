@@ -1,5 +1,0 @@
-function bossmines:utils/tick
-
-execute as @e[tag=bossmines.entity.boss.slime_swarm] at @s run function bossmines:boss/slime_swarm/tick
-execute as @e[tag=bossmines.entity.boss.slime_swarm.slime] at @s run function bossmines:boss/slime_swarm/slime/tick
-execute as @e[tag=bossmines.entity.boss.slime_swarm.slimeball] at @s run function bossmines:boss/slime_swarm/skill/slimeball/tick
