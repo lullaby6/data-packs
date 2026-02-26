@@ -16,3 +16,10 @@ execute as @e[tag=bossmines.entity.boss.skeleton_illusioner] at @s run function 
 execute as @e[tag=bossmines.entity.boss.skeleton_illusioner.illusion] at @s run function bossmines:boss/skeleton_illusioner/skill/illusion/tick
 
 execute as @e[tag=bossmines.entity.boss.spider_queen] at @s run function bossmines:boss/spider_queen/tick
+
+execute as @e[tag=bossmines.entity.boss.torghast] at @s run function bossmines:boss/torghast/tick
+
+execute as @e[tag=bossmines.entity.boss.lich] at @s run function bossmines:boss/lich/tick
+
+execute as @e[tag=bossmines.entity.boss.shulker_totem] at @s run function bossmines:boss/shulker_totem/tick
+execute as @e[tag=bossmines.entity.boss.shulker_totem.shulker] at @s run function bossmines:boss/shulker_totem/shulker/tick

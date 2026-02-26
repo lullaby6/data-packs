@@ -1,1 +1,1 @@
-$execute unless entity @e[tag=bossmines.entity.boss.slime_swarm,scores={bossmines.entity.boss.id=$(id)}] run return run kill @sw
+$execute unless entity @e[tag=bossmines.entity.boss.slime_swarm,scores={bossmines.entity.boss.id=$(id)}] run return run kill @s
