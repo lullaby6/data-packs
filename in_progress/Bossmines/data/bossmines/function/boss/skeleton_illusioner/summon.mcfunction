@@ -1,0 +1,1 @@
+execute summon minecraft:skeleton run function bossmines:boss/skeleton_illusioner/data

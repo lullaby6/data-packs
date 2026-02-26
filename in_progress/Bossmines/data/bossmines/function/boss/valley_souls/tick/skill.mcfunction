@@ -1,6 +1,6 @@
 # effect give @s minecraft:regeneration 10 0 true
 
-effect give @a[distance=..10] minecraft:darkness 7 0
+# effect give @a[distance=..10] minecraft:darkness 7 0
 
 data modify entity @s bound_pos set from entity @n[tag=utils.team_player] Pos
 

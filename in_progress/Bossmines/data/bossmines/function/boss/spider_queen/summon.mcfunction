@@ -1,0 +1,1 @@
+execute summon minecraft:cave_spider run function bossmines:boss/spider_queen/data

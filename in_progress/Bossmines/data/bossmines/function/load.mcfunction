@@ -6,3 +6,5 @@ scoreboard objectives add bossmines.entity.boss.minion.count dummy
 
 scoreboard objectives add bossmines.entity.boss.skill dummy
 scoreboard objectives add bossmines.entity.boss.skill.choose dummy
+
+scoreboard objectives add bossmines.entity.boss.skill.timer.1 dummy

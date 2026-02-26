@@ -9,3 +9,8 @@ execute as @e[tag=bossmines.entity.boss.valley_souls.vex] at @s run function bos
 
 execute as @e[tag=bossmines.entity.boss.dragon_phantom] at @s run function bossmines:boss/dragon_phantom/tick
 execute as @e[tag=bossmines.entity.boss.dragon_phantom.phantom] at @s run function bossmines:boss/dragon_phantom/skill/phantom/tick
+
+execute as @e[tag=bossmines.entity.boss.skeleton_illusioner] at @s run function bossmines:boss/skeleton_illusioner/tick
+execute as @e[tag=bossmines.entity.boss.skeleton_illusioner.illusion] at @s run function bossmines:boss/skeleton_illusioner/skill/illusion/tick
+
+execute as @e[tag=bossmines.entity.boss.spider_queen] at @s run function bossmines:boss/spider_queen/tick
