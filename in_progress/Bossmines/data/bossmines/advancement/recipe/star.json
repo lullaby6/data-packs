@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+                            "minecraf:nether_star"
+                        ]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+            "bossmines:star/dragon_phantom",
+            "bossmines:star/shulker_totem",
+            "bossmines:star/skeleton_illusioner",
+            "bossmines:star/slime_swarm",
+            "bossmines:star/spider_queen",
+            "bossmines:star/torghast",
+            "bossmines:star/valley_souls"
+        ]
+	}
+}

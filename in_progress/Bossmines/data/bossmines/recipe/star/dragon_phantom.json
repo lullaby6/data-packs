@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#N#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:phantom_membrane",
+        "N": "minecraft:nether_star"
+    },
+    "result": {
+        "id": "minecraft:music_disc_11",
+        "count": 1,
+        "components": {
+            "minecraft:rarity": "epic",
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:nether_star",
+            "minecraft:item_name": {
+                "translate": "bossmines.item.star.dragon_phantom.name",
+                "fallback": "Dragon Phantom Star"
+            },
+            "minecraft:lore": [
+                {
+                "translate": "bossmines.item.star.dragon_phantom.lore",
+                "fallback": "Place on top of three bone blocks in The End to summon the Dragon Phantom boss",
+                "color": "gray",
+                "italic": false
+                }
+            ],
+            "minecraft:custom_data": {
+                "bossmines:star/dragon_phantom": true
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:armor_stand",
+                "Tags": [
+                    "bossmines.entity.boss.summon",
+                    "bossmines.entity.boss.dragon_phantom.summon"
+                ],
+                "HasVisualFire": false,
+                "NoGravity": true,
+                "Invulnerable": true,
+                "Silent": true,
+                "Invisible": true,
+                "Marker": true,
+                "Small": true,
+                "DisabledSlots": 4144959
+            }
+            }
+    }
+}

@@ -32,6 +32,7 @@
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
                   "Tags": [
+                    "bossmines.entity.boss.summon",
                     "bossmines.entity.boss.spider_queen.summon"
                   ],
                   "HasVisualFire": false,

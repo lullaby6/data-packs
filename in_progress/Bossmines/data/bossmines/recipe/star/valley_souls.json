@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#N#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:soul_soil",
+        "N": "minecraft:nether_star"
+    },
+    "result": {
+        "id": "minecraft:music_disc_11",
+        "count": 1,
+        "components": {
+            "minecraft:rarity": "epic",
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:nether_star",
+            "minecraft:item_name": {
+                "translate": "bossmines.item.star.valley_souls.name",
+                "fallback": "Valley Souls Star"
+            },
+            "minecraft:lore": [
+                {
+                "translate": "bossmines.item.star.valley_souls.lore",
+                "fallback": "Place on top of three soul solid blocks in the Soul Sand Valley to summon the Valley Souls boss",
+                "color": "gray",
+                "italic": false
+                }
+            ],
+            "minecraft:custom_data": {
+                "bossmines:star/valley_souls": true
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:armor_stand",
+                "Tags": [
+                    "bossmines.entity.boss.summon",
+                    "bossmines.entity.boss.valley_souls.summon"
+                ],
+                "HasVisualFire": false,
+                "NoGravity": true,
+                "Invulnerable": true,
+                "Silent": true,
+                "Invisible": true,
+                "Marker": true,
+                "Small": true,
+                "DisabledSlots": 4144959
+            }
+            }
+    }
+}

@@ -21,7 +21,7 @@
                 "minecraft:lore": [
                   {
                     "translate": "bossmines.item.star.valley_souls.lore",
-                    "fallback": "Place on top of three soul solid blocks to summon the Valley Souls boss",
+                    "fallback": "Place on top of three soul soil blocks in the Soul Sand Valley to summon the Valley Souls boss",
                     "color": "gray",
                     "italic": false
                   }
@@ -32,6 +32,7 @@
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
                   "Tags": [
+                    "bossmines.entity.boss.summon",
                     "bossmines.entity.boss.valley_souls.summon"
                   ],
                   "HasVisualFire": false,

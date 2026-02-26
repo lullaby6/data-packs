@@ -21,7 +21,7 @@
                 "minecraft:lore": [
                   {
                     "translate": "bossmines.item.star.dragon_phantom.lore",
-                    "fallback": "Place on top of three bone blocks to summon the Dragon Phantom boss",
+                    "fallback": "Place on top of three bone blocks in The End to summon the Dragon Phantom boss",
                     "color": "gray",
                     "italic": false
                   }
@@ -32,6 +32,7 @@
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
                   "Tags": [
+                    "bossmines.entity.boss.summon",
                     "bossmines.entity.boss.dragon_phantom.summon"
                   ],
                   "HasVisualFire": false,
