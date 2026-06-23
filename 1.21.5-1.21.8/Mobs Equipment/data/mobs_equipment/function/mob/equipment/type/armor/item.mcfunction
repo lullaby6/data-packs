@@ -1,6 +1,6 @@
 $item replace entity @s armor.$(slot) with minecraft:$(armor_material)_$(armor)
 
-$data modify entity @s drop_chances.$(slot) set value 0.0001
+$data modify entity @s drop_chances.$(slot) set value 0.000
 
 $function mobs_equipment:mob/equipment/type/armor/protection { \
     "slot":"$(slot)", \

@@ -1,7 +1,5 @@
 tellraw @s [{"text":"==========[ ","color":"gray"},{"text":"Economy","color":"white","bold":true},{"text":" ]==========","color":"gray"}]
-tellraw @s [{"color":"gray","text":"Version: "},{"color":"aqua","text":\
-    "v1.0.0"\
-}]
+function economy:version
 
 tellraw @s ""
 
@@ -9,230 +7,23 @@ tellraw @s {"color":"gray","text":"Options:","underlined":true}
 
 tellraw @s ""
 
-execute if score sounds economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Sounds: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/sounds/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable sounds"}]}\
-    }\
-]
-execute if score sounds economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Sounds: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/sounds/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled sounds"}]}\
-    }\
-]
+function economy:config/utils/toggle {"id":"sounds","title":"Sounds","text":"sounds"}
 
-execute if score jobs economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Jobs: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/jobs/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable jobs"}]}\
-    }\
-]
-execute if score jobs economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Jobs: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/jobs/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled jobs"}]}\
-    }\
-]
+function economy:config/utils/toggle {"id":"coin","title":"Coins","text":"coins"}
 
-execute if score shop economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Shop: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/shop/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable shop"}]}\
-    }\
-]
-execute if score shop economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Shop: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/shop/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled shop"}]}\
-    }\
-]
+function economy:config/utils/toggle_value {"id":"initial_balance","title":"Initial Balance","text":"initial balance","title_value":"Initial Balance Amount","id_value":"initial_balance_amount","value":"10"}
 
-execute if score player_shops economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Player Shops: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/player_shops/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable player shops"}]}\
-    }\
-]
-execute if score player_shops economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Player Shops: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/player_shops/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled player shops"}]}\
-    }\
-]
+function economy:config/utils/toggle {"id":"player_bounties","title":"Player Bounties","text":"player bounties"}
 
-execute if score player_bounties economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Player Bounties: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/player_bounties/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable player bounties"}]}\
-    }\
-]
-execute if score player_bounties economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Player Bounties: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/player_bounties/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled player bounties"}]}\
-    }\
-]
+function economy:config/utils/toggle_value {"id":"kill_reward","title":"Kill Reward","text":"kill reward","title_value":"Kill Reward Amount","id_value":"kill_reward_amount","value":"10"}
 
-execute if score aunctions economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Aunctions: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/aunctions/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable aunctions"}]}\
-    }\
-]
-execute if score aunctions economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Aunctions: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/aunctions/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled aunctions"}]}\
-    }\
-]
+function economy:config/utils/toggle_value {"id":"death_penalty","title":"Death Penalty","text":"death penalty","title_value":"Death Penalty Amount","id_value":"death_penalty_amount","value":"10"}
 
-execute if score employments economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Employments: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/employments/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable employments"}]}\
-    }\
-]
-execute if score employments economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Employments: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/employments/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled employments"}]}\
-    }\
-]
+function economy:config/utils/toggle_value {"id":"daily_reward","title":"Daily Reward","text":"daily reward","title_value":"Daily Reward Amount","id_value":"daily_reward_amount","value":"10"}
 
-execute if score daily_reward economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Daily Reward: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/daily_reward/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable daily reward"}]}\
-    }\
-]
-execute if score daily_reward economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Daily Reward: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/daily_reward/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled daily reward"}]}\
-    }\
-]
+function economy:config/utils/toggle_value {"id":"weekly_reward","title":"Weekly Reward","text":"weekly reward","title_value":"Weekly Reward Amount","id_value":"weekly_reward_amount","value":"10"}
 
-execute if score weekly_reward economy.config matches 0 run tellraw @s [\
-    {"color":"gray","text":"- Weekly Reward: "},\
-    {\
-        "bold":true,\
-        "color":"gray",\
-        "text":"DISABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/weekly_reward/enable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to enable weekly reward"}]}\
-    }\
-]
-execute if score weekly_reward economy.config matches 1 run tellraw @s [\
-    {"color":"gray","text":"- Weekly Reward: "},\
-    {\
-        "bold":true,\
-        "color":"green",\
-        "text":"ENABLED",\
-        "click_event":{"action":"run_command","command":\
-            "/function economy:config/option/weekly_reward/disable"\
-        },\
-        "hover_event":{"action":"show_text","value":[{"text":"Click to disabled weekly reward"}]}\
-    }\
-]
+function economy:config/utils/toggle {"id":"jobs","title":"Jobs","text":"jobs"}
 
 tellraw @s ""
 
@@ -240,17 +31,7 @@ tellraw @s {"color":"gray","text":"Commands:","underlined":true}
 
 tellraw @s ""
 
-tellraw @s [{"text":"- ","color":"gray"},{"text":\
-    "Reset Messages","color":"red","hover_event":{"action":"show_text","value":[{"text":\
-    "Click to reset messages"}]},"click_event":{"action":"run_command","command":\
-    "/function economy:config/command/reset/messages"\
-}}]
-
-tellraw @s [{"text":"- ","color":"gray"},{"text":\
-    "Reset Sounds","color":"red","hover_event":{"action":"show_text","value":[{"text":\
-    "Click to reset sounds"}]},"click_event":{"action":"run_command","command":\
-    "/function economy:config/command/reset/sounds"\
-}}]
+execute if score jobs economy.config matches 1 run tellraw @s [{"text":"- ","color":"gray"},{"text":"See Jobs","color":"gray","hover_event":{"action":"show_text","value":[{"text":"Click to see the jobs config"}]},"click_event":{"action":"run_command","command":"/function economy:config/jobs"}}]
 
 tellraw @s [{"text":"- ","color":"gray"},{"text":\
     "Reset Config","color":"red","hover_event":{"action":"show_text","value":[{"text":\

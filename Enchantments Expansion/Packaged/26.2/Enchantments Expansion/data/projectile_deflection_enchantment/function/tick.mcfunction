@@ -1,0 +1,1 @@
+execute as @e[type=#projectile_deflection_enchantment:projectile,tag=!projectile_deflection_enchantment.projectile,nbt={OnGround:0b},distance=..4.5] at @s on origin unless entity @s[predicate=projectile_deflection_enchantment:projectile_deflection] as @n[type=#projectile_deflection_enchantment:projectile] run function projectile_deflection_enchantment:use

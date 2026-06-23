@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.*": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "fishing_expansion:hooked_strike",
+              "levels": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

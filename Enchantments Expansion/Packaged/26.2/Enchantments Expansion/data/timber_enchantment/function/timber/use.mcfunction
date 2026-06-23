@@ -1,0 +1,11 @@
+execute if score @s timber_enchantment.player.mine.oak_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"oak_log"}
+execute if score @s timber_enchantment.player.mine.spruce_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"spruce_log"}
+execute if score @s timber_enchantment.player.mine.birch_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"birch_log"}
+execute if score @s timber_enchantment.player.mine.jungle_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"jungle_log"}
+execute if score @s timber_enchantment.player.mine.acacia_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"acacia_log"}
+execute if score @s timber_enchantment.player.mine.dark_oak_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"dark_oak_log"}
+execute if score @s timber_enchantment.player.mine.mangrove_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"mangrove_log"}
+execute if score @s timber_enchantment.player.mine.cherry_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"cherry_log"}
+execute if score @s timber_enchantment.player.mine.pale_oak_log matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"pale_oak_log"}
+execute if score @s timber_enchantment.player.mine.crimson_stem matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"crimson_stem"}
+execute if score @s timber_enchantment.player.mine.warped_stem matches 1.. at @n[type=item,nbt={Age:0s}] run return run function timber_enchantment:timber/mine {"block":"warped_stem"}

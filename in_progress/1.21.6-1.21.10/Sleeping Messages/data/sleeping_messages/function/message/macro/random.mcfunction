@@ -1,1 +1,0 @@
-$execute store result storage sleeping_messages:config index int 1 run random value 0..$(length)

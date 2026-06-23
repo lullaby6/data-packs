@@ -1,0 +1,5 @@
+execute if predicate villager_shop:barrel/rotation/south run return run function villager_shop:villager_shop/barrel/utils/loot_replace_safe {"slot":13,"loot":"villager_shop:barrel/menu/rotation/south"}
+execute if predicate villager_shop:barrel/rotation/east run return run function villager_shop:villager_shop/barrel/utils/loot_replace_safe {"slot":13,"loot":"villager_shop:barrel/menu/rotation/east"}
+execute if predicate villager_shop:barrel/rotation/north run return run function villager_shop:villager_shop/barrel/utils/loot_replace_safe {"slot":13,"loot":"villager_shop:barrel/menu/rotation/north"}
+execute if predicate villager_shop:barrel/rotation/west run return run function villager_shop:villager_shop/barrel/utils/loot_replace_safe {"slot":13,"loot":"villager_shop:barrel/menu/rotation/west"}
+execute if predicate villager_shop:barrel/rotation/player run return run function villager_shop:villager_shop/barrel/utils/loot_replace_safe {"slot":13,"loot":"villager_shop:barrel/menu/rotation/player"}

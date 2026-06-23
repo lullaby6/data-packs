@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "economy:player/trigger/balance"
+		"function": "economy:player/trigger/use/balance"
 	}
 }

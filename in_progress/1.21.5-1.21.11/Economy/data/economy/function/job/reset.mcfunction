@@ -11,3 +11,4 @@ tag @s remove economy.player.job.brewer
 tag @s remove economy.player.job.crafter
 tag @s remove economy.player.job.farmer
 tag @s remove economy.player.job.trader
+tag @s remove economy.player.job.fisher

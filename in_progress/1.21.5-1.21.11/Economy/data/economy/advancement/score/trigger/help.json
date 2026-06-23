@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "economy:player/trigger/help"
+		"function": "economy:player/trigger/use/help"
 	}
 }

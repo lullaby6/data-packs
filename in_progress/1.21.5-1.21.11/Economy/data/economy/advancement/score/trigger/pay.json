@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "economy:player/trigger/pay"
+		"function": "economy:player/trigger/use/pay"
 	}
 }

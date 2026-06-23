@@ -1,0 +1,1 @@
+$execute as @p[scores={utils.player.id=$(id)}] at @s run function claims:player/trigger/use/delete

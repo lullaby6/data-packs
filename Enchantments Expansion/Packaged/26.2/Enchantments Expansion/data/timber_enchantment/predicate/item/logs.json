@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.0": {
+        "items": "#timber_enchantment:logs"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "life_steal_enchantment:life_steal"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

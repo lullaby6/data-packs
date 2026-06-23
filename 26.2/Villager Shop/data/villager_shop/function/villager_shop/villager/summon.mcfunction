@@ -1,0 +1,1 @@
+$execute summon minecraft:villager run function villager_shop:villager_shop/villager/data {"id":$(id)}

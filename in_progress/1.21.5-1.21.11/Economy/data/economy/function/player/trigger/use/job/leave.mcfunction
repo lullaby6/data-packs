@@ -5,3 +5,5 @@ scoreboard players enable @s economy.job.leave
 function economy:job/leave
 
 tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"},{"color":"gray","text":" You left your job."}]
+
+function economy:player/trigger/check

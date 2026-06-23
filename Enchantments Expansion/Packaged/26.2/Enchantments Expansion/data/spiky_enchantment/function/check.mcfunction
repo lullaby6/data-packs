@@ -1,0 +1,3 @@
+$execute if predicate spiky_enchantment:level/1 run return run function spiky_enchantment:damage {"hand":"$(hand)","attack_damage":"2"}
+$execute if predicate spiky_enchantment:level/2 run return run function spiky_enchantment:damage {"hand":"$(hand)","attack_damage":"4"}
+$execute if predicate spiky_enchantment:level/3 run return run function spiky_enchantment:damage {"hand":"$(hand)","attack_damage":"6"}

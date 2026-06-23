@@ -1,6 +1,6 @@
 $item replace entity @s weapon.mainhand with minecraft:$(weapon_material)_spear
 
-data modify entity @s drop_chances.mainhand set value 0.0001
+data modify entity @s drop_chances.mainhand set value 0.0000
 
 $function mobs_equipment:mob/equipment/type/melee/sharpness { \
     "sharpness_chance":$(sharpness_chance), \

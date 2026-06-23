@@ -1,0 +1,15 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"container.0": {
+				"predicates": {
+					"minecraft:custom_data": {
+						"fishing_expansion:mob:squid": true
+					}
+				}
+			}
+		}
+	}
+}

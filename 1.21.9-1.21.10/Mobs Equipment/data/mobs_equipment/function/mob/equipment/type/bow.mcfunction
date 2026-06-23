@@ -1,4 +1,4 @@
-data modify entity @s drop_chances.mainhand set value 0.0001
+data modify entity @s drop_chances.mainhand set value 0.0000
 
 $execute if predicate {"condition":"minecraft:random_chance","chance":$(power_chance)} run return run \
     item modify entity @s weapon.mainhand { \

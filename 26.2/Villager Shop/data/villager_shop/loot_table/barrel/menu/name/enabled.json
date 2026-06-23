@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_11",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:oak_sign",
+								"minecraft:custom_data": {
+									"villager_shop.item.barrel": true,
+									"villager_shop.item.barrel.name": true
+								},
+								"minecraft:max_stack_size": 1,
+								"!minecraft:jukebox_playable": {},
+								"minecraft:item_name": "Name",
+								"minecraft:rarity": "uncommon",
+								"minecraft:enchantment_glint_override": true
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:writable_book_content": {
+			"pages": []
+		},
+		"!minecraft:written_book_content": {}
+	}
+}

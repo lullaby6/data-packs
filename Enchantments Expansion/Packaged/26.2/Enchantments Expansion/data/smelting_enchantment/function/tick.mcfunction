@@ -1,0 +1,1 @@
+execute as @a run function smelting_enchantment:player/tick

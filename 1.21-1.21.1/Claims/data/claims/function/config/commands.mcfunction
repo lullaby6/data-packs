@@ -11,6 +11,7 @@ tellraw @s {"color":"gray","text":"Commands:","underlined":true}
 
 tellraw @s ""
 
+tellraw @s [{"text":"- ","color":"gray"},{"text":"Delete Nearest Claim","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Click to delete nearest claim"}]},"clickEvent":{"action":"run_command","value":"/function claims:config/commands/delete_nearest_claim"}}]
 tellraw @s [{"text":"- ","color":"gray"},{"text":"Delete All Claims","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Click to delete all claims"}]},"clickEvent":{"action":"run_command","value":"/function claims:config/commands/delete_all_claims"}}]
 tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset All Players","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Click to reset all connected players"}]},"clickEvent":{"action":"run_command","value":"/function claims:config/commands/reset_all_players"}}]
 tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset Config","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Click to reset config"}]},"clickEvent":{"action":"run_command","value":"/function claims:config/commands/reset"}}]

@@ -1,0 +1,1 @@
+$execute unless entity @e[tag=fishing_expansion.mob.boss.elder_drowned,scores={fishibng_expansion.mob.boss.elder_drowned.id=$(id)}] run function fishing_expansion:mob/boss/elder_drowned/elder_guardian/death

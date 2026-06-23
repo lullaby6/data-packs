@@ -1,0 +1,1 @@
+execute if predicate air_jump_enchantment:player/is_on_ground run tag @s add air_jump.player.can_jump
