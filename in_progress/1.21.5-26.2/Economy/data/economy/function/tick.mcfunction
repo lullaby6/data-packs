@@ -1,0 +1,1 @@
+execute if score jobs economy.config matches 1 as @a[tag=economy.player.job] at @s run function economy:job/player

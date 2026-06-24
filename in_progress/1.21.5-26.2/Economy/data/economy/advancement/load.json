@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirements": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "economy:player/load"
+    }
+  }
