@@ -1,1 +1,0 @@
-# execute if entity @s[tag=economy.player.job.miner] if score @s economy.player.job.miner >= job.miner.every economy.config run return run function economy:job/player/reward {"job":"miner"}

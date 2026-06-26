@@ -7,8 +7,18 @@ $scoreboard players add @p[scores={utils.player.id=$(player_id)}] economy.player
 
 $scoreboard players remove @s economy.player.balance $(amount)
 
-$tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have paid ",{"color":"green","text":"$ $(amount)"}," balance to ",{"color":"aqua","selector":"@p[scores={utils.player.id=$(player_id)}]"},". Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]
+$execute if score payment_tax economy.config matches 1 run scoreboard players set payment_tax_calc economy.config $(amount)
 
-$tellraw @p[scores={utils.player.id=$(player_id)}] [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have received ",{"color":"green","text":"$ $(amount)"}," balance from ",{"color":"aqua","selector":"@s"},". Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@p[scores={utils.player.id=$(player_id)}]","objective":"economy.player.balance"}}]
+execute if score payment_tax economy.config matches 1 run scoreboard players operation payment_tax_calc economy.config *= payment_tax_amount economy.config
+
+execute if score payment_tax economy.config matches 1 run scoreboard players operation payment_tax_calc economy.config /= 100 economy.config
+
+$execute if score payment_tax economy.config matches 1 run scoreboard players remove @s economy.player.balance $(scoreboard players get payment_tax_calc economy.config)
+
+$execute if score payment_tax economy.config matches 0 run tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have paid ",{"color":"green","text":"$ $(amount)"}," balance to ",{"color":"aqua","selector":"@p[scores={utils.player.id=$(player_id)}]"}," - Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]
+
+$execute if score payment_tax economy.config matches 1 run tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have paid ",{"color":"green","text":"$ $(amount)"}," balance to ",{"color":"aqua","selector":"@p[scores={utils.player.id=$(player_id)}]"},". Tax (",{"color":"red","score":{"name":"payment_tax_amount","objective":"economy.config"}},{"color":"gray","text":"%): $ "},{"color":"red","score":{"name":"payment_tax_calc","objective":"economy.config"}},{"color":"gray","text":" - Balance: "},{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]
+
+$tellraw @p[scores={utils.player.id=$(player_id)}] [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have received ",{"color":"green","text":"$ $(amount)"}," balance from ",{"color":"aqua","selector":"@s"}," - Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@p[scores={utils.player.id=$(player_id)}]","objective":"economy.player.balance"}}]
 
 scoreboard players reset @s economy.player.pay.player_id

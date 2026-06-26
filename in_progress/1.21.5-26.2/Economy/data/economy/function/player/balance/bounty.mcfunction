@@ -6,7 +6,7 @@ $scoreboard players add @p[scores={utils.player.id=$(player_id)}] economy.player
 
 $scoreboard players remove @s economy.player.balance $(amount)
 
-$tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have placed a ",{"color":"green","text":"$ $(amount)"}," bounty on ",{"color":"aqua","selector":"@p[scores={utils.player.id=$(player_id)}]"},". Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]
+$tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have placed a ",{"color":"green","text":"$ $(amount)"}," bounty on ",{"color":"aqua","selector":"@p[scores={utils.player.id=$(player_id)}]"}," - Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]
 
 $tellraw @p[scores={utils.player.id=$(player_id)}] [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," A ",{"color":"green","text":"$ $(amount)"}," bounty has been placed on you by ",{"color":"aqua","selector":"@s"},". Total bounty: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@p[scores={utils.player.id=$(player_id)}]","objective":"economy.player.bounty"}}]
 

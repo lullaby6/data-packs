@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:pickaxes"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "economy:player/job/miner"
+  }
+}

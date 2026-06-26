@@ -6,6 +6,8 @@ execute if score job.builder economy.config matches 0 run return run function ec
 
 function economy:job/join {"job":"builder"}
 
+execute if score sounds economy.config matches 1 run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 0.5 1
+
 tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"},{"color":"gray","text":" You joined the "},{"color":"green","text":"Builder"},{"color":"gray","text":" job."}]
 
 function economy:player/trigger/check

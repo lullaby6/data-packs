@@ -18,7 +18,6 @@ execute if score jobs economy.config matches 1 unless entity @s[tag=economy.play
 execute if score jobs economy.config matches 1 unless entity @s[tag=economy.player.job] if score job.explorer economy.config matches 1 run scoreboard players enable @s economy.job.join.explorer
 execute if score jobs economy.config matches 1 unless entity @s[tag=economy.player.job] if score job.enchanter economy.config matches 1 run scoreboard players enable @s economy.job.join.enchanter
 execute if score jobs economy.config matches 1 unless entity @s[tag=economy.player.job] if score job.brewer economy.config matches 1 run scoreboard players enable @s economy.job.join.brewer
-execute if score jobs economy.config matches 1 unless entity @s[tag=economy.player.job] if score job.crafter economy.config matches 1 run scoreboard players enable @s economy.job.join.crafter
 execute if score jobs economy.config matches 1 unless entity @s[tag=economy.player.job] if score job.farmer economy.config matches 1 run scoreboard players enable @s economy.job.join.farmer
 execute if score jobs economy.config matches 1 unless entity @s[tag=economy.player.job] if score job.trader economy.config matches 1 run scoreboard players enable @s economy.job.join.trader
 execute if score jobs economy.config matches 1 unless entity @s[tag=economy.player.job] if score job.fisher economy.config matches 1 run scoreboard players enable @s economy.job.join.fisher

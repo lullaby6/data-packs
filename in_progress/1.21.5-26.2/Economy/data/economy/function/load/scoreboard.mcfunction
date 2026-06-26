@@ -35,21 +35,39 @@ scoreboard objectives add economy.job.join.digger trigger
 scoreboard objectives add economy.job.join.explorer trigger
 scoreboard objectives add economy.job.join.enchanter trigger
 scoreboard objectives add economy.job.join.brewer trigger
-scoreboard objectives add economy.job.join.crafter trigger
 scoreboard objectives add economy.job.join.farmer trigger
 scoreboard objectives add economy.job.join.trader trigger
 scoreboard objectives add economy.job.join.fisher trigger
 
-# scoreboard objectives add economy.player.job.enchanter minecraft.used:minecraft.enchanting_table
-scoreboard objectives add economy.player.job.enchanter minecraft.custom:minecraft.enchant_item
+
+scoreboard objectives add economy.player.job.miner dummy
 scoreboard objectives add economy.player.job.hunter minecraft.custom:minecraft.mob_kills
-scoreboard objectives add economy.player.job.exlorer.sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add economy.player.job.exlorer.swim minecraft.custom:minecraft.swim_one_cm
-scoreboard objectives add economy.player.job.exlorer.walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add economy.player.job.exlorer.walk.water minecraft.custom:minecraft.walk_on_water_one_cm
-scoreboard objectives add economy.player.job.exlorer.walk.under_water minecraft.custom:minecraft.walk_under_water_one_cm
-scoreboard objectives add economy.player.job.exlorer.aviate minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add economy.player.job.builder dummy
+scoreboard objectives add economy.player.job.woodcutter dummy
+scoreboard objectives add economy.player.job.digger dummy
+scoreboard objectives add economy.player.job.explorer minecraft.custom:minecraft.sprint_one_cm
+# scoreboard objectives add economy.player.job.exlorer.swim minecraft.custom:minecraft.swim_one_cm
+# scoreboard objectives add economy.player.job.exlorer.walk minecraft.custom:minecraft.walk_one_cm
+# scoreboard objectives add economy.player.job.exlorer.walk.water minecraft.custom:minecraft.walk_on_water_one_cm
+# scoreboard objectives add economy.player.job.exlorer.walk.under_water minecraft.custom:minecraft.walk_under_water_one_cm
+# scoreboard objectives add economy.player.job.exlorer.aviate minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add economy.player.job.enchanter minecraft.custom:minecraft.enchant_item
+scoreboard objectives add economy.player.job.brewer dummy
+scoreboard objectives add economy.player.job.farmer dummy
 scoreboard objectives add economy.player.job.trader minecraft.custom:minecraft.traded_with_villager
 scoreboard objectives add economy.player.job.fisher minecraft.custom:minecraft.fish_caught
+
+scoreboard objectives add economy.player.job.temp dummy
+scoreboard objectives add economy.player.job.miner.paid dummy
+scoreboard objectives add economy.player.job.hunter.paid dummy
+scoreboard objectives add economy.player.job.builder.paid dummy
+scoreboard objectives add economy.player.job.woodcutter.paid dummy
+scoreboard objectives add economy.player.job.digger.paid dummy
+scoreboard objectives add economy.player.job.explorer.paid dummy
+scoreboard objectives add economy.player.job.enchanter.paid dummy
+scoreboard objectives add economy.player.job.brewer.paid dummy
+scoreboard objectives add economy.player.job.farmer.paid dummy
+scoreboard objectives add economy.player.job.trader.paid dummy
+scoreboard objectives add economy.player.job.fisher.paid dummy
 
 scoreboard objectives add economy.timer.player.killer dummy

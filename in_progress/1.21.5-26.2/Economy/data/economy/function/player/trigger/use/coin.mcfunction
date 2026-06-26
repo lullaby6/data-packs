@@ -11,7 +11,7 @@ data remove storage economy:balance/coin data
 
 scoreboard players operation @s economy.player.balance -= @s economy.coin
 
-tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have withdrawn ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.coin"}}," into a coin. Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]
+tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You have withdrawn ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.coin"}}," into a coin - Balance: ",{"color":"green","text":"$ "},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]
 
 scoreboard players reset @s economy.coin
 scoreboard players enable @s economy.coin

@@ -16,7 +16,6 @@ advancement revoke @s only economy:score/trigger/job/join/digger
 advancement revoke @s only economy:score/trigger/job/join/explorer
 advancement revoke @s only economy:score/trigger/job/join/enchanter
 advancement revoke @s only economy:score/trigger/job/join/brewer
-advancement revoke @s only economy:score/trigger/job/join/crafter
 advancement revoke @s only economy:score/trigger/job/join/farmer
 advancement revoke @s only economy:score/trigger/job/join/trader
 advancement revoke @s only economy:score/trigger/job/join/fisher
@@ -26,6 +25,13 @@ advancement revoke @s only economy:score/trigger/bounty
 advancement revoke @s only economy:score/trigger/bounty/amount
 advancement revoke @s only economy:score/trigger/show_id
 advancement revoke @s only economy:score/trigger/top
+
+advancement revoke @s only economy:job/brewer
+advancement revoke @s only economy:job/builder
+advancement revoke @s only economy:job/digger
+advancement revoke @s only economy:job/farmer
+advancement revoke @s only economy:job/miner
+advancement revoke @s only economy:job/woodcutter
 
 scoreboard players reset @s economy.player.leave
 scoreboard players reset @s economy.player.kill
@@ -56,7 +62,6 @@ scoreboard players reset @s economy.job.join.digger
 scoreboard players reset @s economy.job.join.explorer
 scoreboard players reset @s economy.job.join.enchanter
 scoreboard players reset @s economy.job.join.brewer
-scoreboard players reset @s economy.job.join.crafter
 scoreboard players reset @s economy.job.join.farmer
 scoreboard players reset @s economy.job.join.trader
 scoreboard players reset @s economy.job.join.fisher
@@ -81,7 +86,6 @@ trigger economy.job.join.digger add 0
 trigger economy.job.join.explorer add 0
 trigger economy.job.join.enchanter add 0
 trigger economy.job.join.brewer add 0
-trigger economy.job.join.crafter add 0
 trigger economy.job.join.farmer add 0
 trigger economy.job.join.trader add 0
 trigger economy.job.join.fisher add 0

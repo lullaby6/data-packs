@@ -11,6 +11,8 @@ function economy:config/utils/toggle {"id":"sounds","title":"Sounds","text":"sou
 
 function economy:config/utils/toggle {"id":"payment","title":"Payment","text":"payment"}
 
+execute if score payment economy.config matches 1 run function economy:config/utils/toggle_value {"id":"payment_tax","title":"Payment Tax","text":"payment tax","title_value":"Payment Tax Percentage","id_value":"payment_tax_amount","value":"1"}
+
 function economy:config/utils/toggle {"id":"coin","title":"Coins","text":"coins"}
 
 function economy:config/utils/toggle_value {"id":"initial_balance","title":"Initial Balance","text":"initial balance","title_value":"Initial Balance Amount","id_value":"initial_balance_amount","value":"10"}
@@ -27,6 +29,8 @@ function economy:config/utils/toggle_value {"id":"weekly_reward","title":"Weekly
 
 function economy:config/utils/toggle {"id":"jobs","title":"Jobs","text":"jobs"}
 
+execute if score jobs economy.config matches 1 run function economy:config/utils/toggle_value_function {"id":"job_leave_penalty","function":"job_leave_penalty/main","title":"Job Leave Penalty","text":"job leave penalty","title_value":"Job Leave Penalty Amount","id_value":"job_leave_penalty_amount","value":"10"}
+
 tellraw @s ""
 
 tellraw @s {"color":"gray","text":"Commands:","underlined":true}
@@ -34,6 +38,7 @@ tellraw @s {"color":"gray","text":"Commands:","underlined":true}
 tellraw @s ""
 
 execute if score jobs economy.config matches 1 run tellraw @s [{"text":"- ","color":"gray"},{"text":"See Jobs","color":"gray","hover_event":{"action":"show_text","value":[{"text":"Click to see the jobs config"}]},"click_event":{"action":"run_command","command":"/function economy:config/jobs"}}]
+execute if score jobs economy.config matches 1 run tellraw @s [{"text":"- ","color":"gray"},{"text":"Reset Jobs","color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to reset the jobs config"}]},"click_event":{"action":"run_command","command":"/function economy:config/command/reset/jobs"}}]
 
 tellraw @s [{"text":"- ","color":"gray"},{"text":\
     "Reset Config","color":"red","hover_event":{"action":"show_text","value":[{"text":\
