@@ -1,0 +1,1 @@
+function economy:config/load/config

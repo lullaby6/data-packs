@@ -1,0 +1,1 @@
+$execute summon minecraft:interaction run function economy:player/shop/create/summon/interaction/data {"player_id":$(player_id),"id":$(id),"price":$(price)}

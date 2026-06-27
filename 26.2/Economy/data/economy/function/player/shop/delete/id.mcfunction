@@ -1,0 +1,1 @@
+$kill @e[tag=economy.player_shop.entity,scores={economy.player_shop.id=$(player_shop_id)}]

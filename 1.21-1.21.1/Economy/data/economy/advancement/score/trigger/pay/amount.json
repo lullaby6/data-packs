@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"economy.pay.amount": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "economy:player/trigger/use/pay/amount"
+	}
+}
