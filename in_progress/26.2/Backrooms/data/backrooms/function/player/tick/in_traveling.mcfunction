@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ minecraft:crying_obsidian run return run scoreboard players reset @s backrooms.timer.player.traveling
+execute unless block ~ ~-1 ~ minecraft:crying_obsidian run return run scoreboard players reset @s backrooms.timer.player.traveling

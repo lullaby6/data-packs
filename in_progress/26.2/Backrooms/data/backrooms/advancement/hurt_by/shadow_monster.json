@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "source_entity": {
+                "minecraft:nbt": "{Tags:[\"backrooms.entity.shadow_monster\"]}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "backrooms:entity/shadow_monster/hurt_by"
+    }
+}

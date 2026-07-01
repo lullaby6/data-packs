@@ -1,1 +1,0 @@
-scoreboard objectives add utils.player.id dummy

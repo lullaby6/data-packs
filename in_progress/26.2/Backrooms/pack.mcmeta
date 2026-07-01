@@ -1,0 +1,27 @@
+{
+	"pack": {
+		"pack_format": 107,
+        "min_format": [
+            107,
+            1
+        ],
+        "max_format": [
+            107,
+            1
+        ],
+		"description": [
+			{
+				"text": "Backrooms",
+				"color": "#d6d32d"
+			},
+			{
+				"text": " - \nBy ",
+				"color": "gray"
+			},
+			{
+				"text": "github.com/lullaby6",
+				"color": "#683edd"
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/end_city",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "start_pool": "moai_statues:end/end_stone",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "above_bottom": 60
+    },
+    "max_inclusive": {
+      "absolute": 64
+    }
+  },
+  "max_distance_from_center": 100,
+  "use_expansion_hack": false
+}

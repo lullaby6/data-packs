@@ -1,0 +1,1 @@
+execute if predicate hammer_enchantment:smelting run function hammer_enchantment:hammer/smelting/smelting

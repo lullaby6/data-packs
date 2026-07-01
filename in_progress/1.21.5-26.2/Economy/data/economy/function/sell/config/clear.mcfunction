@@ -1,1 +1,0 @@
-data modify storage economy:sell data.items set value {}

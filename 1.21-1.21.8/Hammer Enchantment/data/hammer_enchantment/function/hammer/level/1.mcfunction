@@ -1,0 +1,1 @@
+execute positioned ~ ~-1 ~ unless block ~ ~ ~ #hammer_enchantment:blacklist run function hammer_enchantment:hammer/mine

@@ -1,2 +1,0 @@
-execute if predicate economy:hold/coin/mainhand run return run data modify storage economy:coin/get data.amount set from entity @s SelectedItem.components."minecraft:custom_data"."economy.item.coin.balance"
-execute if predicate economy:hold/coin/offhand run return run data modify storage economy:coin/get data.amount set from entity @s equipment.offhand.components."minecraft:custom_data"."economy.item.coin.balance"

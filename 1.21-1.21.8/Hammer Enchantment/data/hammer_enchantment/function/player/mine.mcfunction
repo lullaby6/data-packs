@@ -1,0 +1,3 @@
+function hammer_enchantment:player/reset
+
+execute unless predicate hammer_enchantment:is_sneaking if predicate hammer_enchantment:hammer run function hammer_enchantment:hammer/use

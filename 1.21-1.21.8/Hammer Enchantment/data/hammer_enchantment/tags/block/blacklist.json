@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:crying_obsidian",
+    "minecraft:obsidian",
+    "minecraft:ender_chest",
+    "minecraft:chest",
+    "minecraft:barrel",
+    "minecraft:barrier",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:structure_block",
+    "minecraft:dispenser",
+    "minecraft:hopper",
+    "minecraft:dropper",
+    "#minecraft:shulker_boxes",
+    "minecraft:vault",
+    "minecraft:reinforced_deepslate",
+    "#minecraft:air",
+    "minecraft:trapped_chest"
+  ]
+}

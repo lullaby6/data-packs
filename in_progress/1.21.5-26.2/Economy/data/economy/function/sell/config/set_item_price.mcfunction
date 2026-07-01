@@ -1,1 +1,0 @@
-data modify storage economy:sell data.items."minecraft:ender_pearl" set value {"job":"hunter","count":1,"price":100}
