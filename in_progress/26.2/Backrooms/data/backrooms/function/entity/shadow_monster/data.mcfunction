@@ -4,8 +4,8 @@ tag @s add lullaby_mobs.natural_spawn.bypass
 item replace entity @s armor.head with player_head[profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE2OGM2ZDcyYzhkNzA0ZWNmNDczOWMzZWY5MDgyMTY3ZjBhZTQ2MWQ0ZTdmN2I5MDlhYjRmNjE1YTgxM2ExNiJ9fX0="}]}] 1
 item replace entity @s armor.chest with minecraft:leather_chestplate[dyed_color=0,trim={material:"minecraft:netherite",pattern:"minecraft:silence"}] 1
 item replace entity @s armor.feet with minecraft:leather_boots[dyed_color=0,trim={material:"minecraft:netherite",pattern:"minecraft:silence"}] 1
-item replace entity @s weapon.mainhand with minecraft:netherite_axe[attack_range={max_reach:4}] 1
-item replace entity @s weapon.offhand with minecraft:netherite_axe[attack_range={max_reach:4}] 1
+item replace entity @s weapon.mainhand with minecraft:netherite_axe[attack_range={max_reach:3.125}] 1
+item replace entity @s weapon.offhand with minecraft:netherite_axe[attack_range={max_reach:3.125}] 1
 
 attribute @s minecraft:max_health base set 500
 attribute @s minecraft:attack_damage base set 20
@@ -26,3 +26,5 @@ data modify entity @s Silent set value 1b
 data modify entity @s PersistenceRequired set value 1b
 
 data modify entity @s DeathLootTable set value ""
+
+function backrooms:entity/shadow_monster/random_pos

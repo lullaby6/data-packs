@@ -6,7 +6,7 @@
     "Name": "minecraft:air"
   },
   "sea_level": 0,
-  "disable_mob_generation": false,
+  "disable_mob_generation": true,
   "aquifers_enabled": false,
   "ore_veins_enabled": false,
   "legacy_random_source": false,
