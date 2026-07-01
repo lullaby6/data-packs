@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "NoGravity": true,
+                  "Silent": true,
+                  "Invulnerable": true,
+                  "HasVisualFire": false,
+                  "Small": true,
+                  "Invisible": true,
+                  "NoBasePlate": true,
+                  "Tags": [
+                    "backrooms.marker.room.center"
+                  ],
+                  "DisabledSlots": 4144959
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

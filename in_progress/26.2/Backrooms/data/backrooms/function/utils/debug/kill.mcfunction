@@ -1,3 +1,3 @@
-say kill
+$say $(text)
 
 kill @s
