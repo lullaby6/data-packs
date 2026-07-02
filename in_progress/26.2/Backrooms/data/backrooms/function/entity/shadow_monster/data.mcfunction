@@ -26,5 +26,3 @@ data modify entity @s Silent set value 1b
 data modify entity @s PersistenceRequired set value 1b
 
 data modify entity @s DeathLootTable set value ""
-
-function backrooms:entity/shadow_monster/random_pos
