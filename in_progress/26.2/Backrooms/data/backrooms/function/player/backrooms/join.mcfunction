@@ -1,7 +1,5 @@
 function backrooms:backrooms/load
 
-scoreboard players reset @s backrooms.timer.player.traveling
-
 tag @s add backrooms.player.in_backrooms
 
 effect give @s minecraft:blindness 1 0 true
