@@ -6,6 +6,34 @@
             "can_sleep": "always",
             "explodes": false
         },
+        "minecraft:audio/ambient_sounds": {
+            "additions": {
+                "sound": "minecraft:ambient.basalt_deltas.additions",
+                "tick_chance": 0.0111
+            },
+            "loop": "minecraft:ambient.basalt_deltas.loop",
+            "mood": {
+                "block_search_extent": 8,
+                "offset": 2,
+                "sound": "minecraft:ambient.basalt_deltas.mood",
+                "tick_delay": 6000
+            }
+        },
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "sound": "minecraft:music.nether.basalt_deltas"
+            }
+        },
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                "type": "minecraft:white_ash"
+                },
+                "probability": 0.01
+            }
+        ],
         "minecraft:gameplay/sky_light_level": 0,
         "minecraft:visual/ambient_light_color": "#4e4519",
         "minecraft:visual/fog_end_distance": 64,
@@ -16,7 +44,7 @@
         "minecraft:visual/sky_color": "#4e4519"
     },
     "coordinate_scale": 1,
-    "has_ceiling": true,
+    "has_ceiling": false,
     "has_ender_dragon_fight": false,
     "has_fixed_time": true,
     "has_skylight": false,
@@ -26,6 +54,5 @@
     "min_y": -64,
     "monster_spawn_block_light_limit": 0,
     "monster_spawn_light_level": 0,
-    "skybox": "none",
-    "timelines": "minecraft:moon"
+    "skybox": "none"
 }

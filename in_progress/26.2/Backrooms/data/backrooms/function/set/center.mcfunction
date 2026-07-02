@@ -1,1 +1,0 @@
-summon minecraft:marker ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,HasVisualFire:0b,Tags:["backrooms.marker.room.center"]}
