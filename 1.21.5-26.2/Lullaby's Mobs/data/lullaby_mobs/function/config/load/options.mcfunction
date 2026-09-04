@@ -1,0 +1,30 @@
+scoreboard players set load lullaby_mobs.config 2
+
+scoreboard players set naturally_spawn lullaby_mobs.config 1
+scoreboard players set mobs_loot lullaby_mobs.config 1
+
+scoreboard players set spawn_angel lullaby_mobs.config 1
+scoreboard players set spawn_black_wolf lullaby_mobs.config 1
+scoreboard players set spawn_blaze_knight lullaby_mobs.config 1
+scoreboard players set spawn_blaze_tower lullaby_mobs.config 1
+scoreboard players set spawn_bloody_skeleton lullaby_mobs.config 1
+scoreboard players set spawn_cactus_knight lullaby_mobs.config 1
+scoreboard players set spawn_chariot lullaby_mobs.config 1
+scoreboard players set spawn_dark_wither_skeleton lullaby_mobs.config 1
+scoreboard players set spawn_ender_hunter lullaby_mobs.config 1
+scoreboard players set spawn_ent lullaby_mobs.config 1
+scoreboard players set spawn_enye lullaby_mobs.config 1
+scoreboard players set spawn_golden_skeleton lullaby_mobs.config 1
+scoreboard players set spawn_iso lullaby_mobs.config 1
+scoreboard players set spawn_minotaur lullaby_mobs.config 1
+scoreboard players set spawn_mummy lullaby_mobs.config 1
+scoreboard players set spawn_phantom_rider lullaby_mobs.config 1
+scoreboard players set spawn_shulker_knight lullaby_mobs.config 1
+scoreboard players set spawn_skeleton_hunter lullaby_mobs.config 1
+scoreboard players set spawn_spawner_zombie lullaby_mobs.config 1
+scoreboard players set spawn_spectral_assassin lullaby_mobs.config 1
+scoreboard players set spawn_spider_rider lullaby_mobs.config 1
+scoreboard players set spawn_stalker_block lullaby_mobs.config 1
+scoreboard players set spawn_thunder_drowned lullaby_mobs.config 1
+scoreboard players set spawn_triple_skeleton lullaby_mobs.config 1
+scoreboard players set spawn_yeti lullaby_mobs.config 1

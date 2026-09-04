@@ -19,6 +19,10 @@
     "minecraft:reinforced_deepslate",
     "#minecraft:air",
     "#minecraft:copper_chests",
-    "minecraft:trapped_chest"
+    "minecraft:trapped_chest",
+    "minecraft:end_portal_frame",
+    "minecraft:end_portal",
+    "minecraft:end_gateway",
+    "minecraft:nether_portal"
   ]
 }

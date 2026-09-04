@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:dyed_color": 5321859,
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:vex"
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 598,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "c1c8794c-5bb7-4dab-9b3c-8050812d4a3d",
+                    "type": "armor",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "8d93b03b-2f89-438f-8701-ebe7abaed686",
+                    "type": "armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "minecraft:leather",
+                  "equip_sound": "item.armor.equip_diamond",
+                  "dispensable": true,
+                  "swappable": true,
+                  "damage_on_hurt": true
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "minecraft:dyed_color",
+                      "minecraft:trim"
+                    ]
+                },
+                "minecraft:custom_data": {
+                  "magicraft.item.mage_armor": true,
+                  "magicraft.item.mage_armor.chestplate": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Mage Chestplate",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

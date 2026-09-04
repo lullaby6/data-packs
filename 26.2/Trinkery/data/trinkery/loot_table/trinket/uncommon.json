@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/archer/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/blindness/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/darkness/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/fangs/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/glowing/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/haste/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/hunger/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/invisibility/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/iron/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/killer/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/levitation/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/life/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/poison/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/revenge/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/slowness/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/speed/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/thunder/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/vision/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/weakness/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/wither/2"
+        }
+      ]
+    }
+  ]
+}

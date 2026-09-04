@@ -18,7 +18,7 @@ execute store result storage portals:place data.id int 1 run scoreboard players 
 function portals:portal/storage with storage portals:place data
 data remove storage portals:place data
 
-forceload add ~ ~ ~ ~
+forceload add ~-2 ~-2 ~2 ~2
 
 tag @s add portals.portal.placed
 

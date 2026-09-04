@@ -1,0 +1,1 @@
+execute if predicate {"condition": "minecraft:random_chance","chance": 0.5} run effect give @s minecraft:swiftness 6 1 false

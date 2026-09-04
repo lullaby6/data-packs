@@ -1,1 +1,0 @@
-function magicraft:utils/macro/for {"function":"magicraft:grimorie/dialog/spell","storage":"magicraft:spells","path":"data.spells"}

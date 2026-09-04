@@ -1,3 +1,5 @@
+forceload add ~-2 ~-2 ~2 ~2
+
 execute unless block ~ ~ ~ air run return run function portals:portal/destroy
 execute unless block ~ ~1 ~ air run return run function portals:portal/destroy
 execute if block ~ ~-1 ~ #portals:utils/walk_through run return run function portals:portal/destroy

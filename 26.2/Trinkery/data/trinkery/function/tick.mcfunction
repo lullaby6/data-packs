@@ -1,0 +1,1 @@
+execute as @e[type=#trinkery:mimic,tag=!trinkery.procced,tag=!my_zombie_pet.zombie,tag=!lullaby_mobs.mob,tag=!villager_guards.guard,tag=!magicraft.mage] at @s run function trinkery:mimic/procces

@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:amethyst_block",
+  "base": "minecraft:diamond_boots",
+  "result": {
+    "id": "minecraft:leather_boots",
+    "components": {
+      "minecraft:dyed_color": 5321859,
+      "minecraft:trim": {
+        "material": "minecraft:amethyst",
+        "pattern": "minecraft:eye"
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic",
+      "minecraft:max_damage": 429,
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "6ac3661b-6984-4c76-811a-80fa22f8e45a",
+          "type": "armor",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "68a88ee5-bc1e-4645-a33f-917938469a6b",
+          "type": "armor_toughness",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "minecraft:leather",
+        "equip_sound": "item.armor.equip_diamond",
+        "dispensable": true,
+        "swappable": true,
+        "damage_on_hurt": true
+      },
+      "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:dyed_color",
+            "minecraft:trim"
+          ]
+      },
+      "minecraft:custom_data": {
+        "magicraft.item.mage_armor": true,
+        "magicraft.item.mage_armor.boots": true
+      },
+      "minecraft:custom_name": {
+        "text": "Mage Boots",
+        "italic": false
+      }
+    }
+  },
+  "template": "minecraft:silence_armor_trim_smithing_template"
+}

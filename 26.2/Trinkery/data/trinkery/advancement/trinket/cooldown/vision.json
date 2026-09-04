@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"trinkery.player.timer.cooldown.vision": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "trinkery:trinket/cooldown/vision"
+	}
+}
