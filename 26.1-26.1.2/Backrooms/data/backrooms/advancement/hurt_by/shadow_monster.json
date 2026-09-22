@@ -4,9 +4,9 @@
         "trigger": "minecraft:entity_hurt_player",
         "conditions": {
           "damage": {
-            "type": {
+            "source": {
               "source_entity": {
-                "minecraft:nbt": "{Tags:[\"backrooms.entity.shadow_monster\"]}"
+                "nbt": "{Tags:[\"backrooms.entity.shadow_monster\"]}"
               }
             }
           }
