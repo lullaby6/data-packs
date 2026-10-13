@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest",
+              "minecraft:bundle",
+              "minecraft:string",
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "backpacks:backpack"
+    ]
+  }
+}

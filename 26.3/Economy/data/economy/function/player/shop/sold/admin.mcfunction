@@ -1,0 +1,1 @@
+tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," You bought an item for ",{"color":"green","text":"$"},{"color":"green","score":{"name":"player_shop_price","objective":"economy.const"}}," - Balance: ",{"color":"green","text":"$"},{"color":"green","score":{"name":"@s","objective":"economy.player.balance"}}]

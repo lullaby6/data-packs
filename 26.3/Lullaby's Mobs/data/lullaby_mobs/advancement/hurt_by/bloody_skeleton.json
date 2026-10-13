@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "source_entity": {
+                "nbt": "{Tags:[\"lullaby_mobs.bloody_skeleton\"]}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "lullaby_mobs:mob/bloody_skeleton/hurt_player"
+    }
+}

@@ -1,0 +1,7 @@
+scoreboard objectives add smelting_enchantments.use.wooden_pickaxe minecraft.used:minecraft.wooden_pickaxe
+scoreboard objectives add smelting_enchantments.use.copper_pickaxe minecraft.used:minecraft.copper_pickaxe
+scoreboard objectives add smelting_enchantments.use.golden_pickaxe minecraft.used:minecraft.golden_pickaxe
+scoreboard objectives add smelting_enchantments.use.stone_pickaxe minecraft.used:minecraft.stone_pickaxe
+scoreboard objectives add smelting_enchantments.use.iron_pickaxe minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add smelting_enchantments.use.diamond_pickaxe minecraft.used:minecraft.diamond_pickaxe
+scoreboard objectives add smelting_enchantments.use.netherite_pickaxe minecraft.used:minecraft.netherite_pickaxe

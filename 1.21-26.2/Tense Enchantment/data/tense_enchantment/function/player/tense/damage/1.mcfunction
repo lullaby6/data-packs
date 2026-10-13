@@ -1,0 +1,1 @@
+$item modify entity @s weapon.$(hand)hand tense_enchantment:damage

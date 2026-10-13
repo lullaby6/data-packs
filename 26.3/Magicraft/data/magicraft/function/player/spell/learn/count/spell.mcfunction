@@ -1,0 +1,1 @@
+$execute if entity @s[tag=magicraft.player.spell.learn.$(tag)] run scoreboard players add @s magicraft.player.learn.count 1

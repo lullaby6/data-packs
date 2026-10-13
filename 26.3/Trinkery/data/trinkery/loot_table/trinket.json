@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/common",
+          "weight": 55
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/uncommon",
+          "weight": 28
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/rare",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/epic",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

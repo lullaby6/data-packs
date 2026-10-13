@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "knowledge_book": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+      "function": "knowledge_book:use"
+  }
+}

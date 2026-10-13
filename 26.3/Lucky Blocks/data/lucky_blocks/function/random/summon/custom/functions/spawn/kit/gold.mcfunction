@@ -1,0 +1,9 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_sword",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_axe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_pickaxe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_shovel",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_hoe",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_helmet",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_chestplate",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_leggings",count:1}}
+summon item ~ ~-1 ~ {Item:{id:"minecraft:golden_boots",count:1}}

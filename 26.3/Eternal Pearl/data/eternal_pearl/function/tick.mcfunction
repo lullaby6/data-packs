@@ -1,0 +1,1 @@
+execute as @a[scores={eternal_pearl.player.use.ender_pearl=1..}] run function eternal_pearl:use

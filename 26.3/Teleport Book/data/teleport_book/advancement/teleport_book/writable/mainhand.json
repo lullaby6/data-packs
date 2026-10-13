@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:writable_book",
+								"predicates": {
+									"minecraft:custom_data": {
+										"teleport_book": true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "teleport_book:teleport_book/writable/mainhand"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:damage": 0
+  }
+}

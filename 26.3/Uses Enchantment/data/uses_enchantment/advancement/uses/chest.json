@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "uses_enchantment:uses"
+                    }
+                  ],
+                  "minecraft:damage": {
+                    "durability": {
+                      "min": -1000,
+                      "max": 10
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "uses_enchantment:enchantment/uses/player/advancement/chest"
+  }
+}

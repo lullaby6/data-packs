@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"modifier": {
+						"type": "minecraft:set_enchantments",
+						"enchantments": {
+							"xp_boost_enchantment:xp_boost": 2
+						}
+					}
+				}
+			]
+		}
+	]
+}

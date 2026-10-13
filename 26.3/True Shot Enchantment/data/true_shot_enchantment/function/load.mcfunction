@@ -1,0 +1,1 @@
+scoreboard objectives add true_shot_enchantment.timer dummy

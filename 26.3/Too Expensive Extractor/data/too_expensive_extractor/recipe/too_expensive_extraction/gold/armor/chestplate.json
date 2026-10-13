@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:golden_chestplate",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:golden_chestplate",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

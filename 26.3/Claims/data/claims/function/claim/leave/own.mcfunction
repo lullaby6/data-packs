@@ -1,0 +1,1 @@
+tellraw @s {"text":"Leaved your claim.","color":"gray"}

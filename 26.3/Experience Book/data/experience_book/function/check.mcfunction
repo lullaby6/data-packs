@@ -1,0 +1,2 @@
+execute if predicate experience_book:mainhand run return run function experience_book:replace {"slot":"weapon.mainhand"}
+execute if predicate experience_book:offhand run return run function experience_book:replace {"slot":"weapon.offhand"}

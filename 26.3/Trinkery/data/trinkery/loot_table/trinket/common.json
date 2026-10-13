@@ -1,0 +1,149 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/archer/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/blindness/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/blood/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/cobweb/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/darkness/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/ender/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/experience/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/fangs/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/fangs_shield/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/feather/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/fire/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/glowing/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/haste/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/hunger/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/invisibility/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/iron/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/killer/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/levitation/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/life/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/piercing/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/poison/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/repair/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/revenge/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/sea/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/slowness/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/speed/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/suffocate/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/thunder/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/toxic/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/undying/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/vampire/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/vision/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/weakness/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/wind/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/wither/1"
+        }
+      ]
+    }
+  ]
+}

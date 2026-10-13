@@ -1,5 +1,5 @@
 {
-	"anvil_cost": 4,
+	"anvil_cost": 60,
 	"description": {
 		"translate": "enchantment.flight_enchantment.flight",
 		"fallback": "Flight"

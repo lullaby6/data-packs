@@ -1,0 +1,27 @@
+{
+  "pack": {
+    "pack_format": 121,
+    "min_format": [
+      121,
+      0
+    ],
+    "max_format": [
+      121,
+      0
+    ],
+    "description": [
+      {
+        "text": "Graves",
+        "color": "#FF55FF"
+      },
+      {
+        "text": " - \nBy ",
+        "color": "gray"
+      },
+      {
+        "text": "github.com/lullaby6",
+        "color": "#683edd"
+      }
+    ]
+  }
+}

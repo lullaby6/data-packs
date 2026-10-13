@@ -6,3 +6,6 @@ execute if score naturally_spawn lullaby_mobs.config matches 1 if entity @n[type
 
 # Mobs
 execute if entity @n[tag=lullaby_mobs.mob] run function lullaby_mobs:tick/mobs
+
+# Ent Oak Logs
+execute as @e[tag=lullaby_mobs.ent.oak_log] at @s unless entity @e[tag=lullaby_mobs.ent,distance=..3] run kill @s

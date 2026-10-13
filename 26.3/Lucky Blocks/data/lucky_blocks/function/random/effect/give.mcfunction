@@ -1,0 +1,1 @@
+$effect give @e[distance=..6] $(value) $(duration) $(amplifier)

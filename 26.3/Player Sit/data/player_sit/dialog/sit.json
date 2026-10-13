@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Sit"
+  },
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Exit",
+    "tooltip": {
+      "text": "Click to exit"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "Sit"
+      },
+      "tooltip": {
+        "text": "Click to sit"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger sit"
+      }
+    }
+  ]
+}

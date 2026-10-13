@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Max Time - Meteors Config",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "value",
+      "width": 200,
+      "label": "Max Time",
+      "start": 2000,
+      "end": 6000,
+      "step": 1,
+      "initial": 4000
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "Click to go back",
+    "action": {
+      "type": "run_command",
+      "command": "/dialog show @s meteors:config"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Save",
+      "tooltip": "Click to edit max time",
+      "width": 200,
+      "action": {
+        "type": "dynamic/run_command",
+        "template": "/scoreboard players set max_time meteors.config $(value)"
+      }
+    }
+  ]
+}

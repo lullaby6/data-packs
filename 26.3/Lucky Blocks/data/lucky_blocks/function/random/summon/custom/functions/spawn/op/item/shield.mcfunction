@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:shield",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:mending":1,"minecraft:unbreaking":3}}}}}

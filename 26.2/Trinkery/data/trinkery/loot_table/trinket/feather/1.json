@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:feather/1",
+                  "trinkery.trinket": true,
+                  "trinkery.trinket.feather": true
+                },
+                "minecraft:item_model": "minecraft:feather",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Feather I",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Chance of 10% of gains Slow Falling when falling",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

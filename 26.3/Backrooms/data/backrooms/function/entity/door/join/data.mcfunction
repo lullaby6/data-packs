@@ -1,0 +1,3 @@
+function backrooms:entity/door/data
+
+tag @s add backrooms.marker.door.join

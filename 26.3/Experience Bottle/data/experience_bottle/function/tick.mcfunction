@@ -1,0 +1,2 @@
+execute as @a if predicate experience_bottle:empty/mainhand run function experience_bottle:empty/holding {"hand":"main"}
+execute as @a if predicate experience_bottle:empty/offhand run function experience_bottle:empty/holding {"hand":"off"}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "rewards": {
+    "function": "economy:player/job/builder"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "magicraft:mage_armor/helmet",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+		{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "magicraft:mage_armor/chestplate",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+		{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "magicraft:mage_armor/leggings",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+		{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "magicraft:mage_armor/boots",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "magicraft:scroll",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

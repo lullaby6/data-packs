@@ -1,0 +1,1 @@
+function magicraft:spells/lightning/lightning_bolt/lightning_bolt

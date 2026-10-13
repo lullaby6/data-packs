@@ -13,11 +13,39 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/blood/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/cobweb/3"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "trinkery:trinket/darkness/3"
         },
         {
           "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/ender/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/experience/3"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "trinkery:trinket/fangs/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/fangs_shield/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/feather/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/fire/3"
         },
         {
           "type": "minecraft:loot_table",
@@ -53,11 +81,23 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/piercing/3"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "trinkery:trinket/poison/3"
         },
         {
           "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/repair/3"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "trinkery:trinket/revenge/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/sea/3"
         },
         {
           "type": "minecraft:loot_table",
@@ -69,7 +109,23 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/suffocate/3"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "trinkery:trinket/thunder/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/toxic/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/undying/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/vampire/3"
         },
         {
           "type": "minecraft:loot_table",
@@ -78,6 +134,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "trinkery:trinket/weakness/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "trinkery:trinket/wind/3"
         },
         {
           "type": "minecraft:loot_table",

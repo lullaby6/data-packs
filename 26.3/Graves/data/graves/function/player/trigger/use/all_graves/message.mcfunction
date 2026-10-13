@@ -1,0 +1,1 @@
+$tellraw @p[scores={utils.player.id=$(player_id)}] [{"color":"gray","text":"- "},{"color":"green","text":"$(x) $(y) $(z)"}]

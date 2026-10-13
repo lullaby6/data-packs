@@ -1,0 +1,1 @@
+execute as @n[type=#minecraft:arrows,tag=!trinkery.arrow.piercing,tag=!trinkery.arrow.piercing.checked,nbt=!{inGround:1b}] at @s run function trinkery:trinket/piercing/check {"piercing":1,"chance":0.1}

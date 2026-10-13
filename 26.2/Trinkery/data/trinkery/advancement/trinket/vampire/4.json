@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "minecraft:slots": {
+            "container.*": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:vampire/4"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trinkery:trinket/vampire/4"
+  }
+}

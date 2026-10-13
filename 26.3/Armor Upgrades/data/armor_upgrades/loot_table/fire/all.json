@@ -1,0 +1,60 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "armor_upgrades:fire/helmet",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "armor_upgrades:fire/chestplate",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "armor_upgrades:fire/leggings",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "armor_upgrades:fire/boots",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		}
+	]
+}

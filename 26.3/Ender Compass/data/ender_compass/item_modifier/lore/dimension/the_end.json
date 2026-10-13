@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"text": "Dimension: minecraft:the_end",
+			"color": "gray",
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

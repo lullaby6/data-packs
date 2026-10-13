@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:wither_skeleton",
+        "minecraft:vindicator",
+        "minecraft:vex",
+        "minecraft:zombified_piglin"
+    ]
+}

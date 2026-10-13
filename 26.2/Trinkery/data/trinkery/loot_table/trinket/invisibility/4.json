@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:invisibility/4"
+                },
+                "minecraft:item_model": "minecraft:glass_bottle",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Invisibility IV",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Gains Invisibility for 120s when sneaking (10s cooldown)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

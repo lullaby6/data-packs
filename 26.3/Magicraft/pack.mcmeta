@@ -1,0 +1,27 @@
+{
+	"pack": {
+		"pack_format": 121,
+        "min_format": [
+            121,
+            1
+        ],
+        "max_format": [
+            121,
+            1
+        ],
+		"description": [
+			{
+				"text": "Magicraft",
+				"color": "#9B2DEC"
+			},
+			{
+				"text": " - \nBy ",
+				"color": "gray"
+			},
+			{
+				"text": "modrinth.com/user/lullaby",
+				"color": "#1BD96A"
+			}
+		]
+	}
+}

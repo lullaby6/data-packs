@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "magicraft:scroll",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/cleric_gift"
+}

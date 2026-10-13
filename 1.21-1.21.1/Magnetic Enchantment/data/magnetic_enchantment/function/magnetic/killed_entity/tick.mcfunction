@@ -1,4 +1,6 @@
-scoreboard players remove @s magnetic_enchantment.player.timer.killed_entity 1
+advancement revoke @s only magnetic_enchantment:score/killed_entity
+
+scoreboard players reset @s magnetic_enchantment.player.timer.killed_entity
 
 execute store result storage magnetic_enchantment:killed_entity range float 1 run attribute @s minecraft:player.entity_interaction_range get
 

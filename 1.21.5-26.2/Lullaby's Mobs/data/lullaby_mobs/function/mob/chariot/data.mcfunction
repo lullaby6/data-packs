@@ -6,8 +6,8 @@ tag @s add lullaby_mobs.natural_spawn.bypass
 item replace entity @s armor.head with player_head[profile={id:[I;30324814,-124108764,-1709806701,437631414],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0ZmIwZTJlMjIwNjJmNzNmMjA1ZjFjMzVmZDg2MmMyOWE4OTJlM2NiZTljMTE2MWYxNDU5MTViMmNmYzM0YSJ9fX0="}]}] 1
 item replace entity @s armor.chest with iron_chestplate[trim={material:"minecraft:iron",pattern:"minecraft:host"}] 1
 item replace entity @s armor.feet with iron_boots[trim={material:"minecraft:iron",pattern:"minecraft:host"}] 1
-item replace entity @s weapon.mainhand with iron_sword 1
-item replace entity @s weapon.offhand with iron_sword 1
+item replace entity @s weapon.mainhand with iron_sword[attack_range={max_reach:3.0}] 1
+item replace entity @s weapon.offhand with iron_sword[attack_range={max_reach:3.0}] 1
 
 attribute @s minecraft:max_health base set 40
 attribute @s minecraft:movement_speed base set 0.35
@@ -25,5 +25,3 @@ data modify entity @s Silent set value 1b
 
 execute if score mobs_loot lullaby_mobs.config matches 0 run data modify entity @s DeathLootTable set value ""
 execute if score mobs_loot lullaby_mobs.config matches 1 run data modify entity @s DeathLootTable set value "minecraft:blocks/iron_block"
-
-# scoreboard players set @s lullaby_mobs.mob.chariot.attack.cooldown 0

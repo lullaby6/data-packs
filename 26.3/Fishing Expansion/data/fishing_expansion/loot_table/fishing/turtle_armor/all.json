@@ -1,0 +1,60 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "fishing_expansion:fishing/turtle_armor/helmet",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "fishing_expansion:fishing/turtle_armor/chestplate",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "fishing_expansion:fishing/turtle_armor/leggings",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "fishing_expansion:fishing/turtle_armor/boots",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 1
+					}
+				}
+			]
+		}
+	]
+}

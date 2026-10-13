@@ -1,0 +1,1 @@
+execute if entity @e[tag=lullaby_mobs.triple_skeleton.clone,distance=..10] as @e[tag=lullaby_mobs.triple_skeleton.clone,limit=2,sort=nearest,distance=..10] at @s unless entity @e[tag=lullaby_mobs.triple_skeleton.leader,distance=..5] at @n[tag=lullaby_mobs.triple_skeleton.leader] run tp @s ^ ^ ^

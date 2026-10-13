@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "minecraft:slots": {
+            "container.*": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:repair/3"
+                }
+              }
+            },
+            "weapon.*": {
+              "items": "#trinkery:tools"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trinkery:trinket/repair/3"
+  }
+}

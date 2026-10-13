@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/anglerfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/bass"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/catfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/golden_cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/jellyfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/koi"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/oarfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/pirahna"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/fish/shark"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}

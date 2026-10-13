@@ -1,0 +1,1 @@
+$place template backrooms:room/level/0/$(number) ~ ~ ~

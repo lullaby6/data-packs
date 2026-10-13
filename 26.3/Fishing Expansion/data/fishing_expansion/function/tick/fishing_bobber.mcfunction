@@ -1,0 +1,3 @@
+execute if entity @a[distance=..16,predicate=fishing_expansion:holding/enchantment/hooked_strike] unless entity @s[tag=fishing_expansion.enchantment.hooked_trike] if block ~ ~-0.1 ~ #minecraft:air if entity @e[distance=..1.5,predicate=!fishing_expansion:holding/enchantment/hooked_strike,type=!minecraft:fishing_bobber] run function fishing_expansion:enchantment/hooked_strike/tick
+
+execute if entity @a[distance=..32,predicate=fishing_expansion:holding/enchantment/ender_hook] unless entity @s[tag=fishing_expansion.enchantment.ender_hook.teleported] if entity @s[nbt={OnGround:1b}] run function fishing_expansion:enchantment/ender_hook/teleport

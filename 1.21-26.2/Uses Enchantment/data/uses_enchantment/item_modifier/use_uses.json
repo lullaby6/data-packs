@@ -1,0 +1,7 @@
+{
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "uses_enchantment:uses": -1
+    },
+    "add": true
+}

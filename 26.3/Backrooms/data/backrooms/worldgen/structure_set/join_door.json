@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "backrooms:join_door",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1256900,
+    "spacing": 75,
+    "separation": 25,
+    "frequency": 0.5,
+    "spread_type": "triangular",
+    "frequency_reduction_method": "default"
+  }
+}

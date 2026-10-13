@@ -1,0 +1,1 @@
+$execute summon minecraft:armor_stand run function economy:player/shop/create/summon/armor_stand/data {"player_id":$(player_id),"id":$(id),"price":$(price)}

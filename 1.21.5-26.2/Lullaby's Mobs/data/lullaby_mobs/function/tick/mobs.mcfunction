@@ -75,3 +75,6 @@ execute as @e[tag=lullaby_mobs.phantom_rider] at @s run function lullaby_mobs:mo
 
 # Chariot
 execute as @e[tag=lullaby_mobs.chariot] at @s run function lullaby_mobs:mob/chariot/tick
+
+# Big Vindicator
+execute as @e[tag=lullaby_mobs.big_vindicator] at @s run function lullaby_mobs:mob/big_vindicator/tick

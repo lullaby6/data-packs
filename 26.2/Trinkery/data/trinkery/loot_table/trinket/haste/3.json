@@ -20,7 +20,7 @@
                   "italic": false
                 },
                 "minecraft:enchantment_glint_override": true,
-                "minecraft:max_stack_size": 1,
+                "minecraft:max_stack_size": 16,
                 "minecraft:lore": [
                   {
                     "text": "Trinkery",
@@ -34,7 +34,7 @@
                   },
                   "",
                   {
-                    "text": "Chance of 5% of gains Haste II for 8s when using a tool",
+                    "text": "Chance of 8% of gains Haste II for 5s when using a tool",
                     "color": "gray",
                     "italic": false
                   }

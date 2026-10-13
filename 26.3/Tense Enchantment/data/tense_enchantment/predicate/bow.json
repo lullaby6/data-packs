@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "mainhand": {
+        "items": "#minecraft:enchantable/bow"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "backrooms:backrooms",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+        "layers": [],
+        "biome": "backrooms:backrooms",
+        "structure_overrides": []
+      }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:iron/4"
+                },
+                "minecraft:item_model": "minecraft:iron_ingot",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Iron IV",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Chance of 50% of when hurt gains Resistance II for 6s",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

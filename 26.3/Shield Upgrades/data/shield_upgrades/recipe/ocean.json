@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#TP",
+        "CSC",
+        "PE#"
+    ],
+    "key": {
+        "#": "minecraft:prismarine_shard",
+        "T": "minecraft:tide_armor_trim_smithing_template",
+        "P": "minecraft:prismarine_crystals",
+        "C": "minecraft:conduit",
+        "S": "minecraft:shield",
+        "E": "minecraft:enchanted_golden_apple"
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 672,
+                "minecraft:custom_data": {
+                  "shield_upgrades.ocean": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Ocean Shield",
+                  "italic": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:base_color",
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns": [{"pattern":"rhombus","color":"light_blue"},{"pattern":"straight_cross","color":"light_blue"},{"pattern":"globe","color":"cyan"},{"pattern":"flower","color":"black"},{"pattern":"stripe_middle","color":"black"},{"pattern":"gradient","color":"light_blue"}],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "attribute.shield_upgrades.ocean.max_health",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "attribute.shield_upgrades.ocean.water_movement_efficiency",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "attribute.shield_upgrades.ocean.oxygen_bonus",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:submerged_mining_speed",
+                    "id": "attribute.shield_upgrades.ocean.submerged_mining_speed",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+    }
+}

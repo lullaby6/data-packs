@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": "#minecraft:pickaxes",
+				"predicates": {
+					"minecraft:enchantments": [
+						{
+							"enchantments": "smelting_enchantment:smelting"
+						}
+					]
+				}
+			}
+		}
+	}
+}

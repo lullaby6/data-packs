@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"container.0": {
+				"predicates": {
+					"minecraft:enchantments": [
+						{
+							"enchantments": "eternal_enchantment:eternal"
+						}
+					]
+				}
+			}
+		}
+	}
+}

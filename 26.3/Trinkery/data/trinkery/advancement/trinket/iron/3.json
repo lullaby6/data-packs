@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "container.*": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "trinkery.item": "trinket:iron/3"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trinkery:trinket/iron/3"
+  }
+}

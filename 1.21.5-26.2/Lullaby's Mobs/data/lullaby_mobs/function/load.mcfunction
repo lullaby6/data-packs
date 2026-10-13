@@ -1,7 +1,7 @@
 function lullaby_mobs:utils/load
 
 scoreboard objectives add lullaby_mobs.config dummy
-execute unless score load lullaby_mobs.config matches 2 run function lullaby_mobs:config/load
+execute unless score load lullaby_mobs.config matches 3 run function lullaby_mobs:config/load
 
 scoreboard objectives add lullaby_mobs.entity.sound.0 dummy
 scoreboard objectives add lullaby_mobs.entity.sound.1 dummy
@@ -26,5 +26,3 @@ scoreboard objectives add lullaby_mobs.random dummy
 team add lullaby_mobs.triple_skeleton
 team modify lullaby_mobs.triple_skeleton collisionRule never
 team modify lullaby_mobs.triple_skeleton friendlyFire false
-
-function lullaby_mobs:mob/chariot/load

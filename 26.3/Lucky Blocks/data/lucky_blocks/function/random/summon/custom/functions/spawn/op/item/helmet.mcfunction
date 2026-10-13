@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:netherite_helmet",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:protection":4,"minecraft:thorns":31,"minecraft:aqua_affinity":1,"minecraft:respiration":3,"minecraft:mending":1,"minecraft:unbreaking":3}},"minecraft:trim":{material:"minecraft:netherite",pattern:"minecraft:ward"}}}}

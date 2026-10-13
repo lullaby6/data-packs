@@ -1,0 +1,113 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lily_pad",
+					"weight": 17
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots",
+					"weight": 10,
+					"modifier": {
+						"type": "minecraft:set_damage",
+						"add": false,
+						"damage": {
+							"type": "minecraft:uniform",
+							"max": 0.9,
+							"min": 0.0
+						}
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"modifier": {
+						"type": "minecraft:set_potion",
+						"id": "minecraft:water"
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"weight": 2,
+					"modifier": {
+						"type": "minecraft:set_damage",
+						"add": false,
+						"damage": {
+							"type": "minecraft:uniform",
+							"max": 0.9,
+							"min": 0.0
+						}
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bowl",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ink_sac",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"add": false,
+						"count": 10.0
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tripwire_hook",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bamboo",
+					"weight": 10,
+					"condition": {
+						"type": "minecraft:location_check",
+						"predicate": {
+							"biomes": [
+								"minecraft:jungle",
+								"minecraft:sparse_jungle",
+								"minecraft:bamboo_jungle"
+							]
+						}
+					}
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/junk"
+}

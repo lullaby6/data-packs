@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "#E#",
+        "EHE",
+        "#E#"
+    ],
+    "key": {
+        "#": "minecraft:popped_chorus_fruit",
+        "E": "minecraft:ender_pearl",
+        "H": "minecraft:heavy_core"
+    },
+    "result": {
+        "id": "minecraft:ender_pearl",
+        "count": 1,
+        "components": {
+            "minecraft:rarity": "epic",
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 32,
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+              "eternal_pearl": true
+            },
+            "minecraft:custom_name": {
+              "text": "Eternal Pearl",
+              "italic": false
+            },
+            "minecraft:use_remainder": {
+              "id": "minecraft:command_block",
+              "components": {
+                "minecraft:item_model": "minecraft:ender_pearl",
+                "minecraft:rarity": "epic",
+                "minecraft:max_stack_size": 1,
+                "minecraft:max_damage": 32,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_data": {
+                  "eternal_pearl.replace": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Eternal Pearl",
+                  "italic": false
+                }
+              }
+            }
+          }
+    }
+}

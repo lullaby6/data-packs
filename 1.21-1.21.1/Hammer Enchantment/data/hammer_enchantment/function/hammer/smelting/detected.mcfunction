@@ -1,0 +1,1 @@
+execute if predicate hammer_enchantment:smelting run return run function hammer_enchantment:hammer/custom_mine

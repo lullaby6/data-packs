@@ -1,0 +1,47 @@
+execute store result score @s lucky_blocks.random run random value 1..39
+
+execute if score @s lucky_blocks.random matches 1 run data modify storage lucky_blocks:storage value set value "bad_omen"
+execute if score @s lucky_blocks.random matches 2 run data modify storage lucky_blocks:storage value set value "blindness"
+execute if score @s lucky_blocks.random matches 3 run data modify storage lucky_blocks:storage value set value "conduit_power"
+execute if score @s lucky_blocks.random matches 4 run data modify storage lucky_blocks:storage value set value "darkness"
+execute if score @s lucky_blocks.random matches 5 run data modify storage lucky_blocks:storage value set value "dolphins_grace"
+execute if score @s lucky_blocks.random matches 6 run data modify storage lucky_blocks:storage value set value "fire_resistance"
+execute if score @s lucky_blocks.random matches 7 run data modify storage lucky_blocks:storage value set value "glowing"
+execute if score @s lucky_blocks.random matches 8 run data modify storage lucky_blocks:storage value set value "haste"
+execute if score @s lucky_blocks.random matches 9 run data modify storage lucky_blocks:storage value set value "health_boost"
+execute if score @s lucky_blocks.random matches 10 run data modify storage lucky_blocks:storage value set value "hero_of_the_village"
+execute if score @s lucky_blocks.random matches 11 run data modify storage lucky_blocks:storage value set value "hunger"
+execute if score @s lucky_blocks.random matches 12 run data modify storage lucky_blocks:storage value set value "infested"
+execute if score @s lucky_blocks.random matches 13 run data modify storage lucky_blocks:storage value set value "instant_damage"
+execute if score @s lucky_blocks.random matches 14 run data modify storage lucky_blocks:storage value set value "instant_health"
+execute if score @s lucky_blocks.random matches 15 run data modify storage lucky_blocks:storage value set value "invisibility"
+execute if score @s lucky_blocks.random matches 16 run data modify storage lucky_blocks:storage value set value "jump_boost"
+execute if score @s lucky_blocks.random matches 17 run data modify storage lucky_blocks:storage value set value "levitation"
+execute if score @s lucky_blocks.random matches 18 run data modify storage lucky_blocks:storage value set value "luck"
+execute if score @s lucky_blocks.random matches 19 run data modify storage lucky_blocks:storage value set value "mining_fatigue"
+execute if score @s lucky_blocks.random matches 20 run data modify storage lucky_blocks:storage value set value "nausea"
+execute if score @s lucky_blocks.random matches 21 run data modify storage lucky_blocks:storage value set value "night_vision"
+execute if score @s lucky_blocks.random matches 22 run data modify storage lucky_blocks:storage value set value "oozing"
+execute if score @s lucky_blocks.random matches 23 run data modify storage lucky_blocks:storage value set value "poison"
+execute if score @s lucky_blocks.random matches 24 run data modify storage lucky_blocks:storage value set value "raid_omen"
+execute if score @s lucky_blocks.random matches 25 run data modify storage lucky_blocks:storage value set value "regeneration"
+execute if score @s lucky_blocks.random matches 26 run data modify storage lucky_blocks:storage value set value "resistance"
+execute if score @s lucky_blocks.random matches 27 run data modify storage lucky_blocks:storage value set value "saturation"
+execute if score @s lucky_blocks.random matches 28 run data modify storage lucky_blocks:storage value set value "slow_falling"
+execute if score @s lucky_blocks.random matches 29 run data modify storage lucky_blocks:storage value set value "slowness"
+execute if score @s lucky_blocks.random matches 30 run data modify storage lucky_blocks:storage value set value "speed"
+execute if score @s lucky_blocks.random matches 31 run data modify storage lucky_blocks:storage value set value "strength"
+execute if score @s lucky_blocks.random matches 32 run data modify storage lucky_blocks:storage value set value "trial_omen"
+execute if score @s lucky_blocks.random matches 33 run data modify storage lucky_blocks:storage value set value "unluck"
+execute if score @s lucky_blocks.random matches 34 run data modify storage lucky_blocks:storage value set value "water_breathing"
+execute if score @s lucky_blocks.random matches 35 run data modify storage lucky_blocks:storage value set value "weakness"
+execute if score @s lucky_blocks.random matches 36 run data modify storage lucky_blocks:storage value set value "weaving"
+execute if score @s lucky_blocks.random matches 37 run data modify storage lucky_blocks:storage value set value "wind_charged"
+execute if score @s lucky_blocks.random matches 38 run data modify storage lucky_blocks:storage value set value "wither"
+execute if score @s lucky_blocks.random matches 39 run data modify storage lucky_blocks:storage value set value "absorption"
+
+execute store result storage lucky_blocks:storage amplifier int 1 run random value 0..3
+
+execute store result storage lucky_blocks:storage duration int 1 run random value 10..600
+
+function lucky_blocks:random/effect/give with storage lucky_blocks:storage

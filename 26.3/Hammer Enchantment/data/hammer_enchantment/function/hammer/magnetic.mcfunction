@@ -1,0 +1,1 @@
+execute at @s if predicate hammer_enchantment:magnetic as @e[type=item,nbt={Age:0s},distance=..6] run function magnetic_enchantment:magnetic/found

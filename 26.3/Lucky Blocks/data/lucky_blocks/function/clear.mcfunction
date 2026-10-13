@@ -1,0 +1,1 @@
+execute as @e[tag=lucky_blocks.item_display] at @s run function lucky_blocks:block/clear

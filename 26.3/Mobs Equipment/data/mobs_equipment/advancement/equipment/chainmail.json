@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#mobs_equipment:chainmail"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mobs_equipment:player/equipment/chainmail"
+  }
+}

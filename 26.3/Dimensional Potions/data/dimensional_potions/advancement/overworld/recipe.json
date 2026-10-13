@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt",
+              "minecraft:potion",
+              "minecraft:ender_pearl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dimensional_potions:overworld"
+    ]
+  }
+}

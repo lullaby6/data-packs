@@ -23,6 +23,7 @@ data modify entity @s PersistenceRequired set value 1b
 data modify entity @s Silent set value 1b
 data modify entity @s IsImmuneToZombification set value 1b
 data modify entity @s drop_chances set value {feet:1.000,legs:1.000,head:1.000,body:1.000,mainhand:1.000,offhand:1.000}
-# data modify entity @s home_radius set value 10
+data modify entity @s home_radius set value 3
+data modify entity @s IsBaby set value 0b
 
 execute if score pick_up villager_guards.config matches 1 run data modify entity @s CanPickUpLoot set value 1b

@@ -1,0 +1,1 @@
+execute anchored eyes run function hammer_enchantment:hammer/raycast/ray

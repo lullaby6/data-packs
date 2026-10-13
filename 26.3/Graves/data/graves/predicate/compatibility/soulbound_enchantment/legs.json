@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "legs": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "soulbound_enchantment:soulbound"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

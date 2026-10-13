@@ -1,0 +1,11 @@
+execute if entity @s[tag=economy.player.job.miner] run return run function economy:job/player/check {"job":"miner","name":"Miner"}
+execute if entity @s[tag=economy.player.job.hunter] run return run function economy:job/player/check {"job":"hunter","name":"Hunter"}
+execute if entity @s[tag=economy.player.job.builder] run return run function economy:job/player/check {"job":"builder","name":"Builder"}
+execute if entity @s[tag=economy.player.job.woodcutter] run return run function economy:job/player/check {"job":"woodcutter","name":"Woodcutter"}
+execute if entity @s[tag=economy.player.job.digger] run return run function economy:job/player/check {"job":"digger","name":"Digger"}
+execute if entity @s[tag=economy.player.job.explorer] run return run function economy:job/player/check {"job":"explorer","name":"Explorer"}
+execute if entity @s[tag=economy.player.job.enchanter] run return run function economy:job/player/check {"job":"enchanter","name":"Enchanter"}
+execute if entity @s[tag=economy.player.job.brewer] run return run function economy:job/player/check {"job":"brewer","name":"Brewer"}
+execute if entity @s[tag=economy.player.job.farmer] run return run function economy:job/player/check {"job":"farmer","name":"Farmer"}
+execute if entity @s[tag=economy.player.job.trader] run return run function economy:job/player/check {"job":"trader","name":"Trader"}
+execute if entity @s[tag=economy.player.job.fisher] run return run function economy:job/player/check {"job":"fisher","name":"Fisher"}

@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "uses_enchantment:uses"
+                  }
+                ],
+                "minecraft:damage": {
+                  "durability": {
+                    "min": -1000,
+                    "max": 10
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "uses_enchantment:enchantment/uses/player/advancement/offhand"
+  }
+}

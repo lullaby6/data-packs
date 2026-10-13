@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "modifier": [
+            {
+              "type": "minecraft:set_enchantments",
+              "enchantments": {
+                "protection_grace_enchantment:protection_grace": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

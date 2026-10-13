@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:crossbow",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:quick_charge":3,"minecraft:multishot":1,"minecraft:mending":1,"minecraft:unbreaking":3}}}}}

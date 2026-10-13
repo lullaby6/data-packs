@@ -1,0 +1,1 @@
+execute if entity @e[tag=portals.portal] as @e[tag=portals.portal] at @s run function portals:portal/tick

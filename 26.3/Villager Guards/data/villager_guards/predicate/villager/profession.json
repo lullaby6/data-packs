@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:any_of",
+	"terms": [
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+			}
+		},
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+			}
+		}
+	]
+}

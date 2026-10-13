@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirements": {
+        "trigger": "minecraft:entity_hurt_player"
+      }
+    },
+    "rewards": {
+      "function": "my_zombie_pet:player/hurt"
+    }
+}

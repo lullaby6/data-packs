@@ -1,17 +1,14 @@
 {
 	"category": "misc",
 	"type": "minecraft:crafting_shaped",
-	"pattern": ["#AP", "EGL", "NQH"],
+	"pattern": [
+		" # ",
+		"#B#",
+		" # "
+	],
 	"key": {
-		"#": "minecraft:blaze_powder",
-		"A": "minecraft:amethyst_shard",
-		"P": "minecraft:prismarine_shard",
-		"E": "minecraft:echo_shard",
-		"G": "minecraft:enchanted_book",
-		"L": "minecraft:lapis_lazuli",
-		"N": "minecraft:netherite_scrap",
-		"Q": "minecraft:quartz",
-		"H": "minecraft:ender_pearl"
+		"#": "minecraft:amethyst_shard",
+		"B": "minecraft:book"
 	},
 	"result": {
 		"id": "minecraft:music_disc_5",

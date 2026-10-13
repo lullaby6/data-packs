@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "container.*": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "trinkery.item": "trinket:haste/2"
+                  }
+                }
+              },
+              "weapon.*": {
+                "items": "#trinkery:tools"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trinkery:trinket/haste/2"
+  }
+}

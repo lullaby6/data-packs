@@ -1,0 +1,3 @@
+execute as @e[type=#trinkery:mimic,tag=!trinkery.procced,tag=!my_zombie_pet.zombie,tag=!lullaby_mobs.mob,tag=!villager_guards.guard,tag=!magicraft.mage] at @s run function trinkery:mimic/procces
+
+execute as @a[predicate=trinkery:player/trinket/feather/feather] at @s if block ~ ~-1 ~ #minecraft:air if block ~ ~-2 ~ #minecraft:air if block ~ ~-3 ~ #minecraft:air unless block ~ ~-4 ~ #minecraft:air run function trinkery:trinket/feather/feather

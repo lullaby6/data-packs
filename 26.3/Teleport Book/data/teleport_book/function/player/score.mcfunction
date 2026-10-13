@@ -1,0 +1,1 @@
+$scoreboard objectives add teleport_book.teleport.$(id) dummy

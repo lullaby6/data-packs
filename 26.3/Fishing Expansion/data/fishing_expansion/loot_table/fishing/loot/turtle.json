@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/turtle_armor/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/turtle_armor/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/turtle_armor/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fishing_expansion:fishing/turtle_armor/boots"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}

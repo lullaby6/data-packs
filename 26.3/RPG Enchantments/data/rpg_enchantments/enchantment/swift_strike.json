@@ -1,0 +1,49 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.rpg_enchantments.swift_strike",
+    "fallback": "Swift Strike"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "attribute.rpg_enchantments.swift_strike.attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#rpg_enchantments:exclusive_set/weapon",
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "primary_items": "#minecraft:swords",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 10
+}

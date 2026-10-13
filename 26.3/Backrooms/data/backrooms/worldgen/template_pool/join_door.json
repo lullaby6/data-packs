@@ -1,0 +1,15 @@
+{
+  "name": "backrooms:join_door",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "backrooms:join_door",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:thunder/1"
+                },
+                "minecraft:item_model": "minecraft:lightning_rod",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Thunder I",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Chance of 1% of summon a Lightning Bolt when attacking",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

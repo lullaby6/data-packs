@@ -1,0 +1,1 @@
+execute as @e[type=#mobs_equipment:mobs,tag=!mobs_equipment.entity.ignore,tag=!mobs_equipment.entity.procced] at @s run function mobs_equipment:mob/equipment/load

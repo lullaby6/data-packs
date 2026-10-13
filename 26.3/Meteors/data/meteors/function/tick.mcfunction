@@ -1,0 +1,1 @@
+execute as @e[tag=meteors.meteor] at @s run function meteors:meteor/tick

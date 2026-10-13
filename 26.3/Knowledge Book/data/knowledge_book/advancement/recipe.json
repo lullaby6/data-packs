@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "knowledge_book:knowledge_book"
+    ]
+  }
+}

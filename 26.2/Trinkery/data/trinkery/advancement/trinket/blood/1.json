@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "minecraft:slots": {
+            "container.*": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:blood/1"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trinkery:trinket/blood/1"
+  }
+}

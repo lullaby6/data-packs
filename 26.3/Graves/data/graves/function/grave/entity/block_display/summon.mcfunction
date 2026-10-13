@@ -1,0 +1,1 @@
+$execute summon minecraft:block_display run function graves:grave/entity/block_display/data {"player_id":$(player_id),"grave_id":$(grave_id)}

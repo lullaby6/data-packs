@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass",
+              "minecraft:recovery_compass",
+              "minecraft:ender_eye",
+              "minecraft:ender_pearl",
+              "minecraft:echo_shard",
+              "minecraft:lodestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "echo_compass:echo_compass"
+    ]
+  }
+}

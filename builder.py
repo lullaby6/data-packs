@@ -5,7 +5,7 @@ from tkinter import Tk, filedialog
 from prompt_toolkit import prompt
 from packaging.version import Version
 
-LAST_MINECRAFT_VERSION = "1.21.10"
+LAST_MINECRAFT_VERSION = "26.2"
 TITLE = "Data-Pack Builder"
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 BUILDS_PATH = os.path.join(CURRENT_DIR, "builds")
@@ -67,30 +67,36 @@ def main():
 
     print(f"{TITLE} - github.com/lullaby6")
 
-    data_pack_path = select_data_pack()
+    while True:
+        data_pack_path = select_data_pack()
 
-    if not data_pack_path:
-        print("No data-pack selected.")
-        return
+        if not data_pack_path:
+            print("No data-pack selected.")
+            return
 
-    data_pack_name = os.path.basename(data_pack_path)
-    print(f"Selected data-pack: {data_pack_name}")
+        data_pack_name = os.path.basename(data_pack_path)
+        print(f"Selected data-pack: {data_pack_name}")
 
-    default_mc_versions = ""
+        default_mc_versions = ""
 
-    data_pach_dir_path = os.path.dirname(os.path.abspath(data_pack_path))
-    data_pach_dir_name = os.path.basename(data_pach_dir_path)
+        data_pach_dir_path = os.path.dirname(os.path.abspath(data_pack_path))
+        data_pach_dir_name = os.path.basename(data_pach_dir_path)
 
-    if (data_pach_dir_name.startswith("1.")):
-        default_mc_versions = data_pach_dir_name
+        if (data_pach_dir_name.startswith("1.") or data_pach_dir_name.startswith("2")):
+            default_mc_versions = data_pach_dir_name
 
-    version = ask_input("Data-pack version", "1.0.0", get_default_version(data_pack_name))
-    mc_versions = ask_input("Minecraft data-pack versions", LAST_MINECRAFT_VERSION, default_mc_versions)
+        version = ask_input("Data-pack version", "1.0.0", get_default_version(data_pack_name))
+        mc_versions = ask_input("Minecraft data-pack versions", LAST_MINECRAFT_VERSION, default_mc_versions)
 
-    file_name = f"{data_pack_name} v{version} [{mc_versions}].zip"
-    build(file_name, data_pack_path)
+        file_name = f"{data_pack_name} v{version} [{mc_versions}].zip"
 
-    print(f"Data-pack '{file_name}' built successfully!")
+        if os.path.exists(os.path.join(BUILDS_PATH, file_name)):
+            print(f"Data-pack '{file_name}' already exists. Choose another one.\n")
+            continue
+
+        build(file_name, data_pack_path)
+
+        print(f"Data-pack '{file_name}' built successfully!\n")
 
 if __name__ == "__main__":
     main()

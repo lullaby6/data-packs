@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "minecraft:slots": {
+            "container.*": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:invisibility/4"
+                }
+              }
+            }
+          },
+          "minecraft:type_specific/player": {
+            "input": {
+              "sneak": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trinkery:trinket/invisibility/4"
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "#S#",
+        "IWI",
+        "#M#"
+    ],
+    "key": {
+        "#": "minecraft:iron_block",
+        "S": "minecraft:sentry_armor_trim_smithing_template",
+        "I": "minecraft:iron_sword",
+        "W": "minecraft:shield",
+        "M": "minecraft:music_disc_strad"
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 672,
+                "minecraft:custom_data": {
+                  "shield_upgrades.sword": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Sword Shield",
+                  "italic": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:base_color",
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:base_color": "gray",
+                "minecraft:banner_patterns": [{"pattern":"half_horizontal","color":"black"},{"pattern":"stripe_center","color":"white"},{"pattern":"square_bottom_left","color":"black"},{"pattern":"square_bottom_right","color":"black"},{"pattern":"triangles_bottom","color":"light_gray"},{"pattern":"curly_border","color":"black"}],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "attribute.shield_upgrades.sword.attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "attribute.shield_upgrades.sword.attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ]
+              }
+    }
+}

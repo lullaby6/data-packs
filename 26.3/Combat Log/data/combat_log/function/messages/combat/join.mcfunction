@@ -1,0 +1,1 @@
+$tellraw @s {"text":"$(message_combat_join_text)","color":"$(message_combat_join_color)"}

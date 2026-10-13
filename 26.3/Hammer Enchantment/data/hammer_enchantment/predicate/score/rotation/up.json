@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:int_value_check",
+	"value": {
+		"type": "minecraft:score",
+		"target": {
+			"type": "minecraft:context",
+			"target": "this"
+		},
+		"score": "hammer_enchantment.player.rotation.y"
+	},
+	"test": {
+		"min": -90,
+		"max": -35
+	}
+}

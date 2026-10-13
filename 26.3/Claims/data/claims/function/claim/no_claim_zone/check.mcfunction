@@ -1,0 +1,1 @@
+$execute if entity @a[scores={utils.player.id=$(id)},distance=..$(radius)] run function claims:claim/no_claim_zone/radius {"id":$(id),"radius":$(radius)}

@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:ender_pearl",
+        "minecraft:potion",
+        "minecraft:bone"
+    ],
+    "result": {
+        "id": "minecraft:command_block",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:potion",
+          "minecraft:rarity": "epic",
+          "minecraft:max_stack_size": 16,
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:consumable": {
+            "consume_seconds": 2.5,
+            "animation": "drink",
+            "sound": "entity.generic.drink",
+            "has_consume_particles": false,
+            "on_consume_effects": [
+              {
+                "type": "minecraft:play_sound",
+                "sound": "entity.enderman.teleport"
+              }
+            ]
+          },
+          "minecraft:custom_data": {
+            "death_back_potion": true
+          },
+          "minecraft:custom_name": {
+            "text": "Death Back Potion",
+            "italic": false
+          },
+          "minecraft:lore": [
+            {
+              "text": "Drink to teleport to your last death",
+              "italic": false,
+              "color": "gray"
+            }
+          ],
+          "minecraft:potion_contents": {
+            "custom_color": 3474751
+          },
+          "minecraft:use_cooldown": {
+            "seconds": 16,
+            "cooldown_group": "death_back_potion:cooldown"
+          },
+          "minecraft:tooltip_display": {
+            "hidden_components": [
+              "minecraft:potion_contents"
+            ]
+          }
+        }
+    }
+}

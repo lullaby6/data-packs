@@ -1,4 +1,4 @@
-scoreboard players set load lullaby_mobs.config 2
+scoreboard players set load lullaby_mobs.config 3
 
 scoreboard players set naturally_spawn lullaby_mobs.config 1
 scoreboard players set mobs_loot lullaby_mobs.config 1
@@ -24,6 +24,7 @@ scoreboard players set spawn_skeleton_hunter lullaby_mobs.config 1
 scoreboard players set spawn_spawner_zombie lullaby_mobs.config 1
 scoreboard players set spawn_spectral_assassin lullaby_mobs.config 1
 scoreboard players set spawn_spider_rider lullaby_mobs.config 1
+scoreboard players set spawn_big_vindicator lullaby_mobs.config 1
 scoreboard players set spawn_stalker_block lullaby_mobs.config 1
 scoreboard players set spawn_thunder_drowned lullaby_mobs.config 1
 scoreboard players set spawn_triple_skeleton lullaby_mobs.config 1

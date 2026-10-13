@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:amethyst_shard"]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["magicraft:mana_potion"]
+	}
+}

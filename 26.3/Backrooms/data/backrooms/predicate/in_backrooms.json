@@ -1,0 +1,6 @@
+{
+	"type": "minecraft:location_check",
+	"predicate": {
+		"dimension": "backrooms:backrooms"
+	}
+}

@@ -1,7 +1,6 @@
 tag @s remove lullaby_mobs.ent.tree
 
-execute if block ~ ~1 ~ oak_log run setblock ~ ~1 ~ minecraft:air
-execute if block ~ ~ ~ oak_log run setblock ~ ~ ~ minecraft:air
+kill @e[tag=lullaby_mobs.ent.oak_log,limit=2,sort=nearest,distance=..3]
 
 attribute @s minecraft:scale base set 1.125
 

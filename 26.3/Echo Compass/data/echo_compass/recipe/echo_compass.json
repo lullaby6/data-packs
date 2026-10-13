@@ -1,0 +1,34 @@
+{
+    "category": "misc",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:ender_eye",
+        "minecraft:recovery_compass",
+        "minecraft:echo_shard"
+    ],
+    "result": {
+        "id": "minecraft:compass",
+        "count": 1,
+        "components": {
+          "minecraft:rarity": "epic",
+          "minecraft:max_stack_size": 1,
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:damage": 0,
+          "minecraft:max_damage": 64,
+          "minecraft:custom_data": {
+            "echo_compass": true
+          },
+          "minecraft:custom_name": {
+            "text": "Echo Compass",
+            "italic": false
+          },
+          "minecraft:lore": [
+            {
+              "text": "Link to a lodestone and use it to teleport",
+              "italic": false,
+              "color": "gray"
+            }
+          ]
+        }
+    }
+}

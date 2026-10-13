@@ -1,0 +1,1 @@
+$loot spawn ~ ~-1 ~ loot $(value)

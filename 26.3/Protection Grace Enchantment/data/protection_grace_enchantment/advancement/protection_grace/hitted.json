@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "protection_grace_enchantment:protection_grace"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "protection_grace_enchantment:player/protection_grace/hitted"
+  }
+}

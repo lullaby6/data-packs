@@ -1,0 +1,54 @@
+{
+  "air": {
+    "color": "white",
+    "item": "wind_charge"
+  },
+  "leave": {
+    "color": "dark_green",
+    "item": "wheat"
+  },
+  "life": {
+    "color": "red",
+    "item": "apple"
+  },
+  "arrow": {
+    "color": "gray",
+    "item": "arrow"
+  },
+  "fire": {
+    "color": "red",
+    "item": "blaze_powder"
+  },
+  "ice": {
+    "color": "aqua",
+    "item": "snowball"
+  },
+  "lightning": {
+    "color": "yellow",
+    "item": "yellow_dye"
+  },
+  "poison": {
+    "color": "dark_green",
+    "item": "spider_eye"
+  },
+  "cobweb": {
+    "color": "white",
+    "item": "string"
+  },
+  "fangs": {
+    "color": "gray",
+    "item": "totem_of_undying"
+  },
+  "wither": {
+    "color": "dark_gray",
+    "item": "wither_skeleton_spawn_egg"
+  },
+  "sculk": {
+    "color": "dark_blue",
+    "item": "echo_shard"
+  },
+  "ender": {
+    "color": "light_purple",
+    "item": "ender_pearl"
+  }
+}

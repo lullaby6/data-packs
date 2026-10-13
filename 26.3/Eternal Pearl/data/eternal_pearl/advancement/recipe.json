@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_pearl",
+              "minecraft:heavy_core",
+              "minecraft:popped_chorus_fruit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "eternal_pearl:eternal_pearl"
+    ]
+  }
+}

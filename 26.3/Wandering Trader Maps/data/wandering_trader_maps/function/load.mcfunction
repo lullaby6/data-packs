@@ -1,0 +1,3 @@
+schedule function wandering_trader_maps:schedule 10t replace
+
+scoreboard objectives add wandering_trader_maps.player.use.warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick

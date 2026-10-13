@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "source_entity": {
+                "nbt": "{Tags:[\"lullaby_mobs.yeti\"]}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "lullaby_mobs:mob/yeti/hurt_player"
+    }
+}

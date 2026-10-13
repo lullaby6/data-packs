@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "minecraft:slots": {
+            "container.*": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:undying/3"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trinkery:trinket/undying/3"
+  }
+}

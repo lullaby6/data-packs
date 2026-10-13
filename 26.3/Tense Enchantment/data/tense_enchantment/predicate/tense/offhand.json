@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "offhand": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "tense_enchantment:tense"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

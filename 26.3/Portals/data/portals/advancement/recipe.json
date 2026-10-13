@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ender_eye",
+							"minecraft:amethyst_shard",
+							"minecraft:echo_shard"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["portals:portal_orb"]
+	}
+}

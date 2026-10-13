@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "OPO",
+        "#M#"
+    ],
+    "key": {
+        "#": "minecraft:sculk_catalyst",
+        "S": "minecraft:silence_armor_trim_smithing_template",
+        "O": "minecraft:skeleton_skull",
+        "P": "minecraft:shield",
+        "M": "minecraft:music_disc_5"
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 672,
+                "minecraft:custom_data": {
+                  "shield_upgrades.warden": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Warden Shield",
+                  "italic": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:base_color",
+                    "minecraft:banner_patterns"
+                  ]
+                },
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns": [{"pattern":"half_horizontal_bottom","color":"light_blue"},{"pattern":"creeper","color":"light_blue"},{"pattern":"flow","color":"light_blue"},{"pattern":"gradient_up","color":"cyan"},{"pattern":"stripe_bottom","color":"black"},{"pattern":"flower","color":"light_blue"},{"pattern":"stripe_top","color":"black"},{"pattern":"skull","color":"light_blue"},{"pattern":"flower","color":"black"},{"pattern":"piglin","color":"black"},{"pattern":"triangles_top","color":"light_blue"},{"pattern":"gradient","color":"black"}],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "attribute.shield_upgrades.warden.attack_damage",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:sneaking_speed",
+                    "id": "attribute.shield_upgrades.warden.sneaking_speed",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+    }
+}

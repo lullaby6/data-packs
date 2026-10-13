@@ -1,0 +1,1 @@
+function smelting_enchantment:smelting/smelt

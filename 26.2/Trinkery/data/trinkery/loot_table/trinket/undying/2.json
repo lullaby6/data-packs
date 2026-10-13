@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:undying/2"
+                },
+                "minecraft:item_model": "minecraft:totem_of_undying",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Undying II",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Cheats death when nearly killed (45 minutes cooldown)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

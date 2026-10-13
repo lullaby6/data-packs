@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:fire/1"
+                },
+                "minecraft:item_model": "minecraft:blaze_powder",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Fire I",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Chance of 10% of setting on fire for 10s when attacking",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

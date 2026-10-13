@@ -1,1 +1,0 @@
-execute as @e[type=zombie,tag=!trinkery.procced,tag=!my_zombie_pet.zombie,tag=!lullaby_mobs.mob,tag=!villager_guards.guard] run function trinkery:mimic/procced

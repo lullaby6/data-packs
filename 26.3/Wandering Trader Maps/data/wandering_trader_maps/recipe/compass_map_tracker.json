@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": ["minecraft:map", "minecraft:compass", "minecraft:diamond"],
+	"result": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"count": 1,
+		"components": {
+			"minecraft:rarity": "uncommon",
+			"minecraft:item_model": "minecraft:compass",
+			"minecraft:item_name": {
+				"translate": "wandering_trader_maps.item.compass_map_tracker",
+				"fallback": "Compass Map Tracker"
+			},
+			"minecraft:custom_data": {
+				"wandering_trader_maps:compass_map_tracker": true
+			}
+		}
+	}
+}

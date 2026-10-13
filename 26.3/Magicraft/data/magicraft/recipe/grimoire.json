@@ -1,0 +1,45 @@
+{
+	"category": "misc",
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		"#B#",
+		" # "
+	],
+	"key": {
+		"#": "minecraft:amethyst_shard",
+		"B": "minecraft:book"
+	},
+	"result": {
+		"id": "minecraft:music_disc_5",
+		"count": 1,
+		"components": {
+			"!jukebox_playable": {},
+			"minecraft:item_model": "minecraft:written_book",
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:rarity": "epic",
+			"minecraft:custom_data": {
+				"magicraft.item.grimoire": true
+			},
+			"minecraft:custom_name": {
+				"translate": "magicraft.translate.grimoire",
+				"fallback": "Grimoire",
+				"italic": false
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:consumable": {
+				"consume_seconds": 999999,
+				"animation": "trident",
+				"sound": "minecraft:item.book.page_turn",
+				"has_consume_particles": false
+			},
+			"piercing_weapon": {},
+			"enchantments": {
+				"magicraft:grimoire": 1
+			},
+			"tooltip_display": {
+				"hidden_components": ["minecraft:enchantments"]
+			}
+		}
+	}
+}

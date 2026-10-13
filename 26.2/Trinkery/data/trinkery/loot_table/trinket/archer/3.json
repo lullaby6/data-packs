@@ -20,7 +20,7 @@
                   "italic": false
                 },
                 "minecraft:enchantment_glint_override": true,
-                "minecraft:max_stack_size": 1,
+                "minecraft:max_stack_size": 16,
                 "minecraft:lore": [
                   {
                     "text": "Trinkery",
@@ -34,7 +34,7 @@
                   },
                   "",
                   {
-                    "text": "Chance of 50% of gains Speed II for 6s when shooting a bow",
+                    "text": "Chance of 35% of gains Speed II for 6s when shooting a bow",
                     "color": "gray",
                     "italic": false
                   }

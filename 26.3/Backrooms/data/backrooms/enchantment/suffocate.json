@@ -1,0 +1,31 @@
+{
+  "description": "Suffocate",
+  "supported_items": "#backrooms:enchantable/suffocate",
+  "primary_items": "#backrooms:enchantable/suffocate",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 40
+  },
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 40
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "backrooms:enchantment/suffocate/victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

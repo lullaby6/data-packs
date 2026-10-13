@@ -1,0 +1,37 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"claims.timer.teleport.cooldown": {
+									"min": 1
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"movement": {
+									"speed": {
+										"min": 0.1
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "claims:claim/cancel/teleport/move"
+	}
+}

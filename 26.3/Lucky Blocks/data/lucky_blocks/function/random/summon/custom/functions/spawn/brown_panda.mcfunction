@@ -1,0 +1,1 @@
+summon panda ~ ~-1 ~ {MainGene:"brown",HiddenGene:"brown"}

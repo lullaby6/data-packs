@@ -1,0 +1,1 @@
+execute on origin run function rpg_enchantments:enchantment/impact/on_origin

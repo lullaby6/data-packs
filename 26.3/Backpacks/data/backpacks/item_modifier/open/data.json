@@ -1,0 +1,6 @@
+{
+	"type": "minecraft:set_custom_data",
+	"tag": {
+		"backpacks.backpack.open": true
+	}
+}

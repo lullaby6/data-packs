@@ -1,0 +1,2 @@
+execute if entity @e[tag=utils.team_player,distance=..3] run return run attribute @s minecraft:movement_speed base set 0
+execute unless entity @e[tag=utils.team_player,distance=..3] run return run attribute @s minecraft:movement_speed base reset

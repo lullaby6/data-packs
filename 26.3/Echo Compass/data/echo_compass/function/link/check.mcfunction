@@ -1,0 +1,1 @@
+$execute if data entity @s $(data).components."minecraft:lodestone_tracker" unless data entity @s $(data).components."minecraft:consumable" at @s run function echo_compass:link/hand {"weapon":"$(weapon)","data":"$(data)"}

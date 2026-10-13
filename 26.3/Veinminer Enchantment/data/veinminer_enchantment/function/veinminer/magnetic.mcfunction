@@ -1,0 +1,1 @@
+execute at @s if predicate veinminer_enchantment:magnetic as @e[type=item,nbt={Age:0s},distance=..10] run function magnetic_enchantment:magnetic/found

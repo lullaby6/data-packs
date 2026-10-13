@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "tense_enchantment:tense"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tense_enchantment:player/tense/use"
+  }
+}

@@ -1,0 +1,2 @@
+execute unless data storage portals:blocks portals run data modify storage portals:blocks portals set value {}
+execute unless data storage portals:checks portals run data modify storage portals:checks checks set value {}

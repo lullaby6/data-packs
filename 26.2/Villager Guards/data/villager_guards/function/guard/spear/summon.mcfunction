@@ -1,0 +1,1 @@
+execute summon minecraft:zombie run function villager_guards:guard/spear/data

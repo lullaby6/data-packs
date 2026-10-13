@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.*": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "magicraft.item.grimoire": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magicraft:player/grimoire/held"
+  }
+}

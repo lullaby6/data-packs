@@ -1,1 +1,0 @@
-execute summon minecraft:husk run function trinkery:mimic/data

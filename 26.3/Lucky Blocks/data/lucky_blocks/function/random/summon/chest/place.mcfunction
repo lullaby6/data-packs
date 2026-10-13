@@ -1,0 +1,1 @@
+$setblock ~ ~-1 ~ chest{LootTable:"$(value)"}

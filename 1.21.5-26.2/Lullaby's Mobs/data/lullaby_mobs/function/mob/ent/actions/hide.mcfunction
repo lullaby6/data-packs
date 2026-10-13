@@ -1,7 +1,7 @@
 tag @s add lullaby_mobs.ent.tree
 
-setblock ~ ~1 ~ minecraft:oak_log
-setblock ~ ~ ~ minecraft:oak_log
+execute align xyz run summon block_display ~ ~ ~ {block_state:{Name:"minecraft:oak_log"},Tags:["lullaby_mobs.ent.oak_log"]}
+execute align xyz run summon block_display ~ ~1 ~ {block_state:{Name:"minecraft:oak_log"},Tags:["lullaby_mobs.ent.oak_log"]}
 
 attribute @s minecraft:scale base set 0
 

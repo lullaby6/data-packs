@@ -1,0 +1,1 @@
+execute as @e[distance=..10] at @s run summon spectral_arrow ~ ~10 ~ {Motion:[0.0,-1.0,0.0]}

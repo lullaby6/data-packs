@@ -1,0 +1,1 @@
+$schedule function meteors:schedule/meteor $(schedule)s replace

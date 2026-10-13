@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"modifier": {
+						"type": "minecraft:set_enchantments",
+						"enchantments": {
+							"life_steal_enchantment:life_steal": 3
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+$tellraw @s [{"color":"gray","text":"["},{"color":"green","text":"Economy"},{"color":"gray","text":"]"}," ","$(text)"]

@@ -1,0 +1,1 @@
+summon item ~ ~-1 ~ {Item:{id:"minecraft:mace",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:breach":4,"minecraft:density":5,"minecraft:fire_aspect":2,"minecraft:wind_burst":3,"minecraft:mending":1,"minecraft:unbreaking":3}}}}}

@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "armor_upgrades:dune/helmet",
+      "armor_upgrades:dune/chestplate",
+      "armor_upgrades:dune/leggings",
+      "armor_upgrades:dune/boots",
+      "armor_upgrades:ender/helmet",
+      "armor_upgrades:ender/chestplate",
+      "armor_upgrades:ender/leggings",
+      "armor_upgrades:ender/boots",
+      "armor_upgrades:fire/helmet",
+      "armor_upgrades:fire/chestplate",
+      "armor_upgrades:fire/leggings",
+      "armor_upgrades:fire/boots",
+      "armor_upgrades:prismarine/helmet",
+      "armor_upgrades:prismarine/chestplate",
+      "armor_upgrades:prismarine/leggings",
+      "armor_upgrades:prismarine/boots",
+      "armor_upgrades:sculk/helmet",
+      "armor_upgrades:sculk/chestplate",
+      "armor_upgrades:sculk/leggings",
+      "armor_upgrades:sculk/boots"
+    ]
+  }
+}

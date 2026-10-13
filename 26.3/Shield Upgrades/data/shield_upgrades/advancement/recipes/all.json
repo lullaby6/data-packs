@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "shield_upgrades:dune",
+      "shield_upgrades:ender",
+      "shield_upgrades:fire",
+      "shield_upgrades:netherite",
+      "shield_upgrades:ocean",
+      "shield_upgrades:undying",
+      "shield_upgrades:warden",
+      "shield_upgrades:wither",
+      "shield_upgrades:sword"
+    ]
+  }
+}

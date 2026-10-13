@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"requirements": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"weapon.offhand": {
+								"predicates": {
+									"minecraft:custom_data": {
+										"shield_upgrades.fire": true
+									}
+								}
+							}
+						}
+					}
+				},
+				"damage": {
+					"blocked": true,
+					"type": {
+						"is_direct": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shield_upgrades:shield/advancement/fire"
+	}
+}

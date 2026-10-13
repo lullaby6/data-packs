@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"head": {
+				"components": {
+					"minecraft:custom_data": {
+						"armor_upgrades.fire": true
+					}
+				}
+			},
+			"chest": {
+				"components": {
+					"minecraft:custom_data": {
+						"armor_upgrades.fire": true
+					}
+				}
+			},
+			"legs": {
+				"components": {
+					"minecraft:custom_data": {
+						"armor_upgrades.fire": true
+					}
+				}
+			},
+			"feet": {
+				"components": {
+					"minecraft:custom_data": {
+						"armor_upgrades.fire": true
+					}
+				}
+			}
+		}
+	}
+}

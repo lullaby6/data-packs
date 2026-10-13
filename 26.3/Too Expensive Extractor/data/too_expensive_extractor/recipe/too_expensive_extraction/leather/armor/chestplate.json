@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:leather_chestplate",
+  "addition": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:leather_chestplate",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

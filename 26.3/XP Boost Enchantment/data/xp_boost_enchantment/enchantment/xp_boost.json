@@ -1,0 +1,43 @@
+{
+	"anvil_cost": 4,
+	"description": "XP Boost",
+	"effects": {
+		"minecraft:mob_experience": [
+			{
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": {
+						"type": "minecraft:linear",
+						"base": 1.5,
+						"per_level_above_first": 1.5
+					}
+				}
+			}
+		],
+		"minecraft:block_experience": [
+			{
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": {
+						"type": "minecraft:linear",
+						"base": 1.5,
+						"per_level_above_first": 1.5
+					}
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 9
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 9
+	},
+	"slots": ["mainhand"],
+	"supported_items": "#xp_boost_enchantment:enchantable/xp_boost",
+	"primary_items": "#xp_boost_enchantment:enchantable/xp_boost",
+	"weight": 3
+}

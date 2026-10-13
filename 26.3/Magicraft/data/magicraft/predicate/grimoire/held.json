@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"weapon.*": {
+				"predicates": {
+					"minecraft:custom_data": {
+						"magicraft.item.grimoire": true
+					}
+				}
+			}
+		}
+	}
+}

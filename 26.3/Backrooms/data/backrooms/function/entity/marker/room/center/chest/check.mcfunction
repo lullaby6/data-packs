@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~ ~$(z) if block ~ ~ ~ minecraft:air unless block ~ ~-1 ~ minecraft:air run function backrooms:entity/marker/room/center/chest/place

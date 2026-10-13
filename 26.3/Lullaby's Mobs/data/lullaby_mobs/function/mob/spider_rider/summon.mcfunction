@@ -1,0 +1,1 @@
+execute summon minecraft:skeleton run function lullaby_mobs:mob/spider_rider/data

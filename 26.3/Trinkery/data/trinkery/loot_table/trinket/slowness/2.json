@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "trinkery.item": "trinket:slowness/2"
+                },
+                "minecraft:item_model": "minecraft:snowball",
+                "minecraft:custom_name": {
+                  "translate": "Trinket of Slowness II",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "Trinkery",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Chance of 20% of apply Slowness I for 6s when attacking",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

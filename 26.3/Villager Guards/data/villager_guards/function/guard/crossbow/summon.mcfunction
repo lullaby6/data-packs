@@ -1,0 +1,1 @@
+execute summon minecraft:piglin run function villager_guards:guard/crossbow/data

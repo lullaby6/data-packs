@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"weapon.*": {
+								"count": 1,
+								"predicates": {
+									"minecraft:custom_data": {
+										"ender_compass": true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ender_compass:link/advancement"
+	}
+}

@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_leggings",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:dyed_color": 5321859,
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:vex"
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 495,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "5ab8a4d9-2374-43f4-8dbd-7f798924f965",
+                    "type": "armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "4d43abbc-e52c-43ec-a1f5-c39c05888193",
+                    "type": "armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "minecraft:leather",
+                  "equip_sound": "item.armor.equip_diamond",
+                  "dispensable": true,
+                  "swappable": true,
+                  "damage_on_hurt": true
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "minecraft:dyed_color",
+                      "minecraft:trim"
+                    ]
+                },
+                "minecraft:custom_data": {
+                  "magicraft.item.mage_armor": true,
+                  "magicraft.item.mage_armor.leggings": true
+                },
+                "minecraft:custom_name": {
+                  "text": "Mage Leggings",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+function downfall_enchantment:downfall/use
+
+execute as @e[distance=0.1..2] at @s run function downfall_enchantment:downfall/damage {"damage":6,"motion":"0.2F"}

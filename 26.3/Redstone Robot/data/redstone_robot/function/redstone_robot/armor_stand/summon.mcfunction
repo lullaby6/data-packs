@@ -1,0 +1,1 @@
+execute summon armor_stand run function redstone_robot:redstone_robot/armor_stand/data

@@ -7,3 +7,5 @@ execute unless score load villager_guards.config matches 1 run function villager
 
 scoreboard objectives add villager_guards.timer dummy
 scoreboard objectives add villager_guards.random dummy
+
+schedule function villager_guards:schedule/1s 1s replace

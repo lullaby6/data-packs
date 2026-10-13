@@ -1,0 +1,1 @@
+summon goat ~ ~-1 ~ {IsScreamingGoat:1b}

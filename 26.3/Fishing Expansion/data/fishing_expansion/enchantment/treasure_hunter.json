@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.fishing_expansion.treasure_hunter",
+    "fallback": "Treasure Hunter"
+  },
+  "effects": {
+    "minecraft:fishing_luck_bonus": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.5,
+            "per_level_above_first": 1.5
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/fishing",
+  "exclusive_set": "#fishing_expansion:exclusive_set/treasure_hunter",
+  "weight": 1
+}
